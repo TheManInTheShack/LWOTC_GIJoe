@@ -13,6 +13,7 @@ dfile = "data.xlsx"
 cfile = "mod/Config/XComClassData.ini"
 lfile = "mod/Config/XComGameData.ini"
 gfile = "mod/Config/XComGame.ini"
+tfile = "mod/Localization/XComGame.int"
 
 pd.set_option("display.width", 0)
 pd.set_option("display.max_rows", 1000)
@@ -41,7 +42,7 @@ def main():
     # --------------------------------------------------------------------------
     # Make the output files that are dependent on the data
     # --------------------------------------------------------------------------
-    ccode, lcode, gcode = compile_output(gdata)
+    ccode, lcode, gcode, tcode = compile_output(gdata)
 
     # --------------------------------------------------------------------------
     # Save the output files
@@ -56,6 +57,10 @@ def main():
 
     with open(gfile, "w", encoding="utf-8") as f:
         for line in gcode:
+            print(line, file=f)
+
+    with open(tfile, "w", encoding="utf-8") as f:
+        for line in tcode:
             print(line, file=f)
 
     # --------------------------------------------------------------------------
@@ -95,17 +100,18 @@ def compile_class_data(cdata, adata):
         # ----------------------------------------------------------------------
         # Set the general properties
         # ----------------------------------------------------------------------
-        gdata[guy]['code_name']       = rec['Properties']['Character']
-        gdata[guy]['classname']       = "GIJoe__" + guy
-        gdata[guy]['loadout_ref']     = "Loadout_GIJoe__" + guy
-        gdata[guy]['role']            = this_or_nothing(rec['Properties']['Role Tags'])
-        gdata[guy]['first_name']      = this_or_nothing(rec['Properties']['First Name'])
-        gdata[guy]['last_name']       = this_or_nothing(rec['Properties']['Last Name'])
-        gdata[guy]['mos']             = this_or_nothing(rec['Properties']['MOS'])
-        gdata[guy]['group']           = this_or_nothing(rec['Properties']['Group'])
-        gdata[guy]['rank']            = this_or_nothing(rec['Properties']['Rank'])
-        gdata[guy]['real_weapon']     = this_or_nothing(rec['Properties']['Real Weapon'])
-        gdata[guy]['primary_trait']   = this_or_nothing(rec['Properties']['Attribute'])
+        gdata[guy]['code_name']         = rec['Properties']['Character']
+        gdata[guy]['classname']         = "GIJoe__" + guy
+        gdata[guy]['loadout_ref']       = "Loadout_GIJoe__" + guy
+        gdata[guy]['role']              = this_or_nothing(rec['Properties']['Role Tags'])
+        gdata[guy]['first_name']        = this_or_nothing(rec['Properties']['First Name'])
+        gdata[guy]['last_name']         = this_or_nothing(rec['Properties']['Last Name'])
+        gdata[guy]['mos']               = this_or_nothing(rec['Properties']['MOS'])
+        gdata[guy]['group']             = this_or_nothing(rec['Properties']['Group'])
+        gdata[guy]['rank']              = this_or_nothing(rec['Properties']['Rank'])
+        gdata[guy]['real_weapon']       = this_or_nothing(rec['Properties']['Real Weapon'])
+        gdata[guy]['primary_trait']     = this_or_nothing(rec['Properties']['Attribute'])
+        gdata[guy]['description']       = this_or_nothing(rec['Properties']['Description'])
 
         # ----------------------------------------------------------------------
         # Summarize the Person's attributes
@@ -191,6 +197,7 @@ def compile_output(gdata):
     ccode = []
     lcode = []
     gcode = []
+    tcode = []
 
     # --------------------------------------------------------------------------
     # CLASSES
@@ -218,13 +225,22 @@ def compile_output(gdata):
     # GAME
     # Do the preliminary stuff needed in the file
     # --------------------------------------------------------------------------
-    lcode.append("; " + "*"*98)
-    lcode.append("; " + "Add Mod to game and prevent custom classes from rolling in random AWC")
-    lcode.append("; " + "*"*98)
+    gcode.append("; " + "*"*98)
+    gcode.append("; " + "Add Mod to game and prevent custom classes from rolling in random AWC")
+    gcode.append("; " + "*"*98)
     gcode.append("[" + modname + ".X2DownloadableContentInfo_" + modname +"]")
     gcode.append('DLCIdentifier="' + modname + '"')
     gcode.append("")
     gcode.append("[XComGame.CHHelpers]")
+
+    # --------------------------------------------------------------------------
+    # TEXT LOCALIZATION
+    # Fill in the text tags to be used for the created objects
+    # --------------------------------------------------------------------------
+    tcode.append("; " + "*"*98)
+    tcode.append("; " + "Text fields")
+    tcode.append("; " + "*"*98)
+
 
     # --------------------------------------------------------------------------
     # Now every soldier gets a class
@@ -395,10 +411,25 @@ def compile_output(gdata):
         # ----------------------------------------------------------------------
         gcode.append("+ClassesExcludedFromAWCRoll=" + gdata[guy]['classname'])
 
+        # ----------------------------------------------------------------------
+        # TEXT LOCALIZATION
+        # ----------------------------------------------------------------------
+        tcode.append("; " + "-"*78)
+        tcode.append("; " + guy)
+        tcode.append("; " + "-"*78)
+
+        tcode.append("[" + gdata[guy]['classname'] + " X2SoldierClassTemplate]")
+        tcode.append("DisplayName".ljust(20)            + " = " + "GI Joe: " + quoted(guy))
+        tcode.append("ClassSummary".ljust(20)           + " = " + quoted(gdata[guy]['role']))
+        tcode.append("LeftAbilityTreeTitle".ljust(20)   + " = " + quoted(gdata[guy]['mos']))
+        tcode.append("RightAbilityTreeTitle".ljust(20)  + " = " + quoted(gdata[guy]['group']))
+        tcode.append("RandomNicknames[0]".ljust(20)     + " = " + quoted(guy))
+        tcode.append("")
+
     # --------------------------------------------------------------------------
     # Finish
     # --------------------------------------------------------------------------
-    return ccode, lcode, gcode
+    return ccode, lcode, gcode, tcode
 
 
 # ------------------------------------------------------------------------------
@@ -470,6 +501,14 @@ def this_or_nothing(thing):
         return thing
     else:
         return ""
+
+# ------------------------------------------------------------------------------
+# Put quotes around a text string, escaping existing quotes with "" if necessary
+# ------------------------------------------------------------------------------
+def quoted(string, escape=True):
+    if escape and '"' in string:
+        string = string.replace('"', '""')
+    return '"' + string + '"'
 
 # ------------------------------------------------------------------------------
 # Run
