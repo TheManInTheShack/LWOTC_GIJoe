@@ -208,7 +208,7 @@ def compile_output(gdata):
     ccode.append("; " + "*"*98)
     ccode.append("[XComGame.X2SoldierClass_DefaultClasses]")
     for guy in gdata:
-        line = '+SoldierClass="' + gdata[guy]['classname'] + '"'
+        line = '+SoldierClasses="' + gdata[guy]['classname'] + '"'
         ccode.append(line)
     ccode.append("")
 
