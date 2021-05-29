@@ -7,9 +7,12 @@ import pandas as pd
 # ------------------------------------------------------------------------------
 # Init
 # ------------------------------------------------------------------------------
+modname = "LWOTC_GIJoe"
+
 dfile = "data.xlsx"
-cfile = "XComClassData.ini"
-lfile = "XComGameData.ini"
+cfile = "mod/Config/XComClassData.ini"
+lfile = "mod/Config/XComGameData.ini"
+gfile = "mod/Config/XComGame.ini"
 
 pd.set_option("display.width", 0)
 pd.set_option("display.max_rows", 1000)
@@ -36,9 +39,9 @@ def main():
     gdata = compile_class_data(cdata, adata)
 
     # --------------------------------------------------------------------------
-    # Make the output file
+    # Make the output files that are dependent on the data
     # --------------------------------------------------------------------------
-    ccode, lcode = compile_output(gdata)
+    ccode, lcode, gcode = compile_output(gdata)
 
     # --------------------------------------------------------------------------
     # Save the output files
@@ -49,6 +52,10 @@ def main():
 
     with open(lfile, "w", encoding="utf-8") as f:
         for line in lcode:
+            print(line, file=f)
+
+    with open(gfile, "w", encoding="utf-8") as f:
+        for line in gcode:
             print(line, file=f)
 
     # --------------------------------------------------------------------------
@@ -183,13 +190,14 @@ def compile_output(gdata):
     # --------------------------------------------------------------------------
     ccode = []
     lcode = []
+    gcode = []
 
     # --------------------------------------------------------------------------
     # CLASSES
     # The first thing is a list of the classes to be added to the main set
     # --------------------------------------------------------------------------
     ccode.append("; " + "*"*98)
-    ccode.append("; " + "Add classes to game")
+    ccode.append("; " + "Add GI Joe classes to game")
     ccode.append("; " + "*"*98)
     ccode.append("[XComGame.X2SoldierClass_DefaultClasses]")
     for guy in gdata:
@@ -201,7 +209,22 @@ def compile_output(gdata):
     # LOADOUT
     # Start the bit at the beginning of the loadout code
     # --------------------------------------------------------------------------
+    lcode.append("; " + "*"*98)
+    lcode.append("; " + "Add loadouts for GI Joe classes")
+    lcode.append("; " + "*"*98)
     lcode.append("[XComGame.X2ItemTemplateManager]")
+
+    # --------------------------------------------------------------------------
+    # GAME
+    # Do the preliminary stuff needed in the file
+    # --------------------------------------------------------------------------
+    lcode.append("; " + "*"*98)
+    lcode.append("; " + "Add Mod to game and prevent custom classes from rolling in random AWC")
+    lcode.append("; " + "*"*98)
+    gcode.append("[" + modname + ".X2DownloadableContentInfo_" + modname +"]")
+    gcode.append('DLCIdentifier="' + modname + '"')
+    gcode.append("")
+    gcode.append("[XComGame.CHHelpers]")
 
     # --------------------------------------------------------------------------
     # Now every soldier gets a class
@@ -366,10 +389,16 @@ def compile_output(gdata):
 
         lcode.append("+Loadouts=(LoadoutName=" + loadoutname.ljust(32) + ", Items[0]=(Item=" + primaryname.ljust(25) + "), Items[1]=(Item=" + secondaryname.ljust(25) + "))")
 
+        # ----------------------------------------------------------------------
+        # GAME
+        # Need a list for excluding the classes from AWC loadout
+        # ----------------------------------------------------------------------
+        gcode.append("+ClassesExcludedFromAWCRoll=" + gdata[guy]['classname'])
+
     # --------------------------------------------------------------------------
     # Finish
     # --------------------------------------------------------------------------
-    return ccode, lcode
+    return ccode, lcode, gcode
 
 
 # ------------------------------------------------------------------------------
