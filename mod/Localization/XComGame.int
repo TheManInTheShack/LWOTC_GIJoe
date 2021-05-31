@@ -1431,3 +1431,63 @@ LeftAbilityTreeTitle = ""
 RightAbilityTreeTitle = ""
 RandomNicknames[0]   = "Voltar"
 
+; ------------------------------------------------------------------------------
+; Crystal_Ball
+; ------------------------------------------------------------------------------
+[GIJoe__Crystal_Ball X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Crystal_Ball"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RightAbilityTreeTitle = ""
+RandomNicknames[0]   = "Crystal_Ball"
+
+; ------------------------------------------------------------------------------
+; Dr_Burkhart
+; ------------------------------------------------------------------------------
+[GIJoe__Dr_Burkhart X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Dr_Burkhart"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RightAbilityTreeTitle = ""
+RandomNicknames[0]   = "Dr_Burkhart"
+
+; ------------------------------------------------------------------------------
+; Dr_Vandemeer
+; ------------------------------------------------------------------------------
+[GIJoe__Dr_Vandemeer X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Dr_Vandemeer"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RightAbilityTreeTitle = ""
+RandomNicknames[0]   = "Dr_Vandemeer"
+
+; ------------------------------------------------------------------------------
+; Thrasher
+; ------------------------------------------------------------------------------
+[GIJoe__Thrasher X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Thrasher"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RightAbilityTreeTitle = ""
+RandomNicknames[0]   = "Thrasher"
+
+; ------------------------------------------------------------------------------
+; Road_Pig
+; ------------------------------------------------------------------------------
+[GIJoe__Road_Pig X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Road_Pig"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RightAbilityTreeTitle = ""
+RandomNicknames[0]   = "Road_Pig"
+
+; ------------------------------------------------------------------------------
+; Vance_Wingfield
+; ------------------------------------------------------------------------------
+[GIJoe__Vance_Wingfield X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Vance_Wingfield"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RightAbilityTreeTitle = ""
+RandomNicknames[0]   = "Vance_Wingfield"
+

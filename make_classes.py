@@ -241,7 +241,6 @@ def compile_output(gdata):
     tcode.append("; " + "Text fields")
     tcode.append("; " + "*"*98)
 
-
     # --------------------------------------------------------------------------
     # Now every soldier gets a class
     # --------------------------------------------------------------------------
@@ -281,6 +280,7 @@ def compile_output(gdata):
         ccode.append("; " + "Rank:".ljust(10) + "Ability:".ljust(30) + "Description:")
         for j, rec in gdata[guy]['abilities'].iterrows():
             ccode.append("; " + rec['character'].center(10) + rec['Perk Friendly Name'].ljust(30) + rec['Perk Description'])
+        ccode.append("; ")
 
         ccode.append("; " + "*"*98)
         ccode.append("[" + gdata[guy]['classname'] + " X2SoldierClassTemplate]")
@@ -330,31 +330,35 @@ def compile_output(gdata):
             # Header
             # ------------------------------------------------------------------
             ccode.append("; Rank " + str(i))
-            ccode.append("+SoldierRanks=(".ljust(80) + "\\\\")
+            ccode.append("+SoldierRanks=(".ljust(120) + "\\\\")
             
             # ------------------------------------------------------------------
             # Abilities
             # ------------------------------------------------------------------
-            ccode.append("  AbilitySlots=(".ljust(80) + "\\\\")
+            ccode.append("  AbilitySlots=(".ljust(120) + "\\\\")
 
-            this_rank_abilities = gdata[guy]['abilities'][gdata[guy]['abilities']['character']==i]
+            this_rank_abilities = gdata[guy]['abilities'][gdata[guy]['abilities']['character']==str(i)]
 
             abilities = []
             for ability,rec in this_rank_abilities.iterrows():
-                line = "(AbilityType=(AbilityName=" + ability
+                pieces = []
+                pieces.append("AbilityName=" + quoted(ability))
+                if False:
+                    pieces.append("ApplyToWeaponSlot=" + "xxx")
+                line = "(AbilityType=(" + ",".join(pieces) + "))"
                 abilities.append(line)
 
             for j, line in enumerate(abilities):
                 if j < len(abilities)-1:
                     line += ","
-                ccode.append("                    " + line.ljust(60) + "\\\\")
+                ccode.append("                    " + line.ljust(100) + "\\\\")
 
-            ccode.append("  ),".ljust(80) + "\\\\")
+            ccode.append("  ),".ljust(120) + "\\\\")
             
             # ------------------------------------------------------------------
             # Stats
             # ------------------------------------------------------------------
-            ccode.append("  aStatProgression=(".ljust(80) + "\\\\")
+            ccode.append("  aStatProgression=(".ljust(120) + "\\\\")
 
             statlines = []
             for stat in gdata[guy]['stat_progression']:
@@ -379,9 +383,9 @@ def compile_output(gdata):
             for j, line in enumerate(statlines):
                 if j < len(statlines)-1:
                     line += ","
-                ccode.append("                    " + line.ljust(60) + "\\\\")
+                ccode.append("                    " + line.ljust(100) + "\\\\")
 
-            ccode.append("  )".ljust(80) + "\\\\")
+            ccode.append("  )".ljust(120) + "\\\\")
 
             # ------------------------------------------------------------------
             # Finish
