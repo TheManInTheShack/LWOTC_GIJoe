@@ -1,0 +1,3613 @@
+
+// ================================================================================================================================================================
+// General Pool
+// ================================================================================================================================================================
+
+---- LW2WotC_ShootAnyone:  Shoot Anyone.
+::  LW2WotC Main mod
+
+---- LW2WotC_CenterMass:  You do <Ability:CENTERMASS_DAMAGE/> additional point of base damage when using guns.
+::  LW2WotC Main mod
+# Guns
+
+---- LW2WotC_HitandSlither:  Gain an additional move action after taking a standard shot at a flanked or exposed target with your primary weapon. <Ability:HNR_USES_PER_TURN/>
+::  LW2WotC Main mod
+
+---- LW2WotC_DamnGoodGround:  Confers +<Ability:DGG_AIM_BONUS/> aim and +<Ability:DGG_DEF_BONUS/> defense against targets at a lower elevation.
+::  LW2WotC Main mod
+
+
+---- LW2WotC_Resilience:  Enemy attacks against you suffer a -<Ability:RESILIENCE_CRITDEF_BONUS/> penalty to critical hit chances.
+::  LW2WotC Main mod
+
+---- LW2WotC_TacticalSense:  Gain +<Ability:TACTICAL_SENSE_DEF_BONUS_PER_ENEMY/> defense for each enemy you can see, up to a maximum of +<Ability:TACTICAL_SENSE_MAX_DEF_BONUS/> defense.
+::  LW2WotC Main mod
+
+
+
+---- LW2WotC_WilltoSurvive:  Enemy damage is reduced when in cover and attacked through that cover. High cover reduces damage by <Ability:W2S_HIGH_COVER_ARMOR_BONUS/>. Low cover reduces damage by <Ability:W2S_LOW_COVER_ARMOR_BONUS/>. Also grants <Ability:WILLTOSURVIVE_WILLBONUS/> will.
+::  LW2WotC Main mod
+
+---- LW2WotC_LightEmUp:  Taking a standard shot with your primary weapon as your first action no longer ends your turn.
+::  LW2WotC Main mod
+
+
+
+
+---- LW2WotC_HyperReactivePupils:  Gain +<Ability:HYPERREACTIVE_PUPILS_AIM_BONUS/> aim for your next shot with your primary weapon after a miss.
+::  LW2WotC Main mod
+
+
+---- LW2WotC_Sentinel:  When in overwatch, you may take <Ability:SENTINEL_LW_USES_PER_TURN/> reaction shots.
+::  LW2WotC Main mod
+
+---- LW2WotC_RapidReaction:  When in overwatch, each shot you hit with grants another reaction fire shot, up to a maximum of <Ability:RAPID_REACTION_USES_PER_TURN/> shots.
+::  LW2WotC Main mod
+
+---- LW2WotC_TraverseFire:  After taking a standard shot with your primary weapon with your first action, you may take an additional non-movement action.
+::  LW2WotC Main mod
+
+
+---- LW2WotC_PrecisionShot:  Take a special shot with +<Ability:PRECISION_SHOT_CRIT_BONUS> bonus to critical chance and <Ability:PRECISION_SHOT_CRIT_DAMAGE_PERCENT_BONUS>% bonus critical damage. <Ability:PRECISION_SHOT_COOLDOWN> turn cooldown. Uses <Ability:PRECISION_SHOT_AMMO_COST> ammo.
+::  LW2WotC Main mod
+
+---- LW2WotC_PrecisionShot_Bonuses:  Take a special shot with +<Ability:PRECISION_SHOT_CRIT_BONUS> bonus to critical chance and <Ability:PRECISION_SHOT_CRIT_DAMAGE_PERCENT_BONUS>% bonus critical damage. <Ability:PRECISION_SHOT_COOLDOWN> turn cooldown. Uses <Ability:PRECISION_SHOT_AMMO_COST> ammo.
+::  LW2WotC Main mod
+
+---- LW2WotC_Covert:  Enemies have <Ability:COVERT_DETECTION_RANGE_REDUCTION>% smaller detection range against you.
+::  LW2WotC Main mod
+
+---- LW2WotC_DamageControl:  After taking damage, gain <Ability:DAMAGE_CONTROL_BONUS_ARMOR> armor through the end of the turn.
+::  LW2WotC Main mod
+
+---- LW2WotC_RapidDeployment:  Activate this ability before throwing or launching a support grenade, and the throw will not cost an action. <Ability:RAPID_DEPLOYMENT_COOLDOWN> turn cooldown.
+::  LW2WotC Main mod
+
+
+
+---- LW2WotC_LightningReflexes:  Reaction fire shots against you have a significantly decreased chance to hit. The bonus goes down with each additional reaction shot you face.
+::  LW2WotC Main mod
+
+---- LW2WotC_RunAndGun:  Take an action after dashing.
+::  LW2WotC Main mod
+
+---- LW2WotC_KillerInstinct:  Activating Run & Gun grants +<Ability:KILLER_INSTINCT_CRIT_DAMAGE_BONUS_PCT>% critical damage for the rest of the turn.
+::  LW2WotC Main mod
+
+---- LW2WotC_ExtraConditioning:  Run and Gun cooldown is reduced by <Ability:EXTRA_CONDITIONING_COOLDOWN_REDUCTION> turn.
+::  LW2WotC Main mod
+
+---- LW2WotC_GrazingFire:  Missed shots with your primary weapon have an additional roll to become a graze.
+::  LW2WotC Main mod
+
+---- LW2WotC_CombatFitness:  Gain <ABILITY:COMBAT_FITNESS_OFFENSE/> aim, <ABILITY:COMBAT_FITNESS_MOBILITY/> mobility, <ABILITY:COMBAT_FITNESS_HP/> HP, <ABILITY:COMBAT_FITNESS_WILL/> will, and <ABILITY:COMBAT_FITNESS_DODGE/> dodge.
+::  LW2WotC Main mod
+
+---- LW2WotC_Sprinter:  Gain <ABILITY:SPRINTER_MOBILITY/> mobility.
+::  LW2WotC Main mod
+
+---- LW2WotC_AlphaMikeFoxtrot:  You do <Ability:ALPHAMIKEFOXTROT_DAMAGE/> additional points of base damage with your primary weapon.
+::  LW2WotC Main mod
+
+---- LW2WotC_BoostedCores:  Explosive grenades do <Ability:BOOSTED_CORES_DAMAGE> additional damage.
+::  LW2WotC Main mod
+
+---- LW2WotC_VolatileMix:  Your grenades' area of effect is increased by one tile.
+::  LW2WotC Main mod
+
+---- LW2WotC_CyclicFire:  Special Shot: Fire <Ability:CYCLIC_FIRE_SHOTS> shots at a target in a single attack. Requires <Ability:CYCLIC_FIRE_MIN_ACTION_REQ> actions and all shots have aim penalties. <Ability:CYCLIC_FIRE_COOLDOWN> turn cooldown.
+::  LW2WotC Main mod
+
+---- LW2WotC_Kubikuri:  Special shot against most enemies who have taken any damage: Any critical hit kills them, but regular hits do half damage. Requires <Ability:KUBIKURI_MIN_ACTION_REQ> actions and has a <Ability:KUBIKURI_COOLDOWN> turn cooldown.
+::  LW2WotC Main mod
+
+---- LW2WotC_Evasive:  Start each mission with 100 bonus dodge. The bonus is removed after you take damage for the first time.
+::  LW2WotC Main mod
+
+---- LW2WotC_Evasive_Remover:  Start each mission with 100 bonus dodge. The bonus is removed after you take damage for the first time.
+::  LW2WotC Main mod
+
+---- LW2WotC_CombatAwareness:  Grants <Ability:COMBAT_AWARENESS_BONUS_DEFENSE> defense and <Ability:COMBAT_AWARENESS_BONUS_ARMOR> armor point when in overwatch.
+::  LW2WotC Main mod
+
+---- LW2WotC_CombatRush:  When you kill an enemy, nearby allies temporarily receive bonuses to aim, critical chance and mobility. <Ability:COMBAT_RUSH_COOLDOWN> turn cooldown.
+::  LW2WotC Main mod
+
+---- LW2WotC_FullKit:  Grants +<Ability:FULL_KIT_BONUS> charge per grenade item in a utility slot.
+::  LW2WotC Main mod
+
+
+---- LW2WotC_Savior:  Healing abilities restore <Ability:SAVIOR_BONUS_HEAL_AMMOUNT> additional hit points.
+::  LW2WotC Main mod
+
+---- LW2WotC_HeavyOrdnance:  Any damaging grenade in your grenade-only slot gains <Ability:HEAVY_ORDNANCE_BONUS_CHARGES> bonus use.
+::  LW2WotC Main mod
+
+---- LW2WotC_Protector:  Any non-damaging grenade in your grenade-only slot gains <Ability:PROTECTOR_BONUS_CHARGES> bonus use.
+::  LW2WotC Main mod
+
+---- LW2WotC_HEATWarheads:  Your explosives now pierce up to <Ability:HEAT_WARHEADS_PIERCE> points of armor and shred <Ability:HEAT_WARHEADS_SHRED> additional point of armor.
+::  LW2WotC Main mod
+
+---- LW2WotC_EmergencyLifeSupport:  Emergency Life Support ensures the first killing blow in a mission will not lead to instant death. It also extends the time before the soldier bleeds out and dies.
+::  LW2WotC Main mod
+
+---- LW2WotC_SmartMacrophages:  Heals injuries after a battle, lowering wound recovery time, and confers immunity to poison and acid.
+::  LW2WotC Main mod
+
+---- LW2WotC_FieldSurgeon:  Reduce wound recovery times for most soldiers.
+::  LW2WotC Main mod
+
+---- LW2WotC_Trojan:  Enemy units that are hacked take damage and lose their actions on the turn the hack effect ends.
+::  LW2WotC Main mod
+
+---- LW2WotC_IronCurtain:  Special shot that does <Ability:IRON_CURTAIN_DAMAGE_MODIFIER>% damage but reduces target mobility for the following <Ability:IRON_CURTAIN_MOB_DAMAGE_DURATION> turns. Cone-based attack with primary weapon. <Ability:IRON_CURTAIN_COOLDOWN> turn cooldown.
+::  LW2WotC Main mod
+
+---- LW2WotC_BodyShield:  A targeted enemy receives -<Ability:BODY_SHIELD_DEF_BONUS> aim and -<Ability:BODY_SHIELD_ENEMY_CRIT_MALUS> critical chance against the soldier. <Ability:BODY_SHIELD_COOLDOWN> turn cooldown.
+::  LW2WotC Main mod
+
+---- LW2WotC_ImpactFields:  Activate a force field that reduces incoming damage by <Ability:IMPACT_FIELDS_DAMAGE_REDUCTION_PCT>% for <Ability:IMPACT_FIELDS_DURATION> turns. <Ability:IMPACT_FIELDS_COOLDOWN> turn cooldown.
+::  LW2WotC Main mod
+
+---- LW2WotC_DoubleTap:  Activate to fire a standard shot and gain a second action restricted to an additional shot or overwatching.
+::  LW2WotC Main mod
+
+---- LW2WotC_Flush:  Special shot with a bonus to hit that does little or no damage but confers defense and dodge penalties and forces target to change position if it hits.
+::  LW2WotC Main mod
+# Guns
+* Shot
+
+---- LW2WotC_FullOverride:  Take permanent control of a robotic unit.
+::  LW2WotC Main mod
+* Hack
+* vs Robotic
+
+---- LW2WotC_SteadyWeapon:  Gain +<Ability:STEADY_WEAPON_AIM_BONUS> aim on your next shot with your primary weapon. Bonus is lost if you use actions or are wounded.
+::  LW2WotC Main mod
+
+---- LW2WotC_Bombardier:  You may throw or launch grenades <Ability:BOMBARDIER_BONUS_RANGE_TILES> additional tiles.
+::  LW2WotC Main mod
+
+---- LW2WotC_Failsafe:  If you fail a hack, you prevent any negative effects from occurring.
+::  LW2WotC Main mod
+
+---- LW2WotC_MindMerge:  Grants bonus will, critical chance and ablative hit points to an ally until the beginning of the player's next turn.
+::  LW2WotC Main mod
+
+---- LW2WotC_SoulMerge:  Increases effectiveness of Mind Merge by conferring larger bonuses to critical chance, will and ablative hit points, and reducing its cooldown period.
+::  LW2WotC Main mod
+
+---- LW2WotC_Solace:  The Psi Operative may immediately extinguish mental impairments for a squadmate.
+::  LW2WotC Main mod
+
+---- LW2WotC_Sapper:  Your explosives can destroy many cover objects.
+::  LW2WotC Main mod
+
+---- LW2WotC_NeedleGrenades:  Your explosives do not destroy loot when they kill enemies.
+::  LW2WotC Main mod
+
+---- InTheZone:  A powerful chained shot ability. For every kill made with your <Ability:WeaponName/>, your actions will be refunded.
+::  LW2WotC Main mod
+
+---- Fuse:  If an enemy is carrying explosives, they can be remotely detonated by the Psi Operative.
+::  LW2WotC Main mod
+
+---- BulletShred:  A Rupture shot deals critical damage and ensures that the target takes an additional +<Ability:RuptureAmount/> damage from all attacks in the future.
+::  LW2WotC Main mod
+
+---- Stealth:  Immediately enter concealment once per mission.
+::  LW2WotC Main mod
+
+---- SoulSteal:  Soulfire transfers half of the damage done back to the Psi Operative as health.
+::  LW2WotC Main mod
+
+---- CoveringFire:  Overwatch shots can now be triggered by any enemy action, not just movement.
+::  LW2WotC Main mod
+
+
+
+---- MZBlink: short range teleport as a free action. stealthy.
+:: Mitzruti's Perk Pack
+* Teleport
+
+---- MZTeleport: teleport anywhere in squadsight. stealthy.
+:: Mitzruti's Perk Pack
+* Teleport
+
+---- MZBloodTeleport - use HP to teleport anywhere in suadsight. need to be concealed.
+:: Mitzruti's Perk Pack
+* Teleport
+
+---- MZDisablingSting: As sting, but stuns. requires shadow.
+:: Mitzruti's Perk Pack
+# Guns
+* Shot
+
+---- MZStingingGale: Ever wanted to sting everything in sight? here it is. requires shadow, 2 actions and buckets of ammo.
+:: Mitzruti's Perk Pack
+# Guns
+* Shot
+
+---- MZTransposition: Exhange+Invert with no focus cost. stealthy.
+:: Mitzruti's Perk Pack
+
+
+---- MZRendFleche: rend skills do bonus damage based on distance traveled, like lw2 fleche.
+:: Mitzruti's Perk Pack
+
+---- MZVoidShock: single target volt, no focuss cost.
+:: Mitzruti's Perk Pack
+
+---- MZKineticLance: damage and knockback targets in a line.
+:: Mitzruti's Perk Pack
+
+---- MZAccurateReaction: Bonus to aim with reaction shots.
+:: Mitzruti's Perk Pack
+
+---- GrimyAirBurst: launched grenades have larger radius
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Launcher
+
+---- GrimyDeadlyHaze: grenades debuff enemy damage
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Grenades
+
+---- GrimyGrenadeShredder: grenades shred more armour
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Grenades
+* Shred
+
+---- GrimyLightOrdnance: carry more grenades, but they do 50% less damage.
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Grenades
+
+---- GrimySadist: increases uses of skullmine
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+* Enhance: Skullmine
+
+---- GrimyShellShock: grenades may stun
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Grenades
+
+---- GrimyShredderGun : grants a shredder gun
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Extra Equipment
+* Shred
+
+---- GrimyVileConcoctions: DoT effects of grenades do more damage
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Grenades
+
+
+---- GrimyDrawFire: sacrifice def to buff armour and ally def.
+:: Mitzruti's Perk Pack
+:: Grimy's Bruiser
+* Armor
+
+---- GrimyGunPoint: hold a flankable enemy at gunpoint, stunning them and using them as cover.
+:: Mitzruti's Perk Pack
+:: Grimy's Bruiser
+* Stun
+@ Gung-Ho
+
+---- GrimySurvival: return fire and grant armour buff. 1/enemy/turn
+:: Mitzruti's Perk Pack
+:: Grimy's Bruiser
+* Armor
+* Overwatch
+
+---- GrimySpotter: return fire that marks enemies. 1/enemy/turn
+:: Mitzruti's Perk Pack
+:: Grimy's Bruiser
+
+---- GrimyBolsterPassive: gunpoint grants armour buff
+:: Mitzruti's Perk Pack
+:: Grimy's Bruiser
+* Armor
+* Enhance: GrimyGunPoint
+@ Gung-Ho
+
+---- GrimyIntimidationPassive: survival/spotter reduce enemy aim
+:: Mitzruti's Perk Pack
+:: Grimy's Bruiser
+
+---- GrimyEnrage: when injured, start turn with run and gun.
+:: Mitzruti's Perk Pack
+:: Grimy's Bruiser
+
+
+---- GrimyStrafe: gain strafe AP on move. strafing fire doe 50% damage, uses strafe AP.
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+# Cannon
+# Strafe
+
+---- GrimySustainedFire: Allows you to reload and overwatch using strafing action points.
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+# Cannon
+
+---- GrimyPyrokinesis: sacrifice health, damage and burn enemy. use strafe AP.
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+# Strafe
+
+---- GrimySoulTap: sacrifice health, gain AP.
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+
+---- GrimyReinvigorate: gain AP when healed
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+
+---- GrimyReave: sacrifice health: weaker nullance that poisons. us strafe AP.
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+# Strafe
+
+---- GrimyBulletRoulette: equips random ammo at mission start
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+@ Wildcard
+
+---- GrimyMadness: sacrifice health to mind control and enemy for 1 turn. use strafe AP.
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+# Strafe
+
+---- GrimySprayAndPray: fire at up to three random enemies. use strafe AP.
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+# Strafe
+
+---- GrimyAnomaly: once per mission, do massive damage in an aoe, then summons a new pod.
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+
+---- GrimySpeedster: passive: +1 AP, -4mobility
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+* Action
+
+---- GrimyWillToSurvive: increase max HP based on will
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+* HP
+
+
+---- GrimyIncediaryShot: Deals fire damage and applies burning to targets in a small radius
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+* Fire
+
+---- GrimyTwinFangs: Fire two poisonous rounds at up to two random enemies
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+* Poison
+
+---- GrimyBuckshot: Fire at all enemies inside a narrow cone
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+
+---- GrimyDoubleTap: take a shot, then take another action.
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+* Action
+
+---- GrimyHexHunter: special shot deals bonus damage to psionic enemies, proportional to their psi offense.
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+
+---- GrimyMultiHook: A free aiming grappling hook that costs 1 action point
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+# Grapnel
+@ Alpine
+@ Shipwreck
+@ Quick Kick
+
+---- GrimyPreparation: free action grants AP on next turn.
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+* Action
+
+
+---- MZCriticalX: increases crit, but reduces aim.
+:: Mitzruti's Perk Pack
+
+
+---- MZBulletArtCharges: bullet arts have extra charges
+:: Mitzruti's Perk Pack
+* Bullet Arts
+
+---- MZBleedingBulletArts: bullet arts inflict bleeding
+:: Mitzruti's Perk Pack
+* Bullet Arts
+
+---- MZMoreDakka: bullet arts hit twice, but do reduced damage per hit.
+:: Mitzruti's Perk Pack
+* Bullet Arts
+
+---- MZExplosiveBulletArts: bullet arts become aoe
+:: Mitzruti's Perk Pack
+* Bullet Arts
+
+---- MZHighCalibreBulletArts: bullet arts do bonus damage
+:: Mitzruti's Perk Pack
+* Bullet Arts
+
+---- MZHighAgonyBulletArts: DOTs inflicted by bullet arts do bonus damage
+:: Mitzruti's Perk Pack
+* Bullet Arts
+
+---- MZChronoTrigger: hitting with bullet arts reduce all cooldowns
+:: Mitzruti's Perk Pack
+* Bullet Arts
+
+
+---- MZAcidBullet: acid damage + acid burning + improved shred
+:: Mitzruti's Perk Pack
+* Bullet Arts
+* Shred
+* Acid
+
+---- MZBlazeBullet : fire daamage + burning
+:: Mitzruti's Perk Pack
+* Bullet Arts
+* Fire
+* Burning
+
+---- MZToxicBullet : poison damage + poison + lure lost
+:: Mitzruti's Perk Pack
+* Bullet Arts
+* Poison
+
+---- MZMeleeBullet: melee damage + 0turn diorient + ignore sustain + ignore teleaway
+:: Mitzruti's Perk Pack
+* Bullet Arts
+* Disorient
+
+---- MZShockBullet: electric damage + AP + disable shield + reduce hack
+:: Mitzruti's Perk Pack
+* Bullet Arts
+* vs Shield
+* Electric
+@ Dial-Tone
+
+---- MZPsiBullet: psi damage + deadeye + AP + bypass shield
+:: Mitzruti's Perk Pack
+* Bullet Arts
+
+---- MZRuptureBullet: explosive damage +rupture
+:: Mitzruti's Perk Pack
+* Bullet Arts
+@ Fast-Draw
+
+---- MZHailBullet: can be used relentless. requires 2 ammo per use.
+:: Mitzruti's Perk Pack
+* Bullet Arts
+
+
+---- MZAcidBulletX: acid bullet debuffs enemy damage
+:: Mitzruti's Perk Pack
+* Bullet Arts
+
+---- MZBlazeBulletX: blaze bullet burn is stronger
+:: Mitzruti's Perk Pack
+* Bullet Arts
+* Fire
+* Burning
+
+---- MZToxicBulletX: toxic bullet disorients
+:: Mitzruti's Perk Pack
+* Bullet Arts
+* Disorient
+
+---- MZMeleeBulletX: melee bullet does bonus damage scaling with target's psi
+:: Mitzruti's Perk Pack
+* Bullet Arts
+* vs Psi
+
+---- MZShockBulletX: shock bullet does double damage to robotics
+:: Mitzruti's Perk Pack
+* Bullet Arts
+* vs Robotic
+
+---- MZPsiBulletX: psi bullet stuns
+:: Mitzruti's Perk Pack
+* Bullet Arts
+* Stun
+
+---- MZRuptureBulletX: rupture bullet levels cover on hit targets
+:: Mitzruti's Perk Pack
+* Bullet Arts
+* vs Cover
+
+
+---- MZBloodyMadness: abilitiees with HP costs do more damage the lower HP gets.
+:: Mitzruti's Perk Pack
+
+---- MZPocketBlaster: grants a mini blaster launcher
+:: Mitzruti's Perk Pack
+# Extra Equipment
+
+---- MZPocketPlasma: grants a powerful but narrow beam weapon.
+:: Mitzruti's Perk Pack
+# Extra Equipment
+# Plasma
+@ Flash
+@ Sci-Fi
+
+---- MZPocketShredder: shredder gun with low damage, but crazy shred.
+:: Mitzruti's Perk Pack
+# Extra Equipment
+* Shred
+
+
+---- MZExplosiveShot: shot deals explosive damage in an area around target.
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZStormLanceShot: armour-piercing electric round damages enemies in a line.
+:: Mitzruti's Perk Pack
+* Shot
+
+
+
+
+---- MZWildTalent: random bonus to psi
+:: Mitzruti's Perk Pack
+
+
+
+---- MZAbyssalHunger - increase effectiveness of lifestealing
+:: Mitzruti's Perk Pack
+# Blood Magic
+
+---- MZCurseBall - consume HP. explosive psi aoe, creates curse cloud.
+:: Mitzruti's Perk Pack
+# Blood Magic
+
+---- MZDarkPotency - increases HP costs, boosts blood damage based on cost.
+:: Mitzruti's Perk Pack
+# Blood Magic
+
+---- MZDropByDrop - reduces HP costs
+:: Mitzruti's Perk Pack
+# Blood Magic
+
+
+---- MZBloodiedShroud - increased HP, faster wound recovery.
+:: Mitzruti's Perk Pack
+
+---- MZBloodPillar - consume HP to create full cover
+:: Mitzruti's Perk Pack
+
+---- MZCloakOfShadows - consume hp to reenter concealment
+:: Mitzruti's Perk Pack
+
+---- MZObtenebration - as phantom. also reduces sight and detection radius somewhat.
+:: Mitzruti's Perk Pack
+
+---- MZPillar - create full cover. useable by regular soldiers.
+:: Mitzruti's Perk Pack
+
+---- MZTenebrousForm - deflect attacks by chance based on missing health
+:: Mitzruti's Perk Pack
+
+---- MZTenebrousreflect - chance to reflect attacks deflected by Tenebrous Form
+:: Mitzruti's Perk Pack
+
+---- MZTerribleThought - cosume HP to become undetectable and walk through walls. need to be concealed.
+:: Mitzruti's Perk Pack
+
+---- MZZombieGrenades - gas and flashbangs make enemies vulnerable to Turn Undead/etc.
+:: Mitzruti's Perk Pack
+
+
+---- MZBloodShot - consume half HP to fire a powerful and accurate shot.
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZBloodKillZone - consume HP to fire on anything that moves or attacks in a large cone
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZDetonationShot - shot+fuse (If an enemy is carrying explosives, they can be remotely detonated)
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZFightInTheShade - blood shot, hungering shot and bloodkillzone blind enemies they hit.
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZHungeringShot - weak attack steals HP
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZHungeringShotConceal - kills with Hungering Shot grant concealment
+:: Mitzruti's Perk Pack
+* Shot
+
+
+
+---- Musashi_BioelectricSkin -skin: sense nearby enemies, even if they are concealed
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+---- MZAdaptiveBoneMarrow -Legs: reduce wounds postcombat, regen health in combat.
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+---- MZAdrenalNeurosympathy -Skin: kills buff allies with aim, crit, mob, cure panic
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+---- MZDepthPerception -eyes: bonus aim and crit when you have height advantage
+== LW2WotC_DepthPerception
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+---- MZHyperreactivePupils -eyes: bonus aim after a miss
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+---- MZNeuralDamping -Brain: mental immune, resist psi damagee
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+---- MZNeuralFeedback -Brain: counter psi attacks by damaging attacker and putting psi abilitis on cooldown.
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+---- MZNictatingMembranes -Eyes: negate aim penalties from poison, disorient, smoke. cure blind every turn.
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+---- MZPsyberInterface -Eyes: Bonus hack, aim vs robots
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+---- MZregenPheremones -Skin: kills buff allies with regen, cure DoTs
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+---- MZViperBlood -Chest: poison immune, bleed poison, gain aim/crit/dodge in poison clouds.
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+---- RM_GeneWallClimb -legs: allows climbing walls (but not windows)
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+---- RM_GeneMimeticSkin -skin: enter concealment when moving to full cover if no foe sees you
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+
+
+---- MZHammerShot - shot knocks back on hit
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZMedishot - shot heals single ally. charges based on carried medkits.
+:: Mitzruti's Perk Pack
+* Shot
+
+
+---- MZLuckyDay - random bonus to aim and crit
+:: Mitzruti's Perk Pack
+
+---- MZLuckyNight - random bonus to dodge and mobility
+:: Mitzruti's Perk Pack
+
+
+---- MZWiredreflexes - changes hit rolls on reflex actions to be 1 stage more favourable
+:: Mitzruti's Perk Pack
+# Gene Mods
+
+
+---- MZProtection: stasis shield, but unlinked from stasis.
+:: Mitzruti's Perk Pack
+
+---- MZRaptorWhirlwind - ranged shield attack, only useable after shieldwall.
+:: Mitzruti's Perk Pack
+# Shield
+
+---- MZRaptorCyclone - ranged aoe shield attack, only useable after shieldwall. (requires RaptorWhirlwind)
+:: Mitzruti's Perk Pack
+# Shield
+
+---- MZShieldStability - immunity to knockback. bonus aim and crit while shield is equipped.
+:: Mitzruti's Perk Pack
+# Shield
+
+---- MZBarrierCharger - recharges 1 shield per turn.
+:: Mitzruti's Perk Pack
+
+---- MZHardedShield - damage to shields is reduced.
+:: Mitzruti's Perk Pack
+# Shield
+* Defense
+
+
+---- MZSidewinder - critical shot, only usable against aliens. Jet Shot: hits twice.
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZVitalsShot - shot inflicts status effect depending on target type.
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZSonicBoom - accurate shot against a small area. JetShot: also disorients.
+:: Mitzruti's Perk Pack
+* Shot
+
+
+---- MZUnscarred - do more and take less damage when at full hp. (based on armour tech level)
+:: Mitzruti's Perk Pack
+
+---- MZAdvice - grant ally a temp crit bonus
+:: Mitzruti's Perk Pack
+
+---- MZAdviceSelfToo - Advice also buffs the user.
+:: Mitzruti's Perk Pack
+
+---- MZBattleCry - self buff pretty much gaurentees crits - both outgoing and incoming.
+:: Mitzruti's Perk Pack
+
+---- MZRegenerate - on taking damage, heal a percent of missing health.
+:: Mitzruti's Perk Pack
+
+
+
+
+
+
+---- MZTransposeDefense - Transposition buffs defense when swapping with an ally.
+:: Mitzruti's Perk Pack
+
+---- MZTransposeTimeShift - Transposition stuns when swapping with an enemy.
+:: Mitzruti's Perk Pack
+
+
+---- IsmsBlazeOfGlory - fire at every visible enemy, then play dead 2 turns.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+
+---- IsmsBlindside - Bullpup/SMG to bonus damage to flanked targets.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+
+---- IsmsFlush - accurate shot with reduced damage. forces target to move.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+@ Stalker
+@ Falcon
+
+---- IsmsGhostPack - Phantom+Conceal. take 15% more damage.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+
+---- IsmsInfiltrator - +40 hack and grants lightning reflexes
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+
+---- IsmsLastWish - sustain variant: heals to 5hp and attempt to restealth after playing dead.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+@ Duke
+
+---- IsmsLoneWolf - +2 vision. +20 defense when alone.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+* Vision
+* Defense
+@ Deep Six
+@ Spirit
+@ Spearhead
+
+
+---- Lone Wolf:  Gain +10 aim and +10 defense when 7 or more tiles distance from any ally.
+== LW2WotC_LoneWolf
+::1  LW2 Shinobi
+::3   LW2 Sharpshooter
+* Offense
+* Defense
+
+---- IsmsKeepYourHeadDown - half cover counts as full. -5aim from half cover.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+
+---- IsmsOnTheMove - +1AP -6 Mobility
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+
+---- IsmsRecon - cone debuffs enemies, -5 Def, take more damage.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+@ Stalker
+@ Deep Six
+
+---- IsmsRelocate - squad is temporarily invisible, but remaining AP are converted to move action.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+
+---- IsmsRogueAndGun - shot grants a move action if it hits.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+
+---- IsmsScoutPack - +6 vision. free battlescanner. bonus damage from height advantage.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+@ Sneak Peek
+@ Spearhead
+
+---- IsmsScoutsOverwatch - replaces overwatch with a cone watch that fires a non-reaction shot.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+@ Spearhead
+
+---- IsmsShadowborn - -33% detection radius, +15 aim/crit on shots from concealment.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+
+
+
+
+---- MZRunningOnEmpty - if mag is empty when moving, reload 1 ammo. once per turn.
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZSecretHunt - shot that bypasses shields and sustain. kills retain concealment. during jetshot, conceal on kill.
+:: Mitzruti's Perk Pack
+* Shot
+
+
+---- MZAchingBlood - when using weapons with long nicknames, increase crit chance and damage.
+:: Mitzruti's Perk Pack
+
+---- MZBladeGrasp - chance to deflect based on current will
+:: Mitzruti's Perk Pack
+
+---- MZFierceMien - reduce nearby enemies aim against other targets.
+:: Mitzruti's Perk Pack
+
+---- MZFierceMienDefDown - fierce mien also makes it easier for others to hit the affected target.
+:: Mitzruti's Perk Pack
+
+---- MZUnwavering - repairs 1 shreded armour per turn.
+:: Mitzruti's Perk Pack
+# Armor
+* Repair Armor
+* Shred
+
+
+---- MZFreeAcidGrenade - grants a free acid grenade
+:: Mitzruti's Perk Pack
+# Grenades
+
+---- MZFreeGasGrenade - grants a free gas grenade
+:: Mitzruti's Perk Pack
+# Grenades
+
+---- MZFreeEMPGrenade - grants a free EMP grenade
+:: Mitzruti's Perk Pack
+# Grenades
+
+---- MZAbyssalShot - sacrifice health to deal bonus psi damage and inflict bloodcurse.
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZBloodSpear - sacrifice health to deal bonus psi damage and inflict bloodcurse in a line.
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZLongRangeDefense - bonus def and dodge based on distance from attacker.
+:: Mitzruti's Perk Pack
+
+
+---- MZFreeEricparHealBomb - grants a free heal grenade (requires Ericpar's Healbomb mod)
+:: Mitzruti's Perk Pack
+# Grenades
+# Heal
+* Enhance: Light Ordnance
+
+---- MZFreeFireGrenade - grants a free fire grenade
+:: Mitzruti's Perk Pack
+# Grenades
+# Fire
+* Enhance: Light Ordnance
+
+---- MZFreeFragGrenade - grants a free frag grenade
+:: Mitzruti's Perk Pack
+# Grenades
+# Frag
+* Enhance: Light Ordnance
+
+---- MZFreeIRIMolotov - grants a free molotov (requires Iridar's Molotov mod)
+:: Mitzruti's Perk Pack
+# Grenades
+# Molotov
+* Enhance: Light Ordnance
+
+---- MZFreeIRIPipeBomb - grants a free pipe bomb (requires Iridar's Pipe Bomb mod)
+:: Mitzruti's Perk Pack
+# Grenades
+# Pipe Bomb
+* Enhance: Light Ordnance
+
+---- MZFreeProxyMine - grants a free proxy mine
+:: Mitzruti's Perk Pack
+# Grenades
+# Prox Mine
+* Enhance: Light Ordnance
+
+
+
+
+---- MZBulletRave - 3-shot burst. woefully inaccurate.
+:: Mitzruti's Perk Pack
+# Guns
+* Shot
+
+---- MZBurialShot - shot refunds AP cost if lethal.
+:: Mitzruti's Perk Pack
+# Guns
+* Shot
+
+
+---- MZAimShift - reduces aim, raises rest of squad's aim by the same amount. (boosted for bondmate)
+:: Mitzruti's Perk Pack
+* Bondmate
+* Offense
+* Squad
+
+---- MZDefenseShift - reduces defense, raises rest of squad's defense by the same amount. (boosted for bondmate)
+:: Mitzruti's Perk Pack
+* Bondmate
+* Defense
+* Squad
+
+---- MZDuel - mark a target. soldier and target gain massive aim vs each other.
+:: Mitzruti's Perk Pack
+* Offense
+
+---- MZLifeShift - reduces HP, raises rest of squad's stats by the same amount. (boosted for bondmate)
+:: Mitzruti's Perk Pack
+* Bondmate
+* HP
+* Squad
+
+---- MZPsiShift - reduces psi, raises rest of squad's stats by the same amount. (boosted for bondmate)
+:: Mitzruti's Perk Pack
+* Bondmate
+* Stats
+* Squad
+
+---- MZSightShift - reduces vision radius, raises rest of squad's stats by the same amount. (boosted for bondmate)
+:: Mitzruti's Perk Pack
+* Bondmate
+* Vision
+* Squad
+@ Armadillo
+@ Cutter
+
+---- MZSpeedShift - reduces mobility, raises rest of squad's stats by the same amount. (boosted for bondmate)
+:: Mitzruti's Perk Pack
+* Bondmate
+* Mobility
+* Squad
+
+---- MZTechShift - reduces hack and hack def, raises rest of squad's stats by the same amount. (boosted for bondmate)
+:: Mitzruti's Perk Pack
+* Hack
+* Squad
+* Bondmate
+
+
+
+
+
+---- Center Mass:  You do one additional point of base damage when using guns.
+::1   LW2 Gunner
+# Guns
+
+---- Grazing Fire:  Missed shots with your primary weapon have an additional roll to become a graze.
+::5   LW2 Ranger
+::1   LW2 Gunner
+# Guns
+
+
+---- Flush:  Special shot with a bonus to hit that does little damage but forces target to change position if it hits and gives a penalty to defense and dodge.
+::2   LW2 Gunner
+# Guns
+
+---- Formidable:  Your gear includes an extra layer of protection, granting two extra points of Ablative HP and 50% less damage from explosive attacks.
+== LW2WotC_Formidable
+::1   SPARK
+::4   LW2 Technical
+::3   LW2 Grenadier
+::2   LW2 Gunner
+::4   LW2 Assault
+# Armor
+
+
+---- Hail of Bullets:  Unleash a hail of bullets that is guaranteed to hit your target, but uses a lot of ammunition.
+::3   LW2 Gunner
+## Guns
+
+---- Shredder:  Your primary weapon attacks shred armor.
+::3   LW2 Gunner
+::3   LW2 Technical
+::2   SPARK
+# Anti-Armor
+* Shred
+@ Cover Girl
+@ Bazooka
+@ Scrap-Iron
+
+
+---- Chain Shot:  Take a shot with an aim penalty of -10. If you hit the target, you take another shot on the target automatically.
+::4   LW2 Gunner
+::5   LW2 Grenadier
+# Cannon
+
+---- Iron Curtain:  Special shot that does half damage but reduces target mobility for the following two turns. Cone-based attack with primary weapon.
+::4   LW2 Gunner
+# Guns
+
+---- Demolition:  Unleash a volley of bullets at your target's cover, significantly damaging or destroying it. Deals no damage to your target.
+::4   LW2 Gunner
+# Guns
+
+
+---- Cyclic Fire:  Special Shot: Fire three shots at a target in a single attack. Requires both actions and all shots have aim penalties. Four-turn cooldown.
+::5   LW2 Gunner
+# Guns
+
+---- Cool Under Pressure:  You gain +10 Aim on Overwatch and other reaction shots, and they can critically hit.
+::5   SPARK
+::5   LW2 Gunner
+::3   LW2 Ranger
+::5   LW2 Specialist
+# Guns
+# Overwatch
+
+
+---- Rupture:  A Rupture shot has a large bonus to crit chance and ensures that the target takes an additional +3 damage from all attacks in the future.
+::7   LW2 Ranger
+::6   LW2 Gunner
+# Guns
+
+---- Rapid Fire:  Fire twice in a row at an enemy. Each shot suffers an Aim penalty of -15. There is no cooldown on this ability.
+::7   LW2 Technical
+::7  LW2 Shinobi
+::6   LW2 Ranger
+::5   LW2 Assault
+::6   LW2 Gunner
+# Guns
+
+---- Kill Zone:  Take a reaction shot against any enemy that moves or attacks within a cone of fire.
+::7   LW2 Specialist
+::7   LW2 Ranger
+::6   LW2 Gunner
+# Guns
+* Overwatch
+* AOE
+
+
+---- Saturation Fire:  Fire a cone-shaped barrage of bullets at every enemy in an area. In addition, the cover of those enemies can be damaged or destroyed. Uses a lot of ammunition.
+::7   LW2 Gunner
+# Guns
+
+---- Combat Fitness:  Gain 4 aim, 1 mobility, 2 HP, 4 will, and 4 dodge.
+::7   LW2 Ranger
+::7   LW2 Gunner
+
+---- Traverse Fire:  After taking a standard shot with your primary weapon with your first action, you may take an additional non-movement action.
+::7   LW2 Gunner
+
+
+
+
+---- Aggression:  Gain +5 critical chance for each enemy you can see, up to a maximum of 30.
+= LW2WotC_Aggression
+::4   LW2 Assault
+::3   LW2 Ranger
+::5   LW2 Sharpshooter
+* Scale by visible
+
+
+
+---- Lightning Reflexes:  Reaction fire shots against you have a significantly decreased chance to hit. The bonus goes down with each additional reaction shot you face.
+::1   LW2 Assault
+* Mobility
+@ Snake Eyes
+@ Jinx
+@ Lifeline
+@ Storm Shadow
+
+
+
+
+---- Run and Gun:  Take an action after dashing.
+::0   LW2 Assault
+* Action
+@Hit and Run
+
+---- Killer Instinct:  Activating Run & Gun grants +50% critical damage for the rest of the turn.
+::3   LW2 Assault
+* Enhance: Run and Gun
+
+---- Extra Conditioning:  Run and Gun cooldown is reduced by one turn.
+::4   LW2 Assault
+* Enhance: Run and Gun
+
+
+
+
+---- Hit and Run:  Once per turn, gain an additional action after taking a standard shot at a flanked or exposed target with your primary weapon.
+==   LW2WotC_HitandRun
+::  LW2WotC Main mod
+::5   LW2 Assault
+::6  LW2 Shinobi
+@ Hit and Run
+
+
+
+
+---- LW2WotC_Infighter:  Gain +<Ability:INFIGHTER_DODGE_BONUS/> dodge against attacks within <Ability:INFIGHTER_MAX_TILES/> tiles.
+::  LW2WotC Main mod
+* Close
+
+---- Close and Personal:  Confers +30 critical chance against adjacent targets. The bonus declines with distance from the target.
+== LW2WotC_CloseandPersonal
+::1   LW2 Ranger
+::2   LW2 Assault
+* Close
+
+
+---- Close Encounters:  Once per turn, gain a bonus action after taking a standard shot with your primary weapon at an enemy within four tiles. Close Encounters cannot be used after Run and Gun is activated.
+== LW2WotC_CloseEncounters
+::5   LW2 Assault
+::  LW2WotC Main mod
+* Close
+
+
+---- Bring 'Em On:  Gain +1 damage on critical hits for every two enemies you can see, up to a maximum of +8.
+= LW2WotC_BringEmOn
+::6   LW2 Assault
+
+---- Close Combat Specialist:  During enemy turns, fire a free reaction shot with your primary weapon at any visible enemy within four tiles who moves or fires. Will not trigger if soldier is concealed.
+= LW2WotC_CloseCombatSpecialist
+= LW2WotC_CloseCombatSpecialistAttack
+::6   LW2 Assault
+* Close
+
+
+
+---- Untouchable:  If you score a kill during your turn, the next attack against you during the enemy turn will miss.
+::6   LW2 Assault
+
+
+---- Lethal:  You do two additional points of base damage and one point of additional crit damage with your primary weapon.
+::7   LW2 Assault
+
+
+
+
+
+---- Launch Grenade:  The Grenadier uses a grenade launcher to fire grenades rather than throwing them. This allows for greater range and grenade capacity.
+::-1   LW2 Grenadier
+# Launcher
+
+
+---- Sapper:  Your explosives can destroy many cover objects.
+::1   LW2 Grenadier
+
+---- Needle Grenades:  Your explosives do not destroy loot when they kill enemies.
+::1   LW2 Grenadier
+
+---- Rapid Deployment:  Activate this ability before throwing or launching a support grenade, and the throw will not cost an action.
+::1   LW2 Grenadier
+
+
+---- Heavy Ordinance:  Any damaging grenade in your grenade-only slot gains a bonus use.
+::2   LW2 Grenadier
+
+---- Center Mass:  You do one additional point of base damage when using guns.
+::2   LW2 Grenadier
+
+---- Protector:  Non-damaging grenades in your grenade-only slot gain a bonus use.
+::2   LW2 Grenadier
+
+
+---- Boosted Cores:  Explosive grenades do one additional damage.
+::3   LW2 Grenadier
+
+
+
+---- HEAT Warheads:  Your grenades now pierce up to 2 points of armor and shred one additional point of armor.
+::4   LW2 Grenadier
+* Shred
+
+
+
+---- Volatile Mix:  Your grenades' area of effect is increased by one tile.
+::6   LW2 Grenadier
+
+---- Bombardier:  You may throw or launch grenades two additional tiles.
+::6   LW2 Grenadier
+
+
+---- Combat Engineer:  Your explosives do significantly greater damage to cover objects and other things on the battlefield.
+::7   LW2 Grenadier
+
+---- Full Kit:  Grants +1 charge per grenade item in a utility slot.
+::7   LW2 Grenadier
+
+
+
+---- Sentinel:  When in overwatch, you may take two reaction shots.
+::1   LW2 Specialist
+
+
+
+---- Light 'Em Up:  Taking a standard shot with your primary weapon as your first action no longer ends your turn.
+::0   LW2 Ranger
+
+
+---- Walk Fire:  Take a highly accurate shot with +30 bonus to hit but for half damage and -30 crit. Uses 2 ammo.
+== LW2WotC_WalkFire
+::  LW2WotC Main mod
+::1   LW2 Ranger
+
+
+---- Ever Vigilant:  If you spend all of your actions on moves, you are granted an automatic overwatch shot at the end of the turn.
+::1   LW2 Ranger
+
+
+---- Locked On:  Gain +10 aim and +10 crit for successive shots at the same enemy unit.
+== LW2WotC_LockedOn
+::  LW2WotC Main mod
+::2   LW2 Ranger
+
+---- Covering Fire:  Overwatch shots can now be triggered by any enemy action, not just movement. Targets of overwatch shots receive -10 aim for the rest of the turn whether or not the shot was triggered because of this ability.
+::2   LW2 Ranger
+
+
+---- Center Mass:  You do one additional point of base damage when using guns.
+::3   LW2 Ranger
+
+
+
+---- Executioner:  Confers +10 aim and +10 critical chance against targets at half or less of their original hit points.
+= LW2WotC_Executioner
+::4   LW2 Ranger
+::  LW2WotC Main mod
+
+---- Fortify:  Activate to grant +20 defense until the beginning of the next turn. Does not cost an action. Has a 5-turn cooldown.
+= LW2WotC_Fortify
+::4   LW2 Ranger
+::3   LW2 Assault
+::2   LW2 Technical
+
+
+
+---- Bring 'Em On:  Gain +1 damage on critical hits for every two enemies you can see, up to a maximum of +8.
+::5   LW2 Ranger
+
+---- Implacable:  If you score one or more kills on your turn, you are granted a single bonus move.
+::5   LW2 Ranger
+
+
+
+
+---- Tactical Sense:  Gain 3 defense for each enemy you can see, up to a maximum of 15 defense.
+::6   LW2 Ranger
+
+---- Rapid Reaction:  When in overwatch, each shot you hit with grants another reaction fire shot, up to a maximum of three shots. Each enemy can only be the target of one shot.
+::6   LW2 Ranger
+
+
+
+
+
+
+
+
+
+---- Death From Above:  Killing an enemy at a lower elevation with your primary weapon costs only a single action, and does not end your turn. Also grants a long-range accuracy bonus for sniper rifles.
+==  DeathFromAbove
+::1   LW2 Sharpshooter
+* Elevation
+
+---- Damn Good Ground:  Confers +10 aim and +10 defense against targets at a lower elevation.
+::2   LW2 Sharpshooter
+* Elevation
+
+---- Phantom:  When the squad is revealed, this soldier remains concealed.
+::2   LW2 Sharpshooter
+* Concealment
+
+---- Center Mass:  You do one additional point of base damage when using guns.
+::2   LW2 Sharpshooter
+# Guns
+
+
+
+---- Low Profile:  Makes partial cover count as full.
+== LW2WotC_LowProfile
+::4  LW2 Shinobi
+::4   LW2 Sharpshooter
+
+
+---- Deadeye:  Take a shot with a small aim penalty for a significant damage boost.
+::5   LW2 Sharpshooter
+
+
+---- Kubikuri:  Special shot against most enemies who have taken any damage: Any critical hit kills them, but regular hits do half damage. Requires two actions and has a 4-turn cooldown.
+::6   LW2 Sharpshooter
+
+---- Hunter's Instincts:  Ranged attacks against flanked enemies deal +2 damage.
+::6   LW2 Sharpshooter
+
+
+---- Double Tap:  Fire a standard shot and gain a bonus shot or overwatch action.
+::7   LW2 Sharpshooter
+
+---- Alpha Mike Foxtrot:  You do 4 additional points of base damage and 2 additional points of crit damage with your primary weapon.
+::7   LW2 Sharpshooter
+
+---- Serial:  A powerful chained shot ability. For every kill made with your primary weapon, your actions will be refunded but your damage and crit chance will be reduced for every subsequent attack.
+::7   LW2 Sharpshooter
+
+
+
+
+---- Phantom:  When the squad is revealed, this soldier remains concealed.
+::0  LW2 Shinobi
+
+
+---- Ghostwalker:  Activate this ability to reduce enemy detection range against you by 25% for the rest of your turn as well as the following turn. Four-turn cooldown.
+== LW2WotC_Ghostwalker
+::  LW2WotC Main mod
+::1  LW2 Shinobi
+
+
+---- Shadowstep:  This soldier does not trigger overwatch or reaction fire.
+::2  LW2 Shinobi
+
+---- Executioner:  Confers +10 aim and +10 critical chance against targets at half or less of their original hit points.
+::2  LW2 Shinobi
+
+---- Covert:  Enemies have 25% smaller detection range against you.
+::3  LW2 Shinobi
+
+---- Hard Target:  Gain 3 dodge per enemy you can see, up to a maximum of +30.
+= LW2WotC_HardTarget
+::3  LW2 Shinobi
+
+
+---- Shadowstrike:  While concealed, gain +50 bonus aim and +50 bonus critical hit chance when attacking enemies.
+::4  LW2 Shinobi
+
+
+
+---- Hunter's Instincts:  Ranged attacks against flanked enemies deal +2 damage.
+::5  LW2 Shinobi
+
+---- Evasive:  Start each mission with 100 bonus dodge. The bonus is removed after you take damage for the first time.
+::5  LW2 Shinobi
+
+---- Tradecraft:  This soldier has significantly reduced infiltration times while on missions.
+::6  LW2 Shinobi
+
+
+
+---- Conceal:  Immediately enter concealment once per mission.
+::7  LW2 Shinobi
+
+
+
+
+
+
+---- Field Surgeon:  Reduce wound recovery times for most soldiers.
+::2   LW2 Specialist
+
+---- Covering Fire:  Overwatch shots can now be triggered by any enemy action, not just movement. Targets of overwatch shots receive -10 aim for the rest of the turn whether or not the shot was triggered because of this ability.
+::2   LW2 Specialist
+
+---- Trojan:  Enemy units that are hacked take damage and lose their actions on the turn the hack effect ends.
+::3   LW2 Specialist
+
+
+---- Field Medic:  Equipped medikits have 2 extra charges.
+::4   LW2 Specialist
+
+---- Ever Vigilant:  If you spend all of your actions on moves, you are granted an automatic overwatch shot at the end of the turn.
+::4   LW2 Specialist
+
+
+---- Savior:  Healing abilities restore four additional hit points.
+::5   LW2 Specialist
+
+
+---- Failsafe:  If you fail a hack, you prevent any negative effects from occurring.
+::5   LW2 Specialist
+
+
+
+---- Full Override:  Take permanent control of a robotic unit and potentially acquire ADVENT MECs for the Resistance.
+::6   LW2 Specialist
+
+
+
+
+
+---- Tactical Sense:  Gain 3 defense for each enemy you can see, up to a maximum of 15 defense.
+::6   LW2 Technical
+
+
+
+
+
+---- Soulfire:  Does guaranteed psionic damage to an organic enemy. Ignores cover and armor.
+::0   Psi Operative
+
+---- Quick Study:  Learn officer and AWC bonus abilities in half the time.
+::0   Psi Operative
+
+
+---- Insanity:  Debilitating telepathic attack that can inflict different negative conditions, including mental control of the target.
+::1   Psi Operative
+
+---- Mind Merge:  Grants bonus will, crit and ablative hit points to an ally until the beginning of the player's next turn.
+::1   Psi Operative
+
+
+---- Schism:  Insanity now does a small amount of guaranteed damage, and applies Rupture to the target.
+::2   Psi Operative
+
+---- Solace:  The Psi Operative may immediately extinguish mental impairments for a squadmate.
+::2   Psi Operative
+
+
+---- Soul Steal:  Soulfire transfers half of the damage done back to the Psi Operative as health.
+::3   Psi Operative
+
+---- Fortress:  The Psi Operative is immune to fire, poison, acid, and explosive damage.
+::3   Psi Operative
+
+
+---- Stasis:  Completely stuns the target for 1 turn, but renders them immune to any damage or attack.
+::4   Psi Operative
+
+---- Soul Merge:  Increases effectiveness of Mind Merge by conferring larger bonuses to will, crit and ablative hit points and reducing its cooldown period.
+::4   Psi Operative
+
+
+---- Fuse:  If an enemy is carrying explosives, they can be remotely detonated by the Psi Operative.
+::5   Psi Operative
+
+---- Stasis Shield:  Stasis can be cast on allies, rendering them immune to any attacks, and stunned, for 1 turn.
+::5   Psi Operative
+
+
+---- Null Lance:  Project a beam of terrible power that damages every target it passes through. This attack can penetrate multiple enemies and obstacles.
+::6   Psi Operative
+
+---- Bastion:  Fortress now provides immunity to nearby teammates.
+== LW2WotC_Bastion
+== LW2WotC_Bastion_Passive
+== LW2WotC_Bastion_Cleanse
+::6   Psi Operative
+
+
+---- Void Rift:  Generate an explosive field of Psionic energy that immediately damages everything within. Organic enemies have a chance to suffer Insanity.
+::7   Psi Operative
+
+---- Domination:  Permanently mind control an enemy. Only one successful Domination can be performed per mission.
+::7   Psi Operative
+
+
+
+
+---- Overdrive:  Take three actions this turn, and no action is turn-ending. Multiple Standard Shots incur a small recoil penalty.
+::0   SPARK
+
+---- Mechanical Chassis:  This unit is immune to fire and poison damage.
+::0   SPARK
+
+
+---- Adaptive Aim:  When Overdrive is active, Standard Shots do not incur recoil penalties.
+::1   SPARK
+
+
+---- Combat Awareness:  Grants 15 defense and an armor point when in overwatch.
+::1   SPARK
+
+
+---- Rainmaker:  Equipped heavy weapons deal +2 damage and have increased area of effect.
+::2   SPARK
+
+---- Body Shield:  A targeted enemy receives -20 aim and -50 critical chance against the soldier.
+::2   SPARK
+
+
+
+---- Bulwark:  Gain a bonus point of Armor, and always provide high cover to all adjacent squadmates.
+::3   SPARK
+
+
+---- Intimidate:  When targeted by an attack, the enemy has a chance to panic.
+::4   SPARK
+
+---- Repair:  Send the BIT to a damage robotic ally and repair it. Advanced BITs can repair slightly more.
+::4   SPARK
+
+---- Guardian:  With every successful Overwatch shot, there is a 50% chance that another shot will be taken.
+::4   SPARK
+
+
+---- Bombard:  Launch the BIT to any visible location where it releases a powerful explosive blast. Advanced BITs do more damage.
+::5   SPARK
+
+---- Channeling Field:  Every time you are targeted, part of the energy is channeled to your primary weapon. This energy is unleashed with your next Standard Shot.
+::5   SPARK
+
+
+
+---- Wrecking Ball:  While Overdrive is active, break through walls and cover when moving.
+::6   SPARK
+
+---- Damage Control:  After taking damage, gain two armor through the end of the next turn.
+::6   SPARK
+
+---- Nova:  Release a blast of energy, damaging all nearby enemies. This attack has no cooldown, but consecutive Novas will damage the SPARK.
+::6   SPARK
+
+
+---- Sacrifice:  Generate a protective field which redirects any attacks against allies inside it towards you. Gain bonus defense and armor while active.
+::7   SPARK
+
+---- Impact Fields:  Activate a force field that reduces incoming damage by 33% for two turns. Six-turn cooldown.
+::7   SPARK
+
+---- Hunter Protocol:  When an enemy is revealed, there is a 33% chance to take a free Overwatch shot.
+::7   SPARK
+
+
+
+// ================================================================================================================================================================
+// Leaders
+// ================================================================================================================================================================
+
+---- Leadership:  This officer provides bonuses to will, dodge and infiltration to soldiers who have previously served under his or her command. These bonuses scale up the more missions they go on together.
+::0   Officers
+# Leaders
+@ Hawk
+@ Stalker
+@ Scarlett
+@ Ace
+@ Duke
+@ Flint
+@ Beach Head
+@ Falcon
+@ Sgt. Slaughter
+@ Cobra Commander
+@ Baroness
+@ Destro
+@ Major Bludd
+@ Serpentor
+@ Zartan
+@ Darklon
+@ Voltar
+
+---- Command:  End your turn to grant a bonus action to any visible member of the squad. The number of charges is dependent on the officer's rank.
+::0   Officers
+# Leaders
+@ Duke
+@ Falcon
+@ Beach Head
+@ Scarlett
+
+---- Intervention:  Activate this ability to spend 10 intel and gain two turns on the current mission timer. The number of charges is dependent on the officer's rank.
+::0   Officers
+# Leaders
+* Intel
+@ Hawk
+@ Flint
+@ Scarlett
+@ Chuckles
+
+---- Commissar:  Pistol shots against allies who have been mind-controlled by enemies have +50 to hit, cannot be dodged, and automatically kill the target if a hit occurs.
+::0   Officers
+# Leaders
+@ Cobra Commander
+
+---- You'll Need This:  Pass a spare pistol to a civilian ally.
+::0   Officers
+# Leaders
+@ Chuckles
+
+
+---- Oscar Mike:  Spend an action to give all allies within Command Range +5 Mobility for the remainder of the turn. Usable once per mission.
+::1   Officers
+# Leaders
+# Transporters
+* Command Range
+@ Cutter
+@ Lift Ticket
+@ Armadillo
+
+---- Focus Fire:  Spend an action to pinpoint a target and grant your squad cumulative Aim bonuses and 1 Armor Piercing on attacks against that target for the rest of the turn.
+::1   Officers
+# Leaders
+* Squad
+
+
+---- Incoming!:  Activate this ability to grant everyone within command range four points of damage resistance against explosive attacks through the end of the next alien turn.
+::2   Officers
+# Leaders
+* Command Range
+
+---- Get Some:  Twice per mission, spend an action to grant all allies within Command Range a +20 bonus to Critical Hit chances for the remainder of the turn.
+::2   Officers
+# Leaders
+* Command Range
+
+
+---- Trial By Fire:  Any soldiers below the rank of sergeant will be automatically promoted after a successful mission with this officer.
+::3   Officers
+# Leaders
+
+---- Jammer:  Once per battle, delay the arrival of incoming enemy reinforcements by one turn.
+::3   Officers
+# Leaders
+@ Breaker
+@ Dial-Tone
+@ Mainframe
+@ Jinx
+
+
+---- Lead By Example:  The Officer improves the Aim, Will and Hack of soldiers within Command Range by half the difference between soldier and Officer.
+::4   Officers
+# Leaders
+* Command Range
+
+---- Collector:  Any kills of a non-human enemy by the squad have a 33% chance to grant 1 intel point as long as the Officer is healthy.
+::4   Officers
+# Leaders
+* Intel
+* Intel Generation
+@ Airtight
+@ Doc
+@ Chuckles
+@ Psyche-Out
+
+
+---- Fire Discipline:  All allies within Command Range of the Officer gain +10% to hit on reaction fire.
+::5   Officers
+# Leaders
+* Command Range
+@ Hawk
+@ Beach Head
+
+---- Defilade:  Soldiers within Command Range of the Officer receive +5 bonus to defense value provided by cover.
+::5   Officers
+# Leaders
+* Command Range
+@ Roadblock
+
+
+---- Air Controller:  The Skyranger will arrive 2 turns sooner during evacuations.
+::6   Officers
+# Leaders
+@ Lift Ticket
+@ Ace
+
+---- Infiltrator:  The officer's squad will infiltrate enemy targets more quickly.
+::6   Officers
+# Leaders
+@ Scarlett
+@ Psyche-Out
+@ Chuckles
+@ Breaker
+
+---- Combined Arms:  All allies within Command Range of the Officer do +1 damage with all successful attacks.
+::7   Officers
+* Command Range
+# Leaders
+
+---- Scavenger:  Mission rewards of supplies, Alien Alloys and Elerium increased by 30% after successful missions. Squad members have a chance of collecting extra Alien Alloys and Elerium from aliens.
+::7   Officers
+# Scientists/Engineers
+@ Dial-Tone
+@ Breaker
+@ Mainframe
+@ Airtight
+@ Doc
+@ Tollbooth
+
+
+// ================================================================================================================================================================
+// PsiShard
+// ================================================================================================================================================================
+
+---- MZArcCleave: uses soulfire for cleave damage. PZMelee only.
+:: Mitzruti's Perk Pack
+# PsiShard
+
+---- MZArcCleaveTemplar: as arcwave, but fixed for PZMelee.
+:: Mitzruti's Perk Pack
+# PsiShard
+
+---- MZCatsMeow: Passive. +20hit and +10crit for melee attacks.
+:: Mitzruti's Perk Pack
+# PsiShard
+
+---- MZLashOut: Built on Ionic Storm. does not use focus.
+:: Mitzruti's Perk Pack
+# PsiShard
+
+---- MZSledgehammer: melee attack that knocks back. does a 2nd hit after knockback.
+:: Mitzruti's Perk Pack
+# PsiShard
+
+---- MZForkedLightning: volt attack on two random targets. Gauntlets only.
+:: Mitzruti's Perk Pack
+# PsiShard
+
+---- MZVoidLightning: void chains between enemies in an area around target. always does strong volt damage.
+:: Mitzruti's Perk Pack
+# PsiShard
+
+---- MZStormForce: psionic lightning does more damage.
+:: Mitzruti's Perk Pack
+# PsiShard
+
+---- MZStormSurge: volt chains between enemies in a cone. strong vs robotics.
+:: Mitzruti's Perk Pack
+# PsiShard
+
+---- MZStormShock - single target volt, effective against robots
+:: Mitzruti's Perk Pack
+# PsiShard
+
+---- MZThunderstorm - call down lightning in an area, effective against robots.
+:: Mitzruti's Perk Pack
+# PsiShard
+
+---- MZCloudCover - activating a storm ability generates smoke
+:: Mitzruti's Perk Pack
+# PsiShard
+
+---- MZStaticShock - random fire free action variant of storm shock
+:: Mitzruti's Perk Pack
+# PsiShard
+
+
+
+// ================================================================================================================================================================
+// PsiAmp
+// ================================================================================================================================================================
+
+
+---- MZBetrayal: Mind control that allows the victim to act immediatly, but ends at end of turn.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZDisable: AOE disarm and chance to stun. stealthy.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZFuse: As fuse, but stealthy.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZKineticPush: push foe a short distance. stealthy. free action.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZMalaise: poison and disorient a large area. stealthy.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZMindControl: temporary mind control; similiar to what commandatar uses in leviathan.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZMindSoothe: remove mental effects from a distant squadmate. stealthy.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZPanacea: heals pretty much everything. stealthy.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZPsiPanic: causes the victim to panic. can trigger schism. stealthy.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZPsiBlind: blind+disorient single enemy.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+
+---- MZAmorFati: reduce all damage an ally takes, but make them easier to hit.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZAuroraWave: Mass MindSoothe (and ManuForti if you have it too)
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZClearTranquil: MindSoothe and TransmitPrana reduces target's cooldowns
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZCongregation: apply 2 MindMerge at once
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZHealersMind: PsiHeal and RayOfLife get more charges
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZMagnusExorcismus: aoe turn undead
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZManuForti: boost an ally's damage temporarily
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZMindMerge: buff ally's mob, aim, crit, will.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZPsiHeal: psionically delivered heal.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZRayOfLife: heal all targets in a line
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZRayzeelSong: heal squad when you use a psi healing ability
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZRestoreLife: revive and heal a bleeding out ally
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZTransmitPrana: spend 2ap to give an ally 1ap
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZTurnUndead: high damage to lost, spectrals, shadowbound and cocoons.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZControlUndead - MindControl undead. low duration and cooldown
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZCurseLure - BloodCurse + LostLure (technically does not need amp, but hit is based on psi)
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZDeadExplosion - aoe fire damage+more fire around undead target
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZFireball - explosive fire aoe spell
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZHaltUndead - massive aoe stun to undead foes
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZMachinaPuppeteer - temporary mind control a robot
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZZombify - poison+make vulnerable to TU/etc.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZBoulderCrush - blunt damage and stun (mental hitcalc)
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZEarthHeal - heal, regen, stabilize if bleeding out. Shares charges with WhiteFlame
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZEvilGaze - acid damage and panic (mental hitcalc)
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZFireWhip - fire damage and disable weapon. (mental hitcalc)
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZShiningAir - psi damage and blind (mental hitcalc)
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZThunderousRoar - Electric damage and put psi skills on cooldown (mental hitcalc)
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+---- MZWhiteFlame - heal, regen area. cures mental effects including unconcious. no effect on fire immune.
+:: Mitzruti's Perk Pack
+# PsiAmp
+
+
+
+// ================================================================================================================================================================
+// Focus
+// ================================================================================================================================================================
+
+---- MZManaTeleport - spend mana/focus to teleport anywhere in squadsight.
+:: Mitzruti's Perk Pack
+# Focus
+* Teleport
+
+---- MZDarkSword: slash attack generates focus.
+:: Mitzruti's Perk Pack
+# Melee
+# Focus
+# Generate Focus
+# Sword
+
+---- MZHolyExplosion: powerful melee attack that releases explosive wave. costs 2 focus.
+:: Mitzruti's Perk Pack
+# Melee
+# Focus
+
+---- IsmsNaturalBornKiller - Focus: gain per turn. Boosts mobility. consume all for a shot with boosted damage.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+# Focus
+
+---- IsmsRushOfBattle - Focus: gain on enemy deaths. Boosts dodge. consume all to heal a percent of missing health.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+# Focus
+# Focus Generation
+
+---- IsmsScoutingReport - Focus: gain per turn. Boosts squad aim and defense. Consume all to replenish allies' actions.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+# Focus
+# Focus Generation
+
+---- MZEarthFocus - Focus. generated by hunkering down.
+:: Mitzruti's Perk Pack
+# Focus
+# Focus Generation
+
+---- MZFlameFocus - Focus. generated by kills with abilities that don't cost focus.
+:: Mitzruti's Perk Pack
+# Focus
+# Focus Generation
+
+---- MZFocusGainBoost - increases focus gain. some focus types with low gain will be unaffected.
+:: Mitzruti's Perk Pack
+# Focus
+# Focus Generation
+
+---- MZFocusMaxBoost - increases max focus. effect may vary by focus type.
+:: Mitzruti's Perk Pack
+# Focus
+# Focus Generation
+
+---- MZFocusStartBoost - inreases initial focus. effect may vary by focus type.
+:: Mitzruti's Perk Pack
+# Focus
+# Focus Generation
+
+---- MZNecroFocus - Focus. small amount generated by any deaths.
+:: Mitzruti's Perk Pack
+# Focus
+# Focus Generation
+
+---- MZVoidFoucs - Focus. starts at max value, no inate recovery.
+:: Mitzruti's Perk Pack
+# Focus
+# Focus Generation
+
+---- MZWaterFocus - Focus. generated at start of turn.
+:: Mitzruti's Perk Pack
+# Focus
+# Focus Generation
+
+---- MZWindFocus - Focus. generated by dashing.
+:: Mitzruti's Perk Pack
+# Focus
+# Focus Generation
+
+---- MZFocusBladestorm - variant of bladestorm that costs mana per attack.
+:: Mitzruti's Perk Pack
+# Focus
+# Melee
+
+---- MZAcidFusil - acid damage and acid burning
+:: Mitzruti's Perk Pack
+# Focus
+# Pistol
+
+---- MZCurseFusil - psi damage and bloodcurse
+:: Mitzruti's Perk Pack
+# Focus
+# Pistol
+
+---- MZFlameFusil - fire damage and burning
+:: Mitzruti's Perk Pack
+# Focus
+# Pistol
+
+---- MZFusilier - Passive. Fusils don't end the turn when used as the first action.
+:: Mitzruti's Perk Pack
+# Focus
+# Pistol
+
+---- MZLightningFusil - basically lightning hands. 1/turn limit
+:: Mitzruti's Perk Pack
+# Focus
+# Pistol
+
+---- MZStormFusil - electric damage, bypass armour
+:: Mitzruti's Perk Pack
+# Focus
+# Pistol
+
+---- MZTripleFusil - basically fanfire
+:: Mitzruti's Perk Pack
+# Focus
+# Pistol
+
+---- MZVenomFusil - parth poison damage and poison
+:: Mitzruti's Perk Pack
+# Focus
+# Pistol
+
+---- MZAcidRuneshot - acid damage and acid burning
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+
+---- MZBlastRuneshot - splash damage (explosive)
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+
+---- MZBlindRuneshot - blind and disorient
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+
+---- MZCurseRuneshot - psi damage and bloodcurse
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+
+---- MZDrainRuneshot - lifesteal (stronger drain at low hp)
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+
+---- MZFlameRuneshot - fire damage and burning
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+
+---- MZManaDrainShot - (no mana cost) gain mana if it hits
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+
+---- MZSnapRuneshot - 1ap turn ending. (snapshot where you spend mana instead of taking a hit penalty)
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+
+---- MZStormRuneshot - electric damage, bypass armour
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+
+---- MZSupernalRay - bonus BlazingPinions damage to targets in a line.
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+
+---- MZTwinRuneshot - basically rapid fire
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+
+---- MZQuickRuneshot - 1ap, but needs 2ap to activate. (essentialy a more limited marauder)
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+
+---- MZVenomRuneshot - parth poison damage and poison, bypass shield and sustain.
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+* vs Shield
+
+---- MZManaConceal - spend mana to enter concealment.
+:: Mitzruti's Perk Pack
+# Focus
+
+---- MZManaGrapple - spend mana to grapple to a higher elevation.
+:: Mitzruti's Perk Pack
+# Focus
+
+---- MZPhantomFocus - Focus: gained at the start of each turn while concealed
+:: Mitzruti's Perk Pack
+# Focus
+
+
+
+
+---- MZAirSabre - "melee" attack a foe at moderate range.
+:: Mitzruti's Perk Pack
+# Focus
+# Melee
+
+---- MZCleaveSabre - slash target, also damage foes in a cone behind them.
+:: Mitzruti's Perk Pack
+# Focus
+# Melee
+# Sabre
+
+---- MZDrainSabre - slash drains life. stronger drain when user is wounded.
+:: Mitzruti's Perk Pack
+# Focus
+# Melee
+# Sabre
+
+---- MZLeechSabre - slash leeches shield.
+:: Mitzruti's Perk Pack
+# Focus
+# Melee
+# Sabre
+* vs Shield
+
+---- MZSabreMobility - passive. gained mobility based on number of sabre abilities learned.
+:: Mitzruti's Perk Pack
+# Focus
+# Melee
+# Sabre
+
+---- MZSabreShielding - passive. gained shield based on number of sabre abilities learned.
+:: Mitzruti's Perk Pack
+# Focus
+# Melee
+# Sabre
+
+---- MZSabreVitality - passive. gained HP based on number of sabre abilities learned.
+:: Mitzruti's Perk Pack
+# Focus
+# Melee
+# Sabre
+
+---- MZAcidSabre - acid damage and acid burning
+:: Mitzruti's Perk Pack
+# Focus
+# Melee
+# Sabre
+
+---- MZFlameSabre - fire damage and burning
+:: Mitzruti's Perk Pack
+# Focus
+# Melee
+# Sabre
+
+---- MZStormSabre - electric damage, ignore armour
+:: Mitzruti's Perk Pack
+# Focus
+# Melee
+# Sabre
+
+---- MZVenomSabre - parth poison damage and poison
+:: Mitzruti's Perk Pack
+# Focus
+# Melee
+# Sabre
+
+---- MZFuseFusil - shot sets off explosives the target is carrying
+:: Mitzruti's Perk Pack
+# Focus
+# Pistol
+
+---- MZSilentFusil - doesn't break concealment on a killshot
+:: Mitzruti's Perk Pack
+# Focus
+# Pistol
+
+---- MZShadowfallFusil - attempt to gain concealment on a killshot.
+:: Mitzruti's Perk Pack
+# Focus
+# Pistol
+
+---- MZLeechRuneshot - shot leeches shield.
+:: Mitzruti's Perk Pack
+# Focus
+* Shot
+* Shield
+
+---- MZSplitArrow - needs psi bow. fire at multiple random foes, costs 1 focus per shot.
+:: Mitzruti's Perk Pack
+# PsiShard
+
+// ================================================================================================================================================================
+// Suppression
+// @ Rock 'n Roll
+// @ Roadblock
+// @ Repeater
+// @ Cross Country
+// @ Wildcard
+// ================================================================================================================================================================
+
+---- Suppression:  Fire a barrage that pins down a target, grants reaction fire against it if it moves, restricts the use of many abilities, and imposes a -25 penalty to the target's aim.
+::1   LW2 Technical
+::4   LW2 Ranger
+::0   LW2 Gunner
+# Cannon
+* Suppression
+@ Rock 'n Roll
+@ Roadblock
+@ Repeater
+@ Cross Country
+@ Wildcard
+
+---- Area Suppression:  Fire a barrage that pins down multiple targets within a 4-tile radius, granting reaction fire against anyone that moves, and imposing a -25 penalty to all targets' aim until suppression is removed. Cannot be used when concealed.
+= LW2WotC_AreaSuppression
+::0   LW2 Gunner
+# Cannon
+* Suppression
+@ Rock 'n Roll
+@ Roadblock
+@ Repeater
+@ Cross Country
+
+---- MZBlindingSuppression: Blind enemies when you suppress them.
+:: Mitzruti's Perk Pack
+* Suppression
+@ Roadblock
+
+---- MZBurningSuppression: Set enemies on fire when you suppress them.
+:: Mitzruti's Perk Pack
+* Suppression
+@ Blowtorch
+@ Charbroil
+@ Torch
+
+---- MZConfusingSuppression: May Confuse enemies when you suppress them.
+:: Mitzruti's Perk Pack
+* Suppression
+@ Rock 'n Roll
+@ Cross Country
+
+---- MZDisablingSuppression: Disable weapons when you suppress enemies.
+:: Mitzruti's Perk Pack
+* Suppression
+@ Repeater
+
+---- MZPanicSuppression: Enemies might panic wheen you suppress them.
+:: Mitzruti's Perk Pack
+* Suppression
+@ Rock 'n Roll
+
+---- MZPoisoningSuppression: Poison enemies when you suppress them.
+:: Mitzruti's Perk Pack
+* Suppression
+
+
+---- Danger Zone:  Area Suppression suppresses enemies in a 5-tile radius.
+= LW2WotC_DangerZone
+::5   LW2 Gunner
+* Suppression
+* Enhance: Area Suppression
+@ Cross Country
+
+---- Mayhem:  Gain 25% bonus damage against enemies who attempt to move when suppressed.
+= LW2WotC_Mayhem
+= LW2WotC_Mayhem_Bonuses
+::3   LW2 Gunner
+# Guns
+* Suppression
+@ Cross Country
+
+---- Lockdown:  Gain +15 to hit against enemies who attempt to move when suppressed.
+= LW2WotC_Lockdown
+= LW2WotC_Lockdown_Bonuses
+::2   LW2 Gunner
+# Gun Users
+* Suppression
+
+
+
+
+// ================================================================================================================================================================
+// Gremlin
+// ================================================================================================================================================================
+
+---- Hack:  Attempt to remotely breach security on a network access point with your GREMLIN.
+::0   LW2 Specialist
+::0   SPARK
+* Hack
+# Gremlin
+@ Dial-Tone
+@ Mainframe
+@ Slip Stream
+@ Jinx
+
+---- Combat Protocol:  Send the GREMLIN to an enemy to jolt them, dealing guaranteed damage, which is increased against robotic enemies.
+::1   LW2 Specialist
+# Gremlin
+@ Mainframe
+@ Dial-Tone
+@ Slip Stream
+@ Jinx
+
+---- GrimySabotage: combat protocol disarms target
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Gremlin
+* Enhance: Combat Protocol
+@ Mainframe
+
+---- GrimyCauterize: gremlin does light damage, and then heal
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Gremlin
+@ Lifeline
+
+---- GrimyHostageProtocol: gremlin stuns enemy andd turns them into cover
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Gremlin
+@ Jinx
+
+
+
+
+---- Aid Protocol:  Command your GREMLIN to move to a friendly target. It grants that target a bonus to Defense until the start of the next player turn.
+::0   LW2 Specialist
+# Gremlin
+* Aid Protocol
+@ Lifeline
+@ Lift Ticket
+
+---- MZAidProtocolHeal - aid protocol heals (depending on hack) and removes enviro effects.
+:: Mitzruti's Perk Pack
+# Gremlin
+* Aid Protocol
+@ Lifeline
+@ Lift Ticket
+
+---- MZArmourSystem - aid protocol grants temporary armour and repairs shredded armour
+:: Mitzruti's Perk Pack
+# Gremlin
+* Aid Protocol
+* Armor
+* Repair Armor
+@ Lift Ticket
+
+---- MZMassAidProtocol - applies aid protocol to multiple allies in a large aoe.
+:: Mitzruti's Perk Pack
+# Gremlin
+* Aid Protocol
+@ Lift Ticket
+
+---- MZImprovedScanner - combat scanner and mass aid have increased radius. combat scanner also applies a bonus to crit enemies.
+:: Mitzruti's Perk Pack
+# Gremlin
+* Aid Protocol
+@ Lift Ticket
+
+---- Threat Assessment:  Aid Protocol now grants the target a Covering Fire Overwatch shot, but the Aid Protocol cooldown is increased by 1 turn.
+== ThreatAssessment
+::6   LW2 Specialist
+# Gremlin
+* Aid Protocol
+@ Lift Ticket
+
+
+
+
+
+---- MZCombatScanner - reveal a location and holotarget enemies in it.
+:: Mitzruti's Perk Pack
+# Gremlin
+@ Dial-tone
+
+---- MZGremlinInsanity - stun or control a robotic foe
+:: Mitzruti's Perk Pack
+# Gremlin
+
+---- MZGremlinStasis - stasis! with a gremlin.
+:: Mitzruti's Perk Pack
+# Gremlin
+
+---- MZGremlinSustain - a more techy-looking sustain. (technically it might not need a gremlin)
+:: Mitzruti's Perk Pack
+# Gremlin
+
+
+
+---- MZChainingJolt - gremlin attack that chains to multiple foes
+:: Mitzruti's Perk Pack
+# Gremlin
+* Chain attack
+@ Mainframe
+@ Slip Stream
+
+---- MZChainDischarge - chain attack against everything in an area.
+:: Mitzruti's Perk Pack
+# Gremlin
+* Chain attack
+* Enhance: MZChainingJolt
+@ Mainframe
+@ Slip Stream
+
+---- MZHighVoltage - gremlin chain attacks do more damage the more targets they chain to.
+:: Mitzruti's Perk Pack
+# Gremlin
+* Chain attack
+* Enhance: MZChainingJolt
+@ Mainframe
+
+---- MZShockTherapy - gremlin chain attacks can disorient or stun.
+:: Mitzruti's Perk Pack
+# Gremlin
+* Chain attack
+* Enhance: MZChainingJolt
+@ Slip Stream
+
+---- MZStormGenerator - gremlin chain attacks have increased range
+:: Mitzruti's Perk Pack
+# Gremlin
+* Chain attack
+* Enhance: MZChainingJolt
+@ Slip Stream
+
+---- MZVoltaicArc - automatic gremlin chain attack on enemies that come near.
+:: Mitzruti's Perk Pack
+# Gremlin
+* Chain attack
+* Enhance: MZChainingJolt
+@ Mainframe
+
+
+
+---- Haywire Protocol:  You may target robotic and mechanical enemies with your GREMLIN, attempting to hack them and seize control.
+::0   LW2 Specialist
+# Gremlin
+
+
+
+---- Revival Protocol:  Send the GREMLIN to an ally to remove any negative mental status effects: Disoriented, Stunned, Panicked, or Unconscious.
+= RevivalProtocol
+::1   LW2 Specialist
+# Gremlin
+
+
+
+---- Medical Protocol:  The GREMLIN can perform healing actions remotely: GREMLIN Heal and GREMLIN Stabilize. The GREMLIN has a single charge. If a medikit is equipped, the GREMLIN will gain an additional charge.
+::3   LW2 Specialist
+# Gremlin
+@ Lifeline
+
+---- Airdrop:  The GREMLIN grants an explosive grenade to the targeted ally. Use twice per mission.
+== LW2WotC_Airdrop
+::4   LW2 Specialist
+# Gremlin
+@ Lift Ticket
+
+---- Rescue Protocol:  Use your Gremlin to grant a movement action to an ally.
+== LW2WotC_RescueProtocol
+::6   LW2 Specialist
+# Gremlin
+@ Lift Ticket
+@ Lifeline
+
+---- Restoration:  The GREMLIN flies to each squad member, healing or reviving them as needed.
+::7   LW2 Specialist
+# Gremlin
+@ Lifeline
+
+
+---- Capacitor Discharge:  Send the GREMLIN to a location where it emits a substantial electric discharge, damaging and potentially stunning all nearby units. Robotic units take more damage.
+::7   LW2 Specialist
+# Gremlin
+@ Mainframe
+
+
+
+
+---- Interference:  GREMLIN cancels overwatch on targeted unit. Use three times per battle. Number of uses is increased with advanced GREMLINs.
+== LW2WotC_Interference
+::2   LW2 Specialist
+# Gremlin
+@ Shipwreck
+
+---- Scanning Protocol:  The GREMLIN can trigger an instant scan of the area, increasing the Specialist's sight radius substantially for one turn, and revealing any hidden or disguised enemies in view.
+::3   LW2 Specialist
+# Gremlin
+@ Shipwreck
+
+
+// ================================================================================================================================================================
+// Arcthrower
+// ================================================================================================================================================================
+
+---- Stun:  Fire your Arc Thrower to incapacitate a target.
+::-1   LW2 Assault
+# Arcthrower
+@ Breaker
+@ Mutt
+@ Law
+@ Shockwave
+@ Doc
+
+---- MZArcBlueActions - arcthrower abilities no longer end turn
+:: Mitzruti's Perk Pack
+# Arcthrower
+@ Mutt
+@ Shockwave
+
+---- MZArcFuse - fuse with an arcthrower (If an enemy is carrying explosives, they can be remotely detonated.)
+:: Mitzruti's Perk Pack
+# Arcthrower
+@ Breaker
+@ Shockwave
+
+---- Electroshock:  Your arc thrower disorients the target when it misses.
+::1   LW2 Assault
+# Arcthrower
+@ Shockwave
+@ Law
+
+---- Arc Pulser:  Fire your Arc Thrower to incapacitate a target and damage mechanical enemies.
+::2   LW2 Assault
+# Arcthrower
+@ Breaker
+@ Doc
+
+---- Stun Gunner:  Your Arc Thrower now has a bonus to hit.
+::3   LW2 Assault
+# Arcthrower
+@ Mutt
+@ Law
+
+---- Chain Lightning:  Fire your Arc Thrower at every visible enemy who is capable of being stunned. Five-turn cooldown.
+::7   LW2 Assault
+# Arcthrower
+@ Mutt
+@ Shockwave
+
+---- MZArcBoostMove - grant an ally a move AP and temporary shadowstep
+:: Mitzruti's Perk Pack
+# Arcthrower
+@ Law
+@ Doc
+
+---- MZArcElectrocute - electrical attack.
+:: Mitzruti's Perk Pack
+# Arcthrower
+@ Mutt
+@ Law
+
+---- MZArcJoltAwake - as revival protocol, but on a cooldown (also grants a ranged stabilize)
+:: Mitzruti's Perk Pack
+# Arcthrower
+@ Doc
+
+---- MZArcPhaseLance - deal electrical damage to targets in a line.
+:: Mitzruti's Perk Pack
+# Arcthrower
+@ Mutt
+@ Law
+
+---- MZArcCascadeLance - phase lances does increasing damage as it passes through more targets.
+:: Mitzruti's Perk Pack
+# Arcthrower
+@ Mutt
+@ Law
+
+---- MZArcRobotInsanity - hack contest, may stun or gain control of a robot.
+:: Mitzruti's Perk Pack
+# Arcthrower
+@ Breaker
+
+---- MZArcHaywire - briefly control an enemy robot
+:: Mitzruti's Perk Pack
+# Arcthrower
+@ Breaker
+
+---- MZArcRepair - repair a robotic ally
+:: Mitzruti's Perk Pack
+# Arcthrower
+@ Breaker
+
+// ================================================================================================================================================================
+// Holotargeter
+// ================================================================================================================================================================
+
+---- Holo Targeting:  Holotarget your enemy to grant an aim bonus to all attacks on this target by you and your allies for the remainder of the turn.
+::-1   LW2 Sharpshooter
+::3   SPARK
+# Holotargeter
+@ Flash
+@ Sci-Fi
+@ Sneak Peek
+@ Ace
+@ Ghostrider
+
+---- GrimyExecuteBonus: Melee attacks against marked or holotargeted enemies deal triple damage
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+# Melee
+@ Sneak Peek
+
+---- MZHoloBlind - holotargeting foes also blinds them
+:: Mitzruti's Perk Pack
+# Holotargeter
+@ Ace
+
+---- MZHoloBurn - holotargeting has a chance to burn foes.
+:: Mitzruti's Perk Pack
+# Holotargeter
+@ Flash
+@ Sci-Fi
+
+---- MZHoloConceal - put an ally into concealment
+:: Mitzruti's Perk Pack
+# Holotargeter
+@ Ghostrider
+
+---- MZHoloReveal - reveal hidden enemies in an area
+:: Mitzruti's Perk Pack
+# Holotargeter
+@ Sneak Peek
+
+---- MZHoloFloodlight - increases radius of HoloReveal
+:: Mitzruti's Perk Pack
+# Holotargeter
+@ Sneak Peek
+
+---- MZHoloDecoy - create a mimic beacon
+:: Mitzruti's Perk Pack
+# Holotargeter
+@ Ghostrider
+
+---- MZHoloWillDebuff - holotargeting foes debuffs will
+:: Mitzruti's Perk Pack
+# Holotargeter
+@ Ace
+
+---- Rapid Targeting:  You may Holotarget an enemy as a free action with a 4-turn cooldown. In addition, Holotargeting no longer ends your turn.
+::1   LW2 Sharpshooter
+# Holotargeter
+@ Sneak Peek
+@ Ace
+
+---- HiDef Holo:  Your Holotargeted enemies are easier to critically hit.
+::3   LW2 Sharpshooter
+# Holotargeter
+@ Ace
+@ Flash
+@ Sci-Fi
+
+---- Independent Tracking:  A Holotargeted enemy will remain so for 1 additional turn(s)
+::4   LW2 Sharpshooter
+# Holotargeter
+@ Sneak Peek
+
+---- Vital Point Targeting:  Attacks against your Holotargeted enemies deal more damage.
+::5   LW2 Sharpshooter
+# Holotargeter
+@ Ace
+# Ghostrider
+
+---- Multitargeting:  You may Holotarget multiple enemies with a 2-turn cooldown.
+::6   LW2 Sharpshooter
+# Holotargeter
+@ Ace
+@ Ghostrider
+@ Sneak Peek
+
+
+
+// ================================================================================================================================================================
+// Rockets
+// ================================================================================================================================================================
+
+---- MZPocketRocket: grants a rocket launcher
+:: Mitzruti's Perk Pack
+# Extra Equipment
+# Rockets
+@ Destro
+@ Fast Draw
+@ Scrap Iron
+
+---- Heavy Weapons:  This soldier is trained to use the XCOM gauntlet, a combination Rocket Launcher and Flamethrower.
+::-1   LW2 Technical
+# Gauntlet
+@ Zap
+@ Bazooka
+@ Thunder
+@ Steeler
+@ Heavy Metal
+
+---- Tandem Warheads:  Your grenades and rockets do full damage to units to the maximum extent of their area of effect.
+::4   LW2 Technical
+::4   LW2 Grenadier
+# Grenades
+# Rockets
+@ Zap
+@ Bazooka
+@ Thunder
+@ Short Fuze
+@ Scrap Iron
+
+---- Biggest Booms:  Your grenades and standard rockets can inflict critical damage (50% chance for +2 damage).
+::2   LW2 Technical
+::5   LW2 Grenadier
+# Launcher
+# Gauntlet
+# Rockets
+@ Zap
+@ Bazooka
+@ Scrap Iron
+
+
+---- Fire in the Hole:  Your rockets are more accurate.
+::1   LW2 Technical
+# Gauntlet
+# Rockets
+@ Zap
+@ Bazooka
+@ Thunder
+@ Steeler
+@ Heavy Metal
+@ Scrap Iron
+
+
+---- Concussion Rocket:  Fire a special rocket that does limited damage but has a chance to stun or disorient organic enemies within its area of effect and leaves a cloud of smoke.
+::3   LW2 Technical
+# Rockets
+@ Zap
+@ Bazooka
+
+
+---- Javelin Rockets:  The range of your rockets is increased by 6 tiles and you may hit targets beyond your visual range.
+::5   LW2 Technical
+# Rockets
+@ Thunder
+@ Steeler
+@ Heavy Metal
+@ Scrap Iron
+
+---- Salvo:  Launching or throwing grenades, using heavy weapons or using the Gauntlet's Rocket Launcher with your first action will not end your turn.
+::6   LW2 Grenadier
+::6   LW2 Technical
+# Launcher
+# Rockets
+@ Zap
+@ Bazooka
+@ Fast Draw
+@ Short Fuze
+@ Gung-Ho
+@ Hardball
+@ Firefly
+@ Monkeywrench
+@ Kwinn
+
+---- Bunker Buster:  Fire a special rocket that destroys buildings and other objects in the environment.
+::7   LW2 Technical
+# Rockets
+@ Zap
+@ Steeler
+@ Heavy Metal
+@ Thunder
+
+// ================================================================================================================================================================
+// Sword
+// ================================================================================================================================================================
+
+---- Slash:  Attack an adjacent target with your sword. Uses one action.
+== LW2WotC_Slash
+::0  LW2 Shinobi
+# Melee
+# Sword
+@ Snake Eyes
+@ Quick-Kick
+@ Jinx
+@ Budo
+@ Grand Slam
+@ Hardball
+@ Recondo
+@ Muskrat
+@ Storm Shadow
+@ Billy Kessler
+@ Blind Master
+@ Pale Peony
+
+---- Fleche:  Attack any enemy within movement range with your sword. Deals +1 damage for every 4 tiles between your starting position and the target.
+== LW2WotC_Fleche
+== LW2WotC_Fleche_Bonuses
+::0  LW2 Shinobi
+# Melee
+# Sword
+# Bat
+@ Snake Eyes
+@ Quick-Kick
+@ Jinx
+@ Budo
+@ Grand Slam
+@ Hardball
+@ Recondo
+@ Muskrat
+@ Storm Shadow
+@ Billy Kessler
+@ Blind Master
+@ Pale Peony
+
+---- GrimyBladeOil: Slash an enemy with a poisoned blade, dealing an additional 100% weapon damage as poison
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+# Melee
+# Sword
+* Poison
+@ Storm Shadow
+
+---- GrimyRapidslashHH: A basic sword slash that does not end your turn
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+# Melee
+# Sword
+* Action
+@ Snake Eyes
+@ Quick-Kick
+@ Budo
+
+---- MZNightSword: acid+lifesteal slash
+:: Mitzruti's Perk Pack
+# Melee
+# Sword
+@ Storm Shadow
+
+---- MZHarvestScythe - upgrade Night Sword to a cleave attack.
+:: Mitzruti's Perk Pack
+# Melee
+# Sword
+* Enhance: Night Sword
+@ Storm Shadow
+
+---- MZDaySword - slash attack leeches shield.
+:: Mitzruti's Perk Pack
+# Melee
+# Sword
+@ Grand Slam
+
+---- MZBladeArtist: do more damage when using special sword attacks
+:: Mitzruti's Perk Pack
+# Melee
+# Sword
+@ Snake Eyes
+
+---- Blademaster:  All sword attacks deal +1 extra damage and have +10 Aim.
+::1  LW2 Shinobi
+# Melee
+# Sword
+@ Snake Eyes
+@ Storm Shadow
+@ Muskrat
+@ Hardball
+
+
+---- Bladestorm:  Free sword attacks on any enemies that enter or attack from melee range.
+::4  LW2 Shinobi
+# Melee
+# Sword
+@ Snake Eyes
+@ Jinx
+@ Storm Shadow
+
+---- Coup de Grace:  Sword attacks against unconscious, stunned, panicked or disoriented enemies have +50 aim, +50 crit and deal two points of additional base damage.
+::7  LW2 Shinobi
+# Melee
+# Sword
+@ Jinx
+@ Storm Shadow
+
+
+// ================================================================================================================================================================
+// Knife
+// ================================================================================================================================================================
+
+---- Knife Fighter:  You may make a melee attack with your knife against adjacent enemies.
+::-1   LW2 Gunner
+# Melee
+# Knife
+
+
+---- Combatives:  You may parry melee attacks and counterattack with your combat knife. Also gain +10 dodge.
+::2  LW2 Shinobi
+::1   LW2 Gunner
+# Melee
+# Knife
+
+---- MZAcidKnife - acid attack + acid burn
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZAmbulance - gain temp shadowstep and +1AP for use with medical abilities
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZDancingDeath - attack target and nearby foes, then do an additional crit on target.
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZDriftingContact - attack with bonus crit chance and momentum
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZFlameKnife - fire attack + burn
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZFloatLikeAButterfly - activate to gain a momentum AP, and an additional one per knife/ripjack kill this turn.
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZFinishingStroke - turn ending critical attack bypasses most defenses and does bonus damage based on target's missing health.
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZHealKnife - heal target based on knife's crit damage. +subskill that stabilizes.
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZHealthHeist - attack that steals hp
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZInfectedKnife - poison attack. poisons, disorients and zombifies.
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZKnifeFlurry - 3-hit combo with lower base damage. final hit crits
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZLightningKnife - free stab at adjacent foe.
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZLikeAScalpel - combat knives have increased crit chance and damage, but do less on non-crits.
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZListonStyle - damage enemies and heal allies in a target area. similiar mechanics as Blade Dance.
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZSacrificialKnife - consume hp for critical attack + curse
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZSerratedKnife - attack ruptures and bleeds
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZShockKnife - electrical attack, strong against robotics
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZSonicScrewdriver - touch heal for robotic allies
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZStitchUp - cleanse enviro ailments, restore armour.
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+
+---- MZSilverKnife - vs undead; always hits. always crits. can use strafe AP.
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+# Strafe
+
+---- MZStingLikeABee - crit attack does bonus damage based on strafe AP earned. only useable during Float Like A Butterfly.
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+# Strafe
+
+---- MZStrafeKnife - half-damage attack, uses strafe AP
+:: Mitzruti's Perk Pack
+# Melee
+# Knife
+# Strafe
+
+
+
+// ================================================================================================================================================================
+// Pistol
+// ================================================================================================================================================================
+
+---- Clutch Shot:  Once per mission, fire a pistol shot that cannot miss.
+== LW2WotC_ClutchShot
+::  LW2WotC Main mod
+# Pistol
+
+---- LW2WotC_Gunslinger:  Take a reaction shot with your pistol against any enemy that moves or attacks within <Ability:GUNSLINGER_TILES_RANGE> tiles and a wide cone of fire. <Ability:GUNSLINGER_COOLDOWN> turn cooldown.
+::  LW2WotC Main mod
+# Pistol
+* Close
+
+---- LW2WotC_Commissar:  Pistol shots against allies who have been mind-controlled by enemies have +<Ability:COMMISSAR_HIT_BONUS> to hit, cannot be dodged, and automatically kill the target if a hit occurs.
+::  LW2WotC Main mod
+# Pistol
+
+---- GrimyNeedlePointPassive: pistol abilites poison enemies
+:: Mitzruti's Perk Pack
+:: Grimy's Bruiser
+# Pistol
+* Poison
+
+---- GrimyTaserShot: pistol shot stuns organics, triple damage robots
+:: Mitzruti's Perk Pack
+:: Grimy's Bruiser
+# Pistol
+
+---- MZFranticFire - free action. fire pistol at 2 random enemies.
+:: Mitzruti's Perk Pack
+# Pistol
+* Shot
+
+---- MZShootOut - fire your pistol at up to 6 random enemies. can hit the same target twice.
+:: Mitzruti's Perk Pack
+# Pistol
+* Shot
+
+---- MZTheBusiness - fire your pistol at 2 random enemies
+:: Mitzruti's Perk Pack
+# Pistol
+* Shot
+
+---- MZIMeantToDoThat - on pistol kill, shoot a random foe.
+:: Mitzruti's Perk Pack
+# Pistol
+* Shot
+
+---- MZWildPistolStrafe - fire pistol at random foe. uses strafe AP.
+:: Mitzruti's Perk Pack
+# Pistol
+# Strafe
+* Shot
+
+---- MZFaceoff - like faceoff, except it's ammo cost scales with targets.
+:: Mitzruti's Perk Pack
+# Pistol
+
+
+---- IsmsConcussiveShot - electric pistol shot may stun based on will contest. can expend 2 charges to retain stealth by using Sap.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+# Pistol
+
+---- IsmsRiposte - activate to deflect and counter the next attack. pistol countershot reduces target's defense.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+# Pistol
+
+---- MZKillerFlow - autopistol attacks shoot an additional time at the primary target. (1/target/turn)
+:: Mitzruti's Perk Pack
+# Pistol
+
+
+---- MZAbyssalPistolShot - sacrifice health to deal bonus psi damage and inflict bloodcurse.
+:: Mitzruti's Perk Pack
+# Pistol
+
+---- MZBigFortyFive - strong pistol attack, but need to have two actions to fire.
+:: Mitzruti's Perk Pack
+# Pistol
+
+---- MZQuickFortyFire - BigFortyFive no longer ends the turn.
+:: Mitzruti's Perk Pack
+# Pistol
+
+---- MZPistolRave - 3-shot burst. woefully inaccurate.
+:: Mitzruti's Perk Pack
+# Pistol
+* Shot
+
+
+
+// ================================================================================================================================================================
+// Shotgun
+// ================================================================================================================================================================
+
+---- LW2WotC_SlugShot:  Special shot for primary-weapon shotguns only: Fire a shot that pierces <Ability:SLUG_SHOT_PIERCE> armor and has no range penalties. Uses <Ability:SelfAmmoCost/> ammo. <Ability:SLUG_SHOT_COOLDOWN/> turn cooldown.
+::  LW2WotC Main mod
+# Shotgun
+
+---- LW2WotC_SlugShot_Bonuses:  Special shot for primary-weapon shotguns only: Fire a shot that pierces <Ability:SLUG_SHOT_PIERCE> armor and has no range penalties. Uses <Ability:SelfAmmoCost/> ammo. <Ability:SLUG_SHOT_COOLDOWN/> turn cooldown.
+::  LW2WotC Main mod
+# Shotgun
+
+---- LW2WotC_TrenchGun:  Special shot for primary-weapon shotguns only: Fire a short-range cone-based attack at nearby targets. <Ability:TRENCH_GUN_COOLDOWN> turn cooldown.
+::  LW2WotC Main mod
+# Shotgun
+
+
+---- GrimyCausticSlug: double damage shotgun shot shreds armour
+:: Mitzruti's Perk Pack
+:: Grimy's Bruiser
+# Shotgun
+* Shred
+
+---- GrimyGrapeShot: shotgun blast does fire damage in a short cone
+:: Mitzruti's Perk Pack
+:: Grimy's Bruiser
+# Shotgun
+
+---- MZShotgunWedding: cone attack that's stonger with more targets.
+:: Mitzruti's Perk Pack
+* Shot
+
+---- Slug Shot:  Special shot for primary-weapon shotguns only: Fire a shot that pierces two armor and has no range penalties. Uses 2 ammo. Three turn cooldown.
+::1   LW2 Assault
+# Shotgun
+
+---- Trench Gun:  Special shot for primary-weapon shotguns only: Fire a short-range cone-based attack at nearby targets. Three-turn cooldown.
+::2   LW2 Assault
+# Shotgun
+
+---- Street Sweeper:  Cone-based shotgun attack that does bonus damage to unarmored targets. Blocked by heavy cover.
+= LW2WotC_StreetSweeper
+::7   LW2 Assault
+# Shotgun
+
+// ================================================================================================================================================================
+// Sawed-Off
+// ================================================================================================================================================================
+
+---- Point Blank:  Fire your sawed-off shotgun at a nearby enemy.
+::-1   LW2 Ranger
+# Sawed-Off
+
+---- Both Barrels:  Fire both barrels of sawed-off shotgun at nearby enemy, doing double damage.
+::-1   LW2 Ranger
+# Sawed-Off
+
+---- Pump Action:  Gain two extra ammo in your sawed-off shotgun.
+::2   LW2 Ranger
+# Sawed-Off
+
+// ================================================================================================================================================================
+// Melee
+// ================================================================================================================================================================
+
+---- LW2WotC_Cutthroat:  Your melee attacks against biological enemies ignore their armor, have a +<Ability:CUTTHROAT_BONUS_CRIT_CHANCE/> critical chance, and do +<Ability:CUTTHROAT_BONUS_CRIT_DAMAGE/> critical damage.
+::  LW2WotC Main mod
+# Melee
+
+---- LW2WotC_CoupDeGrace:  Bonus to hit, damage, and critical chance with a melee weapon against a disoriented, stunned or panicking enemy.
+::  LW2WotC Main mod
+# Melee
+
+---- LW2WotC_IronSkin:  Incoming melee damage is reduced by <Ability:IRON_SKIN_MELEE_DAMAGE_REDUCTION>.
+::  LW2WotC Main mod
+# Melee
+
+---- LW2WotC_Whirlwind:  If you hit with a melee attack during your turn, gain a bonus move.
+::  LW2WotC Main mod
+# Melee
+* Action
+
+---- MZAbyssalBlade: slash consumes health to inflict severe damage
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZBladeDance: slash attacks on every foe in an area
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZBlastarPunch: slash inflicts blind+disorient
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZBlitzAttack: arcwave-style targeting, slash every target.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZHellcryPunch: slash disables weapon and reduces targets attack power
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZMacabreWaltz: attack multiple enemies. costs HP per target.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZShellbustStab: armor-piercing and massive shred slash
+:: Mitzruti's Perk Pack
+# Melee
+* Shred
+
+---- MZAhrimansDemense - Shadow Thorn becomes aoe, and creates a curse cloud.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZBowlingBash - Sledgehammer impact deals aoe damage.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZCrimsonTide - consume HP to for a cleave attack that curses.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZFrostwolfBite - ranged slash + fuse
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZKillingStroke - consume all HP for a single devastating attack
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZShadeScratch - consume HP for slash with momentum. regain concealment on kill.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZShadowThorn - consume HP for ranged slash does not break concealment. blind+curse.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZDoubleGrip - do more damage and pierce armour when using a primary melee and empty secondary
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZFullAssault - powerful multihit melee attack that stuns the user.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZBonecrusher - retaliate any time damage is taken with a vicious blow.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZSweepingSpin - radial aoe attack
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZBlastWave - wide line attack, bonus damage based on lowest hp reached in battle.
+:: Mitzruti's Perk Pack
+# Melee
+
+
+
+---- MZPowerCrush - melee attack ruptures and disorients target.
+:: Mitzruti's Perk Pack
+# Shield
+# Melee
+
+---- MZMindCrush - melee attack shatters will and hack def, also disorients.
+:: Mitzruti's Perk Pack
+# Shield
+# Melee
+
+---- MZShieldCharge - knockback and disorient target. Automatically activate shieldwall afterword.
+:: Mitzruti's Perk Pack
+# Shield
+# Melee
+
+---- MZEn Garde - bladestorm that also disorients. only triggers during shieldwall.
+:: Mitzruti's Perk Pack
+# Shield
+# Melee
+
+---- MZLifethreadBlade - double acid slash. zombify and lure.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZReblossom - make a bladestorm attack against enemies that survive your melee attacks.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZRollingCutter - slash doesn't end turn. cannot crit. shares target/turn
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZShimmeringBlade - double fire slash. each strike may confuse.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZSkyfuryBlade - double electric slash. each strike may panic.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZBladeRave - 3-swing flurry of attacks. woefully inaccurate.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZBurialBlade - slash attack. refunds AP cost if lethal.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZDashingMomentum - when spending two or more AP on a turn ending melee attack, gain a momentum AP.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- MZDeadCutter - slash attack. refunds AP cost if lethal. Undead only, 1/turn.
+:: Mitzruti's Perk Pack
+# Melee
+
+---- Cutthroat:  Your melee attacks against biological enemies ignore their armor, have a +15 critical chance, and do +2 critical damage.
+::3  LW2 Shinobi
+
+---- Reaper:  A devastating chain melee attack where the first melee attack cannot miss. Each melee kill in Reaper mode grants an extra action, but further melee attacks have reduced damage.
+::5  LW2 Shinobi
+
+
+---- Whirlwind:  If you hit with a melee attack during your turn, gain a bonus move.
+::6  LW2 Shinobi
+
+---- Strike:  Attack any enemy within movement range with a powerful melee attack.
+::3   SPARK
+
+// ================================================================================================================================================================
+// Sniper
+// ================================================================================================================================================================
+
+---- Squadsight:  You can target enemies within squadmates' sight, provided there is line of sight to the target.
+::0   LW2 Sharpshooter
+# Sniper
+@ Snow Job
+@ Low-Light
+@ Flash
+@ Sci-Fi
+
+---- Long Watch:  Allow Overwatch to trigger with Squadsight.
+::4   LW2 Sharpshooter
+# Sniper
+* Enhance: Squadsight
+@ Snow Job
+@ Low-Light
+
+
+---- Snap Shot:  You may take standard shots with your sniper rifle after moving, but you suffer severe range penalties beyond 5 tiles of squadsight range.
+== LW2WotC_SnapShot
+== LW2WotC_SnapShotAimModifier
+::1   LW2 Sharpshooter
+# Sniper
+@ Snow Job
+@ Low-Light
+
+---- Precision Shot:  Take a special shot with +30 bonus to critical chance and 33% bonus critical damage. Three-turn cooldown.
+::3   LW2 Sharpshooter
+# Sniper
+* Shot
+@ Flash
+@ Sci-Fi
+
+---- GrimyPiercingShot: Fires a shot that penetrates multiple targets
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+# Sniper
+@ Flash
+@ Sci-Fi
+
+---- GrimyRushedShot: Fire a sniper rifle shot at a random target.
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+# Sniper
+@ Snow Job
+@ Low-Light
+
+---- GrimyThunderclap: Fire an electrified sniper rifle round at a random target
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+# Sniper
+@ Flash
+
+---- GrimyPointBlank: Fire your sniper rifle point blank at an enemy
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+# Sniper
+@ Snow Job
+
+
+// ================================================================================================================================================================
+// Flamethrower
+// @ Blowtorch
+// @ Charbroil
+// @ Torch
+// @ Dragonsky
+// ================================================================================================================================================================
+
+---- GrimyFireWall: grants a flamethrower that ignites every floor tile
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Flamethrower
+@ Charbroil
+@ Torch
+
+---- MZPocketFlamer: grants a 2 use flamethrower
+:: Mitzruti's Perk Pack
+# Extra Equipment
+* Fire
+
+---- Roust:  Special Flamethrower shot that does limited damage but forces enemies to change their position.
+::1   LW2 Technical
+# Gauntlet
+# Flamethrower
+
+
+---- Napalm-X:  Your Flamethrower can now disorient or panic enemies.
+::2   LW2 Technical
+# Gauntlet
+# Flamethrower
+
+
+---- Burnout:  Activating your Flamethrower leaves a small smoke cloud around your position, providing a defensive bonus.
+::3   LW2 Technical
+# Flamethrower
+
+
+---- Phosphorus:  Your flamethrower can now damage mechanical units and shreds armor.
+::4   LW2 Technical
+# Flamethrower
+* Shred
+
+---- Fire and Steel:  Attacks with your gauntlet, and fires set by gauntlet weapons, do +1 damage.
+::5   LW2 Technical
+
+---- Incinerator:  Your flamethrower has an increased range of one tile and covers a wider area of effect.
+::5   LW2 Technical
+# Flamethrower
+* Fire
+
+---- Quickburn:  Activate so your next use of the flamethrower will not cost an action.
+::6   LW2 Technical
+# Flamethrower
+
+---- Firestorm:  Once per battle, attack all units in a complete circle around the soldier's position. Also grants immunity to fire damage.
+::7   LW2 Technical
+# Flamethrower
+
+// ================================================================================================================================================================
+// Smoke
+// @ Grand Slam
+// @ Cutter
+// ================================================================================================================================================================
+
+---- LW2WotC_Smoker:  Grants one free smoke grenade item to your inventory.
+::  LW2WotC Main mod
+
+---- MZFreeSmokeGrenade - grants a free smoke grenade
+:: Mitzruti's Perk Pack
+# Grenades
+* Smoke
+* Enhance: Light Ordnance
+@ Grand Slam
+@ Cutter
+@ Lady Jaye
+
+---- Dense Smoke:  Your smoke grenades confer an additional 10 defense.
+== LW2WotC_DenseSmoke
+::4   LW2 Grenadier
+# Grenades
+* Smoke
+@ Cutter
+
+---- Ghost Grenade:  A specialized smoke grenade that causes the targeted ally to enter concealment.
+== LW2WotC_GhostGrenade
+::7   LW2 Grenadier
+# Grenades
+* Smoke
+
+---- VanishingAct:  Specialized smoke grenade that puts an ally in concealment inside a small cloud of smoke.
+::  LW2WotC Main mod
+# Grenades
+* Smoke
+
+---- MZAntiCritSmoke: smokes prevent critical hits
+:: Mitzruti's Perk Pack
+@ Grenades
+* Smoke
+
+---- MZDodgeSmoke: smokes boost dodge
+:: Mitzruti's Perk Pack
+* Smoke
+@ Grand Slam
+
+---- MZFogWall: +1 charges per smoke, slight smoke def boost
+:: Mitzruti's Perk Pack
+* Smoke
+@ Grand Slam
+
+---- MZFortressSmoke: smoke protects like fortress (immune to fire, poison, acid, and explosive damage)
+:: Mitzruti's Perk Pack
+@ Cutter
+
+---- MZMindShieldSmoke: smokes cleanse and potect against mental effects
+:: Mitzruti's Perk Pack
+
+// ================================================================================================================================================================
+// Flashbang
+// @ Shockwave
+// ================================================================================================================================================================
+
+---- MZFreeFlashGrenade - grants a free flashbang
+:: Mitzruti's Perk Pack
+# Grenades
+# Flashbang
+* Enhance: Light Ordnance
+@ Grand Slam
+@ Lady Jaye
+@ Shockwave
+
+---- LW2WotC_Flashbanger:  Grants one free flashbang item to your inventory.
+::  LW2WotC Main mod
+
+---- GrimyFlashpoint: increase ammo of flashbangs by 1 and they do +2 damage
+:: Mitzruti's Perk Pack
+:: Grimy's Bruiser
+# Flashbang
+@ Shockwave
+
+---- Bluescreen Bombs:  Your flashbang grenades now disorient robotic units and reduce their resistance to hacking.
+== LW2WotC_BluescreenBombs
+::3   LW2 Grenadier
+@ Lady Jaye
+@ Shockwave
+
+---- Sting Grenades:  Your flashbang grenades have a 50% chance to stun enemies for one turn in the flashbang's Area of Effect.
+== LW2WotC_StingGrenades
+::5   LW2 Grenadier
+@ Shockwave

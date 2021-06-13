@@ -54,6 +54,7 @@ textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_16.INT")
 textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_17.INT")
 textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_18.INT")
 textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_19.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_20.INT")
 
 # ------------------------------------------------------------------------------
 # Main
@@ -80,9 +81,15 @@ def main():
     adata = gather_ability_data(idata,tdata)
 
     # --------------------------------------------------------------------------
-    # save that out
+    # save out the piece that shows abilities used by classes
     # --------------------------------------------------------------------------
-    #o = adata.to_excel("abilities.xlsx")
+    o = adata.to_excel("abilities_from_class.xlsx")
+
+    # --------------------------------------------------------------------------
+    # save out the whole list of abilities
+    # --------------------------------------------------------------------------
+    df_tdata = pd.DataFrame.from_dict(tdata, orient='index')
+    o = df_tdata.to_excel("abilities.xlsx")
 
     # --------------------------------------------------------------------------
     # Finish
@@ -217,6 +224,7 @@ def parsed_text_data(textsrc):
             # ------------------------------------------------------------------
             if not aname in tdata_a:
                 tdata_a[aname] = {}
+                tdata_a[aname]['source'] = tfile
 
             # ------------------------------------------------------------------
             # Add whatever this thing is
@@ -227,8 +235,8 @@ def parsed_text_data(textsrc):
             else:
                 continue
 
-    for item in tdata_a:
-        print(item, tdata_a[item])
+    #for item in tdata_a:
+    #    print(item, tdata_a[item])
 
     # --------------------------------------------------------------------------
     # Finish

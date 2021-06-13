@@ -163,12 +163,8 @@ def compile_class_data(cdata, adata):
         # ----------------------------------------------------------------------
         col = ("Characters", guy)
         cols_to_take = []
-        cols_to_take.append(('Abilities','Perk Description'))
-        #cols_to_take.append(('Abilities','Ability Tags'))
-        #cols_to_take.append(('Abilities','Role Tags'))
-        #cols_to_take.append(('Abilities','Talent Tags'))
-        #cols_to_take.append(('Abilities','Equipment Tags'))
-        cols_to_take.append(('Abilities','Perk Friendly Name'))
+        cols_to_take.append(('Abilities','longdesc'))
+        cols_to_take.append(('Abilities','friendlyname'))
         cols_to_take.append(('Characters',guy))
         cols_to_take.append(('Summary','attributes_summary'))
         cols_to_take.append(('Summary','keywords_summary'))
@@ -279,7 +275,7 @@ def compile_output(gdata):
 
         ccode.append("; " + "Rank:".ljust(10) + "Ability:".ljust(30) + "Description:")
         for j, rec in gdata[guy]['abilities'].iterrows():
-            ccode.append("; " + rec['character'].center(10) + rec['Perk Friendly Name'].ljust(30) + rec['Perk Description'])
+            ccode.append("; " + rec['character'].center(10) + str(rec['friendlyname']).ljust(30) + str(rec['longdesc']))
         ccode.append("; ")
 
         ccode.append("; " + "*"*98)
