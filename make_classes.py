@@ -9,7 +9,7 @@ import pandas as pd
 # ------------------------------------------------------------------------------
 modname = "LWOTC_GIJoe"
 
-dfile = "data.xlsx"
+dfile = "data/data.xlsx"
 cfile = "mod/Config/XComClassData.ini"
 lfile = "mod/Config/XComGameData.ini"
 gfile = "mod/Config/XComGame.ini"

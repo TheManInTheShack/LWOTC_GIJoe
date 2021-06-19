@@ -83,13 +83,13 @@ def main():
     # --------------------------------------------------------------------------
     # save out the piece that shows abilities used by classes
     # --------------------------------------------------------------------------
-    o = adata.to_excel("abilities_from_class.xlsx")
+    o = adata.to_excel("data/abilities_from_class.xlsx")
 
     # --------------------------------------------------------------------------
     # save out the whole list of abilities
     # --------------------------------------------------------------------------
     df_tdata = pd.DataFrame.from_dict(tdata, orient='index')
-    o = df_tdata.to_excel("abilities.xlsx")
+    o = df_tdata.to_excel("data/abilities.xlsx")
 
     # --------------------------------------------------------------------------
     # Finish

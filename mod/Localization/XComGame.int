@@ -1491,3 +1491,33 @@ LeftAbilityTreeTitle = ""
 RightAbilityTreeTitle = ""
 RandomNicknames[0]   = "Vance_Wingfield"
 
+; ------------------------------------------------------------------------------
+; Big_Lob
+; ------------------------------------------------------------------------------
+[GIJoe__Big_Lob X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Big_Lob"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RightAbilityTreeTitle = ""
+RandomNicknames[0]   = "Big_Lob"
+
+; ------------------------------------------------------------------------------
+; White_Clown
+; ------------------------------------------------------------------------------
+[GIJoe__White_Clown X2SoldierClassTemplate]
+DisplayName          = GI Joe: "White_Clown"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RightAbilityTreeTitle = ""
+RandomNicknames[0]   = "White_Clown"
+
+; ------------------------------------------------------------------------------
+; Pale_Peony
+; ------------------------------------------------------------------------------
+[GIJoe__Pale_Peony X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Pale_Peony"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RightAbilityTreeTitle = ""
+RandomNicknames[0]   = "Pale_Peony"
+
