@@ -122,14 +122,14 @@ def parse_text_file(tfile):
         # ----------------------------------------------------------------------
         elif line.startswith(":"):
             tag = re.sub("^#+","",line).strip()
-            #perk[("Source", tag)] = "x"
+            perk[("Source", tag)] = "x"
 
         # ----------------------------------------------------------------------
         # When we hit a dependency tag
         # ----------------------------------------------------------------------
         elif line.startswith("#"):
             tag = re.sub("^#+","",line).strip()
-            #perk[("Dependency", tag)] = "x"
+            perk[("Dependency", tag)] = "x"
 
         # ----------------------------------------------------------------------
         # When we hit a theme tag

@@ -333,7 +333,7 @@ def compile_output(gdata):
             # ------------------------------------------------------------------
             ccode.append("  AbilitySlots=(".ljust(120) + "\\\\")
 
-            this_rank_abilities = gdata[guy]['abilities'][gdata[guy]['abilities']['character']==str(i)]
+            this_rank_abilities = gdata[guy]['abilities'][gdata[guy]['abilities']['character']==str(float(i))]
 
             abilities = []
             for ability,rec in this_rank_abilities.iterrows():

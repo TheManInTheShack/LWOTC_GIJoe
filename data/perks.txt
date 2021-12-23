@@ -1,5 +1,189 @@
 
 // ================================================================================================================================================================
+// Index of guys
+// ================================================================================================================================================================
+@ Breaker
+@ Dial-Tone
+@ Mainframe
+@ Slip Stream
+@ Deejay
+@ Raptor
+@ Zarana
+
+@ Rock 'n Roll
+@ Roadblock
+@ Repeater
+@ Taurus
+@ Horror Show
+@ Kwinn
+
+@ Flash
+@ Sci-Fi
+
+@ Snow Job
+@ Wild Bill
+@ Low-Light
+@ Shooter
+@ Daina
+@ Baroness
+
+@ Grunt
+@ Alpine
+@ Footloose
+@ Iceberg
+@ Hit & Run
+@ Schrage
+@ Scarface
+@ Buzzer
+
+@ Short-Fuze
+@ Thunder
+@ Hardball
+@ Big Lob
+@ Monkeywrench
+
+@ Steeler
+@ Heavy Metal
+@ Cross-Country
+@ Armadillo
+@ Wildcard
+@ Avalanche
+@ Thrasher
+
+@ Doc
+@ Lifeline
+@ Lift Ticket
+@ Barbecue
+
+@ Airborne
+@ Ripcord
+@ Crazylegs
+
+@ Stalker
+@ Recondo
+@ Falcon
+@ Muskrat
+@ Tunnel Rat
+@ Captain Minh
+@ Wade Collins
+@ Zandar
+@ Croc Master
+
+@ Spirit
+@ Outback
+@ Sneak Peek
+@ Spearhead
+@ Zartan
+@ Gnawgahyde
+
+@ Torpedo
+@ Wet-Suit
+
+@ Scarlett
+@ Gung-Ho
+@ Quick Kick
+@ Backstop
+@ Budo
+@ Red Dog
+@ Tomax
+@ Xamot
+@ Big Boa
+@ Road Pig
+
+@ Tripwire
+@ Tollbooth
+@ Lightfoot
+@ Firefly
+
+@ Clutch
+@ Mutt
+@ Shipwreck
+@ Dusty
+@ Leatherneck
+@ Blizzard
+@ Mercer
+@ Dodger
+@ Stormavik
+@ Ripper
+
+@ Crank Case
+@ Skidmark
+@ Blocker
+@ Zanzibar
+
+@ Blowtorch
+@ Airtight
+@ Charbroil
+@ Dragonsky
+@ Torch
+
+@ Zap
+@ Cover Girl
+@ Bazooka
+@ Fast Draw
+@ Knockdown
+@ Scrap Iron
+@ Metal Head
+
+@ Snake Eyes
+@ Storm Shadow
+@ Jinx
+@ Billy Kessler
+@ Soft Master
+@ Blind Master
+@ Pale Peony
+
+@ Chuckles
+@ Lola Graves
+@ Joe Colton
+@ Matt Trakker
+
+@ Psyche-Out
+@ Dr. Venom
+@ Dr. Mindbender
+@ Crystal Ball
+
+@ Hawk
+@ Duke
+@ Flint
+@ Beach Head
+@ Sgt. Slaughter
+@ Col. Brekhov
+@ Cobra Commander
+@ Major Bludd
+@ Serpentor
+@ Darklon
+@ Vance Wingfield
+@ White Clown
+
+@ Grand Slam
+@ Lady Jaye
+@ Destro
+@ Fred VII
+@ Voltar
+
+@ Ace
+@ Cutter
+@ Frostbite
+@ Windmill
+@ Blaster
+@ Copperhead
+@ Wild Weasel
+
+@ Deep Six
+@ Ghostrider
+@ Maverick
+
+@ Law
+@ Shockwave
+
+@ Dr. Adele Burkhart
+@ Dr. Lazlo Vandemeer
+@ Honda Lou West
+
+
+
+// ================================================================================================================================================================
 // General Pool
 // ================================================================================================================================================================
 
@@ -128,9 +312,6 @@
 ::  LW2WotC Main mod
 
 
----- LW2WotC_Trojan:  Enemy units that are hacked take damage and lose their actions on the turn the hack effect ends.
-::  LW2WotC Main mod
-
 ---- LW2WotC_IronCurtain:  Special shot that does <Ability:IRON_CURTAIN_DAMAGE_MODIFIER>% damage but reduces target mobility for the following <Ability:IRON_CURTAIN_MOB_DAMAGE_DURATION> turns. Cone-based attack with primary weapon. <Ability:IRON_CURTAIN_COOLDOWN> turn cooldown.
 ::  LW2WotC Main mod
 
@@ -233,6 +414,8 @@
 :: Mitzruti's Perk Pack
 :: Grimy's Anarchist
 # Launcher
+@ Steeler
+@ Short Fuze
 
 ---- GrimyDeadlyHaze: grenades debuff enemy damage
 :: Mitzruti's Perk Pack
@@ -244,6 +427,9 @@
 :: Grimy's Anarchist
 # Grenades
 * Shred
+@ Cover Girl
+@ Hardball
+@ Heavy Metal
 
 ---- GrimyLightOrdnance: carry more grenades, but they do 50% less damage.
 :: Mitzruti's Perk Pack
@@ -254,6 +440,8 @@
 :: Mitzruti's Perk Pack
 :: Grimy's Anarchist
 * Enhance: Skullmine
+@ Dr. Venom
+@ Dr. Mindbender
 
 ---- GrimyShellShock: grenades may stun
 :: Mitzruti's Perk Pack
@@ -308,6 +496,9 @@
 :: Grimy's Bruiser
 
 
+
+
+
 ---- GrimyStrafe: gain strafe AP on move. strafing fire doe 50% damage, uses strafe AP.
 :: Mitzruti's Perk Pack
 :: Grimy's Fury
@@ -352,6 +543,9 @@
 :: Mitzruti's Perk Pack
 :: Grimy's Fury
 # Strafe
+@ Wildcard
+@ Cross-Country
+@ Thrasher
 
 ---- GrimyAnomaly: once per mission, do massive damage in an aoe, then summons a new pod.
 :: Mitzruti's Perk Pack
@@ -1180,6 +1374,7 @@
 @ Gung-Ho
 @ Hardball
 @ Thunder
+@ Big Lob
 
 
 ---- Sapper:  Your explosives can destroy many cover objects.
@@ -1208,10 +1403,12 @@
 @ Short Fuze
 @ Thunder
 @ Hardball
+@ Big Lob
 
 ---- Center Mass:  You do one additional point of base damage when using guns.
 ::2   LW2 Grenadier
 # Guns
+@ Grunt
 
 ---- Protector:  Non-damaging grenades in your grenade-only slot gain a bonus use.
 ::2   LW2 Grenadier
@@ -1234,6 +1431,7 @@
 
 ---- Volatile Mix:  Your grenades' area of effect is increased by one tile.
 ::6   LW2 Grenadier
+# Grenades
 @ Thunder
 
 ---- Bombardier:  You may throw or launch grenades two additional tiles.
@@ -1446,7 +1644,7 @@
 ::5   LW2 Specialist
 * Hack
 @ Breaker
-@ Dail-Tone
+@ Dial-Tone
 @ Mainframe
 
 
@@ -1966,6 +2164,11 @@
 
 // ================================================================================================================================================================
 // Focus
+// Storm Shadow
+// Snake Eyes
+// Jinx
+// Billy Kessler
+// Blind Master
 // ================================================================================================================================================================
 
 ---- MZManaTeleport:  spend mana/focus to teleport anywhere in squadsight.
@@ -2362,6 +2565,7 @@
 ::0   SPARK
 * Hack
 # Gremlin
+@ Breaker
 @ Dial-Tone
 @ Mainframe
 @ Slip Stream
@@ -2370,6 +2574,7 @@
 ---- Combat Protocol:  Send the GREMLIN to an enemy to jolt them, dealing guaranteed damage, which is increased against robotic enemies.
 ::1   LW2 Specialist
 # Gremlin
+@ Breaker
 @ Mainframe
 @ Dial-Tone
 @ Slip Stream
@@ -2380,6 +2585,7 @@
 :: Grimy's Anarchist
 # Gremlin
 * Enhance: Combat Protocol
+@ Breaker
 @ Mainframe
 
 ---- GrimyCauterize: gremlin does light damage, and then heal
@@ -2450,6 +2656,7 @@
 ---- MZGremlinInsanity:  stun or control a robotic foe
 :: Mitzruti's Perk Pack
 # Gremlin
+@ Breaker
 
 ---- MZGremlinStasis:  stasis! with a gremlin.
 :: Mitzruti's Perk Pack
@@ -2507,6 +2714,7 @@
 ---- Haywire Protocol:  You may target robotic and mechanical enemies with your GREMLIN, attempting to hack them and seize control.
 ::0   LW2 Specialist
 # Gremlin
+@ Breaker
 @ Mainframe
 
 ---- Capacitor Discharge:  Send the GREMLIN to a location where it emits a substantial electric discharge, damaging and potentially stunning all nearby units. Robotic units take more damage.
@@ -2515,8 +2723,10 @@
 @ Mainframe
 
 ---- Trojan:  Enemy units that are hacked take damage and lose their actions on the turn the hack effect ends.
+== LW2WotC_Trojan
 ::3   LW2 Specialist
 # Gremlin
+@ Breaker
 @ Mainframe
 
 
@@ -2568,27 +2778,32 @@
 
 // ================================================================================================================================================================
 // Arcthrower
+// @ Mutt
+// @ Law
+// @ Shockwave
+// @ Doc
+// @ Breaker
 // ================================================================================================================================================================
 
 ---- Stun:  Fire your Arc Thrower to incapacitate a target.
 ::-1   LW2 Assault
 # Arcthrower
-@ Breaker
 @ Mutt
 @ Law
 @ Shockwave
 @ Doc
+@ Breaker
 
 ---- MZArcBlueActions:  arcthrower abilities no longer end turn
 :: Mitzruti's Perk Pack
 # Arcthrower
 @ Mutt
 @ Shockwave
+@ Breaker
 
 ---- MZArcFuse:  fuse with an arcthrower (If an enemy is carrying explosives, they can be remotely detonated.)
 :: Mitzruti's Perk Pack
 # Arcthrower
-@ Breaker
 @ Shockwave
 
 ---- Electroshock:  Your arc thrower disorients the target when it misses.
@@ -2600,8 +2815,8 @@
 ---- Arc Pulser:  Fire your Arc Thrower to incapacitate a target and damage mechanical enemies.
 ::2   LW2 Assault
 # Arcthrower
-@ Breaker
 @ Doc
+@ Breaker
 
 ---- Stun Gunner:  Your Arc Thrower now has a bonus to hit.
 ::3   LW2 Assault
@@ -2658,6 +2873,7 @@
 :: Mitzruti's Perk Pack
 # Arcthrower
 @ Breaker
+@ Doc
 
 // ================================================================================================================================================================
 // Holotargeter
@@ -3178,6 +3394,10 @@
 
 // ================================================================================================================================================================
 // Shotgun
+// @ Flint
+// @ Falcon
+// @ Recondo
+// @ Gnawgahyde
 // ================================================================================================================================================================
 
 ---- LW2WotC_SlugShot:  Special shot for primary-weapon shotguns only: Fire a shot that pierces <Ability:SLUG_SHOT_PIERCE> armor and has no range penalties. Uses <Ability:SelfAmmoCost/> ammo. <Ability:SLUG_SHOT_COOLDOWN/> turn cooldown.
@@ -3223,24 +3443,33 @@
 
 // ================================================================================================================================================================
 // Sawed-Off
+// @ Clutch
 // ================================================================================================================================================================
 
 ---- Point Blank:  Fire your sawed-off shotgun at a nearby enemy.
 ::-1   LW2 Ranger
 # Sawed-Off
+@ Clutch
 
 ---- Both Barrels:  Fire both barrels of sawed-off shotgun at nearby enemy, doing double damage.
 ::-1   LW2 Ranger
 # Sawed-Off
+@ Clutch
 
 ---- Pump Action:  Gain two extra ammo in your sawed-off shotgun.
 ::2   LW2 Ranger
 # Sawed-Off
+@ Clutch
 
 // ================================================================================================================================================================
 // Melee
+// @ Scarlett
+// @ Snake Eyes
+// @ Gung-Ho
+// @ Quick Kick
+// @ Backstop
+// @ Storm Shadow
 // ================================================================================================================================================================
-
 
 
 ---- LW2WotC_IronSkin:  Incoming melee damage is reduced by <Ability:IRON_SKIN_MELEE_DAMAGE_REDUCTION>.
@@ -3620,7 +3849,7 @@
 
 // ================================================================================================================================================================
 // Overwatch/Reaction
-// Cover Girl
+// @ Cover Girl
 // ================================================================================================================================================================
 
 ---- IsmsScoutsOverwatch:  replaces overwatch with a cone watch that fires a non-reaction shot.
