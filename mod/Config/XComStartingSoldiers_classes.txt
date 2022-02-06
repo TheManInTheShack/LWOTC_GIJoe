@@ -1,0 +1,177 @@
+
+[WOTCStartingSoldiers.X2DownloadableContentInfo_WOTCStartingSoldiers]
+; --------------------------------------------------------------------------------------------------
+; GI JOE
+; This is the main trunk of characters from 1982-1988.  All of the ones uncommented
+; in this list will appear in the armory at the beginning of the game, in the order
+; given.  The first 4/8 will be the ones to do the opening mission.  I've set it
+; using the 'SoldierRank' so that the 'core four' (and Duke) get two levels right
+; away, and everyone else gets one, to cement their specialties.
+; The classes on this list are customized for each character, data can be found in
+; the file XComClassData.ini
+; --------------------------------------------------------------------------------------------------
+
++CHARACTER_INFO=(SoldierName="Clayton Abernathy"       , SoldierClass="GIJoe__Hawk"         ,SoldierRank=2)
++CHARACTER_INFO=(SoldierName="Lonzo Wilkinson"         , SoldierClass="GIJoe__Stalker"      ,SoldierRank=2)
++CHARACTER_INFO=(SoldierName="Shana O'Hara"            , SoldierClass="GIJoe__Scarlett"     ,SoldierRank=2)
++CHARACTER_INFO=(SoldierName="FILE G-8210 CLASSIFIED"  , SoldierClass="GIJoe__Snake_Eyes"   ,SoldierRank=2)
++CHARACTER_INFO=(SoldierName="Alvin Kibbey"            , SoldierClass="GIJoe__Breaker"      ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Lance Steinberg"         , SoldierClass="GIJoe__Clutch"       ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Craig McConnel"          , SoldierClass="GIJoe__Rock_n_Roll"  ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Anthony Gambello"        , SoldierClass="GIJoe__Flash"        ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="James Barney"            , SoldierClass="GIJoe__Grand_Slam"   ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Robert Graves"           , SoldierClass="GIJoe__Grunt"        ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Eric Friestadt"          , SoldierClass="GIJoe__Short_Fuze"   ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Ralph Pulaski"           , SoldierClass="GIJoe__Steeler"      ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Rafael Melendez"         , SoldierClass="GIJoe__Zap"          ,SoldierRank=1)
+
++CHARACTER_INFO=(SoldierName="Brad Armbruster"         , SoldierClass="GIJoe__Ace"          ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Franklin Talltree"       , SoldierClass="GIJoe__Airborne"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Courtney Krieger"        , SoldierClass="GIJoe__Cover_Girl"   ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Carl Greer"              , SoldierClass="GIJoe__Doc"          ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Conrad Hauser"           , SoldierClass="GIJoe__Duke"         ,SoldierRank=2)
++CHARACTER_INFO=(SoldierName="Ettienne LaFitte"        , SoldierClass="GIJoe__Gung_Ho"      ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Harlan Moore"            , SoldierClass="GIJoe__Snow_Job"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Edward Leialoha"         , SoldierClass="GIJoe__Torpedo"      ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Tormod Skoog"            , SoldierClass="GIJoe__Tripwire"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="William Hardy"           , SoldierClass="GIJoe__Wild_Bill"    ,SoldierRank=1)
+
++CHARACTER_INFO=(SoldierName="Timothy Hanrahan"        , SoldierClass="GIJoe__Blowtorch"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Skip Stone"              , SoldierClass="GIJoe__Cutter"       ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Malcolm Willoughby"      , SoldierClass="GIJoe__Deep_Six"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Stanley Perlmutter"      , SoldierClass="GIJoe__Mutt"         ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Daniel LeClaire"         , SoldierClass="GIJoe__Recondo"      ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Wallace Weems"           , SoldierClass="GIJoe__Ripcord"      ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Marvin Hinton"           , SoldierClass="GIJoe__Roadblock"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Charlie Iron-Knife"      , SoldierClass="GIJoe__Spirit"       ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Matthew Breckenridge"    , SoldierClass="GIJoe__Thunder"      ,SoldierRank=1)
+
++CHARACTER_INFO=(SoldierName="Kurt Schnurr"            , SoldierClass="GIJoe__Airtight"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Albert Pine"             , SoldierClass="GIJoe__Alpine"       ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Gabriel Kelly"           , SoldierClass="GIJoe__Barbecue"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="David Katzenbogen"       , SoldierClass="GIJoe__Bazooka"      ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Elwood Indiana"          , SoldierClass="GIJoe__Crank_Case"   ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Ronald Tadur"            , SoldierClass="GIJoe__Dusty"        ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Dashiell Faireborn"      , SoldierClass="GIJoe__Flint"        ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Andrew Meyers"           , SoldierClass="GIJoe__Footloose"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Farley Sewerd"           , SoldierClass="GIJoe__Frostbite"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Sherman Guderian"        , SoldierClass="GIJoe__Heavy_Metal"  ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Alison Hart-Burnett"     , SoldierClass="GIJoe__Lady_Jaye"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="MacArthur Ito"           , SoldierClass="GIJoe__Quick_Kick"   ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Hector Delgado"          , SoldierClass="GIJoe__Shipwreck"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Chuck Goren"             , SoldierClass="GIJoe__Tollbooth"    ,SoldierRank=1)
+
++CHARACTER_INFO=(SoldierName="Wayne Sneeden"           , SoldierClass="GIJoe__Beach_Head"   ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Robert Blais"            , SoldierClass="GIJoe__Cross_Country",SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Jack Morelli"            , SoldierClass="GIJoe__Dial_Tone"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Clifton Nash"            , SoldierClass="GIJoe__Iceberg"      ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Wendell Metzger"         , SoldierClass="GIJoe__Leatherneck"  ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Cooper MacBride"         , SoldierClass="GIJoe__Low_Light"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Edwin Steen"             , SoldierClass="GIJoe__Lifeline"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Victor Sikorsky"         , SoldierClass="GIJoe__Lift_Ticket"  ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Blaine Parker"           , SoldierClass="GIJoe__Mainframe"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Seymour Fine"            , SoldierClass="GIJoe__Sci_Fi"       ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Gregory Boyajian"        , SoldierClass="GIJoe__Slip_Stream"  ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Brian Forrest"           , SoldierClass="GIJoe__Wet_Suit"     ,SoldierRank=1)
+
++CHARACTER_INFO=(SoldierName="Robert Levin"            , SoldierClass="GIJoe__Backstop"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Philip Provost"          , SoldierClass="GIJoe__Chuckles"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="David Thomas"            , SoldierClass="GIJoe__Crazylegs"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Vincent Falcone"         , SoldierClass="GIJoe__Falcon"       ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Eliot Brown"             , SoldierClass="GIJoe__Fast_Draw"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Kimi Arashikage"         , SoldierClass="GIJoe__Jinx"         ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Christopher Lavigne"     , SoldierClass="GIJoe__Law"          ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Stuart Selkirk"          , SoldierClass="GIJoe__Outback"      ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Kenneth Rich"            , SoldierClass="GIJoe__Psyche_Out"   ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Owen King"               , SoldierClass="GIJoe__Sneak_Peek"   ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Nicky Lee"               , SoldierClass="GIJoe__Tunnel_Rat"   ,SoldierRank=1)
+
++CHARACTER_INFO=(SoldierName="Philo Makepeace"         , SoldierClass="GIJoe__Armadillo"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Gregory Natale"          , SoldierClass="GIJoe__Blizzard"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Kyle Jesso"              , SoldierClass="GIJoe__Budo"         ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Carl Shannon"            , SoldierClass="GIJoe__Charbroil"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Jonas Jeffries"          , SoldierClass="GIJoe__Ghostrider"   ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Wilmer Duggleby"         , SoldierClass="GIJoe__Hardball"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Brent Scott"             , SoldierClass="GIJoe__Hit_Run"      ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Cory Owens"              , SoldierClass="GIJoe__Lightfoot"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Ross Williams"           , SoldierClass="GIJoe__Muskrat"      ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Jeffrey Therien"         , SoldierClass="GIJoe__Repeater"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Jason Faria"             , SoldierClass="GIJoe__Shockwave"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Cyril Colombani"         , SoldierClass="GIJoe__Skidmark"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Peter Millman"           , SoldierClass="GIJoe__Spearhead"    ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Eric Scott"              , SoldierClass="GIJoe__Wildcard"     ,SoldierRank=1)
++CHARACTER_INFO=(SoldierName="Edward Roth"             , SoldierClass="GIJoe__Windmill"     ,SoldierRank=1)
+
+
+; --------------------------------------------------------------------------------------------------
+; GI JOE
+; This list contains the 'add-on' characters, which do not start the game in the armory.
+; Instead, they will serve as the reward soldiers that get picked up througout the game
+; in the normal manner.  Any of these may be uncommented in order to bump them up to
+; armory status (or conversely any amount of that main list might be shut off to have
+; that soldier act as a bonus).  
+; --------------------------------------------------------------------------------------------------
+
+; BATTLEFORCE 2000 (1987):
+
+; SLAUGHTER'S RENEGADES (1987):
+
+; DIC-ERA AND OTHER JOES (1989-1994):
+
+; SKY PATROL:
+
+; JOE FRIENDS:
+; +CHARACTER_INFO=(SoldierName="Thomas Arashikage"     , SoldierClass="Samurai",SoldierRank=3)
+; +CHARACTER_INFO=(SoldierName="Franklin Moore"        , SoldierClass="Samurai",SoldierRank=3)
+; +CHARACTER_INFO=(SoldierName="Billy Kessler"         , SoldierClass="Samurai",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Wade Collins"          , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Tran Minh"             , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Adele Burkhart"        , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Lazlo Vandermeer"      , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Honda Lou West"        , SoldierClass="Soldier",SoldierRank=1)
+
+; APOCRYPHAL/FIGURE ONLY/EXPANDED UNIVERSE JOES:
+
+; COBRA COMMAND:
+; +CHARACTER_INFO=(SoldierName="FILE C-01 CLASSIFIED"  , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Anastasia DeCobray"    , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Archibald Monev"       , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="FILE C-04 CLASSIFIED"  , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Sebastian Bludd"       , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="James McCullen"        , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="FILE C-07 UNKNOWN"     , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="FILE C-08 CLASSIFIED"  , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="FILE C-09 CLASSIFIED"  , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="FILE C-10 CLASSIFIED"  , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Tomax Paoli"           , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Xamot Paoli"           , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Brian Bender"          , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Fred Broca VII"        , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="FILE C-15 UNKNOWN"     , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="FILE C-18 UNKNOWN"     , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="FILE C-19 CLASSIFIED"  , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="FILE C-20 UNKNOWN"     , SoldierClass="Soldier",SoldierRank=1)
+
+; THE DREADNOKS:
+; +CHARACTER_INFO=(SoldierName="FILE D-01 UNKNOWN"     , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="FILE D-02 UNKNOWN"     , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="FILE D-03 UNKNOWN"     , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Tom Winken"            , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Dick Blinken"          , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Harry Nod"             , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Bill Winkie"           , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Bruno LaCrosse"        , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Donald DeLuca"         , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Morgan Teach"          , SoldierClass="Soldier",SoldierRank=1)
+; +CHARACTER_INFO=(SoldierName="Clyde Hyde"            , SoldierClass="Soldier",SoldierRank=1)
+
+; IRON GRENADIERS:
+
+; OTHER ENEMIES:
+; +CHARACTER_INFO=(SoldierName="Vance Wingfield"       , SoldierClass="Soldier",SoldierRank=1)
+
+; M.A.S.K.:
+
+; V.E.N.O.M.:
+
+

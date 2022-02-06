@@ -2,184 +2,184 @@
 // ================================================================================================================================================================
 // Index of guys
 // ================================================================================================================================================================
-@ Breaker
-@ Dial-Tone
-@ Mainframe
-@ Slip Stream
-@ Deejay
-@ Raptor
-@ Zarana
 
-@ Rock 'n Roll
-@ Roadblock
-@ Repeater
-@ Taurus
-@ Horror Show
-@ Kwinn
-
-@ Flash
-@ Sci-Fi
-
-@ Snow Job
-@ Wild Bill
-@ Low-Light
-@ Shooter
-@ Daina
-@ Baroness
-
-@ Grunt
-@ Alpine
-@ Footloose
-@ Iceberg
-@ Hit & Run
-@ Schrage
-@ Scarface
-@ Buzzer
-
-@ Short-Fuze
-@ Thunder
-@ Hardball
-@ Big Lob
-@ Monkeywrench
-
-@ Steeler
-@ Heavy Metal
-@ Cross-Country
-@ Armadillo
-@ Wildcard
-@ Avalanche
-@ Thrasher
-
-@ Doc
-@ Lifeline
-@ Lift Ticket
-@ Barbecue
-
-@ Airborne
-@ Ripcord
-@ Crazylegs
-
-@ Stalker
-@ Recondo
-@ Falcon
-@ Muskrat
-@ Tunnel Rat
-@ Captain Minh
-@ Wade Collins
-@ Zandar
-@ Croc Master
-
-@ Spirit
-@ Outback
-@ Sneak Peek
-@ Spearhead
-@ Zartan
-@ Gnawgahyde
-
-@ Torpedo
-@ Wet-Suit
-
-@ Scarlett
-@ Gung-Ho
-@ Quick Kick
-@ Backstop
-@ Budo
-@ Red Dog
-@ Tomax
-@ Xamot
-@ Big Boa
-@ Road Pig
-
-@ Tripwire
-@ Tollbooth
-@ Lightfoot
-@ Firefly
-
-@ Clutch
-@ Mutt
-@ Shipwreck
-@ Dusty
-@ Leatherneck
-@ Blizzard
-@ Mercer
-@ Dodger
-@ Stormavik
-@ Ripper
-
-@ Crank Case
-@ Skidmark
-@ Blocker
-@ Zanzibar
-
-@ Blowtorch
-@ Airtight
-@ Charbroil
-@ Dragonsky
-@ Torch
-
-@ Zap
-@ Cover Girl
-@ Bazooka
-@ Fast Draw
-@ Knockdown
-@ Scrap Iron
-@ Metal Head
-
-@ Snake Eyes
-@ Storm Shadow
-@ Jinx
-@ Billy Kessler
-@ Soft Master
-@ Blind Master
-@ Pale Peony
-
-@ Chuckles
-@ Lola Graves
-@ Joe Colton
-@ Matt Trakker
-
-@ Psyche-Out
-@ Dr. Venom
-@ Dr. Mindbender
-@ Crystal Ball
-
-@ Hawk
-@ Duke
-@ Flint
-@ Beach Head
-@ Sgt. Slaughter
-@ Col. Brekhov
-@ Cobra Commander
-@ Major Bludd
-@ Serpentor
-@ Darklon
-@ Vance Wingfield
-@ White Clown
-
-@ Grand Slam
-@ Lady Jaye
-@ Destro
-@ Fred VII
-@ Voltar
-
-@ Ace
-@ Cutter
-@ Frostbite
-@ Windmill
-@ Blaster
-@ Copperhead
-@ Wild Weasel
-
-@ Deep Six
-@ Ghostrider
-@ Maverick
-
-@ Law
-@ Shockwave
-
-@ Dr. Adele Burkhart
-@ Dr. Lazlo Vandemeer
-@ Honda Lou West
+// @ Breaker
+// @ Dial-Tone
+// @ Mainframe
+// @ Slip Stream
+// @ Deejay
+// @ Raptor
+// @ Zarana
+// 
+// @ Rock 'n Roll
+// @ Roadblock
+// @ Repeater
+// @ Taurus
+// @ Horror Show
+// @ Kwinn
+// 
+// @ Flash
+// @ Sci-Fi
+// 
+// @ Snow Job
+// @ Wild Bill
+// @ Low-Light
+// @ Shooter
+// @ Daina
+// @ Baroness
+// 
+// @ Grunt
+// @ Alpine
+// @ Footloose
+// @ Iceberg
+// @ Hit & Run
+// @ Schrage
+// @ Scarface
+// @ Buzzer
+// 
+// @ Short-Fuze
+// @ Thunder
+// @ Hardball
+// @ Big Lob
+// @ Monkeywrench
+// 
+// @ Steeler
+// @ Heavy Metal
+// @ Cross-Country
+// @ Armadillo
+// @ Wildcard
+// @ Avalanche
+// @ Thrasher
+// 
+// @ Doc
+// @ Lifeline
+// @ Lift Ticket
+// @ Barbecue
+// 
+// @ Airborne
+// @ Ripcord
+// @ Crazylegs
+// 
+// @ Stalker
+// @ Torpedo
+// @ Recondo
+// @ Falcon
+// @ Muskrat
+// @ Tunnel Rat
+// @ Captain Minh
+// @ Wade Collins
+// @ Zandar
+// @ Croc Master
+// 
+// @ Spirit
+// @ Outback
+// @ Sneak Peek
+// @ Spearhead
+// @ Zartan
+// @ Gnawgahyde
+// 
+// @ Scarlett
+// @ Gung-Ho
+// @ Quick Kick
+// @ Backstop
+// @ Budo
+// @ Red Dog
+// @ Tomax
+// @ Xamot
+// @ Big Boa
+// @ Road Pig
+// 
+// @ Tripwire
+// @ Tollbooth
+// @ Wet-Suit
+// @ Lightfoot
+// @ Firefly
+// 
+// @ Clutch
+// @ Mutt
+// @ Shipwreck
+// @ Dusty
+// @ Leatherneck
+// @ Blizzard
+// @ Mercer
+// @ Dodger
+// @ Stormavik
+// @ Ripper
+// 
+// @ Crank Case
+// @ Skidmark
+// @ Blocker
+// @ Zanzibar
+// 
+// @ Blowtorch
+// @ Airtight
+// @ Charbroil
+// @ Dragonsky
+// @ Torch
+// 
+// @ Zap
+// @ Cover Girl
+// @ Bazooka
+// @ Fast Draw
+// @ Knockdown
+// @ Scrap Iron
+// @ Metal Head
+// 
+// @ Snake Eyes
+// @ Storm Shadow
+// @ Jinx
+// @ Billy Kessler
+// @ Soft Master
+// @ Blind Master
+// @ Pale Peony
+// 
+// @ Chuckles
+// @ Lola Graves
+// @ Joe Colton
+// @ Matt Trakker
+// 
+// @ Psyche-Out
+// @ Dr. Venom
+// @ Dr. Mindbender
+// @ Crystal Ball
+// 
+// @ Hawk
+// @ Duke
+// @ Flint
+// @ Beach Head
+// @ Sgt. Slaughter
+// @ Col. Brekhov
+// @ Cobra Commander
+// @ Major Bludd
+// @ Serpentor
+// @ Darklon
+// @ Vance Wingfield
+// @ White Clown
+// 
+// @ Grand Slam
+// @ Lady Jaye
+// @ Destro
+// @ Fred VII
+// @ Voltar
+// 
+// @ Ace
+// @ Cutter
+// @ Frostbite
+// @ Windmill
+// @ Blaster
+// @ Copperhead
+// @ Wild Weasel
+// 
+// @ Deep Six
+// @ Ghostrider
+// @ Maverick
+// 
+// @ Law
+// @ Shockwave
+// 
+// @ Dr. Adele Burkhart
+// @ Dr. Lazlo Vandemeer
+// @ Honda Lou West
 
 
 
@@ -194,8 +194,6 @@
 ::  LW2WotC Main mod
 # Guns
 
----- LW2WotC_HitandSlither:  Gain an additional move action after taking a standard shot at a flanked or exposed target with your primary weapon. <Ability:HNR_USES_PER_TURN/>
-::  LW2WotC Main mod
 
 ---- LW2WotC_DamnGoodGround:  Confers +<Ability:DGG_AIM_BONUS/> aim and +<Ability:DGG_DEF_BONUS/> defense against targets at a lower elevation.
 ::  LW2WotC Main mod
@@ -212,9 +210,6 @@
 ---- LW2WotC_WilltoSurvive:  Enemy damage is reduced when in cover and attacked through that cover. High cover reduces damage by <Ability:W2S_HIGH_COVER_ARMOR_BONUS/>. Low cover reduces damage by <Ability:W2S_LOW_COVER_ARMOR_BONUS/>. Also grants <Ability:WILLTOSURVIVE_WILLBONUS/> will.
 ::  LW2WotC Main mod
 
----- LW2WotC_LightEmUp:  Taking a standard shot with your primary weapon as your first action no longer ends your turn.
-::  LW2WotC Main mod
-
 
 
 
@@ -222,9 +217,6 @@
 ::  LW2WotC Main mod
 
 
-
----- LW2WotC_TraverseFire:  After taking a standard shot with your primary weapon with your first action, you may take an additional non-movement action.
-::  LW2WotC Main mod
 
 
 ---- LW2WotC_PrecisionShot:  Take a special shot with +<Ability:PRECISION_SHOT_CRIT_BONUS> bonus to critical chance and <Ability:PRECISION_SHOT_CRIT_DAMAGE_PERCENT_BONUS>% bonus critical damage. <Ability:PRECISION_SHOT_COOLDOWN> turn cooldown. Uses <Ability:PRECISION_SHOT_AMMO_COST> ammo.
@@ -239,16 +231,7 @@
 ---- LW2WotC_DamageControl:  After taking damage, gain <Ability:DAMAGE_CONTROL_BONUS_ARMOR> armor through the end of the turn.
 ::  LW2WotC Main mod
 
----- LW2WotC_RapidDeployment:  Activate this ability before throwing or launching a support grenade, and the throw will not cost an action. <Ability:RAPID_DEPLOYMENT_COOLDOWN> turn cooldown.
-::  LW2WotC Main mod
 
-
-
----- LW2WotC_LightningReflexes:  Reaction fire shots against you have a significantly decreased chance to hit. The bonus goes down with each additional reaction shot you face.
-::  LW2WotC Main mod
-
----- LW2WotC_RunAndGun:  Take an action after dashing.
-::  LW2WotC Main mod
 
 ---- LW2WotC_KillerInstinct:  Activating Run & Gun grants +<Ability:KILLER_INSTINCT_CRIT_DAMAGE_BONUS_PCT>% critical damage for the rest of the turn.
 ::  LW2WotC Main mod
@@ -262,17 +245,17 @@
 ---- LW2WotC_CombatFitness:  Gain <ABILITY:COMBAT_FITNESS_OFFENSE/> aim, <ABILITY:COMBAT_FITNESS_MOBILITY/> mobility, <ABILITY:COMBAT_FITNESS_HP/> HP, <ABILITY:COMBAT_FITNESS_WILL/> will, and <ABILITY:COMBAT_FITNESS_DODGE/> dodge.
 ::  LW2WotC Main mod
 
----- LW2WotC_Sprinter:  Gain <ABILITY:SPRINTER_MOBILITY/> mobility.
-::  LW2WotC Main mod
-
 ---- LW2WotC_AlphaMikeFoxtrot:  You do <Ability:ALPHAMIKEFOXTROT_DAMAGE/> additional points of base damage with your primary weapon.
 ::  LW2WotC Main mod
 
----- LW2WotC_BoostedCores:  Explosive grenades do <Ability:BOOSTED_CORES_DAMAGE> additional damage.
+
+---- LW2WotC_Sprinter:  Gain <ABILITY:SPRINTER_MOBILITY/> mobility.
 ::  LW2WotC Main mod
 
----- LW2WotC_VolatileMix:  Your grenades' area of effect is increased by one tile.
-::  LW2WotC Main mod
+
+
+
+
 
 ---- LW2WotC_CyclicFire:  Special Shot: Fire <Ability:CYCLIC_FIRE_SHOTS> shots at a target in a single attack. Requires <Ability:CYCLIC_FIRE_MIN_ACTION_REQ> actions and all shots have aim penalties. <Ability:CYCLIC_FIRE_COOLDOWN> turn cooldown.
 ::  LW2WotC Main mod
@@ -288,21 +271,10 @@
 
 ---- LW2WotC_CombatRush:  When you kill an enemy, nearby allies temporarily receive bonuses to aim, critical chance and mobility. <Ability:COMBAT_RUSH_COOLDOWN> turn cooldown.
 ::  LW2WotC Main mod
-
----- LW2WotC_FullKit:  Grants +<Ability:FULL_KIT_BONUS> charge per grenade item in a utility slot.
-::  LW2WotC Main mod
+# Leaders
 
 
 ---- LW2WotC_Savior:  Healing abilities restore <Ability:SAVIOR_BONUS_HEAL_AMMOUNT> additional hit points.
-::  LW2WotC Main mod
-
----- LW2WotC_HeavyOrdnance:  Any damaging grenade in your grenade-only slot gains <Ability:HEAVY_ORDNANCE_BONUS_CHARGES> bonus use.
-::  LW2WotC Main mod
-
----- LW2WotC_Protector:  Any non-damaging grenade in your grenade-only slot gains <Ability:PROTECTOR_BONUS_CHARGES> bonus use.
-::  LW2WotC Main mod
-
----- LW2WotC_HEATWarheads:  Your explosives now pierce up to <Ability:HEAT_WARHEADS_PIERCE> points of armor and shred <Ability:HEAT_WARHEADS_SHRED> additional point of armor.
 ::  LW2WotC Main mod
 
 ---- LW2WotC_EmergencyLifeSupport:  Emergency Life Support ensures the first killing blow in a mission will not lead to instant death. It also extends the time before the soldier bleeds out and dies.
@@ -334,9 +306,6 @@
 ---- LW2WotC_SteadyWeapon:  Gain +<Ability:STEADY_WEAPON_AIM_BONUS> aim on your next shot with your primary weapon. Bonus is lost if you use actions or are wounded.
 ::  LW2WotC Main mod
 
----- LW2WotC_Bombardier:  You may throw or launch grenades <Ability:BOMBARDIER_BONUS_RANGE_TILES> additional tiles.
-::  LW2WotC Main mod
-
 ---- LW2WotC_Failsafe:  If you fail a hack, you prevent any negative effects from occurring.
 ::  LW2WotC Main mod
 
@@ -349,16 +318,10 @@
 ---- LW2WotC_Solace:  The Psi Operative may immediately extinguish mental impairments for a squadmate.
 ::  LW2WotC Main mod
 
+---- LW2WotC_HEATWarheads:  Your explosives now pierce up to <Ability:HEAT_WARHEADS_PIERCE> points of armor and shred <Ability:HEAT_WARHEADS_SHRED> additional point of armor.
+::  LW2WotC Main mod
+
 ---- LW2WotC_Sapper:  Your explosives can destroy many cover objects.
-::  LW2WotC Main mod
-
----- LW2WotC_NeedleGrenades:  Your explosives do not destroy loot when they kill enemies.
-::  LW2WotC Main mod
-
----- InTheZone:  A powerful chained shot ability. For every kill made with your <Ability:WeaponName/>, your actions will be refunded.
-::  LW2WotC Main mod
-
----- Fuse:  If an enemy is carrying explosives, they can be remotely detonated by the Psi Operative.
 ::  LW2WotC Main mod
 
 ---- BulletShred:  A Rupture shot deals critical damage and ensures that the target takes an additional +<Ability:RuptureAmount/> damage from all attacks in the future.
@@ -410,54 +373,7 @@
 ---- MZAccurateReaction: Bonus to aim with reaction shots.
 :: Mitzruti's Perk Pack
 
----- GrimyAirBurst: launched grenades have larger radius
-:: Mitzruti's Perk Pack
-:: Grimy's Anarchist
-# Launcher
-@ Steeler
-@ Short Fuze
 
----- GrimyDeadlyHaze: grenades debuff enemy damage
-:: Mitzruti's Perk Pack
-:: Grimy's Anarchist
-# Grenades
-
----- GrimyGrenadeShredder: grenades shred more armour
-:: Mitzruti's Perk Pack
-:: Grimy's Anarchist
-# Grenades
-* Shred
-@ Cover Girl
-@ Hardball
-@ Heavy Metal
-
----- GrimyLightOrdnance: carry more grenades, but they do 50% less damage.
-:: Mitzruti's Perk Pack
-:: Grimy's Anarchist
-# Grenades
-
----- GrimySadist: increases uses of skullmine
-:: Mitzruti's Perk Pack
-:: Grimy's Anarchist
-* Enhance: Skullmine
-@ Dr. Venom
-@ Dr. Mindbender
-
----- GrimyShellShock: grenades may stun
-:: Mitzruti's Perk Pack
-:: Grimy's Anarchist
-# Grenades
-
----- GrimyShredderGun : grants a shredder gun
-:: Mitzruti's Perk Pack
-:: Grimy's Anarchist
-# Extra Equipment
-* Shred
-
----- GrimyVileConcoctions: DoT effects of grenades do more damage
-:: Mitzruti's Perk Pack
-:: Grimy's Anarchist
-# Grenades
 
 
 ---- GrimyDrawFire: sacrifice def to buff armour and ally def.
@@ -551,11 +467,6 @@
 :: Mitzruti's Perk Pack
 :: Grimy's Fury
 
----- GrimySpeedster: passive: +1 AP, -4mobility
-:: Mitzruti's Perk Pack
-:: Grimy's Fury
-* Action
-
 ---- GrimyWillToSurvive: increase max HP based on will
 :: Mitzruti's Perk Pack
 :: Grimy's Fury
@@ -571,32 +482,11 @@
 :: Mitzruti's Perk Pack
 :: Grimy's Headhunter
 * Poison
+@ Airtight
 
 ---- GrimyBuckshot: Fire at all enemies inside a narrow cone
 :: Mitzruti's Perk Pack
 :: Grimy's Headhunter
-
----- GrimyDoubleTap: take a shot, then take another action.
-:: Mitzruti's Perk Pack
-:: Grimy's Headhunter
-* Action
-
----- GrimyHexHunter: special shot deals bonus damage to psionic enemies, proportional to their psi offense.
-:: Mitzruti's Perk Pack
-:: Grimy's Headhunter
-
----- GrimyMultiHook: A free aiming grappling hook that costs 1 action point
-:: Mitzruti's Perk Pack
-:: Grimy's Headhunter
-# Grapnel
-@ Alpine
-@ Shipwreck
-@ Quick Kick
-
----- GrimyPreparation: free action grants AP on next turn.
-:: Mitzruti's Perk Pack
-:: Grimy's Headhunter
-* Action
 
 
 ---- MZCriticalX: increases crit, but reduces aim.
@@ -648,6 +538,7 @@
 :: Mitzruti's Perk Pack
 * Bullet Arts
 * Poison
+@ Airtight
 
 ---- MZMeleeBullet: melee damage + 0turn diorient + ignore sustain + ignore teleaway
 :: Mitzruti's Perk Pack
@@ -788,9 +679,6 @@
 ---- MZTerribleThought:  cosume HP to become undetectable and walk through walls. need to be concealed.
 :: Mitzruti's Perk Pack
 
----- MZZombieGrenades:  gas and flashbangs make enemies vulnerable to Turn Undead/etc.
-:: Mitzruti's Perk Pack
-
 
 ---- MZBloodShot:  consume half HP to fire a powerful and accurate shot.
 :: Mitzruti's Perk Pack
@@ -850,6 +738,7 @@
 ---- MZNictatingMembranes -Eyes: negate aim penalties from poison, disorient, smoke. cure blind every turn.
 :: Mitzruti's Perk Pack
 # Gene Mods
+@ Airtight
 
 ---- MZPsyberInterface -Eyes: Bonus hack, aim vs robots
 :: Mitzruti's Perk Pack
@@ -887,6 +776,10 @@
 
 ---- MZLuckyNight:  random bonus to dodge and mobility
 :: Mitzruti's Perk Pack
+@ Clutch
+@ Shipwreck
+@ Mutt
+@ Jinx
 
 
 ---- MZWiredreflexes:  changes hit rolls on reflex actions to be 1 stage more favourable
@@ -896,6 +789,7 @@
 
 ---- MZProtection: stasis shield, but unlinked from stasis.
 :: Mitzruti's Perk Pack
+@ Lady Jaye
 
 ---- MZRaptorWhirlwind:  ranged shield attack, only useable after shieldwall.
 :: Mitzruti's Perk Pack
@@ -1023,10 +917,6 @@
 :: Mitzruti's Perk Pack
 :: IsmsRogue
 
----- IsmsRogueAndGun:  shot grants a move action if it hits.
-:: Mitzruti's Perk Pack
-:: IsmsRogue
-
 ---- IsmsScoutPack:  +6 vision. free battlescanner. bonus damage from height advantage.
 :: Mitzruti's Perk Pack
 :: IsmsRogue
@@ -1067,66 +957,6 @@
 * Repair Armor
 * Shred
 
-
----- MZFreeAcidGrenade:  grants a free acid grenade
-:: Mitzruti's Perk Pack
-# Grenades
-
----- MZFreeGasGrenade:  grants a free gas grenade
-:: Mitzruti's Perk Pack
-# Grenades
-
----- MZFreeEMPGrenade:  grants a free EMP grenade
-:: Mitzruti's Perk Pack
-# Grenades
-
----- MZAbyssalShot:  sacrifice health to deal bonus psi damage and inflict bloodcurse.
-:: Mitzruti's Perk Pack
-* Shot
-
----- MZBloodSpear:  sacrifice health to deal bonus psi damage and inflict bloodcurse in a line.
-:: Mitzruti's Perk Pack
-* Shot
-
----- MZLongRangeDefense:  bonus def and dodge based on distance from attacker.
-:: Mitzruti's Perk Pack
-
-
----- MZFreeEricparHealBomb:  grants a free heal grenade (requires Ericpar's Healbomb mod)
-:: Mitzruti's Perk Pack
-# Grenades
-# Heal
-* Enhance: Light Ordnance
-
----- MZFreeFireGrenade:  grants a free fire grenade
-:: Mitzruti's Perk Pack
-# Grenades
-# Fire
-* Enhance: Light Ordnance
-
----- MZFreeFragGrenade:  grants a free frag grenade
-:: Mitzruti's Perk Pack
-# Grenades
-# Frag
-* Enhance: Light Ordnance
-
----- MZFreeIRIMolotov:  grants a free molotov (requires Iridar's Molotov mod)
-:: Mitzruti's Perk Pack
-# Grenades
-# Molotov
-* Enhance: Light Ordnance
-
----- MZFreeIRIPipeBomb:  grants a free pipe bomb (requires Iridar's Pipe Bomb mod)
-:: Mitzruti's Perk Pack
-# Grenades
-# Pipe Bomb
-* Enhance: Light Ordnance
-
----- MZFreeProxyMine:  grants a free proxy mine
-:: Mitzruti's Perk Pack
-# Grenades
-# Prox Mine
-* Enhance: Light Ordnance
 
 
 
@@ -1193,10 +1023,6 @@
 
 
 
-
----- Center Mass:  You do one additional point of base damage when using guns.
-::1   LW2 Gunner
-# Guns
 
 ---- Grazing Fire:  Missed shots with your primary weapon have an additional roll to become a graze.
 ::5   LW2 Ranger
@@ -1274,9 +1100,6 @@
 ::7   LW2 Ranger
 ::7   LW2 Gunner
 
----- Traverse Fire:  After taking a standard shot with your primary weapon with your first action, you may take an additional non-movement action.
-::7   LW2 Gunner
-
 
 
 
@@ -1288,40 +1111,6 @@
 * Scale by visible
 
 
-
----- Lightning Reflexes:  Reaction fire shots against you have a significantly decreased chance to hit. The bonus goes down with each additional reaction shot you face.
-::1   LW2 Assault
-* Mobility
-@ Snake Eyes
-@ Jinx
-@ Lifeline
-@ Storm Shadow
-
-
-
-
----- Run and Gun:  Take an action after dashing.
-::0   LW2 Assault
-* Action
-@Hit and Run
-
----- Killer Instinct:  Activating Run & Gun grants +50% critical damage for the rest of the turn.
-::3   LW2 Assault
-* Enhance: Run and Gun
-
----- Extra Conditioning:  Run and Gun cooldown is reduced by one turn.
-::4   LW2 Assault
-* Enhance: Run and Gun
-
-
-
-
----- Hit and Run:  Once per turn, gain an additional action after taking a standard shot at a flanked or exposed target with your primary weapon.
-==   LW2WotC_HitandRun
-::  LW2WotC Main mod
-::5   LW2 Assault
-::6  LW2 Shinobi
-@ Hit and Run
 
 
 
@@ -1336,17 +1125,6 @@
 ::2   LW2 Assault
 * Close
 
-
----- Close Encounters:  Once per turn, gain a bonus action after taking a standard shot with your primary weapon at an enemy within four tiles. Close Encounters cannot be used after Run and Gun is activated.
-== LW2WotC_CloseEncounters
-::5   LW2 Assault
-::  LW2WotC Main mod
-* Close
-
-
----- Bring 'Em On:  Gain +1 damage on critical hits for every two enemies you can see, up to a maximum of +8.
-= LW2WotC_BringEmOn
-::6   LW2 Assault
 
 ---- Close Combat Specialist:  During enemy turns, fire a free reaction shot with your primary weapon at any visible enemy within four tiles who moves or fires. Will not trigger if soldier is concealed.
 = LW2WotC_CloseCombatSpecialist
@@ -1367,78 +1145,6 @@
 
 
 
----- Launch Grenade:  The Grenadier uses a grenade launcher to fire grenades rather than throwing them. This allows for greater range and grenade capacity.
-::-1   LW2 Grenadier
-# Launcher
-@ Short Fuze
-@ Gung-Ho
-@ Hardball
-@ Thunder
-@ Big Lob
-
-
----- Sapper:  Your explosives can destroy many cover objects.
-::1   LW2 Grenadier
-# Explosives
-@ Tripwire
-@ Lightfoot
-@ Zap
-@ Thunder
-@ Tollbooth
-
----- Needle Grenades:  Your explosives do not destroy loot when they kill enemies.
-::1   LW2 Grenadier
-# Grenades
-@ Short Fuze
-
----- Rapid Deployment:  Activate this ability before throwing or launching a support grenade, and the throw will not cost an action.
-::1   LW2 Grenadier
-# Grenades
-@ Hardball
-
-
----- Heavy Ordinance:  Any damaging grenade in your grenade-only slot gains a bonus use.
-::2   LW2 Grenadier
-# Grenades
-@ Short Fuze
-@ Thunder
-@ Hardball
-@ Big Lob
-
----- Center Mass:  You do one additional point of base damage when using guns.
-::2   LW2 Grenadier
-# Guns
-@ Grunt
-
----- Protector:  Non-damaging grenades in your grenade-only slot gain a bonus use.
-::2   LW2 Grenadier
-# Grenades
-
----- Boosted Cores:  Explosive grenades do one additional damage.
-::3   LW2 Grenadier
-# Grenades
-@ Thunder
-
-
-
----- HEAT Warheads:  Your grenades now pierce up to 2 points of armor and shred one additional point of armor.
-::4   LW2 Grenadier
-# Grenades
-* Shred
-@ Thunder
-
-
-
----- Volatile Mix:  Your grenades' area of effect is increased by one tile.
-::6   LW2 Grenadier
-# Grenades
-@ Thunder
-
----- Bombardier:  You may throw or launch grenades two additional tiles.
-::6   LW2 Grenadier
-# Grenades
-@ Thunder
-@ Short Fuze
 
 
 ---- Combat Engineer:  Your explosives do significantly greater damage to cover objects and other things on the battlefield.
@@ -1449,15 +1155,6 @@
 @ Zap
 @ Thunder
 @ Tollbooth
-
----- Full Kit:  Grants +1 charge per grenade item in a utility slot.
-::7   LW2 Grenadier
-@ Thunder
-@ Hardball
-@ Short Fuze
-
-
-
 
 
 
@@ -1475,9 +1172,6 @@
 @ Blind Master
 
 
----- Light 'Em Up:  Taking a standard shot with your primary weapon as your first action no longer ends your turn.
-::0   LW2 Ranger
-
 
 ---- Walk Fire:  Take a highly accurate shot with +30 bonus to hit but for half damage and -30 crit. Uses 2 ammo.
 == LW2WotC_WalkFire
@@ -1492,13 +1186,12 @@
 ::2   LW2 Ranger
 
 
----- Center Mass:  You do one additional point of base damage when using guns.
-::3   LW2 Ranger
 
 
 
 ---- Executioner:  Confers +10 aim and +10 critical chance against targets at half or less of their original hit points.
 = LW2WotC_Executioner
+::2  LW2 Shinobi
 ::4   LW2 Ranger
 ::  LW2WotC Main mod
 
@@ -1510,17 +1203,18 @@
 
 
 
+
 ---- Bring 'Em On:  Gain +1 damage on critical hits for every two enemies you can see, up to a maximum of +8.
+= LW2WotC_BringEmOn
 ::5   LW2 Ranger
+::6   LW2 Assault
+
 
 ---- Implacable:  If you score one or more kills on your turn, you are granted a single bonus move.
 ::5   LW2 Ranger
 
 
 
-
----- Tactical Sense:  Gain 3 defense for each enemy you can see, up to a maximum of 15 defense.
-::6   LW2 Ranger
 
 
 
@@ -1539,13 +1233,14 @@
 ::2   LW2 Sharpshooter
 * Elevation
 
----- Phantom:  When the squad is revealed, this soldier remains concealed.
-::2   LW2 Sharpshooter
-* Concealment
 
 ---- Center Mass:  You do one additional point of base damage when using guns.
 ::2   LW2 Sharpshooter
+::3   LW2 Ranger
+::1   LW2 Gunner
+::2   LW2 Grenadier
 # Guns
+@ Grunt
 
 
 
@@ -1564,6 +1259,7 @@
 
 ---- Hunter's Instincts:  Ranged attacks against flanked enemies deal +2 damage.
 ::6   LW2 Sharpshooter
+::5  LW2 Shinobi
 
 
 ---- Alpha Mike Foxtrot:  You do 4 additional points of base damage and 2 additional points of crit damage with your primary weapon.
@@ -1577,6 +1273,8 @@
 
 ---- Phantom:  When the squad is revealed, this soldier remains concealed.
 ::0  LW2 Shinobi
+::2   LW2 Sharpshooter
+* Concealment
 
 
 ---- Ghostwalker:  Activate this ability to reduce enemy detection range against you by 25% for the rest of your turn as well as the following turn. Four-turn cooldown.
@@ -1584,9 +1282,6 @@
 ::  LW2WotC Main mod
 ::1  LW2 Shinobi
 
-
----- Executioner:  Confers +10 aim and +10 critical chance against targets at half or less of their original hit points.
-::2  LW2 Shinobi
 
 ---- Covert:  Enemies have 25% smaller detection range against you.
 ::3  LW2 Shinobi
@@ -1600,9 +1295,6 @@
 ::4  LW2 Shinobi
 
 
-
----- Hunter's Instincts:  Ranged attacks against flanked enemies deal +2 damage.
-::5  LW2 Shinobi
 
 ---- Evasive:  Start each mission with 100 bonus dodge. The bonus is removed after you take damage for the first time.
 ::5  LW2 Shinobi
@@ -1660,6 +1352,7 @@
 
 ---- Tactical Sense:  Gain 3 defense for each enemy you can see, up to a maximum of 15 defense.
 ::6   LW2 Technical
+::6   LW2 Ranger
 
 
 
@@ -1708,6 +1401,7 @@
 
 
 ---- Fuse:  If an enemy is carrying explosives, they can be remotely detonated by the Psi Operative.
+::  LW2WotC Main mod
 ::5   Psi Operative
 
 ---- Stasis Shield:  Stasis can be cast on allies, rendering them immune to any attacks, and stunned, for 1 turn.
@@ -3309,11 +3003,13 @@
 ::  LW2WotC Main mod
 # Pistol
 @ Clutch
+@ Wild Bill
 
 ---- LW2WotC_Gunslinger:  Take a reaction shot with your pistol against any enemy that moves or attacks within <Ability:GUNSLINGER_TILES_RANGE> tiles and a wide cone of fire. <Ability:GUNSLINGER_COOLDOWN> turn cooldown.
 ::  LW2WotC Main mod
 # Pistol
 * Close
+@ Wild Bill
 
 
 ---- GrimyNeedlePointPassive: pistol abilites poison enemies
@@ -3321,6 +3017,7 @@
 :: Grimy's Bruiser
 # Pistol
 * Poison
+@ Airtight
 
 ---- GrimyTaserShot: pistol shot stuns organics, triple damage robots
 :: Mitzruti's Perk Pack
@@ -3331,21 +3028,25 @@
 :: Mitzruti's Perk Pack
 # Pistol
 * Shot
+@ Wild Bill
 
 ---- MZShootOut:  fire your pistol at up to 6 random enemies. can hit the same target twice.
 :: Mitzruti's Perk Pack
 # Pistol
 * Shot
+@ Wild Bill
 
 ---- MZTheBusiness:  fire your pistol at 2 random enemies
 :: Mitzruti's Perk Pack
 # Pistol
 * Shot
+@ Clutch
 
 ---- MZIMeantToDoThat:  on pistol kill, shoot a random foe.
 :: Mitzruti's Perk Pack
 # Pistol
 * Shot
+@ Wild Bill
 
 ---- MZWildPistolStrafe:  fire pistol at random foe. uses strafe AP.
 :: Mitzruti's Perk Pack
@@ -3371,6 +3072,7 @@
 ---- MZKillerFlow:  autopistol attacks shoot an additional time at the primary target. (1/target/turn)
 :: Mitzruti's Perk Pack
 # Pistol
+@ Snake Eyes
 
 
 ---- MZAbyssalPistolShot:  sacrifice health to deal bonus psi damage and inflict bloodcurse.
@@ -3380,15 +3082,18 @@
 ---- MZBigFortyFive:  strong pistol attack, but need to have two actions to fire.
 :: Mitzruti's Perk Pack
 # Pistol
+@ Wild Bill
 
 ---- MZQuickFortyFire:  BigFortyFive no longer ends the turn.
 :: Mitzruti's Perk Pack
 # Pistol
+@ Wild Bill
 
 ---- MZPistolRave:  3-shot burst. woefully inaccurate.
 :: Mitzruti's Perk Pack
 # Pistol
 * Shot
+@ Clutch
 
 
 
@@ -3895,12 +3600,6 @@
 == LW2WotC_Sentinel
 ::1   LW2 Specialist
 
----- Ever Vigilant:  If you spend all of your actions on moves, you are granted an automatic overwatch shot at the end of the turn.
-::1   LW2 Ranger
-
----- Covering Fire:  Overwatch shots can now be triggered by any enemy action, not just movement. Targets of overwatch shots receive -10 aim for the rest of the turn whether or not the shot was triggered because of this ability.
-::2   LW2 Ranger
-
 
 ---- Rapid Reaction:  When in overwatch, each shot you hit with grants another reaction fire shot, up to a maximum of three shots. Each enemy can only be the target of one shot.
 ::6   LW2 Ranger
@@ -3911,9 +3610,11 @@
 
 
 ---- Covering Fire:  Overwatch shots can now be triggered by any enemy action, not just movement. Targets of overwatch shots receive -10 aim for the rest of the turn whether or not the shot was triggered because of this ability.
+::2   LW2 Ranger
 ::2   LW2 Specialist
 
 ---- Ever Vigilant:  If you spend all of your actions on moves, you are granted an automatic overwatch shot at the end of the turn.
+::1   LW2 Ranger
 ::4   LW2 Specialist
 
 ---- Combat Awareness:  Grants 15 defense and an armor point when in overwatch.
@@ -3924,3 +3625,323 @@
 
 ---- Hunter Protocol:  When an enemy is revealed, there is a 33% chance to take a free Overwatch shot.
 ::7   SPARK
+
+
+
+
+// ================================================================================================================================================================
+// Grenades
+// ================================================================================================================================================================
+
+
+---- LW2WotC_RapidDeployment:  Activate this ability before throwing or launching a support grenade, and the throw will not cost an action. <Ability:RAPID_DEPLOYMENT_COOLDOWN> turn cooldown.
+::  LW2WotC Main mod
+@ Grand Slam
+
+---- LW2WotC_BoostedCores:  Explosive grenades do <Ability:BOOSTED_CORES_DAMAGE> additional damage.
+::  LW2WotC Main mod
+@ Thunder
+
+---- LW2WotC_VolatileMix:  Your grenades' area of effect is increased by one tile.
+::  LW2WotC Main mod
+
+---- LW2WotC_FullKit:  Grants +<Ability:FULL_KIT_BONUS> charge per grenade item in a utility slot.
+::  LW2WotC Main mod
+
+---- LW2WotC_HeavyOrdnance:  Any damaging grenade in your grenade-only slot gains <Ability:HEAVY_ORDNANCE_BONUS_CHARGES> bonus use.
+::  LW2WotC Main mod
+
+---- LW2WotC_Protector:  Any non-damaging grenade in your grenade-only slot gains <Ability:PROTECTOR_BONUS_CHARGES> bonus use.
+::  LW2WotC Main mod
+
+---- LW2WotC_Bombardier:  You may throw or launch grenades <Ability:BOMBARDIER_BONUS_RANGE_TILES> additional tiles.
+::  LW2WotC Main mod
+
+---- LW2WotC_NeedleGrenades:  Your explosives do not destroy loot when they kill enemies.
+::  LW2WotC Main mod
+
+---- GrimyAirBurst: launched grenades have larger radius
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Launcher
+@ Steeler
+@ Short Fuze
+
+---- GrimyDeadlyHaze: grenades debuff enemy damage
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Grenades
+
+---- GrimyGrenadeShredder: grenades shred more armour
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Grenades
+* Shred
+@ Cover Girl
+@ Hardball
+@ Heavy Metal
+
+---- GrimyLightOrdnance: carry more grenades, but they do 50% less damage.
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Grenades
+
+---- GrimySadist: increases uses of skullmine
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+* Enhance: Skullmine
+@ Dr. Venom
+@ Dr. Mindbender
+
+---- GrimyShellShock: grenades may stun
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Grenades
+
+---- GrimyShredderGun : grants a shredder gun
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Extra Equipment
+* Shred
+
+---- GrimyVileConcoctions: DoT effects of grenades do more damage
+:: Mitzruti's Perk Pack
+:: Grimy's Anarchist
+# Grenades
+
+---- MZZombieGrenades:  gas and flashbangs make enemies vulnerable to Turn Undead/etc.
+:: Mitzruti's Perk Pack
+
+---- MZFreeAcidGrenade:  grants a free acid grenade
+:: Mitzruti's Perk Pack
+# Grenades
+
+---- MZFreeGasGrenade:  grants a free gas grenade
+:: Mitzruti's Perk Pack
+# Grenades
+
+---- MZFreeEMPGrenade:  grants a free EMP grenade
+:: Mitzruti's Perk Pack
+# Grenades
+
+---- MZAbyssalShot:  sacrifice health to deal bonus psi damage and inflict bloodcurse.
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZBloodSpear:  sacrifice health to deal bonus psi damage and inflict bloodcurse in a line.
+:: Mitzruti's Perk Pack
+* Shot
+
+---- MZLongRangeDefense:  bonus def and dodge based on distance from attacker.
+:: Mitzruti's Perk Pack
+
+
+---- MZFreeEricparHealBomb:  grants a free heal grenade (requires Ericpar's Healbomb mod)
+:: Mitzruti's Perk Pack
+# Grenades
+# Heal
+* Enhance: Light Ordnance
+
+---- MZFreeFireGrenade:  grants a free fire grenade
+:: Mitzruti's Perk Pack
+# Grenades
+# Fire
+* Enhance: Light Ordnance
+
+---- MZFreeFragGrenade:  grants a free frag grenade
+:: Mitzruti's Perk Pack
+# Grenades
+# Frag
+* Enhance: Light Ordnance
+
+---- MZFreeIRIMolotov:  grants a free molotov (requires Iridar's Molotov mod)
+:: Mitzruti's Perk Pack
+# Grenades
+# Molotov
+* Enhance: Light Ordnance
+
+---- MZFreeIRIPipeBomb:  grants a free pipe bomb (requires Iridar's Pipe Bomb mod)
+:: Mitzruti's Perk Pack
+# Grenades
+# Pipe Bomb
+* Enhance: Light Ordnance
+
+---- MZFreeProxyMine:  grants a free proxy mine
+:: Mitzruti's Perk Pack
+# Grenades
+# Prox Mine
+* Enhance: Light Ordnance
+
+
+---- Launch Grenade:  The Grenadier uses a grenade launcher to fire grenades rather than throwing them. This allows for greater range and grenade capacity.
+::-1   LW2 Grenadier
+# Launcher
+@ Short Fuze
+@ Gung-Ho
+@ Hardball
+@ Thunder
+@ Big Lob
+
+
+---- Sapper:  Your explosives can destroy many cover objects.
+::1   LW2 Grenadier
+# Explosives
+@ Tripwire
+@ Lightfoot
+@ Zap
+@ Thunder
+@ Tollbooth
+
+---- Needle Grenades:  Your explosives do not destroy loot when they kill enemies.
+::1   LW2 Grenadier
+# Grenades
+@ Short Fuze
+
+---- Rapid Deployment:  Activate this ability before throwing or launching a support grenade, and the throw will not cost an action.
+::1   LW2 Grenadier
+# Grenades
+@ Hardball
+
+
+---- Heavy Ordinance:  Any damaging grenade in your grenade-only slot gains a bonus use.
+::2   LW2 Grenadier
+# Grenades
+@ Short Fuze
+@ Thunder
+@ Hardball
+@ Big Lob
+
+---- Protector:  Non-damaging grenades in your grenade-only slot gain a bonus use.
+::2   LW2 Grenadier
+# Grenades
+
+---- Boosted Cores:  Explosive grenades do one additional damage.
+::3   LW2 Grenadier
+# Grenades
+@ Thunder
+
+
+
+---- HEAT Warheads:  Your grenades now pierce up to 2 points of armor and shred one additional point of armor.
+::4   LW2 Grenadier
+# Grenades
+* Shred
+@ Thunder
+
+
+
+---- Volatile Mix:  Your grenades' area of effect is increased by one tile.
+::6   LW2 Grenadier
+# Grenades
+@ Thunder
+
+---- Bombardier:  You may throw or launch grenades two additional tiles.
+::6   LW2 Grenadier
+# Grenades
+@ Thunder
+@ Short Fuze
+
+
+---- Full Kit:  Grants +1 charge per grenade item in a utility slot.
+::7   LW2 Grenadier
+@ Thunder
+@ Hardball
+@ Short Fuze
+
+
+
+
+// ================================================================================================================================================================
+// Actions
+// ================================================================================================================================================================
+
+
+---- LW2WotC_HitandSlither:  Gain an additional move action after taking a standard shot at a flanked or exposed target with your primary weapon. <Ability:HNR_USES_PER_TURN/>
+::  LW2WotC Main mod
+
+---- LW2WotC_LightEmUp:  Taking a standard shot with your primary weapon as your first action no longer ends your turn.
+::  LW2WotC Main mod
+
+---- LW2WotC_TraverseFire:  After taking a standard shot with your primary weapon with your first action, you may take an additional non-movement action.
+::  LW2WotC Main mod
+
+---- LW2WotC_LightningReflexes:  Reaction fire shots against you have a significantly decreased chance to hit. The bonus goes down with each additional reaction shot you face.
+::  LW2WotC Main mod
+
+---- LW2WotC_RunAndGun:  Take an action after dashing.
+::  LW2WotC Main mod
+
+---- InTheZone:  A powerful chained shot ability. For every kill made with your <Ability:WeaponName/>, your actions will be refunded.
+::  LW2WotC Main mod
+
+---- GrimySpeedster: passive: +1 AP, -4mobility
+:: Mitzruti's Perk Pack
+:: Grimy's Fury
+* Action
+
+---- GrimyDoubleTap: take a shot, then take another action.
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+* Action
+
+---- GrimyHexHunter: special shot deals bonus damage to psionic enemies, proportional to their psi offense.
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+
+---- GrimyMultiHook: A free aiming grappling hook that costs 1 action point
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+# Grapnel
+@ Alpine
+@ Shipwreck
+@ Quick Kick
+
+---- GrimyPreparation: free action grants AP on next turn.
+:: Mitzruti's Perk Pack
+:: Grimy's Headhunter
+* Action
+
+---- IsmsRogueAndGun:  shot grants a move action if it hits.
+:: Mitzruti's Perk Pack
+:: IsmsRogue
+
+---- Traverse Fire:  After taking a standard shot with your primary weapon with your first action, you may take an additional non-movement action.
+::7   LW2 Gunner
+
+---- Lightning Reflexes:  Reaction fire shots against you have a significantly decreased chance to hit. The bonus goes down with each additional reaction shot you face.
+::1   LW2 Assault
+* Mobility
+@ Snake Eyes
+@ Jinx
+@ Lifeline
+@ Storm Shadow
+
+---- Run and Gun:  Take an action after dashing.
+::0   LW2 Assault
+* Action
+@Hit and Run
+
+---- Killer Instinct:  Activating Run & Gun grants +50% critical damage for the rest of the turn.
+::3   LW2 Assault
+* Enhance: Run and Gun
+
+---- Extra Conditioning:  Run and Gun cooldown is reduced by one turn.
+::4   LW2 Assault
+* Enhance: Run and Gun
+
+---- Hit and Run:  Once per turn, gain an additional action after taking a standard shot at a flanked or exposed target with your primary weapon.
+==   LW2WotC_HitandRun
+::  LW2WotC Main mod
+::5   LW2 Assault
+::6  LW2 Shinobi
+@ Hit and Run
+
+---- Close Encounters:  Once per turn, gain a bonus action after taking a standard shot with your primary weapon at an enemy within four tiles. Close Encounters cannot be used after Run and Gun is activated.
+== LW2WotC_CloseEncounters
+::5   LW2 Assault
+::  LW2WotC Main mod
+* Close
+
+---- Light 'Em Up:  Taking a standard shot with your primary weapon as your first action no longer ends your turn.
+::0   LW2 Ranger
+

@@ -165,6 +165,7 @@ def compile_class_data(cdata, adata):
         cols_to_take = []
         cols_to_take.append(('Abilities','longdesc'))
         cols_to_take.append(('Abilities','friendlyname'))
+        cols_to_take.append(('Abilities','slot'))
         cols_to_take.append(('Characters',guy))
         cols_to_take.append(('Summary','attributes_summary'))
         cols_to_take.append(('Summary','keywords_summary'))
@@ -265,7 +266,7 @@ def compile_output(gdata):
         ccode.append("; " + "Role:".ljust(20)               + gdata[guy]['role'])
         ccode.append("; " + "Group:".ljust(20)              + gdata[guy]['group'])
         ccode.append("; " + "Personal Trait:".ljust(20)     + gdata[guy]['primary_trait'])
-        ccode.append("; " + "Traits:".ljust(20)             + gdata[guy]['attributes'])
+        ccode.append("; " + "Attributes:".ljust(20)         + gdata[guy]['attributes'])
         ccode.append("; ")
 
         ccode.append("; " + "Real Name:".ljust(20)          + gdata[guy]['first_name'] + " " + gdata[guy]['last_name'])
@@ -339,8 +340,11 @@ def compile_output(gdata):
             for ability,rec in this_rank_abilities.iterrows():
                 pieces = []
                 pieces.append("AbilityName=" + quoted(ability))
-                if False:
-                    pieces.append("ApplyToWeaponSlot=" + "xxx")
+                #print(guy, ability, rec)
+
+                if pd.notna(rec['slot']):
+                    pieces.append("ApplyToWeaponSlot=" + rec['slot'])
+
                 line = "(AbilityType=(" + ",".join(pieces) + "))"
                 abilities.append(line)
 
@@ -509,6 +513,113 @@ def quoted(string, escape=True):
     if escape and '"' in string:
         string = string.replace('"', '""')
     return '"' + string + '"'
+
+# ------------------------------------------------------------------------------
+# Get the perk data from the text file
+# ------------------------------------------------------------------------------
+def parse_perk_data(pfile):
+    # --------------------------------------------------------------------------
+    # Start
+    # --------------------------------------------------------------------------
+    print("...reading marked up text source...")
+
+    # --------------------------------------------------------------------------
+    # Get the text data out of the file and hold it as a list
+    # --------------------------------------------------------------------------
+    fdata = open(pfile, "r", encoding="utf-8").read().splitlines()
+
+    # --------------------------------------------------------------------------
+    # Work through it and catalog things at the perk level
+    # --------------------------------------------------------------------------
+    perks = []
+    perk = {}
+    for i, line in enumerate(fdata):
+        # ----------------------------------------------------------------------
+        # Trim whitespace
+        # ----------------------------------------------------------------------
+        line = line.strip()
+
+        # ----------------------------------------------------------------------
+        # Skip blank lines
+        # ----------------------------------------------------------------------
+        if len(line) == 0:
+            continue
+
+        # ----------------------------------------------------------------------
+        # Section headers, just skip for now
+        # ----------------------------------------------------------------------
+        if line.startswith("/"):
+            continue
+
+        # ----------------------------------------------------------------------
+        # When we hit a new perk
+        # ----------------------------------------------------------------------
+        if line.startswith("----"):
+            # ------------------------------------------------------------------
+            # Add the previous perk to the list if it's there
+            # ------------------------------------------------------------------
+            if perk:
+                perks.append(perk)
+
+            # ------------------------------------------------------------------
+            # Start a new perk
+            # ------------------------------------------------------------------
+            perk = {}
+            pname, pdesc = line[5:].split(":",1)
+            perk[("Ability", "Name")] = pname.strip()
+            perk[("Ability", "Desc")] = pdesc.strip()
+
+        # ----------------------------------------------------------------------
+        # When we hit an alias tag
+        # ----------------------------------------------------------------------
+        elif line.startswith("="):
+            perk[("Ability", "Alias")] = re.sub("^=+","",line).strip()
+
+        # ----------------------------------------------------------------------
+        # When we hit a source tag
+        # ----------------------------------------------------------------------
+        elif line.startswith(":"):
+            tag = re.sub("^#+","",line).strip()
+            perk[("Source", tag)] = "x"
+
+        # ----------------------------------------------------------------------
+        # When we hit a dependency tag
+        # ----------------------------------------------------------------------
+        elif line.startswith("#"):
+            tag = re.sub("^#+","",line).strip()
+            perk[("Dependency", tag)] = "x"
+
+        # ----------------------------------------------------------------------
+        # When we hit a theme tag
+        # ----------------------------------------------------------------------
+        elif line.startswith("*"):
+            tag = re.sub("^\*+","",line).strip()
+            perk[("Theme", tag)] = "x"
+
+        # ----------------------------------------------------------------------
+        # When we hit a character tag
+        # ----------------------------------------------------------------------
+        elif line.startswith("@"):
+            tag = re.sub("^@+","",line).strip()
+            perk[("Character", tag)] = "x"
+
+        # ----------------------------------------------------------------------
+        # When we have hit the last line
+        # ----------------------------------------------------------------------
+        if i == len(fdata)-1:
+            perks.append(perk)
+
+    # --------------------------------------------------------------------------
+    # Make that into a dataframe
+    # --------------------------------------------------------------------------
+    tdata = pd.DataFrame(perks)
+    tdata.columns = pd.MultiIndex.from_tuples(tdata.columns)
+    tdata = tdata.sort_index(axis=1)
+
+    # --------------------------------------------------------------------------
+    # Finish
+    # --------------------------------------------------------------------------
+    return tdata
 
 # ------------------------------------------------------------------------------
 # Run
