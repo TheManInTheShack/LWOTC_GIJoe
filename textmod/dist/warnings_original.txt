@@ -1,0 +1,133 @@
+WARNING! Line 344 is missing text value on the right side of the '=': m_sDatabaseHQ=
+WARNING! Variable m_strInterfaceLabel_EdgescrollSpeed_Desc is duplicated for section UIOptionsPCScreen on line 761...it will be overwritten.
+WARNING!  Section X2TacticalGameRulesetDataStructures seems to be repeated in the data.
+WARNING! Line 5595 is missing text value on the right side of the '=': m_arrCategoryNames[eCat_Promotion]=
+WARNING! Line 5608 is missing text value on the right side of the '=': m_arrCategoryNames[eCat_Blank]=
+WARNING! Variable m_arrFontOptions is duplicated for section X2Photobooth on line 9069...it will be overwritten.
+WARNING! Variable m_arrFontOptions is duplicated for section X2Photobooth on line 9070...it will be overwritten.
+WARNING! Variable m_arrFontOptions is duplicated for section X2Photobooth on line 9071...it will be overwritten.
+WARNING! Variable m_arrFontOptions is duplicated for section X2Photobooth on line 9072...it will be overwritten.
+WARNING! Variable m_arrFontOptions is duplicated for section X2Photobooth on line 9073...it will be overwritten.
+WARNING! Variable m_arrFontOptions is duplicated for section X2Photobooth on line 9074...it will be overwritten.
+WARNING! Variable m_arrCameraPresets is duplicated for section X2Photobooth on line 9077...it will be overwritten.
+WARNING! Variable m_arrCameraPresets is duplicated for section X2Photobooth on line 9078...it will be overwritten.
+WARNING! Variable m_arrCameraPresets is duplicated for section X2Photobooth on line 9079...it will be overwritten.
+WARNING! Variable m_arrCameraPresets is duplicated for section X2Photobooth on line 9080...it will be overwritten.
+WARNING! Variable m_arrCameraPresets is duplicated for section X2Photobooth on line 9081...it will be overwritten.
+WARNING! Variable m_arrCameraPresets is duplicated for section X2Photobooth on line 9082...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9085...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9086...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9087...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9088...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9089...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9090...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9091...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9092...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9093...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9094...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9095...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9096...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9097...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9098...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9099...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9100...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9101...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9102...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9103...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9104...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9105...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9106...it will be overwritten.
+WARNING! Variable m_arrBackgroundOptions is duplicated for section X2Photobooth on line 9107...it will be overwritten.
+WARNING! Variable m_arrFirstPassFilterOptions is duplicated for section X2Photobooth on line 9112...it will be overwritten.
+WARNING! Variable m_arrFirstPassFilterOptions is duplicated for section X2Photobooth on line 9113...it will be overwritten.
+WARNING! Variable m_arrFirstPassFilterOptions is duplicated for section X2Photobooth on line 9114...it will be overwritten.
+WARNING! Variable m_arrFirstPassFilterOptions is duplicated for section X2Photobooth on line 9115...it will be overwritten.
+WARNING! Variable m_arrFirstPassFilterOptions is duplicated for section X2Photobooth on line 9116...it will be overwritten.
+WARNING! Variable m_arrFirstPassFilterOptions is duplicated for section X2Photobooth on line 9117...it will be overwritten.
+WARNING! Variable m_arrFirstPassFilterOptions is duplicated for section X2Photobooth on line 9118...it will be overwritten.
+WARNING! Variable m_arrSecondPassFilterOptions is duplicated for section X2Photobooth on line 9121...it will be overwritten.
+WARNING! Variable m_arrSecondPassFilterOptions is duplicated for section X2Photobooth on line 9122...it will be overwritten.
+WARNING! Variable m_arrSecondPassFilterOptions is duplicated for section X2Photobooth on line 9123...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9126...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9127...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9128...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9129...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9130...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9131...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9132...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9133...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9134...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9135...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9136...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9137...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9138...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9139...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9140...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9141...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9142...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9143...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9144...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9145...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9146...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9147...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9148...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9149...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9150...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9151...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9152...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9153...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9154...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9155...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9156...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9157...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9158...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9159...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9160...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9161...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9162...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9163...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9164...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9165...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9166...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9167...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9168...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9169...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9170...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9171...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9172...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9173...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9174...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9175...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9176...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9177...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9178...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9179...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9180...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9181...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9182...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9183...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9184...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9185...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9186...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9187...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9188...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9189...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9190...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9191...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9192...it will be overwritten.
+WARNING! Variable m_arrAnimationPoses is duplicated for section X2Photobooth on line 9193...it will be overwritten.
+WARNING! Variable m_arrAnimationSparkPoses is duplicated for section X2Photobooth on line 9196...it will be overwritten.
+WARNING! Variable m_arrAnimationSparkPoses is duplicated for section X2Photobooth on line 9197...it will be overwritten.
+WARNING! Variable m_arrAnimationSparkPoses is duplicated for section X2Photobooth on line 9198...it will be overwritten.
+WARNING! Variable m_arrAnimationSparkPoses is duplicated for section X2Photobooth on line 9199...it will be overwritten.
+WARNING! Line 9588 is missing text value on the right side of the '=': m_strYearSuffix=
+WARNING! Line 9589 is missing text value on the right side of the '=': m_strMonthSuffix=
+WARNING! Line 9590 is missing text value on the right side of the '=': m_strDaySuffix=
+WARNING!  Section UIInfirmary seems to be repeated in the data.
+WARNING! Malformed line 17389 does not contain a '=' character and cannot be parsed: *** CUT AND PUT IN ANOTHER FILE ***
+WARNING! Variable SummaryText is duplicated for section Sabotage_WeaponLockers X2SabotageTemplate on line 22012...it will be overwritten.
+WARNING! Variable SummaryText is duplicated for section Sabotage_LabStorage X2SabotageTemplate on line 22017...it will be overwritten.
+WARNING! Variable SummaryText is duplicated for section Sabotage_EncryptionServer X2SabotageTemplate on line 22022...it will be overwritten.
+WARNING! Variable SummaryText is duplicated for section Sabotage_Infirmary X2SabotageTemplate on line 22027...it will be overwritten.
+WARNING!  Section X2Photobooth seems to be repeated in the data.
+WARNING!  Section XComGameState_LadderProgress seems to be repeated in the data.
