@@ -9,6 +9,7 @@ import os
 import sys
 import re
 import shutil
+import math
 
 import pandas as pd
 
@@ -22,6 +23,24 @@ pd.set_option("display.max_columns", 12)
 sys.stdout.reconfigure(encoding='utf-8')
 
 sources = []
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\XComClassData_LWOTC.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2283957200\\2283957200\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2307690386\\2307690386\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2315630859\\2315630859\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2320661275\\2320661275\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2333540815\\2333540815\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2347951005\\2347951005\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2349299686\\2349299686\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2349334533\\2349334533\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2349597508\\2349597508\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2388969733\\2388969733\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2715505346\\2715505346\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2718035362\\2718035362\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2720287889\\2720287889\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2720855306\\2720855306\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2745435515\\2745435515\\Config\\XComClassData.ini")
+sources.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\classes\\2765508148\\2765508148\\Config\\XComClassData.ini")
+
 #sources.append("S:\Personal Folders\Dickerson\joe\examples\XComClassData_example1.ini")
 #sources.append("S:\Personal Folders\Dickerson\joe\examples\XComClassData_example2.ini")
 #sources.append("S:\Personal Folders\Dickerson\joe\examples\XComClassData_example3.ini")
@@ -33,32 +52,31 @@ sources = []
 #sources.append("S:\Personal Folders\Dickerson\joe\examples\XComClassData_example9.ini")
 #sources.append("S:\Personal Folders\Dickerson\joe\examples\XComClassData_example10.ini")
 #sources.append("S:\Personal Folders\Dickerson\joe\examples\XComClassData_example11.ini")
-sources.append("S:\Personal Folders\Dickerson\joe\data\XComClassData_LWOTC.ini")
 
 textsrc = []
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_1.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_2.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_3.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_4.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_5.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_6.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_7.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_8.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_9.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_10.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_11.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_12.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_13.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_14.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_15.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_16.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_17.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_18.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_19.INT")
-textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\textbank_20.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_1.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_2.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_3.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_4.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_5.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_6.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_7.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_8.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_9.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_10.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_11.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_12.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_13.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_14.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_15.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_16.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_17.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_18.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_19.INT")
+textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_20.INT")
 
 wikisrc = []
-wikisrc.append("S:\Personal Folders\Dickerson\joe\data\LWOTC_perks_wiki_rawtext.txt")
+wikisrc.append("S:\Personal Folders\Dickerson\joe\data\old\LWOTC_perks_wiki_rawtext.txt")
 
 # ------------------------------------------------------------------------------
 # Main
@@ -221,7 +239,7 @@ def parsed_text_data(textsrc):
             # ------------------------------------------------------------------
             # Get the bare ability name
             # ------------------------------------------------------------------
-            aname = current[1:-1].replace(" X2AbilityTemplate","")
+            aname = current[1:-1].replace(" X2AbilityTemplate","").lower()
 
             # ------------------------------------------------------------------
             # Add the record to the abilities if we're on the first thing in
@@ -256,6 +274,7 @@ def gather_ability_data(idata,tdata):
     # Go through each of the detected sections
     # --------------------------------------------------------------------------
     cleaned = {}
+    weapons = {}
     for item in idata:
         # ----------------------------------------------------------------------
         # We only care about sections where we are defining a class
@@ -271,11 +290,15 @@ def gather_ability_data(idata,tdata):
         current_rank = 0
         for line in idata[item]:
             # ------------------------------------------------------------------
-            # Skip all the lines that aren't about ranking
+            # Skip all blank lines
             # ------------------------------------------------------------------
             if not line:
                 continue
-            if not line.lower().startswith("soldierranks") and not line.lower().startswith("randomabilitydecks"):
+
+            # ------------------------------------------------------------------
+            # Skip all the lines that aren't about ranking or weapons
+            # ------------------------------------------------------------------
+            if not line.lower().startswith("soldierranks") and not line.lower().startswith("randomabilitydecks") and not line.lower().startswith("allowedweapons"):
                 continue
 
             # ------------------------------------------------------------------
@@ -285,6 +308,30 @@ def gather_ability_data(idata,tdata):
                 cleaned[item] = {}
                 cleaned[item]["abilities"] = []
                 cleaned[item]["stats"] = []
+                cleaned[item]["weapons"] = []
+
+            # ------------------------------------------------------------------
+            # Maybe it's a weapon line
+            # ------------------------------------------------------------------
+            if line.lower().startswith("allowedweapons"):
+                line = line.lower().replace(" ","")
+                if 'primaryweapon' in line:
+                    wslot = "primary"
+                elif 'secondaryweapon' in line:
+                    wslot = "secondary"
+                elif 'heavyweapon' in line:
+                    wslot = "heavy"
+                else:
+                    print("bad weapon slot line: ", line)
+                weapon = line.split("weapontype=")[1]
+                weapon = weapon.split('")')[0]
+                weapon = weapon.replace('"',"")
+
+                wslug = (wslot, weapon)
+                if not wslug in weapons:
+                    weapons[wslug] = 0
+                weapons[wslug] += 1
+                cleaned[item]['weapons'].append(wslug)
 
             # ------------------------------------------------------------------
             # Maybe it's a random deck like
@@ -370,6 +417,11 @@ def gather_ability_data(idata,tdata):
                     if piece.lower().startswith("astatprogression"):
                         cleaned[item]['stats'].append([current_rank, piece])
 
+    # --------------------------------------------------------------------------
+    # Look at the weapons
+    # --------------------------------------------------------------------------
+    #for weapon in weapons:
+    #    print(weapon, weapons[weapon])
 
     # --------------------------------------------------------------------------
     # Fill in a clean dictionary of ability information
@@ -381,6 +433,7 @@ def gather_ability_data(idata,tdata):
         # ----------------------------------------------------------------------
         #print("-------------------")
         #print(item)
+        #print(cleaned[item])
 
         # ----------------------------------------------------------------------
         # Get the class name
@@ -417,7 +470,9 @@ def gather_ability_data(idata,tdata):
                     # ----------------------------------------------------------
                     # Get the actual ability name
                     # ----------------------------------------------------------
-                    aname = piece.replace("AbilityName=","").replace('"',"")
+                    aname_mixed = piece.replace("AbilityName=","").replace('"',"")
+                    aname = aname_mixed.lower()
+                    
 
                     # ----------------------------------------------------------
                     # Start an ability record if it's not there
@@ -425,7 +480,8 @@ def gather_ability_data(idata,tdata):
                     if not aname in abilities:
                         abilities[aname] = {}
                         abilities[aname]['usage'] = []
-                        abilities[aname]['slot'] = ""
+                        abilities[aname]['slot'] = {}
+                        abilities[aname]['weapons'] = {}
                         abilities[aname]['lowrank'] = 10
 
                     # ----------------------------------------------------------
@@ -446,8 +502,36 @@ def gather_ability_data(idata,tdata):
                 # ...or maybe it's the slot
                 # --------------------------------------------------------------
                 if piece.startswith("ApplyToWeaponSlot="):
-                    abilities[aname]['slot'] = piece.replace("ApplyToWeaponSlot=","")
+                    # ----------------------------------------------------------
+                    # That directly gives us the slot...
+                    # ----------------------------------------------------------
+                    slottext = piece.replace("ApplyToWeaponSlot=","")
+                    if not slottext in abilities[aname]['slot']:
+                        abilities[aname]['slot'][slottext] = 0
+                    abilities[aname]['slot'][slottext] += 1
 
+                    # ----------------------------------------------------------
+                    # ...and indirectly gives us the weapon(s)
+                    # ----------------------------------------------------------
+                    #print(slottext, cleaned[item]['weapons'])
+                    if 'primary' in slottext.lower():
+                        this_slot = "primary"
+                    elif 'secondary' in slottext.lower():
+                        this_slot = "secondary"
+                    else:
+                        this_slot = ""
+
+                    for wpn in cleaned[item]['weapons']:
+                        if not this_slot == wpn[0]:
+                            continue
+
+                        weapon = wpn[1].lower()
+
+                        if not weapon in abilities[aname]['weapons']:
+                            abilities[aname]['weapons'][weapon] = 0
+
+                        abilities[aname]['weapons'][weapon] += 1
+                    
     # --------------------------------------------------------------------------
     # Work through each detected ability
     # --------------------------------------------------------------------------
@@ -474,15 +558,31 @@ def gather_ability_data(idata,tdata):
                 promo        = tdata[abil]['LocPromotionPopupText'].replace('"',"")
 
         # ----------------------------------------------------------------------
+        # Determine the basic rank by taking the floor of the average rank
+        # ----------------------------------------------------------------------
+        rankbase = len(abilities[abil]['usage'])
+        ranks = []
+        for item in abilities[abil]['usage']:
+            if type(item[1]) is int:
+                ranks.append(item[1])
+            elif item[1].lower().startswith("tier"):
+                slug = item[1].lower().replace("tier","").replace("_xcomabilities","")
+                slug = int(slug)
+                ranks.append(slug)
+
+        rank = sum(ranks) / rankbase
+        rank = math.floor(rank)
+
+        # ----------------------------------------------------------------------
         # Make the record and append
         # ----------------------------------------------------------------------
-        rec = (abil,len(abilities[abil]['usage']), str(abilities[abil]['usage']), abilities[abil]['lowrank'],abilities[abil]['slot'],friendlyname,longdesc,helptext,flyover,promo)
+        rec = (abil,len(abilities[abil]['usage']), str(abilities[abil]['usage']), abilities[abil]['lowrank'],rank,str(abilities[abil]['slot']),str(abilities[abil]['weapons']),friendlyname,longdesc,helptext,flyover,promo)
         abil_recs.append(rec)
 
     # --------------------------------------------------------------------------
     # Make that into a data frame
     # --------------------------------------------------------------------------
-    adata = pd.DataFrame(abil_recs, columns=['ability','instances','usage','lowrank','slot','friendlyname','longdesc','helptext','flyover','promo'])
+    adata = pd.DataFrame(abil_recs, columns=['ability','instances','usage','lowrank','rank','slot','weapons','friendlyname','longdesc','helptext','flyover','promo'])
     adata = adata.sort_values(by='lowrank').reset_index()
     #print(adata)
 
@@ -560,8 +660,8 @@ def parsed_wiki_text_data(wikisrc):
                 this_rec['desc'].append(line)
 
 
-    for item in abilities:
-        print(item.ljust(30), "|".join(abilities[item]['desc']))
+    #for item in abilities:
+    #    print(item.ljust(30), "|".join(abilities[item]['desc']))
 
     # --------------------------------------------------------------------------
     # Finish

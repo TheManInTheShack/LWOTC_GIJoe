@@ -14,6 +14,7 @@ cfile = "mod/Config/XComClassData.ini"
 lfile = "mod/Config/XComGameData.ini"
 gfile = "mod/Config/XComGame.ini"
 tfile = "mod/Localization/XComGame.int"
+sfile = "mod/Config/XComStartingSoldiers.ini"
 
 pd.set_option("display.width", 0)
 pd.set_option("display.max_rows", 1000)
@@ -32,7 +33,7 @@ def main():
     # Get the source data 
     # --------------------------------------------------------------------------
     cdata = pd.read_excel(dfile, sheet_name="characters", header=[0,2],index_col=0,engine="openpyxl")
-    adata = pd.read_excel(dfile, sheet_name="abilities", header=[0,2],index_col=0,engine="openpyxl")
+    adata = pd.read_excel(dfile, sheet_name="abilities", header=[7,9],index_col=0,engine="openpyxl")
 
     # --------------------------------------------------------------------------
     # Compile class data for each guy
@@ -42,7 +43,7 @@ def main():
     # --------------------------------------------------------------------------
     # Make the output files that are dependent on the data
     # --------------------------------------------------------------------------
-    ccode, lcode, gcode, tcode = compile_output(gdata)
+    ccode, lcode, gcode, tcode, scode = compile_output(gdata)
 
     # --------------------------------------------------------------------------
     # Save the output files
@@ -61,6 +62,10 @@ def main():
 
     with open(tfile, "w", encoding="utf-8") as f:
         for line in tcode:
+            print(line, file=f)
+
+    with open(sfile, "w", encoding="utf-8") as f:
+        for line in scode:
             print(line, file=f)
 
     # --------------------------------------------------------------------------
@@ -103,6 +108,7 @@ def compile_class_data(cdata, adata):
         gdata[guy]['code_name']         = rec['Properties']['Character']
         gdata[guy]['classname']         = "GIJoe__" + guy
         gdata[guy]['loadout_ref']       = "Loadout_GIJoe__" + guy
+        gdata[guy]['team']              = this_or_nothing(rec['Properties']['Team'])
         gdata[guy]['role']              = this_or_nothing(rec['Properties']['Role Tags'])
         gdata[guy]['first_name']        = this_or_nothing(rec['Properties']['First Name'])
         gdata[guy]['last_name']         = this_or_nothing(rec['Properties']['Last Name'])
@@ -163,12 +169,15 @@ def compile_class_data(cdata, adata):
         # ----------------------------------------------------------------------
         col = ("Characters", guy)
         cols_to_take = []
-        cols_to_take.append(('Abilities','longdesc'))
+        cols_to_take.append(('Abilities','desc'))
         cols_to_take.append(('Abilities','friendlyname'))
         cols_to_take.append(('Abilities','slot'))
         cols_to_take.append(('Characters',guy))
         cols_to_take.append(('Summary','attributes_summary'))
         cols_to_take.append(('Summary','keywords_summary'))
+
+        #print(adata.head())
+        #print(adata.columns.to_list())
 
         adatax = adata[cols_to_take].dropna(subset=[('Characters',guy)])
         adatax = adatax.droplevel(level=0,axis=1)
@@ -195,6 +204,7 @@ def compile_output(gdata):
     lcode = []
     gcode = []
     tcode = []
+    scode = []
 
     # --------------------------------------------------------------------------
     # CLASSES
@@ -239,6 +249,28 @@ def compile_output(gdata):
     tcode.append("; " + "*"*98)
 
     # --------------------------------------------------------------------------
+    # STARTING SOLDIERS
+    # Start the file
+    # --------------------------------------------------------------------------
+    scode.append("; " + "*"*98)
+    scode.append("; " + "For usage with the 'Starting Soldiers' mod")
+    scode.append("; " + "*"*98)
+    starting_clusters = {}
+    starting_clusters['G.I. Joe']           = []
+    starting_clusters['G.I. Joe Renegades'] = []
+    starting_clusters['Battleforce 2000']   = []
+    starting_clusters['G.I. Joe Ally']      = []
+    starting_clusters['Arashikage']         = []
+    starting_clusters['Oktober Guard']      = []
+    starting_clusters['Cobra']              = []
+    starting_clusters['M.A.R.S.']           = []
+    starting_clusters['Dreadnoks']          = []
+    starting_clusters['M.A.S.K.']           = []
+    starting_clusters['V.E.N.O.M.']         = []
+    starting_clusters['Danger Girl']        = []
+    starting_clusters['Unaffiliated']       = []
+
+    # --------------------------------------------------------------------------
     # Now every soldier gets a class
     # --------------------------------------------------------------------------
     for guy in gdata:
@@ -276,7 +308,7 @@ def compile_output(gdata):
 
         ccode.append("; " + "Rank:".ljust(10) + "Ability:".ljust(30) + "Description:")
         for j, rec in gdata[guy]['abilities'].iterrows():
-            ccode.append("; " + rec['character'].center(10) + str(rec['friendlyname']).ljust(30) + str(rec['longdesc']))
+            ccode.append("; " + rec['character'].center(10) + str(rec['friendlyname']).ljust(30) + str(rec['desc']))
         ccode.append("; ")
 
         ccode.append("; " + "*"*98)
@@ -430,10 +462,34 @@ def compile_output(gdata):
         tcode.append("RandomNicknames[0]".ljust(20)     + " = " + quoted(guy))
         tcode.append("")
 
+        # ----------------------------------------------------------------------
+        # STARTING SOLDIERS
+        # Add the line to the appropriate list
+        # ----------------------------------------------------------------------
+        cluster = gdata[guy]['team']
+        full_name = '"' + gdata[guy]['first_name'] + " " + gdata[guy]['last_name'] + '"'
+        class_name = '"' + gdata[guy]['classname'] + '"'
+
+        line = "+CHARACTER_INFO=(SoldierName=" + full_name.ljust(30) + ", SoldierClass=" + class_name.ljust(30) + ", SoldierRank=1)"
+
+        starting_clusters[cluster].append(line) 
+
+    # --------------------------------------------------------------------------
+    # STARTING SOLDIERS
+    # --------------------------------------------------------------------------
+    for cluster in starting_clusters:
+        scode.append("; " + "-"*78)
+        scode.append("; " + cluster)
+        scode.append("; " + "-"*78)
+            
+        for line in starting_clusters[cluster]:
+            scode.append(line)
+        scode.append("")
+
     # --------------------------------------------------------------------------
     # Finish
     # --------------------------------------------------------------------------
-    return ccode, lcode, gcode, tcode
+    return ccode, lcode, gcode, tcode, scode
 
 
 # ------------------------------------------------------------------------------
