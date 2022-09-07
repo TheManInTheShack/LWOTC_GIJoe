@@ -470,7 +470,7 @@ def compile_output(gdata):
         full_name = '"' + gdata[guy]['first_name'] + " " + gdata[guy]['last_name'] + '"'
         class_name = '"' + gdata[guy]['classname'] + '"'
 
-        line = "+CHARACTER_INFO=(SoldierName=" + full_name.ljust(30) + ", SoldierClass=" + class_name.ljust(30) + ", SoldierRank=1)"
+        line = "+CHARACTER_INFO=(SoldierName=" + full_name.ljust(30) + ", SoldierClass=" + class_name.ljust(30) + ", SoldierRank=2)"
 
         starting_clusters[cluster].append(line) 
 
@@ -483,6 +483,8 @@ def compile_output(gdata):
         scode.append("; " + "-"*78)
             
         for line in starting_clusters[cluster]:
+            if not cluster == 'G.I. Joe':
+                continue
             scode.append(line)
         scode.append("")
 
