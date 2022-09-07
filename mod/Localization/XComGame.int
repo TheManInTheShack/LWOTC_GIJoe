@@ -842,14 +842,14 @@ RightAbilityTreeTitle = "Heavies"
 RandomNicknames[0]   = "Windmill"
 
 ; ------------------------------------------------------------------------------
-; Sgt. Slaughter
+; Sgt_Slaughter
 ; ------------------------------------------------------------------------------
-[GIJoe__Sgt. Slaughter X2SoldierClassTemplate]
-DisplayName          = GI Joe: "Sgt. Slaughter"
+[GIJoe__Sgt_Slaughter X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Sgt_Slaughter"
 ClassSummary         = "Leader, Infantry"
 LeftAbilityTreeTitle = ""
 RightAbilityTreeTitle = ""
-RandomNicknames[0]   = "Sgt. Slaughter"
+RandomNicknames[0]   = "Sgt_Slaughter"
 
 ; ------------------------------------------------------------------------------
 ; Mercer
