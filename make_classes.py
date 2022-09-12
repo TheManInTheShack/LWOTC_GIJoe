@@ -481,6 +481,7 @@ def compile_output(gdata):
         scode.append("; " + "-"*78)
         scode.append("; " + cluster)
         scode.append("; " + "-"*78)
+        scode.append("[WOTCStartingSoldiers.X2DownloadableContentInfo_WOTCStartingSoldiers]")
             
         for line in starting_clusters[cluster]:
             if not cluster == 'G.I. Joe':
