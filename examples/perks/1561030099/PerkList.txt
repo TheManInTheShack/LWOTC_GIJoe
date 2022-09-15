@@ -1,0 +1,562 @@
+/////Arcthrower/////		for arcthrowers.
+
+MZArcBlueActions - arcthrower abilities no longer end turn
+MZArcBoostMove - grant an ally a move AP and temporary shadowstep
+MZArcElectrocute - electrical attack.
+MZArcJoltAwake - as revivial protocol, but on a cooldown (also grants a ranged stabilize)
+MZArcHaywire - briefly control an enemy robot
+MZArcRepair - repair a robotic ally
+MZArcRobotInsanity - hack contest, may stun or gain control of a robot.
+MZArcFuse - fuse with an arcthrower
+MZArcPhaseLance - deal electrical damage to targets in a line.
+MZArcCascadeLance - phase lances does increasing damage as it passes through more targets.
+
+/////Blood Magic/////		most active abilites are for psiamps, but also includes passives that work with any HPCost skills.
+
+MZAbyssalHunger - increase effectiveness of lifestealing
+MZBloodyMadness				abilities with HP costs do more damage the lower HP gets.
+MZCurseBall - consume HP. explosive psi aoe, creates curse cloud.
+MZCurseBreath - costs hp. cone psi attack + curse
+MZCurseLance - costs hp. nulllance + curse
+MZDarkPotency - increases HP costs, boosts blood damage based on cost.
+MZDevouringShadow - costs hp. void conduit.
+MZDropByDrop - reduces HP costs
+MZFleshOfMyFlesh - consume HP to revive a bleeding out target.
+MZFromBelowItDevours - costs hp. mass void conduit. 1/mission
+MZLifeBalancer - balance your HP with the target. can be used to steal hp or heal allies.
+
+/////Bullet Arts/////		set of elemental shots with a pile of passives that boost them.
+
+MZBulletArtCharges			bullet arts have extra charges
+MZBleedingBulletArts		bullet arts inflict bleeding
+MZMoreDakka					bullet arts hit twice, but do reduced damage per hit.
+MZExplosiveBulletArts		bullet arts become aoe
+MZHighCalibreBulletArts		bullet arts do bonus damage
+MZHighAgonyBulletArts		DOTs inflicted by bullet arts do bonus damage
+MZChronoTrigger				hitting with bullet arts reduce all cooldowns
+
+MZAcidBullet				acid damage + acid burning + improved shred
+MZBlazeBullet				fire daamage + burning
+MZToxicBullet				poison damage + poison + lure lost
+MZMeleeBullet				melee damage + 0turn diorient + ignore sustain + ignore teleaway
+MZShockBullet				electric damage + AP + disable shield + reduce hack
+MZPsiBullet				psi damage + curse + blind
+MZRuptureBullet				explosive damage +rupture
+MZHailBullet				can be used relentlessly. requires 2 ammo per use.
+
+MZAcidBulletX				acid bullet debuffs enemy damage
+MZBlazeBulletX				blaze bullet burn is stronger
+MZToxicBulletX				toxic bullet disorients
+MZMeleeBulletX				melee bullet does bonus damage scaling with target's psi
+MZShockBulletX				shock bullet does double damage to robotics
+MZPsiBulletX				psi bullet stuns
+MZRuptureBulletX			rupture bullet levels cover on hit targets
+
+///// Gremlin /////			for gremlins. I make no gaurentees about BITs.
+
+MZAcidProtocol - acid damage and acid burning to single target
+MZAidProtocolHeal - aid protocol heals (depending on hack) and removes enviro effects.
+MZArmourSystem - aid protocol grants temporary armour and repairs shredded armour
+MZChainingJolt - gremlin attack that chains to multiple foes
+MZChainDischarge - chain attack against everything in an area.
+MZCombatScanner - reveal a location and holotarget enemies in it.
+MZFlameProtocol - fire damage and burning to single target
+MZGremlinInsanity - stun or control a robotic foe
+MZGremlinStasis - stasis! with a gremlin.
+MZGremlinSustain - a more techy-looking sustain. (technically doesn't need a gremlin)
+MZHighVoltage - gremlin chain attacks do more damage the more targets they chain to.
+MZHostageProtocol - stuns and turns an enemy into temporary high cover.
+MZImprovedScanner - combat scanner and mass aid have increased radius. combat scanner also applies a bonus to crit enemies.
+MZMassAidProtocol - applies aid protocol to multiple allies in a large aoe.
+MZNapalmProtocol - area fire damage and burning
+MZShockTherapy - gremlin chain attacks can disorient or stun.
+MZStormGenerator - gremlin change attacks have increased range
+MZToxicProtocol - poison damage and poisoned to single target
+MZSabotageProtocol - as combat protocol, but also disables weapon.
+MZVoltaicArc - automatic gremlin chain attack on enemies that come near.
+
+///// Grenades /////
+(all the free grenade skills here will give 3 grenades if the soldier has LightOrdnance)
+MZAntiCritSmoke -				smokes prevent critical hits
+MZDodgeSmoke -				smokes boost dodge
+MZFogWall -					+1 charges per smoke, slight smoke def boost
+MZFortressSmoke -				smoke protects like fortress
+MZFreeAcidGrenade - grants a free acid grenade
+MZFreeEMPGrenade - grants a free EMP grenade
+MZFreeEricparHealBomb - grants a free heal grenade (requires Ericpar's Healbomb mod)
+MZFreeFireGrenade - grants a free fire grenade
+MZFreeFlashGrenade - grants a free flashbang
+MZFreeFragGrenade - grants a free frag grenade
+MZFreeGasGrenade - grants a free gas grenade
+MZFreeIRIMolotov - grants a free molotov (requires Iridar's Molotov mod)
+MZFreeIRIPipeBomb - grants a free pipe bomb (requires Iridar's Pipe Bomb mod)
+MZFreeProxyMine - grants a free proxy mine
+MZFreeRandomGrenade - exactly what it says on the tin.
+MZFreeSmokeGrenade - grants a free smoke grenade
+MZGrenadePocket - unlocks a bonus grenade slot, if not already available.
+MZGrenadeTrap - set a trap using an offensive grenade
+MZGrenadeTrapStayConcealed - grenade trap won't break concealment when it detonates
+MZImproviseExplosive - activate to add a grenade to the soldier's inventory. (may not work if getting Launch Grenade from gear instead of class skills)
+MZImproviseRandomExplosive - activate to gain a random grenade.
+MZMindShieldSmoke -			smokes cleanse and potect against mental effects
+MZZombieGrenades - gas and flashbangs make enemies vulnerable to Turn Undead/etc.
+
+/////Heavy weapons/////		actually just passives.
+
+MZPocketBlaster				grants a mini blaster launcher			
+MZPocketFlamer				grants a 2 use flamethrower. high burn damage.
+MZPocketPlasma				grants a powerful but narrow beam weapon.
+MZPocketRocket				grants a rocket launcher
+MZPocketShredder			grants a shredder gun with low damage, but crazy shred.
+
+///// Holotargeter /////	for holotargeters.
+
+MZHoloBlind - holotargeting foes also blinds them
+MZHoloBurn - holotargeting has a chance to burn foes.
+MZHoloConceal - put an ally into concealment
+MZHoloFloodlight - increases radius of HoloReveal
+MZHoloDecoy - create a mimic beacon
+MZHoloReveal - reveal hidden enemies in an area
+MZHoloWillDebuff - holotargeting foes debuffs will
+
+/////Knife/////			touch melee attacks/etc. intended for combat knives.
+
+MZAcidKnife - acid attack + acid burn
+MZAmbulance - gain temp shadowstep and +1AP for use with medical abilities
+MZDancingDeath - attack target and nearby foes, then do an additional crit on target.
+MZDriftingContact - attack with bonus crit chance and momentum
+MZFlameKnife - fire attack + burn
+MZFloatLikeAButterfly - activate to gain a momentum AP, and an additional one per knife/ripjack kill this turn.
+MZFinishingStroke - turn ending critical attack bypasses most defenses and does bonus damage based on target's missing health.
+MZHealKnife - heal target based on knife's crit damage. +subskill that stabilizes.
+MZHealthHeist - attack that steals hp
+MZInfectedKnife - poison attack. poisons, disorients and zombifies.
+MZKnifeFlurry - 3-hit combo with lower base damage. final hit crits
+MZLightningKnife - free stab at adjacent foe.
+MZLikeAScalpel - combat knives have increased crit chance and damage, but do less on non-crits.
+MZListonStyle - damage enemies and heal allies in a target area. similiar mechanics as Blade Dance.
+MZSacrificialKnife - consume hp for critical attack + curse
+MZSerratedKnife - attack ruptures and bleeds
+MZShockKnife - electrical attack, strong against robotics
+MZSilverKnife - vs undead; always hits. always crits. can use strafe AP.
+MZSonicScrewdriver - touch heal for robotic allies
+MZStitchUp - cleanse enviro ailments, restore armour.
+MZStingLikeABee - crit attack does bonus damage based on strafe AP earned. only useable during Float Like A Butterfly.
+MZStrafeKnife - half-damage attack, uses strafe AP
+
+
+/////Melee Skills/////		intendeed for melee weapons.
+
+MZAbyssalBlade - slash consumes health to inflict severe damage
+MZAcidDragonBreath - cone acid attack + acid burn. cooldown shared with other dragon breaths.
+MZAhrimansDemense - Shadow Thorn becomes aoe, blinds and releases cloud of poison
+MZBladeArtist -	do more damage when using special sword attacks
+MZBladeDance - slash attacks on every foe in an area
+MZBladeRave - 3-swing flurry of attacks. woefully inaccurate.
+MZBlastarPunch - slash inflicts blind+disorient
+MZBlastWave - wide line attack, bonus damage based on number of debuffs user has.
+MZBlitzAttack - arcwave-style targeting, slash every target.
+MZBonecrusher - retaliate any time damage is taken with a vicious blow.
+MZBowlingBash - Sledgehammer impact deals aoe damage.
+MZBurialBlade - slash attack. refunds AP cost if lethal.
+MZCatsMeow - Passive. +20hit and +10crit for melee attacks.
+MZCrimsonTide - consume HP to for a cleave attack that curses.
+MZDashingMomentum - when spending two or more AP on a turn ending melee attack, gain a momentum AP.
+MZDaySword - slash attack leeches shield.
+MZDeadCutter - slash attack. refunds AP cost if lethal. Undead only, 1/turn.
+MZDivingSlash - slash that bypasses overwatch and doesn't end the turn if used in blue range. cooldown resets on any kill.
+MZDoubleGrip - do more damage and pierce armour when using a primary melee and empty secondary
+MZFireDragonBreath - cone fire attack + burn. cooldown shared with other dragon breaths.
+MZFrostwolfBite - ranged slash + fuse
+MZFullAssault - powerful melee attack that stuns the user.
+MZHarvestScythe - upgrade Night Sword to a cleave attack.
+MZHellcryPunch - slash disables weapon and reduces targets attack power	
+MZKillingStroke - consume all HP for a single devastating attack
+MZLifethreadBlade - double acid slash. zombify and lure.
+MZMacabreWaltz - attack multiple enemies. costs HP per target.
+MZNightSword - acid damage+lifesteal slash
+MZPoisonDragonBreath - cone poison attack + poison. cooldown shared with other dragon breaths.
+MZReblossom - make a bladestorm attack against enemies that survive your melee attacks.
+MZRipjackBleed - ripjack attacks inflict bleeding
+MZRollingCutter - slash doesn't end turn. cannot crit. shares target/turn 
+MZShadeScratch - consume HP for slash with momentum. regain concealment on kill.
+MZShadowThorn -	consume HP for ranged slash does not break concealment
+MZShellbustStab - armor-piercing and massive shred slash
+MZShimmeringBlade - double fire slash. each strike may confuse.
+MZSkyfuryBlade - double electric slash. each strike may panic.
+MZSledgehammer - melee attack that knocks back. does bonus damage with PZMelee.
+MZSweepingSpin - radial aoe attack
+MZThunderDragonBreath - cone electric attack, ignore armour. cooldown shared with other dragon breaths.
+
+/////Pistol Skills///// - Specifically designed for pistols. may not work on regular guns.
+
+MZAbyssalPistolShot - sacrifice health to deal bonus psi damage and inflict bloodcurse.
+MZBigFortyFive - strong pistol attack, but need to have two actions to fire.
+MZFaceoff - like faceoff, except it's ammo cost scales with targets.
+MZFranticFire - free action. fire pistol at 2 random enemies.
+MZIMeantToDoThat - on pistol kill, shoot a random foe.
+MZKillerFlow - autopistol attacks shoot an additional time at the primary target. (1/target/turn)
+MZPistolRave - 3-shot burst. woefully inaccurate.
+MZQuickFortyFive - BigFortyFive no longer ends the turn.
+MZShootOut - fire your pistol at up to 6 ranom enemies. can hit the same target twice.
+MZTheBusiness - fire your pistol at 2 random enemies
+MZWildPistolStrafe - fire pistol at random foe. uses strafe AP.
+
+
+/////Psi Amp Skills/////	use PsiAmp or PZ's Psionic Melee
+
+MZAcidBall - aoe acid damage, shred + strong acid burn
+MZAcidSpray - cone acid attack, shreds armour
+MZAmorFati				reduce all damage an ally takes, but make them easier to hit.
+MZAuroraWave			Mass MindSoothe (and ManuForti/AmorFati if you have them too)
+MZBetrayal				Mind control that allows the victim to act immediatly, but ends at end of turn.
+MZBoulderCrush - blunt damage and stun (mental hitcalc)
+MZBurningHands - cone fire attack + burning
+MZCausticLance - line acid attack, shred + strong acid burn
+MZClearTranquil			MindSoothe and TransmitPrana reduces target's cooldowns
+MZCongregation			apply 2 MindMerge at once
+MZControlUndead - MindControl undead. low duration and cooldown
+MZCurseLure - BloodCurse + LostLure (technically does not need amp, but hit is based on psi)
+MZDeadExplosion - aoe fire damage+more fire around undead target
+MZDisable				AOE disarm and chance to stun. stealthy.
+MZEarthHeal - heal, regen, stabilize if bleeding out. Shares charges with WhiteFlame
+MZEvilGaze - acid damage and panic (mental hitcalc)
+MZFireball - explosive fire aoe spell
+MZFireWhip - fire damage and disable weapon. (mental hitcalc)
+MZFetidBreath - cone poison attack + poison/zombify
+MZFuse					As fuse, but stealthy. boosts the explosive's damage.
+MZHealersMind			PsiHeal and RayOfLife get more charges
+MZHaltUndead - massive aoe stun to undead foes
+MZHellishRebuke - counterattack with strong blast. 1/turn
+MZKineticLance			damage and knockback targets in a line.
+MZKineticPull - pull an enemy to you.
+MZKineticPush			push foe a short distance. stealthy.
+MZKineticRescue - pull an ally to you. (always hits)
+MZMachinaPuppeteer - temporary mind control a robot
+MZMagnusExorcismus		aoe turn undead
+MZMalaise				poison and disorient a large area. stealthy.
+MZManuForti				boost an ally's damage temporarily
+MZMassPanic - aoe panic
+MZMassSleep - put all civilians in an area to sleep. stealthy.
+MZMindControl			temporary mind control; similiar to what commandatar uses in leviathan.
+MZMindMerge				buff ally's mob, aim, crit, will.
+MZMindSoothe			remove mental effects from a distant squadmate. stealthy.
+MZPanacea				heals pretty much everything. stealthy.
+MZPhantasmalKiller - phantasmal tentacles bind and damage a humanoid target
+MZPhantasmalPrison - phantasmal tentacles bind a humanoid target
+MZPhantasmalWeird - as phantasmalkiller, but aoe. 1/mission
+MZPoisonball - aoe poison damage + poisoned
+MZPsiBlind				blind and disorient target. can trigger schism. stealthy.
+MZPsiHeal				psionically delivered heal.
+MZPsiPanic				causes the victim to panic. can trigger schism. stealthy.
+MZPsiSleep - put a civilian to sleep. stealthy.
+MZProtection			stasis shield, but unlinked from stasis.
+MZRayOfLife				heal all targets in a line
+MZRayzeelSong			heal squad when you use a psi healing ability
+MZRestoreLife			revive and heal a bleeding out ally
+MZSearingLance - fire damage + burn everything in a line
+MZShiningAir - psi damage and blind (mental hitcalc)
+MZStormBreath - cone electric attack, ignores armour
+MZThunderousRoar - Electric damage and put psi skills on cooldown (mental hitcalc)
+MZTransmitPrana			spend 2ap to give an ally 1ap
+MZTurnUndead			high damage to lost, spectrals, shadowbound and cocoons.
+MZWhiteFlame - heal, regen area. cures mental effects including unconcious. no effect on fire immune.
+MZZombify - poison+make vulnerable to TU/etc.
+
+
+/////PsiShard Skills/////	Designed for Psionic Melee or templar gauntlets.
+							Note that skills built on templar abilities may have glitchy animations with PZMelee if your primary 
+							isn't something that causes the soldier to use templar animations.
+
+MZArcCleave				uses soulfire for cleave damage. PZMelee only.
+MZArcCleaveTemplar		uses volt for cleave damage.
+MZCloudCover - activating a storm ability generates smoke
+MZForkedLightning		volt attack on two random targets. strong vs robots.
+MZLashOut				Built on Ionic Storm. does not use focus. strong vs robots.
+MZRendFleche			rend skills do bonus damage based on distance traveled, like lw2 fleche.
+MZSplitArrow - needs psi bow. fire at multiple random foes, costs 1 focus per shot.
+MZStaticShock - random fire free action variant of storm shock
+MZStormForce			psionic lightning does more damage.
+MZStormShock - single target volt, effective against robots
+MZStormSurge			lightning chains between enemies in a cone. strong vs robotics.
+MZThunderstorm - call down lighnting in an area, effective against robots.
+MZVoidConduit - void conduit, but does not use focus.	
+MZVoidShock				single target volt, no focus cost.
+MZVoidLightning			lightning chains between enemies in an area around target
+
+
+//////Shield////// (intended for use with shields, so any attacks also have disorient built in, learning shield trauma also makes them stun for 1 action.)
+
+MZCastling - swap locations with an ally and immediately shieldwall.
+MZEnGarde - bladestorm that also disorients. only triggers during shieldwall.
+MZFortifiedWall - shield wall cleanses and protects against enviromental damage (fire, acid, etc)
+MZMentalBulwark - shield wall cleanses and protects against mental ailments
+MZMindCrush - melee attack shatters will and hack def, also disorients.
+MZPowerCrush - melee attack ruptures and disorients target.
+MZRaptorCyclone - ranged aoe shield attack, only useable after shieldwall. (requires RaptorWhirlwind)
+MZRaptorHurricane - activate to make ranged shield attacks on any foe that moves or attacks nearby. (requires RaptorWhirlwind)
+MZRaptorSandblast - raptor shield attacks inflict blind.
+MZRaptorWhirlwind - ranged shield attack, only useable after shieldwall.
+MZShakeTheEarth - activating sheildwall reduces the mobility of nearby foes.
+MZShieldCharge - knockback and disorient target. Automatically activate shieldwall afterword.
+MZShieldStability - immunity to knockback. bonus aim and crit while shield is equipped.
+MZShroudedBulwark - activating sheildwall creates a smoke cloud.
+MZSoulCrush - shield attack recharges shield based on damage dealt, depletes target's focus.
+MZTargeSmash - high damage sheild attack
+MZViperCrush - poison shield attack also poisons (combined with disorient, is fairly large aim and mob penalty)
+
+
+/////Trick Shots//////		Require Guns
+
+MZAbyssalShot - sacrifice health to deal bonus psi damage and inflict bloodcurse.
+MZAccurateReaction -			Bonus to aim with reaction shots.
+MZBlazingSpear - deals fire damage and burning in a line
+MZBlindingSuppression -		Blind enemies when you suppress them.
+MZBlisterShot - fire version of Rupture. also burns.
+MZBloodShot - consume half HP to fire a powerful and accurate shot.
+MZBloodSpear - sacrifice health to deal bonus psi damage and inflict bloodcurse in a line.
+MZBloodKillZone - consume HP to fire on anything that moves or attacks in a large cone
+MZBulletRave - 3-shot burst. woefully inaccurate.
+MZBurialShot - shot refunds AP cost if lethal.
+MZBurningSuppression -		Set enemies on fire when you suppress them.
+MZConfusingSuppression -		May Confuse enemies when you suppress them. 
+MZDetonationShot - shot+fuse
+MZDisablingSting -			As sting, but stuns. requires shadow.
+MZDisablingSuppression -		Disable weapons when you suppress enemies.
+MZExplosiveShot -				shot deals explosive damage in an area around target.
+MZFightInTheShade - blood shot, hungering shot and bloodkillzone blind enemies they hit.
+MZFondFarewell - last shot of primary weapon's clip does bonus damage equal to clip size. does not apply to burstfire skills like FanFire.
+MZHammerShot - shot knocks back on hit
+MZHungeringShot - weak attack steals HP
+MZHungeringShotConceal - kills with Hungering Shot grant concealment
+MZMedishot - shot heals single ally. charges based on carried medkits.
+MZPanicSuppression -			Enemies might panic wheen you suppress them.
+MZPlagueSpear - deals poison damage and poisons in a line
+MZPoisoningSuppression -		Poison enemies when you suppress them.
+MZRunningOnEmpty - if mag is empty when moving, reload 1 ammo. once per turn.
+MZSecretHunt - shot that bypasses shields and sustain. during jetshot, conceal on kill.
+MZShotgunWedding -			cone attack that's stonger with more targets.
+MZSidewinder - critical shot, only usable against aliens. Jet Shot: hits twice.
+MZSonicBoom - accurate shot against a small area. JetShot: also disorients.
+MZStingingGale -				Ever wanted to sting everything in sight? here it is. requires shadow, 2 actions and buckets of ammo.
+MZStormLanceShot -			armour-piercing electric round damages enemies in a line.
+MZSuperShot - spend all ammo, do more damage per ammo spent.
+MZSuperShredShot - spend all ammo, shred armour per ammo spent.
+MZSurefireShot - fire attack that always hits
+MZVentilate - gaurenteed hit and destroys cover, but cannot crit.
+MZVitalsShot - shot inflicts status effect depending on target type.
+
+/////Unspecific/////		Doesn't need to be assigned to anything
+
+MZAchingBlood - when using weapons with long nicknames, increase crit chance and damage.
+MZAdvice - grant ally a temp crit bonus
+MZAdviceSelfToo - Advice also buffs the user.
+MZAimShift - reduces aim, raises rest of squad's aim by the same amount. (boosted for bondmate)
+MZBarrierCharger - recharges 1 shield per turn.
+MZBattleCry - self buff pretty much gaurentees crits - both outgoing and incoming.
+MZBladeGrasp - chance to deflect based on current will
+MZBlink - short range teleport as a free action. stealthy.
+MZBloodiedShroud - increased HP, faster wound recovery.
+MZBloodPillar - consume HP to create full cover
+MZBloodTeleport	- use HP to teleport anywhere in suadsight. need to be concealed.
+MZCloakOfShadows - consume hp to reenter concealment
+MZCriticalX - increases crit, but reduces aim.
+MZDefenseShift - reduces defense, raises rest of squad's defense by the same amount. (boosted for bondmate)
+MZDuel - mark a target. soldier and target gain massive aim vs each other.
+MZFierceMien - reduce nearby enemies aim against other targets.
+MZFierceMienDefDown - fierce mien also makes it easier for others to hit the affected target.
+MZHardenedShield - damage to shields is reduced.
+MZLastStand - if would be killed by a foe, survive with 1HP and take an interrupt action.
+MZLifeShift - reduces HP, raises rest of squad's stats by the same amount. (boosted for bondmate)
+MZLongRangeDefense - bonus def and dodge based on distance from attacker.
+MZLuckyDay - random bonus to aim and crit
+MZLuckyNight - random bonus to dodge and mobility
+MZObtenebration - as phantom. also reduces sight and detection radius somewhat.
+MZPillar - create full cover. useable by regular soldiers.
+MZPsiShift - reduces psi, raises rest of squad's stats by the same amount. (boosted for bondmate)
+MZRegenerate - on taking damage, heal a percent of missing health.
+MZShieldGate - when struck by shield-bypassing damage, redirect shield to HP.
+MZSightShift - reduces vision radius, raises rest of squad's stats by the same amount. (boosted for bondmate)
+MZSpeedShift - reduces mobility, raises rest of squad's stats by the same amount. (boosted for bondmate)
+MZTechShift - reduces hack and hack def, raises rest of squad's stats by the same amount. (boosted for bondmate)
+MZTeleport - teleport anywhere in squadsight. stealthy.
+MZTenebrousForm - deflect attacks by chance based on missing health
+MZTenebrousreflect - chance to reflect attacks deflected by Tenebrous Form
+MZTerribleThought - cosume HP to become undetectable and walk through walls. need to be concealed.
+MZTransposeDefense - Transposition buffs defense when swapping with an ally.
+MZTransposeTimeShift - Transposition stuns when swapping with an enemy.
+MZTransposition - Exhange/Invert with no focus cost. stealthy.
+MZUnscarred - do more and take less damage when at full hp. (based on armour tech level)
+MZUnwavering - repairs 1 shreded armour per turn.
+MZVulnAcid - increase acid damage taken
+MZVulnFire - increase fire/napalm/blazingpinions damage taken
+MZVulnMelee - increase melee/bleed/vipercrush damage taken
+MZVulnPoison - increase poison/parth poison/elerium poison damage taken
+MZVulnPsi - increase psi/mental/panic damage taken
+MZVulnVolt - increase electrical damage taken
+MZWildTalent - random bonus to psi offense
+
+
+/////Focus/////
+MZEarthFocus - Focus. generated by hunkering down.
+MZFlameFocus - Focus. generated by kills with abilities that don't cost focus.
+MZFocusGainBoost - increases focus gain. some focus types with low gain will be unaffected.
+MZFocusMaxBoost - increases max focus. effect may vary by focus type.
+MZFocusStartBoost - inreases initial focus. effect may vary by focus type.
+MZLiquidMagic - transfer mana/focus to an ally.
+MZManaConceal - spend mana to enter concealment.
+MZManaGrapple - spend mana to grapple to a higher elevation.
+MZManaTeleport - spend mana/focus to teleport anywhere in squadsight.
+MZNecroFocus - Focus. small amount generated by any deaths.
+MZPhantomFocus - Focus: gained at the start of each turn while concealed
+MZVoidFocus - Focus. starts at max value, no inate recovery.
+MZWaterFocus - Focus. generated at start of turn.
+MZWindFocus - Focus. generated by dashing.
+
+////Focus Melee///// made for melee weapons - interact with focus. all spend mana/focus, unless otherwise indicated.
+MZAcidSabre - acid damage and acid burning
+MZAirSabre - "melee" attack a foe at moderate range.
+MZCleaveSabre - slash target, also damage foes in a cone behind them.
+MZDarkSword - (no mana cost) slash attack generates focus.
+MZDrainSabre - slash drains life. stronger drain when user is wounded.
+MZFlameSabre - fire damage and burning
+MZFocusBladestorm - variant of bladestorm that costs mana per attack.
+MZHolyExplosion - powerful melee attack that releases explosive wave. high mana cost.
+MZLeechSabre - slash leeches shield.
+MZSabreMobility - passive. gained mobility based on number of sabre abilities learned.
+MZSabreShielding - passive. gained shield based on number of sabre abilities learned.
+MZSabreVitality - passive. gained HP based on number of sabre abilities learned.
+MZStormSabre - electric damage, ignore armour
+MZVenomSabre - parth poison damage and poison
+
+/////FocusPistol//// made for pistols - interact with focus. all spend mana/focus, unless otherwise indicated.
+MZAcidFusil - acid damage and acid burning
+MZCurseFusil - psi damage and bloodcurse
+MZFlameFusil - fire damage and burning
+MZFuseFusil - shot sets off explosives the target is carrying
+MZFusilier - Passive. Fusils don't end the turn when used as the first action. Negates the penalty for dual wielding.
+MZLightningFusil - basically lightning hands. 1/turn limit
+MZSilentFusil - doesn't break concealment on a killshot
+MZShadowfallFusil - attempt to gain concealment on a killshot.
+MZStormFusil - electric damage, bypass armour
+MZTripleFusil - basically fanfire
+MZVenomFusil - parth poison damage and poison
+
+/////FocusShot///// made for regular guns - interact with focus. all spend mana/focus, unless otherwise indicated.
+MZAcidRuneshot - acid damage and acid burning
+MZBlastRuneshot - splash damage (explosive)
+MZBlindRuneshot - blind and disorient
+MZCurseRuneshot - psi damage and bloodcurse
+MZDrainRuneshot - lifesteal (stronger drain at low hp)
+MZFlameRuneshot - fire damage and burning
+MZLeechRuneshot - shot leeches shield.
+MZManaDrainShot - (no mana cost) gain mana if it hits
+MZSnapRuneshot - 1ap turn ending. (snapshot where you spend mana instead of taking a hit penalty)
+MZStormRuneshot - electric damage, bypass armour
+MZSupernalRay - bonus BlazingPinions damage to targets in a line.
+MZTwinRuneshot - basically rapid fire
+MZQuickRuneshot - 1ap, but needs 2ap to activate. (essentialy a more limited marauder)
+MZVenomRuneshot - parth poison damage and poison, bypass shield and sustain.
+
+/////Grimy' Anarchist/////	Class uses primary GL and a gremlin.
+
+GrimyAirBurst				launched grenades have larger radius
+GrimyCauterize				gremlin does light damage, and then heal
+GrimyDeadlyHaze				grenades debuff enemy damage
+GrimyFireWall				grants a flamethrower that ignites every floor tile
+GrimyGrenadeShredder		grenades shred more armour
+GrimyHostageProtocol		gremlin stuns enemy andd turns them into cover
+GrimyLightOrdnance			carry more grenades, but they do 50% less damage.
+GrimyLongShot				launch grenade has 50% increased range.
+GrimySabotage				combat protocol disarms target
+GrimySadist					increases uses of skullmine
+GrimyShellShock				grenades may stun
+GrimyShredderGun			grants a shredder gun
+GrimyVileConcoctions		DoT effects of grenades do more damage
+
+/////Grimy's Bruiser///// shotgun+pistol
+
+GrimyDrawFire				sacrifice def to buff armour and ally def.
+GrimyGunPoint				hold a flankable enemy at gunpoint, stunning them and using them as cover.
+GrimySurvival				return fire and grant armour buff. 1/enemy/turn
+GrimySpotter				return fire that marks enemies. 1/enemy/turn
+GrimyBolsterPassive			gunpoint grants armour buff
+GrimyNeedlePointPassive		pistol abilites poison enemies
+GrimyFlashpoint				increase ammo of flashbangs by 1 and they do +2 damage
+GrimyIntimidationPassive	survival/spotter reduce enemy aim
+GrimyEnrage					when injured, start turn with run and gun.
+GrimyTaserShot				pistol shot stuns organics, triple damage robots
+GrimyCausticSlug			double damage shotgun shot shreds armour
+GrimyGrapeShot				shotgun blast does fire damage in a short cone
+
+/////Grimy's Fury/////	cannon+psiamp
+
+GrimyStrafe				gain strafe AP on move. strafing fire doe 50% damage, uses strafe AP.
+GrimySustainedFire		Allows you to reload and overwatch using strafing action points.
+GrimyPyrokinesis		sacrifice health, damage and burn enemy. use strafe AP.
+GrimySoulTap			sacrifice health, gain AP.
+GrimyReinvigorate		gain AP when healed
+GrimyReave				sacrifice health: weaker nullance that poisons. us strafe AP.
+GrimyBulletRoulette		equips random ammo at mission start
+GrimyMadness			sacrifice health to mind control and enemy for 1 turn. use strafe AP.
+GrimySprayAndPray		fire at up to three random enemies. use strafe AP.
+GrimyAnomaly			once per mission, do massive damage in an aoe, then summons a new pod.
+GrimySpeedster			passive: +1 AP, -4mobility
+GrimyWillToSurvive		increase max HP based on will
+
+/////Grimy's Headhunter/////	sniper+sword
+
+GrimyPiercingShot		Fires a shot that penetrates multiple targets
+GrimyRushedShot			Fire a sniper rifle shot at a random target.
+GrimyThunderclap		Fire an electrified sniper rifle round at a random target
+GrimyPointBlank			Fire your sniper rifle point blank at an enemy
+GrimyIncendiaryShot		Deals fire damage and applies burning to targets in a small radius
+GrimyTwinFangs			Fire two poisonous rounds at up to two random enemies
+GrimyBuckshot			Fire at all enemies inside a narrow cone
+GrimyDoubleTap			take a shot, then take another action.
+GrimyHexHunter			special shot deals bonus damage to psionic enemies, proportional to their psi offense.
+GrimyBladeOil			Slash an enemy with a poisoned blade, dealing an additional 100% weapon damage as poison
+GrimyRapidslashHH		A basic sword slash that does not end your turn
+GrimyExecuteBonus		Melee attacks against marked or holotargeted enemies deal triple damage
+GrimyMultiHook			A free aiming grappling hook that costs 1 action point
+GrimyPreparation		free action grants AP on next turn.
+
+
+/////Isms Rogue///// bullpup + pistol class
+IsmsBlazeOfGlory - fire at every visible enemy, then play dead 2 turns.
+IsmsBlindside - Bullpup/SMG to bonus damage to flanked targets.
+IsmsConcussiveShot - electric pistol shot may stun based on will contest. can expend 2 charges to retain stealth by using Sap.
+IsmsFlush - accurate shot with reduced damage. forces target to move.
+IsmsGhostPack - Phantom+Conceal. take 15% more damage.
+IsmsInfiltrator - +40 hack and grants lightning reflexes
+IsmsLastWish - sustain variant: heals to 5hp and attempt to restealth after playing dead.
+IsmsLoneWolf - +2 vision. +20 defense when alone.
+IsmsKeepYourHeadDown - half cover counts as full. -5aim from half cover.
+IsmsNaturalBornKiller - Focus: gain per turn. Boosts mobility. consume all for a shot with boosted damage.
+IsmsOnTheMove - +1AP -6 Mobility
+IsmsRecon - cone debuffs enemies, -5 Def, take more damage.
+IsmsRelocate - squad is temporarily invisible, but remaining AP are converted to move action.
+IsmsRiposte - activate to deflect and counter the next attack. pistol countershot reduces target's defense.
+IsmsRogueAndGun - shot grants a move action if it hits.
+IsmsRushOfBattle - Focus: gain on enemy deaths. Boosts dodge. consume all to heal a percent of missing health.
+IsmsScoutingReport - Focus: gain per turn. Boosts squad aim and defense. Consume all to replenish allies' actions.
+IsmsScoutPack - +6 vision. free battlescanner. bonus damage from height advantage.
+IsmsScoutsOverwatch - replaces overwatch with a cone watch that fires a non-reaction shot.
+IsmsShadowborn - -33% detection radius, +15 aim/crit on shots from concealment.
+
+/////GeneMods/////		Intended for use as gene mods. don't need to be assigned slots
+
+Musashi_BioelectricSkin	-skin: sense nearby enemies, even if they are concealed
+MZAdaptiveBoneMarrow	-Legs: reduce wounds postcombat, regen health in combat.
+MZAdrenalNeurosympathy	-Skin: kills buff allies with aim, crit, mob, cure panic
+MZDepthPerception	-eyes: bonus aim and crit when you have height advantage
+MZHyperreactivePupils	-eyes: bonus aim after a miss
+MZNeuralDamping		-Brain: mental immune, resist psi damagee
+MZNeuralFeedback	-Brain: counter psi attacks by damaging attacker and putting psi abilitis on cooldown.
+MZNictatingMembranes	-Eyes: negate aim penalties from poison, disorient, smoke. cure blind every turn.
+MZPsyberInterface	-Eyes: Bonus hack, aim vs robots
+MZregenPheremones	-Skin: kills buff allies with regen, cure DoTs
+MZViperBlood		-Chest: poison immune, bleed poison, gain aim/crit/dodge in poison clouds.
+RM_GeneWallClimb	-legs: allows climbing walls (but not windows)
+RM_GeneMimeticSkin	-skin: enter concealment when moving to full cover if no foe sees you
+MZWiredreflexes -legs: changes hit rolls on reflex actions to be 1 stage more favourable
