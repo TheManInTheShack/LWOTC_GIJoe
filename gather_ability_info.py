@@ -78,6 +78,17 @@ textsrc.append("S:\Personal Folders\Dickerson\joe\examples\\archive\\textbank_20
 wikisrc = []
 wikisrc.append("S:\Personal Folders\Dickerson\joe\data\old\LWOTC_perks_wiki_rawtext.txt")
 
+perksrc = []
+perksrc.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\perks\\XComGame_ABBPerkPack.int")
+perksrc.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\perks\\XComGame_CryoPerkPack.int")
+perksrc.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\perks\\XComGame_LongWar2AbilitiesForWotc.int")
+perksrc.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\perks\\XComGame_MechatronicWarfarePerkPack.int")
+perksrc.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\perks\\XComGame_PetRockPerkPack.int")
+perksrc.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\perks\\XComGame_ShadowOpsPerkPack.int")
+perksrc.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\perks\\XComGame_WOTCIridarPerkPack.int")
+perksrc.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\perks\\XComGame_WOTC_ExtendedPerkPack.int")
+perksrc.append("S:\\Personal Folders\\Dickerson\\joe\\examples\\perks\\XComGame_WotC_Gameplay_GeneModding.int")
+
 # ------------------------------------------------------------------------------
 # Main
 # ------------------------------------------------------------------------------
@@ -97,6 +108,7 @@ def main():
     # --------------------------------------------------------------------------
     tdata = parsed_text_data(textsrc)
     wdata = parsed_wiki_text_data(wikisrc)
+    pdata = parsed_text_data(perksrc)
 
     # --------------------------------------------------------------------------
     # Organize into abilities
@@ -111,8 +123,8 @@ def main():
     # --------------------------------------------------------------------------
     # save out the whole list of abilities
     # --------------------------------------------------------------------------
-    #df_tdata = pd.DataFrame.from_dict(tdata, orient='index')
-    #o = df_tdata.to_excel("data/abilities.xlsx")
+    df_pdata = pd.DataFrame.from_dict(pdata, orient='index')
+    o = df_pdata.to_excel("data/all_abilities_text.xlsx")
 
     # --------------------------------------------------------------------------
     # Finish

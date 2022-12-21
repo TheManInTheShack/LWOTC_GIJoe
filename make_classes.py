@@ -32,7 +32,9 @@ def main():
     # --------------------------------------------------------------------------
     # Get the source data 
     # --------------------------------------------------------------------------
+    print("...reading character data...")
     cdata = pd.read_excel(dfile, sheet_name="characters", header=[0,2],index_col=0,engine="openpyxl")
+    print("...reading abilities data...")
     adata = pd.read_excel(dfile, sheet_name="abilities", header=[7,9],index_col=0,engine="openpyxl")
 
     # --------------------------------------------------------------------------
@@ -80,6 +82,7 @@ def compile_class_data(cdata, adata):
     # --------------------------------------------------------------------------
     # Start
     # --------------------------------------------------------------------------
+    print("...compiling class data...")
     gdata = {}
 
     # --------------------------------------------------------------------------
@@ -98,6 +101,12 @@ def compile_class_data(cdata, adata):
     # --------------------------------------------------------------------------
     for guy, rec in cdata.iterrows():
         # ----------------------------------------------------------------------
+        # Skip those not included
+        # ----------------------------------------------------------------------
+        if not rec['Properties']['Include'] == "x":
+            continue
+
+        # ----------------------------------------------------------------------
         # Start record for this guy
         # ----------------------------------------------------------------------
         gdata[guy] = {}
@@ -108,6 +117,7 @@ def compile_class_data(cdata, adata):
         gdata[guy]['code_name']         = rec['Properties']['Character']
         gdata[guy]['classname']         = "GIJoe__" + guy
         gdata[guy]['loadout_ref']       = "Loadout_GIJoe__" + guy
+        gdata[guy]['include']           = this_or_nothing(rec['Properties']['Include'])
         gdata[guy]['team']              = this_or_nothing(rec['Properties']['Team'])
         gdata[guy]['role']              = this_or_nothing(rec['Properties']['Role Tags'])
         gdata[guy]['first_name']        = this_or_nothing(rec['Properties']['First Name'])
@@ -116,7 +126,7 @@ def compile_class_data(cdata, adata):
         gdata[guy]['group']             = this_or_nothing(rec['Properties']['Group'])
         gdata[guy]['rank']              = this_or_nothing(rec['Properties']['Rank'])
         gdata[guy]['real_weapon']       = this_or_nothing(rec['Properties']['Real Weapon'])
-        gdata[guy]['primary_trait']     = this_or_nothing(rec['Properties']['Attribute'])
+        gdata[guy]['primary_trait']     = this_or_nothing(rec['Properties']['Unique Personal Attribute'])
         gdata[guy]['description']       = this_or_nothing(rec['Properties']['Description'])
 
         # ----------------------------------------------------------------------
@@ -200,6 +210,7 @@ def compile_output(gdata):
     # --------------------------------------------------------------------------
     # Start
     # --------------------------------------------------------------------------
+    print("...compiling output...")
     ccode = []
     lcode = []
     gcode = []
@@ -215,8 +226,9 @@ def compile_output(gdata):
     ccode.append("; " + "*"*98)
     ccode.append("[XComGame.X2SoldierClass_DefaultClasses]")
     for guy in gdata:
-        line = '+SoldierClasses="' + gdata[guy]['classname'] + '"'
-        ccode.append(line)
+        if gdata[guy]['include'] == "x":
+            line = '+SoldierClasses="' + gdata[guy]['classname'] + '"'
+            ccode.append(line)
     ccode.append("")
 
     # --------------------------------------------------------------------------
@@ -274,6 +286,19 @@ def compile_output(gdata):
     # Now every soldier gets a class
     # --------------------------------------------------------------------------
     for guy in gdata:
+        # ----------------------------------------------------------------------
+        # Skip over those without the include flag
+        # ----------------------------------------------------------------------
+        if not gdata[guy]['include'] == "x":
+            continue
+
+        # ----------------------------------------------------------------------
+        # Get the primary and secondary weapons because we will need to tweak
+        # some abilities based on which slot holds what
+        # ----------------------------------------------------------------------
+        slot_primary   = gdata[guy]['loadout_primary']
+        slot_secondary = gdata[guy]['loadout_secondary']
+
         # ----------------------------------------------------------------------
         # CLASSES
         # Header
@@ -435,8 +460,8 @@ def compile_output(gdata):
         # LOADOUT
         # Now do the loadout code
         # ----------------------------------------------------------------------
-        loadoutname = '"' + gdata[guy]['loadout_ref'] + '"'
-        primaryname = '"' + gdata[guy]['loadout_primary'] + '_CV"'
+        loadoutname   = '"' + gdata[guy]['loadout_ref'] + '"'
+        primaryname   = '"' + gdata[guy]['loadout_primary'] + '_CV"'
         secondaryname = '"' + gdata[guy]['loadout_secondary'] + '_CV"'
 
         lcode.append("+Loadouts=(LoadoutName=" + loadoutname.ljust(32) + ", Items[0]=(Item=" + primaryname.ljust(25) + "), Items[1]=(Item=" + secondaryname.ljust(25) + "))")
@@ -484,8 +509,8 @@ def compile_output(gdata):
         scode.append("[WOTCStartingSoldiers.X2DownloadableContentInfo_WOTCStartingSoldiers]")
             
         for line in starting_clusters[cluster]:
-            if not cluster == 'G.I. Joe':
-                continue
+            #if not cluster == 'G.I. Joe':
+            #    continue
             scode.append(line)
         scode.append("")
 

@@ -1,0 +1,9 @@
+XComGame_ABBPerkPack.int
+XComGame_CryoPerkPack.int
+XComGame_LongWar2AbilitiesForWotc.int
+XComGame_MechatronicWarfarePerkPack.int
+XComGame_PetRockPerkPack.int
+XComGame_ShadowOpsPerkPack.int
+XComGame_WOTCIridarPerkPack.int
+XComGame_WOTC_ExtendedPerkPack.int
+XComGame_WotC_Gameplay_GeneModding.int
