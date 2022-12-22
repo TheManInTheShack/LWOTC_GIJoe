@@ -1681,33 +1681,3 @@ LeftAbilityTreeTitle = ""
 RightAbilityTreeTitle = ""
 RandomNicknames[0]   = "Silicon_Valerie"
 
-; ------------------------------------------------------------------------------
-; Deuce
-; ------------------------------------------------------------------------------
-[GIJoe__Deuce X2SoldierClassTemplate]
-DisplayName          = GI Joe: "Deuce"
-ClassSummary         = ""
-LeftAbilityTreeTitle = ""
-RightAbilityTreeTitle = ""
-RandomNicknames[0]   = "Deuce"
-
-; ------------------------------------------------------------------------------
-; Johnny_Barracuda
-; ------------------------------------------------------------------------------
-[GIJoe__Johnny_Barracuda X2SoldierClassTemplate]
-DisplayName          = GI Joe: "Johnny_Barracuda"
-ClassSummary         = ""
-LeftAbilityTreeTitle = ""
-RightAbilityTreeTitle = ""
-RandomNicknames[0]   = "Johnny_Barracuda"
-
-; ------------------------------------------------------------------------------
-; Agent_Zero
-; ------------------------------------------------------------------------------
-[GIJoe__Agent_Zero X2SoldierClassTemplate]
-DisplayName          = GI Joe: "Agent_Zero"
-ClassSummary         = ""
-LeftAbilityTreeTitle = ""
-RightAbilityTreeTitle = ""
-RandomNicknames[0]   = "Agent_Zero"
-
