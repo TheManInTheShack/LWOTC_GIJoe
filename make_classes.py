@@ -33,9 +33,9 @@ def main():
     # Get the source data 
     # --------------------------------------------------------------------------
     print("...reading character data...")
-    cdata = pd.read_excel(dfile, sheet_name="characters", header=[0,2],index_col=0,engine="openpyxl")
+    cdata = pd.read_excel(dfile, sheet_name="characters", header=[0,2],index_col=0)
     print("...reading abilities data...")
-    adata = pd.read_excel(dfile, sheet_name="abilities", header=[7,9],index_col=0,engine="openpyxl")
+    adata = pd.read_excel(dfile, sheet_name="abilities", header=[7,9],index_col=0)
 
     # --------------------------------------------------------------------------
     # Compile class data for each guy

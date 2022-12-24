@@ -862,14 +862,14 @@ RightAbilityTreeTitle = "Regular Infantry"
 RandomNicknames[0]   = "Mercer"
 
 ; ------------------------------------------------------------------------------
-; Red Dog
+; Red_Dog
 ; ------------------------------------------------------------------------------
-[GIJoe__Red Dog X2SoldierClassTemplate]
-DisplayName          = GI Joe: "Red Dog"
+[GIJoe__Red_Dog X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Red_Dog"
 ClassSummary         = "Assault, Melee"
 LeftAbilityTreeTitle = ""
 RightAbilityTreeTitle = "Assault Infantry"
-RandomNicknames[0]   = "Red Dog"
+RandomNicknames[0]   = "Red_Dog"
 
 ; ------------------------------------------------------------------------------
 ; Taurus
@@ -1680,4 +1680,14 @@ ClassSummary         = "Tech"
 LeftAbilityTreeTitle = ""
 RightAbilityTreeTitle = ""
 RandomNicknames[0]   = "Silicon_Valerie"
+
+; ------------------------------------------------------------------------------
+; Deuce
+; ------------------------------------------------------------------------------
+[GIJoe__Deuce X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Deuce"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RightAbilityTreeTitle = ""
+RandomNicknames[0]   = "Deuce"
 
