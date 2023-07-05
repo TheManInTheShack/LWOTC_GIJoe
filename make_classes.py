@@ -332,7 +332,18 @@ def compile_output(gdata):
         ccode.append("; ")
 
         ccode.append("; " + "Rank:".ljust(10) + "Ability:".ljust(30) + "Description:")
+        div = True
         for j, rec in gdata[guy]['abilities'].iterrows():
+            try:
+                num = float(rec['character'])
+            except:
+                print(guy, rec)
+                num = 0
+
+            #print(rec['character'], num, type(num))
+            if (num > 90.0) and div:
+                ccode.append("; ")
+                div = False
             ccode.append("; " + rec['character'].center(10) + str(rec['friendlyname']).ljust(30) + str(rec['desc']))
         ccode.append("; ")
 
