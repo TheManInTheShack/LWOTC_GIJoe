@@ -1,11 +1,16 @@
 @ECHO OFF
 
-REM ECHO use Breaker to transform the text-based power markup set to Excel
-REM del "data\perks_markup.xlsx"
-REM CALL breaker push "data\perks_markup.txt" "data\perks_markup.xlsx" "perks_config.txt"
-
+REM ECHO ---------------------------------------------------------------------------------
 REM ECHO Pull in the perk data from the mods specified
+REM ECHO ---------------------------------------------------------------------------------
 REM CALL gather_ability_info
 
-ECHO Make the mod files
-CALL make_classes
+ECHO ---------------------------------------------------------------------------------
+ECHO Update abilities and do the mapping
+ECHO ---------------------------------------------------------------------------------
+CALL mapify data\abilities_from_class.xlsx
+
+REM ECHO ---------------------------------------------------------------------------------
+REM ECHO Make the mod files
+REM ECHO ---------------------------------------------------------------------------------
+REM CALL make_classes

@@ -23,25 +23,58 @@ pd.set_option("display.max_columns", 12)
 sys.stdout.reconfigure(encoding='utf-8')
 
 sources = []
-sources.append("examples\\XComClassData_LWOTC.ini")
-sources.append("examples\\classes\\2283957200\\2283957200\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2307690386\\2307690386\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2315630859\\2315630859\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2320661275\\2320661275\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2333540815\\2333540815\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2347951005\\2347951005\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2349299686\\2349299686\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2349334533\\2349334533\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2349597508\\2349597508\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2388969733\\2388969733\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2715505346\\2715505346\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2718035362\\2718035362\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2720287889\\2720287889\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2720855306\\2720855306\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2745435515\\2745435515\\Config\\XComClassData.ini")
-sources.append("examples\\classes\\2765508148\\2765508148\\Config\\XComClassData.ini")
+sources.append("examples\\LWOTC\\XComClassData.ini")
+sources.append("examples\\classes\\2283957200\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2307690386\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2315630859\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2320661275\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2333540815\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2347951005\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2349299686\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2349334533\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2388969733\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2715505346\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2718035362\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2720287889\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2720855306\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2745435515\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2763217609\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2771922076\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2799438088\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2832143482\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2836852756\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2848939326\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2848987800\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2850649799\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2850679312\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2851288174\\Config\\XComClassData.ini")
+sources.append("examples\\classes\\2945843998\\Config\\XComClassData.ini")
 
 textsrc = []
+textsrc.append("examples\\perks\\localization\\CryoPerkPack.int")
+textsrc.append("examples\\perks\\localization\\LongWar2AbilitiesForWotc.int")
+textsrc.append("examples\\perks\\localization\\MechatronicWarfarePerkPack.int")
+textsrc.append("examples\\perks\\localization\\MitzrutiPerkPack.int")
+textsrc.append("examples\\perks\\localization\\ShadowOpsPerkPack.int")
+textsrc.append("examples\\perks\\localization\\WOTCIridarPerkPack.int")
+textsrc.append("examples\\perks\\localization\\WOTC_ExtendedPerkPack.int")
+textsrc.append("examples\\perks\\localization\\WotC_Gameplay_GeneModding_MitzrutiPerkPack.int")
+textsrc.append("examples\\perks\\localization\\XComGame_ABBPerkPack.int")
+textsrc.append("examples\\perks\\localization\\XComGame_CryoPerkPack.int")
+textsrc.append("examples\\perks\\localization\\XComGame_ExtendedPerkPack.int")
+textsrc.append("examples\\perks\\localization\\XComGame_Genemods.Int")
+textsrc.append("examples\\perks\\localization\\XComGame_Grimys.Int")
+textsrc.append("examples\\perks\\localization\\XComGame_Isms.Int")
+textsrc.append("examples\\perks\\localization\\XComGame_LongWar2AbilitiesForWotc.int")
+textsrc.append("examples\\perks\\localization\\XComGame_MechatronicWarfarePerkPack.int")
+textsrc.append("examples\\perks\\localization\\XComGame_MitzrutiPerkPack.int")
+textsrc.append("examples\\perks\\localization\\XComGame_PetRockPerkPack.int")
+textsrc.append("examples\\perks\\localization\\XComGame_ShadowOpsPerkPack.int")
+textsrc.append("examples\\perks\\localization\\XComGame_WOTCIridarPerkPack.int")
+textsrc.append("examples\\perks\\localization\\XComGame_WOTCIridarPerkPackTemplar.int")
+textsrc.append("examples\\perks\\localization\\XComGame_WOTC_ExtendedPerkPack.int")
+textsrc.append("examples\\perks\\localization\\XComGame_WotC_Gameplay_GeneModding.int")
+
 textsrc.append("examples\\archive\\textbank_1.INT")
 textsrc.append("examples\\archive\\textbank_2.INT")
 textsrc.append("examples\\archive\\textbank_3.INT")
@@ -62,6 +95,7 @@ textsrc.append("examples\\archive\\textbank_17.INT")
 textsrc.append("examples\\archive\\textbank_18.INT")
 textsrc.append("examples\\archive\\textbank_19.INT")
 textsrc.append("examples\\archive\\textbank_20.INT")
+textsrc.append("examples\\archive\\textbank_20_alt.INT")
 
 wikisrc = []
 wikisrc.append("data\old\LWOTC_perks_wiki_rawtext.txt")
@@ -96,7 +130,6 @@ def main():
     # --------------------------------------------------------------------------
     tdata = parsed_text_data(textsrc)
     wdata = parsed_wiki_text_data(wikisrc)
-    pdata = parsed_text_data(perksrc)
 
     # --------------------------------------------------------------------------
     # Organize into abilities
@@ -111,8 +144,8 @@ def main():
     # --------------------------------------------------------------------------
     # save out the whole list of abilities
     # --------------------------------------------------------------------------
-    df_pdata = pd.DataFrame.from_dict(pdata, orient='index')
-    o = df_pdata.to_excel("data/all_abilities_text.xlsx")
+    df_tdata = pd.DataFrame.from_dict(tdata, orient='index')
+    o = df_tdata.to_excel("data/all_abilities_text.xlsx")
 
     # --------------------------------------------------------------------------
     # Finish
@@ -179,7 +212,6 @@ def parsed_text_data(textsrc):
     # Work through each text file
     # --------------------------------------------------------------------------
     tdata = {}
-    tdata_a = {}
     current = ""
     for tfile in textsrc:
         # ----------------------------------------------------------------------
@@ -220,12 +252,6 @@ def parsed_text_data(textsrc):
                 current = line
 
                 # --------------------------------------------------------------
-                # Start the entry
-                # --------------------------------------------------------------
-                if not current in tdata:
-                    tdata[current] = {}
-
-                # --------------------------------------------------------------
                 # That's all we need for this line
                 # --------------------------------------------------------------
                 continue
@@ -241,30 +267,35 @@ def parsed_text_data(textsrc):
             # ------------------------------------------------------------------
             aname = current[1:-1].replace(" X2AbilityTemplate","").lower()
 
+            #print(aname.ljust(50), line)
+
             # ------------------------------------------------------------------
             # Add the record to the abilities if we're on the first thing in
             # the section
             # ------------------------------------------------------------------
-            if not aname in tdata_a:
-                tdata_a[aname] = {}
-                tdata_a[aname]['source'] = tfile
+            if not aname in tdata:
+                tdata[aname] = {}
+                tdata[aname]['source'] = tfile
 
             # ------------------------------------------------------------------
             # Add whatever this thing is
             # ------------------------------------------------------------------
             if "=" in line:
                 key,val = line.split("=",1)
-                tdata_a[aname][key] = val
+                key = key.lower()
+                tdata[aname][key] = val
             else:
                 continue
 
-    #for item in tdata_a:
-    #    print(item, tdata_a[item])
+    #print("------------")
+    #for item in tdata:
+    #    print(item, tdata[item])
+    #print("------------")
 
     # --------------------------------------------------------------------------
     # Finish
     # --------------------------------------------------------------------------
-    return tdata_a
+    return tdata
 
 # ------------------------------------------------------------------------------
 # Get the ability data
@@ -420,8 +451,8 @@ def gather_ability_data(idata,tdata):
     # --------------------------------------------------------------------------
     # Look at the weapons
     # --------------------------------------------------------------------------
-    for weapon in weapons:
-        print(weapon, weapons[weapon])
+    #for weapon in weapons:
+    #    print(weapon, weapons[weapon])
 
     # --------------------------------------------------------------------------
     # Fill in a clean dictionary of ability information
@@ -545,17 +576,20 @@ def gather_ability_data(idata,tdata):
         helptext     = ""
         flyover      = ""
         promo        = ""
+        source       = ""
         if abil in tdata:
-            if 'LocFriendlyName' in tdata[abil]:
-                friendlyname = tdata[abil]['LocFriendlyName'].replace('"',"")
-            if 'LocLongDescription' in tdata[abil]:
-                longdesc     = tdata[abil]['LocLongDescription'].replace('"',"")
-            if 'LocHelpText' in tdata[abil]:
-                helptext     = tdata[abil]['LocHelpText'].replace('"',"")
-            if 'LocFlyoverText' in tdata[abil]:
-                flyover      = tdata[abil]['LocFlyoverText'].replace('"',"")
-            if 'LocPromotionPopupText' in tdata[abil]:
-                promo        = tdata[abil]['LocPromotionPopupText'].replace('"',"")
+            if 'locfriendlyname' in tdata[abil]:
+                friendlyname = tdata[abil]['locfriendlyname'].replace('"',"")
+            if 'loclongdescription' in tdata[abil]:
+                longdesc     = tdata[abil]['loclongdescription'].replace('"',"")
+            if 'lochelptext' in tdata[abil]:
+                helptext     = tdata[abil]['lochelptext'].replace('"',"")
+            if 'locflyovertext' in tdata[abil]:
+                flyover      = tdata[abil]['locflyovertext'].replace('"',"")
+            if 'locpromotionpopuptext' in tdata[abil]:
+                promo        = tdata[abil]['locpromotionpopuptext'].replace('"',"")
+
+            source = tdata[abil]['source']
 
         # ----------------------------------------------------------------------
         # Determine the basic rank by taking the floor of the average rank
@@ -564,27 +598,66 @@ def gather_ability_data(idata,tdata):
         ranks = []
         for item in abilities[abil]['usage']:
             if type(item[1]) is int:
-                ranks.append(item[1])
+                ranks.append(float(item[1]))
             elif item[1].lower().startswith("tier"):
-                slug = item[1].lower().replace("tier","").replace("_xcomabilities","")
-                slug = int(slug)
+                num = int(item[1].lower().replace("tier","").replace("_xcomabilities",""))
+                if num == 1:
+                    slug = 1.49
+                elif num == 2.0:
+                    slug = 3.49
+                elif num == 3.0:
+                    slug = 5.49
+                elif num == 4.0:
+                    slug = 7.49
+
                 ranks.append(slug)
 
-        rank = sum(ranks) / rankbase
-        rank = math.floor(rank)
+        avgrank = sum(ranks) / rankbase
+        if avgrank % 1 < 0.67:
+            rank = math.floor(avgrank)
+        else:
+            rank = round(avgrank)
 
         # ----------------------------------------------------------------------
         # Make the record and append
         # ----------------------------------------------------------------------
-        rec = (abil,len(abilities[abil]['usage']), str(abilities[abil]['usage']), abilities[abil]['lowrank'],rank,str(abilities[abil]['slot']),str(abilities[abil]['weapons']),friendlyname,longdesc,helptext,flyover,promo)
+        rec = []
+        rec.append(abil)
+        rec.append(len(abilities[abil]['usage']))
+        rec.append(str(abilities[abil]['usage']))
+        rec.append(str(abilities[abil]['slot']))
+        rec.append(str(abilities[abil]['weapons']))
+        rec.append(abilities[abil]['lowrank'])
+        rec.append(avgrank)
+        rec.append(rank)
+        rec.append(friendlyname)
+        rec.append(longdesc)
+        rec.append(promo)
+        rec.append(source)
+        rec.append("xx")
+
         abil_recs.append(rec)
 
     # --------------------------------------------------------------------------
     # Make that into a data frame
     # --------------------------------------------------------------------------
-    adata = pd.DataFrame(abil_recs, columns=['ability','instances','usage','lowrank','rank','slot','weapons','friendlyname','longdesc','helptext','flyover','promo'])
-    adata = adata.sort_values(by='lowrank').reset_index()
-    #print(adata)
+    cols = []
+    cols.append('ability')
+    cols.append('instances')
+    cols.append('usage')
+    cols.append('slot')
+    cols.append('weapons')
+    cols.append('lowrank')
+    cols.append('avgrank')
+    cols.append('rank')
+    cols.append('friendlyname')
+    cols.append('longdesc')
+    cols.append('promo')
+    cols.append('textsource')
+    cols.append('xx')
+
+    adata = pd.DataFrame(abil_recs, columns=cols)
+    adata = adata.sort_values(by=['avgrank','instances','ability'],ascending=[True, False, True]).reset_index()
 
     # --------------------------------------------------------------------------
     # Finish

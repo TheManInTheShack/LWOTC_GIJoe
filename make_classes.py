@@ -128,6 +128,12 @@ def compile_class_data(cdata, adata):
         gdata[guy]['real_weapon']       = this_or_nothing(rec['Properties']['Real Weapon'])
         gdata[guy]['primary_trait']     = this_or_nothing(rec['Properties']['Unique Personal Attribute'])
         gdata[guy]['description']       = this_or_nothing(rec['Properties']['Description'])
+        gdata[guy]['birthplace']        = this_or_nothing(rec['Properties']['Birthplace'])
+        gdata[guy]['file_primary']      = this_or_nothing(rec['Properties']['File primary'])
+        gdata[guy]['file_second']       = this_or_nothing(rec['Properties']['File Second'])
+        gdata[guy]['file_desc']         = this_or_nothing(rec['Properties']['File Desc'])
+        gdata[guy]['file_quote']        = this_or_nothing(rec['Properties']['File quote'])
+        gdata[guy]['icon']              = this_or_nothing(rec['Properties']['icon override'])
 
         # ----------------------------------------------------------------------
         # Summarize the Person's attributes
@@ -356,7 +362,10 @@ def compile_output(gdata):
         # ----------------------------------------------------------------------
         ccode.append('+bMultiplayerOnly=0')
         ccode.append('+ClassPoints=4')
-        ccode.append('+IconImage="img:///UILibrary_InfantryClass.class_infantry"')
+        if gdata[guy]['icon']:
+            ccode.append('+iconImage="' + gdata[guy]['icon'] + '"')
+        else:
+            ccode.append('+IconImage="img:///UILibrary_InfantryClass.class_infantry"')
         ccode.append('+NumInForcedDeck=0')
         ccode.append('+NumInDeck=4')
         ccode.append('+KillAssistsPerKill=4')
