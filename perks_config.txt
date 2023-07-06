@@ -1,8 +1,0 @@
-idx:   key
-name:  single
-desc:  single
-slot:  flags
-theme: flags
-equip: flags
-char:  flags
-

@@ -357,10 +357,10 @@ def compile_output(gdata):
         ccode.append('+bMultiplayerOnly=0')
         ccode.append('+ClassPoints=4')
         ccode.append('+IconImage="img:///UILibrary_InfantryClass.class_infantry"')
-        ccode.append('+NumInForcedDeck=1')
+        ccode.append('+NumInForcedDeck=0')
         ccode.append('+NumInDeck=4')
         ccode.append('+KillAssistsPerKill=4')
-        ccode.append('+bAllowAWCAbilities=1')
+        ccode.append('+bAllowAWCAbilities=true')
         ccode.append('+bCanHaveBonds=true')
         ccode.append('+BaseAbilityPointsPerPromotion=3')
         ccode.append('+SquaddieLoadout="' + gdata[guy]['loadout_ref'] + '"')
@@ -378,12 +378,16 @@ def compile_output(gdata):
 
         # ----------------------------------------------------------------------
         # CLASSES
-        # If they have the gauntlet, they are heavy ammo, otherwise heavy
+        # Determine correct thing to go in heavy, if any
         # ----------------------------------------------------------------------
         if 'lw_gauntlet' in gdata[guy]['secondary_weapons']:
             ccode.append('+AllowedWeapons=(SlotType=eInvSlot_HeavyWeapon, WeaponType="heavyammo")')
-        else:
+        elif 'iri_rocket_launcher' in gdata[guy]['secondary_weapons']:
+            ccode.append('+AllowedWeapons=(SlotType=eInvSlot_HeavyWeapon, WeaponType="heavyammo")')
+        elif 'Sparkbit_CV' in gdata[guy]['secondary_weapons']:
             ccode.append('+AllowedWeapons=(SlotType=eInvSlot_HeavyWeapon, WeaponType="heavy")')
+        #else:
+        #    ccode.append('+AllowedWeapons=(SlotType=eInvSlot_HeavyWeapon, WeaponType="heavy")')
         ccode.append("")
 
         # ----------------------------------------------------------------------
@@ -492,9 +496,9 @@ def compile_output(gdata):
 
         tcode.append("[" + gdata[guy]['classname'] + " X2SoldierClassTemplate]")
         tcode.append("DisplayName".ljust(20)            + " = " + "GI Joe: " + quoted(guy))
-        tcode.append("ClassSummary".ljust(20)           + " = " + quoted(gdata[guy]['role']))
-        tcode.append("LeftAbilityTreeTitle".ljust(20)   + " = " + quoted(gdata[guy]['mos']))
-        tcode.append("RightAbilityTreeTitle".ljust(20)  + " = " + quoted(gdata[guy]['group']))
+        tcode.append("ClassSummary".ljust(20)           + " = " + quoted(gdata[guy]['mos']))
+        tcode.append("LeftAbilityTreeTitle".ljust(20)   + " = " + quoted(gdata[guy]['role']))
+        #tcode.append("RightAbilityTreeTitle".ljust(20)  + " = " + quoted(gdata[guy]['group']))
         tcode.append("RandomNicknames[0]".ljust(20)     + " = " + quoted(guy))
         tcode.append("")
 
