@@ -1,0 +1,17 @@
+[PR_Geneva X2SoldierClassTemplate]
++DisplayName="Geneva"
++ClassSummary="The aliens commit war crimes why shouldn't we? The geneva class brings a flamethrower, rocket launcher, and a couple gas grenades into battle to turn any battefield into hell."
++LeftAbilityTreeTitle="Flame"
++RightAbilityTreeTitle="Rockets"
+AbilityTreeTitles[0]="Scorched Earth"
+AbilityTreeTitles[1]="Chemical Warfare"
+AbilityTreeTitles[2]="Heavy Ordnance"
+AbilityTreeTitles[3]="XCOM"
+AbilityTreeTitles[4]="Pistol"
+
++RandomNickNames[0]="Criminal"
++RandomNickNames[1]="Terror"
++RandomNickNames[2]="Fear"
++RandomNickNames[3]="Collateral"
++RandomNickNames[4]="Death"
++RandomNickNames[5]="Torturer"

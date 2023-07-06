@@ -1,0 +1,17 @@
+[PR_Titan X2SoldierClassTemplate]
++DisplayName="Titan"
++ClassSummary="Titans specialize in cooldown based cannon attacks, nuking things that get too close with their sawed-off shotgun, or simply being very hard to kill."
++LeftAbilityTreeTitle="Gunner"
++RightAbilityTreeTitle="Sawed-Off"
+AbilityTreeTitles[0]="Gunner"
+AbilityTreeTitles[1]="Untouchable"
+AbilityTreeTitles[2]="Sawed-Off"
+AbilityTreeTitles[3]="XCOM"
+AbilityTreeTitles[4]="Pistols"
+
++RandomNickNames[0]="Titan"
++RandomNickNames[1]="Junkrat"
++RandomNickNames[2]="Boss"
++RandomNickNames[3]="Scrapper"
++RandomNickNames[4]="Unbreakable"
++RandomNickNames[5]="Stronk"

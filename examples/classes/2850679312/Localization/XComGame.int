@@ -1,0 +1,17 @@
+[PR_Bishop X2SoldierClassTemplate]
++DisplayName="Bishop"
++ClassSummary="Bishops are psionically gifted soldiers that focus on protecting their allies, buffing their allies, or if all else fails unleashing their inner draconic powers."
++LeftAbilityTreeTitle="Voltage
++RightAbilityTreeTitle="Dragon"
+AbilityTreeTitles[0]="High Voltage"
+AbilityTreeTitles[1]="Protector"
+AbilityTreeTitles[2]="Draconic"
+AbilityTreeTitles[3]="XCOM"
+AbilityTreeTitles[4]="Pistol"
+
++RandomNickNames[0]="Dragonborn"
++RandomNickNames[1]="High Priest"
++RandomNickNames[2]="Pope"
++RandomNickNames[3]="Cardinal"
++RandomNickNames[4]="Bishop"
++RandomNickNames[5]="Dragon Lord"

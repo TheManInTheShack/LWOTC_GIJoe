@@ -1,0 +1,18 @@
+﻿[mod]
+publishedFileId=2763217609
+Title=DeadGuy's Class Pack [LWOTC]
+Description=I’ve been playing the XCOM games, and especially the Long War variants, for a pretty long time. During that time I’ve come up with some class ideas that I think are pretty interesting, so I decided to put them together.
+
+This is a pack of eight new classes for Long War of the Chosen created from existing perk packs. You can find the full class trees, as well as some clarifications on certain perks, [url=https://docs.google.com/spreadsheets/d/1qKh8RubYz7FdFfT8NedryKChNuhtk5RPXSrQBIVdaps/edit?usp=sharing] here [/url]/.
+
+[h1] Credits [/h1]
+[b] Mitzruti [/b] for their own perks as well as porting perks to WotC from other creators.
+[b] Kiruka [/b] for the ABB perk pack and port of the Shadow Ops classes for LWotC (from which I copy-pasted a lot of the class data)
+[b] Favid [/b] for their own extended perk pack as well as porting the Shadow Ops perks to WotC
+[b] Xylthixlm [/b] for originally creating the Shadow Ops classes and perks
+[b] Musashi [/b] for the ballistic shield used by Rioters
+[b] Ketaros [/b] for making tons of cool icons, some of which are used for these classes
+And of course, the entire teams behind LW2 and LWotC.
+
+tags= soldier class, gameplay
+RequiresXPACK=true
