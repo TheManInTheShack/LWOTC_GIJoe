@@ -1,0 +1,16 @@
+[PR_Scout X2SoldierClassTemplate]
++DisplayName="Scout"
++ClassSummary="Scouts excel at providing information to their teammates. They bring a sniper rifle and pistol into combat so that they can sneak into optimal positions and strike when ready."
++LeftAbilityTreeTitle="Sniper"
++RightAbilityTreeTitle="Ghost"
+AbilityTreeTitles[0]="Sniper"
+AbilityTreeTitles[1]="Ghost"
+AbilityTreeTitles[2]="Predator"
+AbilityTreeTitles[3]="XCOM"
+AbilityTreeTitles[4]="Pistol"
+
++RandomNickNames[0]="Agent"
++RandomNickNames[1]="Hitman"
++RandomNickNames[2]="Runner"
++RandomNickNames[3]="Ghost"
++RandomNickNames[4]="Predator"

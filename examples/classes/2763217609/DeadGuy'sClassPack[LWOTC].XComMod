@@ -1,5 +1,9 @@
-﻿[mod]
+[mod]
 publishedFileId=2763217609
+title=
+description=
+tags=
+contentImage=
 Title=DeadGuy's Class Pack [LWOTC]
 Description=I’ve been playing the XCOM games, and especially the Long War variants, for a pretty long time. During that time I’ve come up with some class ideas that I think are pretty interesting, so I decided to put them together.
 
@@ -16,3 +20,4 @@ And of course, the entire teams behind LW2 and LWotC.
 
 tags= soldier class, gameplay
 RequiresXPACK=true
+

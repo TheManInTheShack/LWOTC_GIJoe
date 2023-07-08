@@ -1,0 +1,16 @@
+[PR_Roboticist X2SoldierClassTemplate]
++DisplayName="Roboticist"
++ClassSummary="Roboticists specialize in hacking mechanical enemies, or dismantling them with their shotgun."
++LeftAbilityTreeTitle="Slugger"
++RightAbilityTreeTitle="Hacker"
+AbilityTreeTitles[0]="Dismantle"
+AbilityTreeTitles[1]="Robotics"
+AbilityTreeTitles[2]="Hacker"
+AbilityTreeTitles[3]="XCOM"
+AbilityTreeTitles[4]="Pistol"
+
++RandomNickNames[0]="Technician"
++RandomNickNames[1]="Professor"
++RandomNickNames[2]="Farnsworth"
++RandomNickNames[3]="Slugger"
++RandomNickNames[4]="Roboticist"
