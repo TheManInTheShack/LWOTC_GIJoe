@@ -1,16 +1,6 @@
 # ==============================================================================
-# Mapify
+# Marauder
 # Read Excel-based data and maintain a mapping
-# - sheets in map are:
-#   - source/history of the file, tracking input versions and map runs
-#   - contents/configuration, showing each field in each sheet
-#     - need to have one or more key fields in each source sheet
-#       - uniqueness will be enforced
-#     - may have supplemental fields that are summarized/tracked separately
-#       - can multiple sheets be melded in this way?
-#       - Track unique answers across multiple fields/sheets
-#       - Automatically map connections across tables with binaries
-#   - one sheet for each item in configuration, with contents/history/user
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
@@ -23,12 +13,15 @@ import re
 import shutil
 import argparse
 
+import openpyxl as xl
 import pandas as pd
 
+from dopes.excel_tools import can_write_to_excel, write_matrix_to_excel_sheet, write_excel_sheet, apply_formatting_to_cell
+from dopes.mapping_tools import read_map_sheet
 
 pd.set_option("display.width", 10000)
 pd.set_option("display.max_rows", 1000)
-pd.set_option("display.max_columns", 12)
+pd.set_option("display.max_columns", 20)
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -55,7 +48,7 @@ def main(args, init):
     # --------------------------------------------------------------------------
     # Start
     # --------------------------------------------------------------------------
-    print("Starting...")
+    print("I solemnly swear that I am up to no good...")
 
     # --------------------------------------------------------------------------
     # Probe around in the input data to determine what we're dealing with
@@ -68,27 +61,27 @@ def main(args, init):
     minfo = retrieve_map_information(dinfo)
 
     # --------------------------------------------------------------------------
-    # Resolve the current set with the map
+    # Resolve the current set with the map and make a list of differences
     # --------------------------------------------------------------------------
-    #rinfo = resolve_current_and_map(dinfo, minfo)
+    rinfo = resolve_current_and_map(dinfo, minfo)
 
     # --------------------------------------------------------------------------
-    # Update the map
+    # Remake the map data structure taking differences into account
     # --------------------------------------------------------------------------
-    #uinfo = write_updated_map_information(rinfo)
+    uinfo = write_updated_map_information(minfo, rinfo)
 
     # --------------------------------------------------------------------------
     # Save out the map
     # --------------------------------------------------------------------------
-    #x = write_out_map_file(uinfo)
+    x = write_out_map_file(uinfo)
 
     # --------------------------------------------------------------------------
     # Finish
     # --------------------------------------------------------------------------
-    print("...finished.")
+    print("...mischief managed.")
 
 # ------------------------------------------------------------------------------
-# 
+# Read the input excel file and examine all of the sheets
 # ------------------------------------------------------------------------------
 def retrieve_data_information(fpath):
     # --------------------------------------------------------------------------
@@ -169,19 +162,41 @@ def retrieve_data_information(fpath):
             columns[col]['unique'] = unique
 
             # ------------------------------------------------------------------
-            # Get the detected data type
-            # ------------------------------------------------------------------
-            columns[col]['dtype']  = data[col].dtypes
-
-            # ------------------------------------------------------------------
             # Store various counts
             # ------------------------------------------------------------------
             counts = data[col].value_counts()
             columns[col]['tokens']     = len(counts)
             columns[col]['complexity'] = columns[col]['tokens'] / data.shape[0]
-            columns[col]['blank']      = data.shape[0] - columns[col]['nonblank']
             columns[col]['nonblank']   = len(data[col].dropna())
+            columns[col]['blank']      = data.shape[0] - columns[col]['nonblank']
             columns[col]['density']    = columns[col]['nonblank'] / data.shape[0]
+
+            # ------------------------------------------------------------------
+            # Get the default data type
+            # ------------------------------------------------------------------
+            columns[col]['dtype']  = str(data[col].dtypes)
+
+            # ------------------------------------------------------------------
+            # Detect the data type as we want to think of it
+            # ------------------------------------------------------------------
+            vals = sorted([x for x in counts.index if not x == ""])
+            if len(vals) == 0:
+                content = "empty"
+            else:
+                type1 = type(vals[0])
+                type2 = type(vals[-1])
+
+                if type1 is str or type2 is str:
+                    content = "text"
+                elif type1 is float or type2 is float:
+                    content = "float"
+                elif type1 is int and type2 is int:
+                    content = "integer"
+                else:
+                    print("WARNING! TYPE DETECTION FLAW: ", vals[0], type1, vals[-1], type2)
+                    sys.exit()
+
+            columns[col]['content']  = content
             
         # ----------------------------------------------------------------------
         # Store the final shape and the data itself
@@ -189,6 +204,7 @@ def retrieve_data_information(fpath):
         sheets[sheet]['numrecs'] = data.shape[0]
         sheets[sheet]['numcols'] = data.shape[1]
         sheets[sheet]['data']    = data
+        sheets[sheet]['columns'] = columns
 
     # --------------------------------------------------------------------------
     # Consolidate
@@ -214,20 +230,30 @@ def retrieve_map_information(dinfo):
     # Imply the name of the map
     # --------------------------------------------------------------------------
     map_name = "map_" + dinfo['fname']
+
+    # --------------------------------------------------------------------------
+    # User info
+    # --------------------------------------------------------------------------
+    print(f"...looking for map file {map_name}...")
     
     # --------------------------------------------------------------------------
     # Maybe the file doesn't exist yet
     # --------------------------------------------------------------------------
     if not os.path.isfile(map_name):
         # ----------------------------------------------------------------------
+        # User info
+        # ----------------------------------------------------------------------
+        print("...file not found, creating new mapping data...")
+
+        # ----------------------------------------------------------------------
         # Source is just the single row of what the file starts as
         # ----------------------------------------------------------------------
         src = {}
-        src['Map_Version']   = 1
-        src['File_Version']  = 1
-        src['File_Name']     = map_name
-        src['File_Size']     = dinfo['fsize']
-        src['File_Time']     = dinfo['ftime']
+        src['Map Version']   = 1
+        src['File Version']  = 1
+        src['File Name']     = map_name
+        src['File Size']     = dinfo['fsize']
+        src['File Time']     = dinfo['ftime']
         source = pd.DataFrame.from_dict(src, orient='index').T
 
         # ----------------------------------------------------------------------
@@ -236,26 +262,24 @@ def retrieve_map_information(dinfo):
         snames = []
         snames.append("Sheet")
         snames.append("Alias")
+        snames.append("Num Cols")
+        snames.append("Num Recs")
+        snames.append("Hist Init")
+        snames.append("Hist Full")
+        snames.append("Hist Last")
         snames.append("Track")
-        snames.append("Num_Cols")
-        snames.append("Num_Recs")
-        snames.append("Note")
-        snames.append("Hist_Init")
-        snames.append("Hist_Full")
-        snames.append("Hist_Last")
 
         sdata = []
         for sheet in dinfo['sheets']:
             line = []
             line.append(sheet)
             line.append(sheet)
-            line.append("x")
             line.append(dinfo['sheets'][sheet]['numcols'])
             line.append(dinfo['sheets'][sheet]['numrecs'])
-            line.append("")
             line.append("ADD1")
             line.append("ADD1")
             line.append("ADD1")
+            line.append("x")
             
             sdata.append(line)
 
@@ -268,66 +292,228 @@ def retrieve_map_information(dinfo):
         cnames = []
         cnames.append("Sheet")
         cnames.append("Column")
-        cnames.append("Track")
+        cnames.append("Data Type")
+        cnames.append("Content")
         cnames.append("Unique")
+        cnames.append("Tokens")
+        cnames.append("Complexity")
+        cnames.append("Nonblanks")
+        cnames.append("Blanks")
+        cnames.append("Density")
+        cnames.append("Hist Init")
+        cnames.append("Hist Full")
+        cnames.append("Hist Last")
+        cnames.append("Track")
         cnames.append("Key")
         cnames.append("Markup")
-        cnames.append("Data_Type")
-        cnames.append("Hist_Init")
-        cnames.append("Hist_Full")
-        cnames.append("Hist_Last")
 
         cdata = []
         for sheet in dinfo['sheets']:
             for col in dinfo['sheets'][sheet]['columns']:
-                unique = ""
-                if col in dinfo['sheets'][sheet]['unique_cols']:
-                    unique = "x"
-                dtype = dinfo['sheets'][sheet]['data'][col].dtypes
+                unique     = dinfo['sheets'][sheet]['columns'][col]['unique']
+                dtype      = dinfo['sheets'][sheet]['columns'][col]['dtype']
+                content    = dinfo['sheets'][sheet]['columns'][col]['content']
+                tokens     = dinfo['sheets'][sheet]['columns'][col]['tokens']
+                complexity = dinfo['sheets'][sheet]['columns'][col]['complexity']
+                nonblank   = dinfo['sheets'][sheet]['columns'][col]['nonblank']
+                blanks     = dinfo['sheets'][sheet]['columns'][col]['blank']
+                density    = dinfo['sheets'][sheet]['columns'][col]['density']
 
                 line = []
                 line.append(sheet)
                 line.append(col)
-                line.append("x")
-                line.append(unique)
-                line.append("")
-                line.append("")
                 line.append(dtype)
+                line.append(content)
+                line.append(unique)
+                line.append(tokens)
+                line.append(complexity)
+                line.append(nonblank)
+                line.append(blanks)
+                line.append(density)
                 line.append("ADD1")
                 line.append("ADD1")
                 line.append("ADD1")
+                line.append("x")
+                line.append("")
+                line.append("")
 
                 cdata.append(line)
 
 
-        contents = pd.DataFrame(cdata)
-        contents.columns = cnames
-
-        print("")
-        print(source)
-        print("")
-        print(sheets)
-        print("")
-        print(contents)
+        fields = pd.DataFrame(cdata)
+        fields.columns = cnames
 
         # ----------------------------------------------------------------------
         # Consolidate
         # ----------------------------------------------------------------------
         minfo = {}
-        minfo['source']   = source
-        minfo['sheets']   = sheets
-        minfo['contents'] = contents
+        minfo['map_name'] = map_name
+        minfo['source']  = source
+        minfo['sheets']  = sheets
+        minfo['fields']  = fields
+        minfo['newmap']  = True
 
     # --------------------------------------------------------------------------
-    # 
+    # If the map already exists, read in everything and validate it
     # --------------------------------------------------------------------------
     else:
+        # ----------------------------------------------------------------------
+        # User info
+        # ----------------------------------------------------------------------
+        print("...file found, parsing existing mapping data...")
         minfo = {}
+        minfo['map_name'] = map_name
+        minfo['source'] = read_map_sheet(map_file, "Source Data File")
+        minfo['sheets'] = read_map_sheet(map_file, "Contents - Sheets")
+        minfo['fields'] = read_map_sheet(map_file, "Contents - Fields")
+        minfo['newmap'] = False
+        #TODO
+
+    #print("")
+    #print(minfo['source'])
+    #print("")
+    #print(minfo['sheets'])
+    #print("")
+    #print(minfo['fields'])
+    #print("")
+    #print(minfo['newmap'])
 
     # --------------------------------------------------------------------------
     # Finish
     # --------------------------------------------------------------------------
     return minfo
+
+# ------------------------------------------------------------------------------
+# Interpret the current data against the map and make a list of needed updates
+# ------------------------------------------------------------------------------
+def resolve_current_and_map(dinfo, minfo):
+    # --------------------------------------------------------------------------
+    # Start
+    # --------------------------------------------------------------------------
+    print("...resolving current data with map data...")
+
+    # --------------------------------------------------------------------------
+    # If it's new, there are no differences, so just move along
+    # --------------------------------------------------------------------------
+    if minfo['newmap']:
+        return {}
+
+    # --------------------------------------------------------------------------
+    # Finish
+    # --------------------------------------------------------------------------
+    return rinfo
+
+# ------------------------------------------------------------------------------
+# Make a clean updated version of the map info
+# ------------------------------------------------------------------------------
+def write_updated_map_information(minfo, rinfo):
+    # --------------------------------------------------------------------------
+    # Start
+    # --------------------------------------------------------------------------
+    print("...updating map information...")
+
+    # --------------------------------------------------------------------------
+    # If it's new, it's just what we made earlier
+    # --------------------------------------------------------------------------
+    if minfo['newmap']:
+        uinfo = minfo.copy()
+        return uinfo
+
+    # --------------------------------------------------------------------------
+    # 
+    # --------------------------------------------------------------------------
+    uinfo = {}
+        #TODO
+
+    # --------------------------------------------------------------------------
+    # Finish
+    # --------------------------------------------------------------------------
+    return uinfo
+
+# ------------------------------------------------------------------------------
+# Format and write out the map document
+# ------------------------------------------------------------------------------
+def write_out_map_file(uinfo):
+    # --------------------------------------------------------------------------
+    # Start
+    # --------------------------------------------------------------------------
+    print(f"...writing out map file {uinfo['map_name']}...")
+
+    # --------------------------------------------------------------------------
+    # Add the titles to the components and hold them as matrices
+    # --------------------------------------------------------------------------
+    source_data = prep_table_for_output(uinfo['source'], "Source Data File")
+    sheets_data = prep_table_for_output(uinfo['sheets'], "Contents - Sheets")
+    fields_data = prep_table_for_output(uinfo['fields'], "Contents - Fields")
+
+    # --------------------------------------------------------------------------
+    # Set up formatting
+    # --------------------------------------------------------------------------
+    fmt = {}
+    fmt['reverse_rows']    = [1, 2, 3]
+    fmt['short_rows']      = [2]
+    fmt['wrap_rows']       = [3]
+    fmt['fix_rows_after']  = 3
+    fmt['freeze_panes']    = "A4"
+
+    source_fmt = fmt.copy()
+    source_fmt['column_widths'] = [10, 10, 50, 12, 24, 5]
+    source_fmt['gutter_cols']   = ["F"]
+    source_fmt['zoom']          = 100
+
+    sheets_fmt = fmt.copy()
+    sheets_fmt['column_widths'] = [20, 20, 8, 10, 10, 16, 16, 16, 5]
+    sheets_fmt['gutter_cols']   = ["I"]
+    sheets_fmt['user_cols']     = ["H"]
+    sheets_fmt['zoom']          = 90
+
+    fields_fmt = fmt.copy()
+    fields_fmt['column_widths'] = [20, 30, 12, 12, 12, 12, 12, 12, 12, 12, 16, 16, 16, 8, 8, 25, 5]
+    fields_fmt['gutter_cols']   = ["Q"]
+    fields_fmt['user_cols']     = ["N","O","P"]
+    fields_fmt['zoom']          = 90
+
+    # --------------------------------------------------------------------------
+    # Write all sheets to the file
+    # --------------------------------------------------------------------------
+    if uinfo['newmap']:
+        wb = xl.Workbook()
+        default_sheet = wb.active
+        wb.remove(default_sheet)
+    else:
+        wb = xl.load_workbook(uinfo['map_name'])
+
+    o  = write_excel_sheet(wb, "Source Data File",  source_data, source_fmt)
+    o  = write_excel_sheet(wb, "Contents - Sheets", sheets_data, sheets_fmt)
+    o  = write_excel_sheet(wb, "Contents - Fields", fields_data, fields_fmt)
+
+    wb.save(uinfo['map_name'])
+    wb.close()
+
+    # --------------------------------------------------------------------------
+    # Finish
+    # --------------------------------------------------------------------------
+    return True
+
+# ------------------------------------------------------------------------------
+# For the regularized output, we want every table to have a three-line heading:
+#  - First line has a text title in the leftmost cell, and nothing else
+#  - Second line is completely blank
+#  - Third line is the variable headings, which must be unique text
+# ------------------------------------------------------------------------------
+def prep_table_for_output(df, title):
+    empty = [""]*(df.shape[1])
+    line1 = empty.copy()
+    line1[0] = title
+    line2 = empty.copy()
+    line3 = [x for x in df.columns]
+    body = df.values.tolist()
+    matrix = []
+    matrix.append(line1)
+    matrix.append(line2)
+    matrix.append(line3)
+    matrix.extend(body)
+    return matrix
 
 # ------------------------------------------------------------------------------
 # Run

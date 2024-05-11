@@ -1,0 +1,204 @@
+
+;; Arsonist class had abilities buried in other things I couldn't find; easy enough to manually translate them
+
+[mzViscousAccelerant X2AbilityTemplate]
+LocFriendlyName="Viscous Accelerant"
+LocLongDescription="Chemthrower attacks apply a stacking debuff that increases damage from all damage over time effects."
+
+[mzThermalShock X2AbilityTemplate]
+LocFriendlyName="Thermal Shock"
+LocLongDescription="Cold attacks do bonus damage to burning targets. Fire attacks do bonus damage to chilled or frozen targets."
+
+[mzFulmination X2AbilityTemplate]
+LocFriendlyName="Fulmination"
+LocLongDescription="Explosive Chemthrower blast that causes any other explosives in the vicinity to detonate."
+
+[mzCorrodingCompounds X2AbilityTemplate]
+LocFriendlyName="Corroding Compounds"
+LocLongDescription="Chemthrower attacks pierce and shred a small amount of armour."
+
+[mzBurningRush X2AbilityTemplate]
+LocFriendlyName="Burning Rush"
+LocLongDescription="Activate to gain a movement AP, and basic Chemthrower attacks will not use up all AP this turn."
+
+[mzSearingMagnesium X2AbilityTemplate]
+LocFriendlyName="Searing Magnesium"
+LocLongDescription="Chemthrower attacks deal additional damage on a critical hit."
+
+[mzChemStorm X2AbilityTemplate]
+LocFriendlyName="Chemical Storm"
+LocLongDescription="Unlock a special Chemthrower attack that affects a complete circle around the soldier's position."
+
+[mzIncandescence X2AbilityTemplate]
+LocFriendlyName="Incandescence"
+LocLongDescription="Chemthrower attacks illuminate foes, making them easier for allies to crit."
+
+[mzFumigate X2AbilityTemplate]
+LocFriendlyName="Fumigate"
+LocLongDescription="Spray cleansing chemicals, removing enviromental ailments from targets in a cone."
+
+[mzMedispray X2AbilityTemplate]
+LocFriendlyName="Medispray"
+LocLongDescription="Spray regenerative chemicals, healing targets in a cone. Gains additional charges for each medikit."
+
+[mzThermalBulwark X2AbilityTemplate]
+LocFriendlyName="Thermal Bulwark"
+LocLongDescription="Activating a Chemthrower ability grants a chance to deflect incoming attacks. Fumigate and Medispray also apply this effect to thier targets."
+
+[mzParticulateHaze X2AbilityTemplate]
+LocFriendlyName="Particulate Haze"
+LocLongDescription="Chemthrower attacks additionaly blind targets."
+
+[mzSmellsLikeTeamSpirit X2AbilityTemplate]
+LocFriendlyName="Smells Like Team Spirit"
+LocLongDescription="Fumigate additionaly removes mental ailments. Medispray gains an additional charge"
+
+[mzNightmareFuel X2AbilityTemplate]
+LocFriendlyName="Nightmare Fuel"
+LocLongDescription="Chemthrower attacks have a chance to cause panic."
+
+[mzChemthrowerSuppression X2AbilityTemplate]
+LocFriendlyName="Chemthrower Suppression"
+LocLongDescription="Pins down a target with continous fire from the Chemthrower, granting reaction fire against it if it moves, and imposing a penalty to the target's aim."
+
+[mzDissonantEnergies X2AbilityTemplate]
+LocFriendlyName="Dissonant Energies"
+LocLongDescription="Electiric attacks do bonus damage to cursed, blinded, confused or panicking targets. Psionic attacks do bonus damage to stunned, disorient or dazed targets."
+
+[mzRoaringFlames X2AbilityTemplate]
+LocFriendlyName="Roaring Flames"
+LocLongDescription="Chemthrower reaction fire has a increased chance to crit."
+
+[mzPressureBlast X2AbilityTemplate]
+LocFriendlyName="Pressure Blast"
+LocLongDescription="Expel a high pressure blast from the chemthrower that damages and knocks back everything in a cone."
+
+[mzFineControl X2AbilityTemplate]
+LocFriendlyName="Fine Control"
+LocLongDescription="Superior handling prevents hitting unintended targets with your chemthrower abilities."
+
+[mzOppressiveHeat X2AbilityTemplate]
+LocFriendlyName="Oppressive Heat"
+LocLongDescription="Pressure Blast, Chemthrower Suppression and Overwatch disorient foes."
+
+[MZChemthrowerKillZone X2AbilityTemplate]
+LocFriendlyName="Valley Of Death"
+LocLongDescription="Take a reaction shot against any enemy that moves or attacks within a cone of fire. Each attack can hit multiple targets."
+
+[mzRovingChemist X2AbilityTemplate]
+LocFriendlyName="Roving Chemist"
+LocLongDescription="Gain a momentum action point after activating a Canister's special ability."
+
+[mzUnstableReaction X2AbilityTemplate]
+LocFriendlyName="Unstable Reaction"
+LocLongDescription="Acid attacks do bonus damage to poisoned targets. Poison attacks do bonus damage to acid burning targets."
+
+[mzSpecializedCounteragent X2AbilityTemplate]
+LocFriendlyName="Specialized Counteragent"
+LocLongDescription="Canister's bonus ability does more damage to targets immune to the Chemthrower's normal damage type."
+
+[mzChemicalDeflector X2AbilityTemplate]
+LocFriendlyName="Chemical Deflector"
+LocLongDescription="Gain immunity to the damage types of the equipped Chemthrower and Canister."
+
+[mzExpandedCanister X2AbilityTemplate]
+LocFriendlyName="Expanded Canister"
+LocLongDescription="Increase the number of times a canister's ability can be activated."
+
+[mzDesolateHomeland X2AbilityTemplate]
+LocFriendlyName="Desolate Homeland"
+LocLongDescription="While standing in an enviromental effect, become immune to mental effects and gain damage reduction based on chemthrower tech level."
+
+[mzChemicalDeflectorSquad X2AbilityTemplate]
+LocFriendlyName="Chemical Bastion"
+LocLongDescription="Chemical Deflector also provides the same immunities for the Alchemist's squadmates if they are within range."
+
+
+
+;; sparks pulled manually
+
+[overdrive X2AbilityTemplate]
+LocFriendlyName="Overdrive"
+LocLongDescription="A recoil penalty of -15% Aim is applied after each Standard Shot while Overdrive is active. Overdrive has no cost to activate, but has a 4 turn cooldown."
+
+[bulwark X2AbilityTemplate]
+LocFriendlyName="Bulwark"
+LocLongDescription="Bulwark adds one point of Armor. Any squadmate (or enemy) standing adjacent to the SPARK will gain the high cover Defense bonus. Do not stand next to enemies who can make use of cover if you select this ability as it will make it much more difficult for your Spark unit to land shots or a Strike ability."
+
+[adaptiveaim X2AbilityTemplate]
+LocFriendlyName="Adaptive Aim"
+LocLongDescription="Adaptive Aim eliminates the -15% Aim penalty for consecutive Standard Shots when Overdrive is active."
+
+[rainmaker X2AbilityTemplate]
+LocFriendlyName="Rainmaker"
+LocLongDescription="Rainmaker adds +2 damage to all heavy weapons. Heavy weapons with circular areas of effect have their radius increased by +2. Heavy weapons with a conic area of effect have their width increased by +2 and length increased by +2."
+
+[strike X2AbilityTemplate]
+LocFriendlyName="Strike"
+LocLongDescription="You can trigger the Strike ability by placing the movement cursor over an enemy. A SPARK can perform a "Dash" move, using both actions to move, and still trigger a Strike against an adjacent enemy. The Strike ability is subject to Overdrive's recoil penalty if standard shots were fired prior to using the Strike ability."
+
+[intimidate X2AbilityTemplate]
+LocFriendlyName="Intimidate"
+LocLongDescription="Intimidate's chance to panic the attacker increases with higher tier SPARK armors. Intimidate can be triggered by melee and area of effect attacks. Intimidate will not trigger when targeted by Overwatch fire."
+
+[wreckingball X2AbilityTemplate]
+LocFriendlyName="Wrecking Ball"
+LocLongDescription="Wrecking Ball can be used to expose enemies to flanking shots. Use movement waypoints to guide the SPARK on an optimal path for destroying cover and the environment."
+
+[repair X2AbilityTemplate]
+LocFriendlyName="Repair"
+LocLongDescription="Repair will restore 6 health. Upgrading your BIT will lead to more HP repaired. Using Repair as your first action will not end your turn. Repair has 2 charges per mission. You can repair yourself."
+
+[bombard X2AbilityTemplate]
+LocFriendlyName="Bombard"
+LocLongDescription="Bombard can be fired at any location within squadsight. Upgrading your BIT will lead to more bombard damage."
+
+[absorptionfield X2AbilityTemplate]
+LocFriendlyName="Channeling Field"
+LocLongDescription="Each point of energy channeled by Channeling Field increases the damage of the primary weapon attack by 1. The energy stored by Channeling Field is expended even if the next shot misses."
+
+[hunterprotocol X2AbilityTemplate]
+LocFriendlyName="Hunter Protocol"
+LocLongDescription="Hunter Protocol makes the SPARK an ideal unit for scouting into the fog of war, since any revealed enemy can be instantly attacked."
+
+[sacrifice X2AbilityTemplate]
+LocFriendlyName="Sacrifice"
+LocLongDescription="The SPARK gains +20 defense and +2 armor while Sacrifice is active. Sacrifice has a 3 turn cooldown."
+
+[nova X2AbilityTemplate]
+LocFriendlyName="Nova"
+LocLongDescription="Nova has no action point cost or cooldown. The first Nova attack each mission will deal 0 damage to the SPARK. All Nova attacks after the first will deal a stacking 2 damage to the SPARK."
+
+
+[arsenal X2AbilityTemplate]
+LocFriendlyName="Arsenal"
+LocLongDescription="The BIT can equip and fire heavy weapons."
+
+
+
+
+;; Keeper class strays
+
+[iri_bandagethrow X2AbilityTemplate]
+LocFriendlyName="Bandage Throw"
+LocLongDescription="Throw bandages to a target ally so they can heal over time and stop bleeding. Ally has to be conscious and not impaired. Can be used on yourself. By default heals for 3 HP over 3 turns, has 4 charges and can be used once per turn."
+
+
+[iri_pullally X2AbilityTemplate]
+LocFriendlyName="Reposition Ally"
+LocLongDescription="use the Grapple Gun to pull an allied unit towards yourself, preferring tiles in cover. Ally has to be conscious and not impaired."
+
+;; reaper monk class
+[silenttakedown X2AbilityTemplate]
+LocFriendlyName="Silent Takedown"
+LocLongDescription="Reduces detection range to 0, gives a large bonus to melee crit chance and damage, and gives a chance to avoid being revealed. The chance to reveal decreases with kills and with no witnesses."
+
+
+;; Blast Trooper class misnames this from 'collateral', which is in the Mechtronic pack
+[CollateralDamage X2AbilityTemplate]
+LocFriendlyName="Collateral Damage"
+LocLongDescription="Fire a barrage of <Ability:WeaponName/> rounds to a location, destroying cover within the area. Deals a small amount of damage to enemies. 3-turn cooldown and uses 2 ammo."
+LocHelpText="Fire a barrage of <Ability:WeaponName/> rounds to a location, destroying cover within the area."
+LocFlyOverText="Collateral Damage"
+LocPromotionPopupText="<Bullet/> Fire a barrage of <Ability:WeaponName/> rounds to a location, destroying cover within the area.<br/><Bullet/> Deals high environmental damage to all objects in the area of effect.<br/><Bullet/> Collateral Damage does 1-2/2/2-3 damage to enemies within the area of effect depending on tier of equipped <Ability:WeaponName/>.<br/><Bullet/> Costs 2 ammo and has a 3-turn cooldown.<br/>"
+

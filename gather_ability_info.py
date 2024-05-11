@@ -1,4 +1,5 @@
 # ==============================================================================
+# 
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
@@ -10,6 +11,7 @@ import sys
 import re
 import shutil
 import math
+import chardet
 
 import pandas as pd
 
@@ -51,65 +53,72 @@ sources.append("examples\\classes\\2851288174\\Config\\XComClassData.ini")
 sources.append("examples\\classes\\2945843998\\Config\\XComClassData.ini")
 
 textsrc = []
-textsrc.append("examples\\perks\\localization\\CryoPerkPack.int")
-textsrc.append("examples\\perks\\localization\\LongWar2AbilitiesForWotc.int")
-textsrc.append("examples\\perks\\localization\\MechatronicWarfarePerkPack.int")
-textsrc.append("examples\\perks\\localization\\MitzrutiPerkPack.int")
-textsrc.append("examples\\perks\\localization\\ShadowOpsPerkPack.int")
-textsrc.append("examples\\perks\\localization\\WOTCIridarPerkPack.int")
-textsrc.append("examples\\perks\\localization\\WOTC_ExtendedPerkPack.int")
-textsrc.append("examples\\perks\\localization\\WotC_Gameplay_GeneModding_MitzrutiPerkPack.int")
-textsrc.append("examples\\perks\\localization\\XComGame_ABBPerkPack.int")
-textsrc.append("examples\\perks\\localization\\XComGame_CryoPerkPack.int")
-textsrc.append("examples\\perks\\localization\\XComGame_ExtendedPerkPack.int")
-textsrc.append("examples\\perks\\localization\\XComGame_Genemods.Int")
-textsrc.append("examples\\perks\\localization\\XComGame_Grimys.Int")
-textsrc.append("examples\\perks\\localization\\XComGame_Isms.Int")
-textsrc.append("examples\\perks\\localization\\XComGame_LongWar2AbilitiesForWotc.int")
-textsrc.append("examples\\perks\\localization\\XComGame_MechatronicWarfarePerkPack.int")
-textsrc.append("examples\\perks\\localization\\XComGame_MitzrutiPerkPack.int")
-textsrc.append("examples\\perks\\localization\\XComGame_PetRockPerkPack.int")
-textsrc.append("examples\\perks\\localization\\XComGame_ShadowOpsPerkPack.int")
-textsrc.append("examples\\perks\\localization\\XComGame_WOTCIridarPerkPack.int")
-textsrc.append("examples\\perks\\localization\\XComGame_WOTCIridarPerkPackTemplar.int")
-textsrc.append("examples\\perks\\localization\\XComGame_WOTC_ExtendedPerkPack.int")
-textsrc.append("examples\\perks\\localization\\XComGame_WotC_Gameplay_GeneModding.int")
+textsrc.append("examples\\perks\\running\\XComGame_ABB.int")
+textsrc.append("examples\\perks\\running\\XComGame_Iridar_BountyHunter.int")
+textsrc.append("examples\\perks\\running\\XComGame_Iridar_Foxcom.int")
+textsrc.append("examples\\perks\\running\\XComGame_Iridar_Skirmisher.int")
+textsrc.append("examples\\perks\\running\\XComGame_Iridar_Templar.int")
+textsrc.append("examples\\perks\\running\\XComGame_LW2_Classes_Perks.int")
+textsrc.append("examples\\perks\\running\\XComGame_Mechtronic.int")
+textsrc.append("examples\\perks\\running\\XComGame_Mitzruti.int")
+textsrc.append("examples\\perks\\running\\XComGame_Mitzruti_Cryo.int")
+textsrc.append("examples\\perks\\running\\XComGame_Mitzruti_GeneMods.int")
+textsrc.append("examples\\perks\\running\\XComGame_Mitzruti_Grimys.int")
+textsrc.append("examples\\perks\\running\\XComGame_Mitzruti_Isms.int")
+textsrc.append("examples\\perks\\running\\XComGame_PetRock.int")
+textsrc.append("examples\\perks\\running\\XComGame_ShadowOps_Perks.int")
+textsrc.append("examples\\perks\\running\\XComGame_WOTC_ExtendedPerkPack.int")
+textsrc.append("examples\\perks\\running\\XComGame_LWOTC.int")
+textsrc.append("examples\\perks\\running\\XComGame_LWOTC_LWAlienPack.int")
+textsrc.append("examples\\perks\\running\\XComGame_LWOTC_LWFactionBalance.int")
+textsrc.append("examples\\perks\\running\\XComGame_LWOTC_LWLaserPack.int")
+textsrc.append("examples\\perks\\running\\XComGame_LWOTC_Officer.int")
+textsrc.append("examples\\perks\\running\\XComGame_LWOTC_PerkPack.int")
+textsrc.append("examples\\perks\\running\\XComGame_LWOTC_SMGPack.int")
+textsrc.append("examples\\perks\\running\\XComGame_LWOTC_Toolbox.int")
+textsrc.append("examples\\perks\\running\\XComGame_LWOTC_WeaponsArmor.int")
+textsrc.append("examples\\perks\\running\\XComGame_WOTC_Akimbo.int")
+textsrc.append("examples\\perks\\running\\XComGame_WOTC_Stormrider.int")
+textsrc.append("examples\\perks\\running\\XComGame_WOTC_Warden.int")
 
-textsrc.append("examples\\archive\\textbank_1.INT")
-textsrc.append("examples\\archive\\textbank_2.INT")
-textsrc.append("examples\\archive\\textbank_3.INT")
-textsrc.append("examples\\archive\\textbank_4.INT")
-textsrc.append("examples\\archive\\textbank_5.INT")
-textsrc.append("examples\\archive\\textbank_6.INT")
-textsrc.append("examples\\archive\\textbank_7.INT")
-textsrc.append("examples\\archive\\textbank_8.INT")
-textsrc.append("examples\\archive\\textbank_9.INT")
-textsrc.append("examples\\archive\\textbank_10.INT")
-textsrc.append("examples\\archive\\textbank_11.INT")
-textsrc.append("examples\\archive\\textbank_12.INT")
-textsrc.append("examples\\archive\\textbank_13.INT")
-textsrc.append("examples\\archive\\textbank_14.INT")
-textsrc.append("examples\\archive\\textbank_15.INT")
-textsrc.append("examples\\archive\\textbank_16.INT")
-textsrc.append("examples\\archive\\textbank_17.INT")
-textsrc.append("examples\\archive\\textbank_18.INT")
-textsrc.append("examples\\archive\\textbank_19.INT")
-textsrc.append("examples\\archive\\textbank_20.INT")
-textsrc.append("examples\\archive\\textbank_20_alt.INT")
+textsrc.append("examples\\classes\\2283957200\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2307690386\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2315630859\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2320661275\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2333540815\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2347951005\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2349299686\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2349334533\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2388969733\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2715505346\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2718035362\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2720287889\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2720855306\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2745435515\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2763217609\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2771922076\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2799438088\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2832143482\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2836852756\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2848939326\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2848987800\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2850649799\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2850679312\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2851288174\\Localization\\XComGame.int")
+
+textsrc.append("examples\\classes\\2865653027\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2865653098\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2865653156\\Localization\\XComGame.int")
+textsrc.append("examples\\classes\\2905682083\\Localization\\XComGame.int")
+
+textsrc.append("examples\\classes\\2945843998\\Localization\\XComGame.int")
+
+textsrc.append("examples\\perks\\XComGame_WOTC_main.int")
+textsrc.append("examples\\perks\\XComGame_misc.int")
+
 
 wikisrc = []
 wikisrc.append("data\old\LWOTC_perks_wiki_rawtext.txt")
-
-perksrc = []
-#perksrc.append("examples\\perks\\XComGame_ABBPerkPack.int")
-#perksrc.append("examples\\perks\\XComGame_CryoPerkPack.int")
-#perksrc.append("examples\\perks\\XComGame_LongWar2AbilitiesForWotc.int")
-#perksrc.append("examples\\perks\\XComGame_MechatronicWarfarePerkPack.int")
-#perksrc.append("examples\\perks\\XComGame_PetRockPerkPack.int")
-#perksrc.append("examples\\perks\\XComGame_ShadowOpsPerkPack.int")
-#perksrc.append("examples\\perks\\XComGame_WOTCIridarPerkPack.int")
-#perksrc.append("examples\\perks\\XComGame_WOTC_ExtendedPerkPack.int")
-#perksrc.append("examples\\perks\\XComGame_WotC_Gameplay_GeneModding.int")
 
 # ------------------------------------------------------------------------------
 # Main
@@ -139,7 +148,7 @@ def main():
     # --------------------------------------------------------------------------
     # save out the piece that shows abilities used by classes
     # --------------------------------------------------------------------------
-    o = adata.to_excel("data/abilities_from_class.xlsx")
+    o = adata.to_excel("data/abilities_from_class.xlsx", index=False)
 
     # --------------------------------------------------------------------------
     # save out the whole list of abilities
@@ -215,9 +224,19 @@ def parsed_text_data(textsrc):
     current = ""
     for tfile in textsrc:
         # ----------------------------------------------------------------------
+        # 
+        # ----------------------------------------------------------------------
+        print(f"...reading ability text labels from file: {tfile}")
+        # ----------------------------------------------------------------------
+        # What kind of file encoding?
+        # ----------------------------------------------------------------------
+        fcontents = open(tfile, 'rb').read()
+        fencoding = chardet.detect(fcontents)['encoding']
+
+        # ----------------------------------------------------------------------
         # Get the contents of the file
         # ----------------------------------------------------------------------
-        data = open(tfile, encoding='utf-16-le', errors='replace').read()
+        data = open(tfile, encoding=fencoding, errors='replace').read()
         data1 = data.encode('utf-8').decode('utf-8')
 
         # ----------------------------------------------------------------------
@@ -282,7 +301,8 @@ def parsed_text_data(textsrc):
             # ------------------------------------------------------------------
             if "=" in line:
                 key,val = line.split("=",1)
-                key = key.lower()
+                key = key.strip().lower().replace("+","")
+                val = val.strip()
                 tdata[aname][key] = val
             else:
                 continue
@@ -325,6 +345,12 @@ def gather_ability_data(idata,tdata):
             # ------------------------------------------------------------------
             if not line:
                 continue
+
+            # ------------------------------------------------------------------
+            # Remove this problem-causing-nothing-doing item
+            # ------------------------------------------------------------------
+            if line.lower().endswith("!soldierranks=()"):
+                line = line[:-16]
 
             # ------------------------------------------------------------------
             # Skip all the lines that aren't about ranking or weapons
@@ -634,7 +660,6 @@ def gather_ability_data(idata,tdata):
         rec.append(longdesc)
         rec.append(promo)
         rec.append(source)
-        rec.append("xx")
 
         abil_recs.append(rec)
 
@@ -654,7 +679,6 @@ def gather_ability_data(idata,tdata):
     cols.append('longdesc')
     cols.append('promo')
     cols.append('textsource')
-    cols.append('xx')
 
     adata = pd.DataFrame(abil_recs, columns=cols)
     adata = adata.sort_values(by=['avgrank','instances','ability'],ascending=[True, False, True]).reset_index()
