@@ -443,6 +443,15 @@ LeftAbilityTreeTitle = "Leader, Infantry"
 RandomNicknames[0]   = "Beach_Head"
 
 ; ------------------------------------------------------------------------------
+; Claymore
+; ------------------------------------------------------------------------------
+[GIJoe__Claymore X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Claymore"
+ClassSummary         = ""
+LeftAbilityTreeTitle = "Flanker"
+RandomNicknames[0]   = "Claymore"
+
+; ------------------------------------------------------------------------------
 ; Cross_Country
 ; ------------------------------------------------------------------------------
 [GIJoe__Cross_Country X2SoldierClassTemplate]
@@ -479,15 +488,6 @@ LeftAbilityTreeTitle = "Assault, Infantry"
 RandomNicknames[0]   = "Leatherneck"
 
 ; ------------------------------------------------------------------------------
-; Low_Light
-; ------------------------------------------------------------------------------
-[GIJoe__Low_Light X2SoldierClassTemplate]
-DisplayName          = GI Joe: "Low_Light"
-ClassSummary         = "Sniper"
-LeftAbilityTreeTitle = "Sniper, Utility"
-RandomNicknames[0]   = "Low_Light"
-
-; ------------------------------------------------------------------------------
 ; Lifeline
 ; ------------------------------------------------------------------------------
 [GIJoe__Lifeline X2SoldierClassTemplate]
@@ -504,6 +504,15 @@ DisplayName          = GI Joe: "Lift_Ticket"
 ClassSummary         = "Helicopter Pilot"
 LeftAbilityTreeTitle = "Utility"
 RandomNicknames[0]   = "Lift_Ticket"
+
+; ------------------------------------------------------------------------------
+; Low_Light
+; ------------------------------------------------------------------------------
+[GIJoe__Low_Light X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Low_Light"
+ClassSummary         = "Sniper"
+LeftAbilityTreeTitle = "Sniper, Utility"
+RandomNicknames[0]   = "Low_Light"
 
 ; ------------------------------------------------------------------------------
 ; Mainframe
@@ -587,6 +596,15 @@ LeftAbilityTreeTitle = "Rocketeer"
 RandomNicknames[0]   = "Fast_Draw"
 
 ; ------------------------------------------------------------------------------
+; Hardtop
+; ------------------------------------------------------------------------------
+[GIJoe__Hardtop X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Hardtop"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RandomNicknames[0]   = "Hardtop"
+
+; ------------------------------------------------------------------------------
 ; Jinx
 ; ------------------------------------------------------------------------------
 [GIJoe__Jinx X2SoldierClassTemplate]
@@ -614,6 +632,15 @@ LeftAbilityTreeTitle = "Flanker, Infantry"
 RandomNicknames[0]   = "Outback"
 
 ; ------------------------------------------------------------------------------
+; Payload
+; ------------------------------------------------------------------------------
+[GIJoe__Payload X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Payload"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RandomNicknames[0]   = "Payload"
+
+; ------------------------------------------------------------------------------
 ; Psyche_Out
 ; ------------------------------------------------------------------------------
 [GIJoe__Psyche_Out X2SoldierClassTemplate]
@@ -623,6 +650,15 @@ LeftAbilityTreeTitle = "Psyche, Utility, Intel"
 RandomNicknames[0]   = "Psyche_Out"
 
 ; ------------------------------------------------------------------------------
+; Rumbler
+; ------------------------------------------------------------------------------
+[GIJoe__Rumbler X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Rumbler"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RandomNicknames[0]   = "Rumbler"
+
+; ------------------------------------------------------------------------------
 ; Sneak_Peek
 ; ------------------------------------------------------------------------------
 [GIJoe__Sneak_Peek X2SoldierClassTemplate]
@@ -630,6 +666,15 @@ DisplayName          = GI Joe: "Sneak_Peek"
 ClassSummary         = "Advanced Recon"
 LeftAbilityTreeTitle = "Scout"
 RandomNicknames[0]   = "Sneak_Peek"
+
+; ------------------------------------------------------------------------------
+; Steam_Roller
+; ------------------------------------------------------------------------------
+[GIJoe__Steam_Roller X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Steam_Roller"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RandomNicknames[0]   = "Steam_Roller"
 
 ; ------------------------------------------------------------------------------
 ; Tunnel_Rat
@@ -900,15 +945,6 @@ DisplayName          = GI Joe: "Big_Lob"
 ClassSummary         = ""
 LeftAbilityTreeTitle = "Grenades, Infantry"
 RandomNicknames[0]   = "Big_Lob"
-
-; ------------------------------------------------------------------------------
-; Claymore
-; ------------------------------------------------------------------------------
-[GIJoe__Claymore X2SoldierClassTemplate]
-DisplayName          = GI Joe: "Claymore"
-ClassSummary         = ""
-LeftAbilityTreeTitle = "Flanker"
-RandomNicknames[0]   = "Claymore"
 
 ; ------------------------------------------------------------------------------
 ; Cobra_Commander
