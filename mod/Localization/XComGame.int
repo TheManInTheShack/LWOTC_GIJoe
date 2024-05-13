@@ -380,6 +380,15 @@ LeftAbilityTreeTitle = "Tank, Infantry"
 RandomNicknames[0]   = "Heavy_Metal"
 
 ; ------------------------------------------------------------------------------
+; Keel_Haul
+; ------------------------------------------------------------------------------
+[GIJoe__Keel_Haul X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Keel_Haul"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RandomNicknames[0]   = "Keel_Haul"
+
+; ------------------------------------------------------------------------------
 ; Lady_Jaye
 ; ------------------------------------------------------------------------------
 [GIJoe__Lady_Jaye X2SoldierClassTemplate]
@@ -405,6 +414,15 @@ DisplayName          = GI Joe: "Shipwreck"
 ClassSummary         = "Sailor"
 LeftAbilityTreeTitle = "Assault, Utility"
 RandomNicknames[0]   = "Shipwreck"
+
+; ------------------------------------------------------------------------------
+; Starduster
+; ------------------------------------------------------------------------------
+[GIJoe__Starduster X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Starduster"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RandomNicknames[0]   = "Starduster"
 
 ; ------------------------------------------------------------------------------
 ; Tollbooth
@@ -882,6 +900,15 @@ DisplayName          = GI Joe: "Big_Lob"
 ClassSummary         = ""
 LeftAbilityTreeTitle = "Grenades, Infantry"
 RandomNicknames[0]   = "Big_Lob"
+
+; ------------------------------------------------------------------------------
+; Claymore
+; ------------------------------------------------------------------------------
+[GIJoe__Claymore X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Claymore"
+ClassSummary         = ""
+LeftAbilityTreeTitle = "Flanker"
+RandomNicknames[0]   = "Claymore"
 
 ; ------------------------------------------------------------------------------
 ; Cobra_Commander
