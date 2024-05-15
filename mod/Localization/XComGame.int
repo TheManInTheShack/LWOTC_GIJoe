@@ -803,6 +803,15 @@ LeftAbilityTreeTitle = "Scout, Infantry"
 RandomNicknames[0]   = "Spearhead"
 
 ; ------------------------------------------------------------------------------
+; Super_Trooper
+; ------------------------------------------------------------------------------
+[GIJoe__Super_Trooper X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Super_Trooper"
+ClassSummary         = ""
+LeftAbilityTreeTitle = ""
+RandomNicknames[0]   = "Super_Trooper"
+
+; ------------------------------------------------------------------------------
 ; Wildcard
 ; ------------------------------------------------------------------------------
 [GIJoe__Wildcard X2SoldierClassTemplate]
