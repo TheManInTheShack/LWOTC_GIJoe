@@ -1,0 +1,16 @@
+[PR_Gunslinger X2SoldierClassTemplate]
++DisplayName="Gunslinger"
++ClassSummary="Gunslingers excel at either dealing devastating damage with a single shot, shooting as many targets as they can in a turn, or assisting their allies shots."
++LeftAbilityTreeTitle="Big Iron"
++RightAbilityTreeTitle="Quick Draw"
+AbilityTreeTitles[0]="Big Iron"
+AbilityTreeTitles[1]="Quick Draw"
+AbilityTreeTitles[2]="Targeting"
+AbilityTreeTitles[3]="XCOM"
+
++RandomNickNames[0]="Deadeye"
++RandomNickNames[1]="Big Iron"
++RandomNickNames[2]="Sheriff"
++RandomNickNames[3]="Deadshot"
++RandomNickNames[4]="Outlaw"
++RandomNickNames[5]="Ruffian"

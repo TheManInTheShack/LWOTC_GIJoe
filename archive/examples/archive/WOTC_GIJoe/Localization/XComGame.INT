@@ -1,0 +1,843 @@
+;| ===============================================================================
+;| GI Joe Custom Classes - Localization Text
+;| ===============================================================================
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Breaker
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Breaker X2SoldierClassTemplate]
+DisplayName             = "Breaker"
+ClassSummary            = "Breaker"
+LeftAbilityTreeTitle    = "Breaker"
+RightAbilityTreeTitle   = "Breaker"
+RandomNicknames[0]      = "Breaker"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Clutch
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Clutch X2SoldierClassTemplate]
+DisplayName             = "Clutch"
+ClassSummary            = "Clutch"
+LeftAbilityTreeTitle    = "Clutch"
+RightAbilityTreeTitle   = "Clutch"
+RandomNicknames[0]      = "Clutch"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Flash
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Flash X2SoldierClassTemplate]
+DisplayName             = "Flash"
+ClassSummary            = "Flash"
+LeftAbilityTreeTitle    = "Flash"
+RightAbilityTreeTitle   = "Flash"
+RandomNicknames[0]      = "Flash"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Grand_Slam
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Grand_Slam X2SoldierClassTemplate]
+DisplayName             = "Grand_Slam"
+ClassSummary            = "Grand_Slam"
+LeftAbilityTreeTitle    = "Grand_Slam"
+RightAbilityTreeTitle   = "Grand_Slam"
+RandomNicknames[0]      = "Grand_Slam"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Grunt
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Grunt X2SoldierClassTemplate]
+DisplayName             = "Grunt"
+ClassSummary            = "Grunt"
+LeftAbilityTreeTitle    = "Grunt"
+RightAbilityTreeTitle   = "Grunt"
+RandomNicknames[0]      = "Grunt"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Hawk
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Hawk X2SoldierClassTemplate]
+DisplayName             = "Hawk"
+ClassSummary            = "Hawk"
+LeftAbilityTreeTitle    = "Hawk"
+RightAbilityTreeTitle   = "Hawk"
+RandomNicknames[0]      = "Hawk"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Rock_n_Roll
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Rock_n_Roll X2SoldierClassTemplate]
+DisplayName             = "Rock_n_Roll"
+ClassSummary            = "Rock_n_Roll"
+LeftAbilityTreeTitle    = "Rock_n_Roll"
+RightAbilityTreeTitle   = "Rock_n_Roll"
+RandomNicknames[0]      = "Rock_n_Roll"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Short_Fuze
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Short_Fuze X2SoldierClassTemplate]
+DisplayName             = "Short_Fuze"
+ClassSummary            = "Short_Fuze"
+LeftAbilityTreeTitle    = "Short_Fuze"
+RightAbilityTreeTitle   = "Short_Fuze"
+RandomNicknames[0]      = "Short_Fuze"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Scarlett
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Scarlett X2SoldierClassTemplate]
+DisplayName             = "Scarlett"
+ClassSummary            = "Scarlett"
+LeftAbilityTreeTitle    = "Scarlett"
+RightAbilityTreeTitle   = "Scarlett"
+RandomNicknames[0]      = "Scarlett"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Snake_Eyes
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Snake_Eyes X2SoldierClassTemplate]
+DisplayName             = "Snake_Eyes"
+ClassSummary            = "Snake_Eyes"
+LeftAbilityTreeTitle    = "Snake_Eyes"
+RightAbilityTreeTitle   = "Snake_Eyes"
+RandomNicknames[0]      = "Snake_Eyes"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Stalker
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Stalker X2SoldierClassTemplate]
+DisplayName             = "Stalker"
+ClassSummary            = "Stalker"
+LeftAbilityTreeTitle    = "Stalker"
+RightAbilityTreeTitle   = "Stalker"
+RandomNicknames[0]      = "Stalker"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Steeler
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Steeler X2SoldierClassTemplate]
+DisplayName             = "Steeler"
+ClassSummary            = "Steeler"
+LeftAbilityTreeTitle    = "Steeler"
+RightAbilityTreeTitle   = "Steeler"
+RandomNicknames[0]      = "Steeler"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Zap
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Zap X2SoldierClassTemplate]
+DisplayName             = "Zap"
+ClassSummary            = "Zap"
+LeftAbilityTreeTitle    = "Zap"
+RightAbilityTreeTitle   = "Zap"
+RandomNicknames[0]      = "Zap"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Ace
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Ace X2SoldierClassTemplate]
+DisplayName             = "Ace"
+ClassSummary            = "Ace"
+LeftAbilityTreeTitle    = "Ace"
+RightAbilityTreeTitle   = "Ace"
+RandomNicknames[0]      = "Ace"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Airborne
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Airborne X2SoldierClassTemplate]
+DisplayName             = "Airborne"
+ClassSummary            = "Airborne"
+LeftAbilityTreeTitle    = "Airborne"
+RightAbilityTreeTitle   = "Airborne"
+RandomNicknames[0]      = "Airborne"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Cover_Girl
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Cover_Girl X2SoldierClassTemplate]
+DisplayName             = "Cover_Girl"
+ClassSummary            = "Cover_Girl"
+LeftAbilityTreeTitle    = "Cover_Girl"
+RightAbilityTreeTitle   = "Cover_Girl"
+RandomNicknames[0]      = "Cover_Girl"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Doc
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Doc X2SoldierClassTemplate]
+DisplayName             = "Doc"
+ClassSummary            = "Doc"
+LeftAbilityTreeTitle    = "Doc"
+RightAbilityTreeTitle   = "Doc"
+RandomNicknames[0]      = "Doc"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Duke
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Duke X2SoldierClassTemplate]
+DisplayName             = "Duke"
+ClassSummary            = "Duke"
+LeftAbilityTreeTitle    = "Duke"
+RightAbilityTreeTitle   = "Duke"
+RandomNicknames[0]      = "Duke"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Gung_Ho
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Gung_Ho X2SoldierClassTemplate]
+DisplayName             = "Gung_Ho"
+ClassSummary            = "Gung_Ho"
+LeftAbilityTreeTitle    = "Gung_Ho"
+RightAbilityTreeTitle   = "Gung_Ho"
+RandomNicknames[0]      = "Gung_Ho"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Snow_Job
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Snow_Job X2SoldierClassTemplate]
+DisplayName             = "Snow_Job"
+ClassSummary            = "Snow_Job"
+LeftAbilityTreeTitle    = "Snow_Job"
+RightAbilityTreeTitle   = "Snow_Job"
+RandomNicknames[0]      = "Snow_Job"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Torpedo
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Torpedo X2SoldierClassTemplate]
+DisplayName             = "Torpedo"
+ClassSummary            = "Torpedo"
+LeftAbilityTreeTitle    = "Torpedo"
+RightAbilityTreeTitle   = "Torpedo"
+RandomNicknames[0]      = "Torpedo"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Tripwire
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Tripwire X2SoldierClassTemplate]
+DisplayName             = "Tripwire"
+ClassSummary            = "Tripwire"
+LeftAbilityTreeTitle    = "Tripwire"
+RightAbilityTreeTitle   = "Tripwire"
+RandomNicknames[0]      = "Tripwire"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Wild_Bill
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Wild_Bill X2SoldierClassTemplate]
+DisplayName             = "Wild_Bill"
+ClassSummary            = "Wild_Bill"
+LeftAbilityTreeTitle    = "Wild_Bill"
+RightAbilityTreeTitle   = "Wild_Bill"
+RandomNicknames[0]      = "Wild_Bill"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Blowtorch
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Blowtorch X2SoldierClassTemplate]
+DisplayName             = "Blowtorch"
+ClassSummary            = "Blowtorch"
+LeftAbilityTreeTitle    = "Blowtorch"
+RightAbilityTreeTitle   = "Blowtorch"
+RandomNicknames[0]      = "Blowtorch"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Cutter
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Cutter X2SoldierClassTemplate]
+DisplayName             = "Cutter"
+ClassSummary            = "Cutter"
+LeftAbilityTreeTitle    = "Cutter"
+RightAbilityTreeTitle   = "Cutter"
+RandomNicknames[0]      = "Cutter"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Deep_Six
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Deep_Six X2SoldierClassTemplate]
+DisplayName             = "Deep_Six"
+ClassSummary            = "Deep_Six"
+LeftAbilityTreeTitle    = "Deep_Six"
+RightAbilityTreeTitle   = "Deep_Six"
+RandomNicknames[0]      = "Deep_Six"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Mutt
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Mutt X2SoldierClassTemplate]
+DisplayName             = "Mutt"
+ClassSummary            = "Mutt"
+LeftAbilityTreeTitle    = "Mutt"
+RightAbilityTreeTitle   = "Mutt"
+RandomNicknames[0]      = "Mutt"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Recondo
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Recondo X2SoldierClassTemplate]
+DisplayName             = "Recondo"
+ClassSummary            = "Recondo"
+LeftAbilityTreeTitle    = "Recondo"
+RightAbilityTreeTitle   = "Recondo"
+RandomNicknames[0]      = "Recondo"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Ripcord
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Ripcord X2SoldierClassTemplate]
+DisplayName             = "Ripcord"
+ClassSummary            = "Ripcord"
+LeftAbilityTreeTitle    = "Ripcord"
+RightAbilityTreeTitle   = "Ripcord"
+RandomNicknames[0]      = "Ripcord"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Roadblock
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Roadblock X2SoldierClassTemplate]
+DisplayName             = "Roadblock"
+ClassSummary            = "Roadblock"
+LeftAbilityTreeTitle    = "Roadblock"
+RightAbilityTreeTitle   = "Roadblock"
+RandomNicknames[0]      = "Roadblock"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Spirit
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Spirit X2SoldierClassTemplate]
+DisplayName             = "Spirit"
+ClassSummary            = "Spirit"
+LeftAbilityTreeTitle    = "Spirit"
+RightAbilityTreeTitle   = "Spirit"
+RandomNicknames[0]      = "Spirit"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Thunder
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Thunder X2SoldierClassTemplate]
+DisplayName             = "Thunder"
+ClassSummary            = "Thunder"
+LeftAbilityTreeTitle    = "Thunder"
+RightAbilityTreeTitle   = "Thunder"
+RandomNicknames[0]      = "Thunder"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Airtight
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Airtight X2SoldierClassTemplate]
+DisplayName             = "Airtight"
+ClassSummary            = "Airtight"
+LeftAbilityTreeTitle    = "Airtight"
+RightAbilityTreeTitle   = "Airtight"
+RandomNicknames[0]      = "Airtight"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Alpine
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Alpine X2SoldierClassTemplate]
+DisplayName             = "Alpine"
+ClassSummary            = "Alpine"
+LeftAbilityTreeTitle    = "Alpine"
+RightAbilityTreeTitle   = "Alpine"
+RandomNicknames[0]      = "Alpine"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Barbecue
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Barbecue X2SoldierClassTemplate]
+DisplayName             = "Barbecue"
+ClassSummary            = "Barbecue"
+LeftAbilityTreeTitle    = "Barbecue"
+RightAbilityTreeTitle   = "Barbecue"
+RandomNicknames[0]      = "Barbecue"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Bazooka
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Bazooka X2SoldierClassTemplate]
+DisplayName             = "Bazooka"
+ClassSummary            = "Bazooka"
+LeftAbilityTreeTitle    = "Bazooka"
+RightAbilityTreeTitle   = "Bazooka"
+RandomNicknames[0]      = "Bazooka"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Crank_Case
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Crank_Case X2SoldierClassTemplate]
+DisplayName             = "Crank_Case"
+ClassSummary            = "Crank_Case"
+LeftAbilityTreeTitle    = "Crank_Case"
+RightAbilityTreeTitle   = "Crank_Case"
+RandomNicknames[0]      = "Crank_Case"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Dusty
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Dusty X2SoldierClassTemplate]
+DisplayName             = "Dusty"
+ClassSummary            = "Dusty"
+LeftAbilityTreeTitle    = "Dusty"
+RightAbilityTreeTitle   = "Dusty"
+RandomNicknames[0]      = "Dusty"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Flint
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Flint X2SoldierClassTemplate]
+DisplayName             = "Flint"
+ClassSummary            = "Flint"
+LeftAbilityTreeTitle    = "Flint"
+RightAbilityTreeTitle   = "Flint"
+RandomNicknames[0]      = "Flint"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Footloose
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Footloose X2SoldierClassTemplate]
+DisplayName             = "Footloose"
+ClassSummary            = "Footloose"
+LeftAbilityTreeTitle    = "Footloose"
+RightAbilityTreeTitle   = "Footloose"
+RandomNicknames[0]      = "Footloose"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Frostbite
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Frostbite X2SoldierClassTemplate]
+DisplayName             = "Frostbite"
+ClassSummary            = "Frostbite"
+LeftAbilityTreeTitle    = "Frostbite"
+RightAbilityTreeTitle   = "Frostbite"
+RandomNicknames[0]      = "Frostbite"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Heavy_Metal
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Heavy_Metal X2SoldierClassTemplate]
+DisplayName             = "Heavy_Metal"
+ClassSummary            = "Heavy_Metal"
+LeftAbilityTreeTitle    = "Heavy_Metal"
+RightAbilityTreeTitle   = "Heavy_Metal"
+RandomNicknames[0]      = "Heavy_Metal"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Lady_Jaye
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Lady_Jaye X2SoldierClassTemplate]
+DisplayName             = "Lady_Jaye"
+ClassSummary            = "Lady_Jaye"
+LeftAbilityTreeTitle    = "Lady_Jaye"
+RightAbilityTreeTitle   = "Lady_Jaye"
+RandomNicknames[0]      = "Lady_Jaye"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Quick_Kick
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Quick_Kick X2SoldierClassTemplate]
+DisplayName             = "Quick_Kick"
+ClassSummary            = "Quick_Kick"
+LeftAbilityTreeTitle    = "Quick_Kick"
+RightAbilityTreeTitle   = "Quick_Kick"
+RandomNicknames[0]      = "Quick_Kick"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Shipwreck
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Shipwreck X2SoldierClassTemplate]
+DisplayName             = "Shipwreck"
+ClassSummary            = "Shipwreck"
+LeftAbilityTreeTitle    = "Shipwreck"
+RightAbilityTreeTitle   = "Shipwreck"
+RandomNicknames[0]      = "Shipwreck"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Tollbooth
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Tollbooth X2SoldierClassTemplate]
+DisplayName             = "Tollbooth"
+ClassSummary            = "Tollbooth"
+LeftAbilityTreeTitle    = "Tollbooth"
+RightAbilityTreeTitle   = "Tollbooth"
+RandomNicknames[0]      = "Tollbooth"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Beach_Head
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Beach_Head X2SoldierClassTemplate]
+DisplayName             = "Beach_Head"
+ClassSummary            = "Beach_Head"
+LeftAbilityTreeTitle    = "Beach_Head"
+RightAbilityTreeTitle   = "Beach_Head"
+RandomNicknames[0]      = "Beach_Head"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Cross_Country
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Cross_Country X2SoldierClassTemplate]
+DisplayName             = "Cross_Country"
+ClassSummary            = "Cross_Country"
+LeftAbilityTreeTitle    = "Cross_Country"
+RightAbilityTreeTitle   = "Cross_Country"
+RandomNicknames[0]      = "Cross_Country"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Dial_Tone
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Dial_Tone X2SoldierClassTemplate]
+DisplayName             = "Dial_Tone"
+ClassSummary            = "Dial_Tone"
+LeftAbilityTreeTitle    = "Dial_Tone"
+RightAbilityTreeTitle   = "Dial_Tone"
+RandomNicknames[0]      = "Dial_Tone"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Iceberg
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Iceberg X2SoldierClassTemplate]
+DisplayName             = "Iceberg"
+ClassSummary            = "Iceberg"
+LeftAbilityTreeTitle    = "Iceberg"
+RightAbilityTreeTitle   = "Iceberg"
+RandomNicknames[0]      = "Iceberg"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Leatherneck
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Leatherneck X2SoldierClassTemplate]
+DisplayName             = "Leatherneck"
+ClassSummary            = "Leatherneck"
+LeftAbilityTreeTitle    = "Leatherneck"
+RightAbilityTreeTitle   = "Leatherneck"
+RandomNicknames[0]      = "Leatherneck"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Low_Light
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Low_Light X2SoldierClassTemplate]
+DisplayName             = "Low_Light"
+ClassSummary            = "Low_Light"
+LeftAbilityTreeTitle    = "Low_Light"
+RightAbilityTreeTitle   = "Low_Light"
+RandomNicknames[0]      = "Low_Light"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Lifeline
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Lifeline X2SoldierClassTemplate]
+DisplayName             = "Lifeline"
+ClassSummary            = "Lifeline"
+LeftAbilityTreeTitle    = "Lifeline"
+RightAbilityTreeTitle   = "Lifeline"
+RandomNicknames[0]      = "Lifeline"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Lift_Ticket
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Lift_Ticket X2SoldierClassTemplate]
+DisplayName             = "Lift_Ticket"
+ClassSummary            = "Lift_Ticket"
+LeftAbilityTreeTitle    = "Lift_Ticket"
+RightAbilityTreeTitle   = "Lift_Ticket"
+RandomNicknames[0]      = "Lift_Ticket"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Mainframe
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Mainframe X2SoldierClassTemplate]
+DisplayName             = "Mainframe"
+ClassSummary            = "Mainframe"
+LeftAbilityTreeTitle    = "Mainframe"
+RightAbilityTreeTitle   = "Mainframe"
+RandomNicknames[0]      = "Mainframe"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Sci_Fi
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Sci_Fi X2SoldierClassTemplate]
+DisplayName             = "Sci_Fi"
+ClassSummary            = "Sci_Fi"
+LeftAbilityTreeTitle    = "Sci_Fi"
+RightAbilityTreeTitle   = "Sci_Fi"
+RandomNicknames[0]      = "Sci_Fi"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Slip_Stream
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Slip_Stream X2SoldierClassTemplate]
+DisplayName             = "Slip_Stream"
+ClassSummary            = "Slip_Stream"
+LeftAbilityTreeTitle    = "Slip_Stream"
+RightAbilityTreeTitle   = "Slip_Stream"
+RandomNicknames[0]      = "Slip_Stream"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Wet_Suit
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Wet_Suit X2SoldierClassTemplate]
+DisplayName             = "Wet_Suit"
+ClassSummary            = "Wet_Suit"
+LeftAbilityTreeTitle    = "Wet_Suit"
+RightAbilityTreeTitle   = "Wet_Suit"
+RandomNicknames[0]      = "Wet_Suit"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Backstop
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Backstop X2SoldierClassTemplate]
+DisplayName             = "Backstop"
+ClassSummary            = "Backstop"
+LeftAbilityTreeTitle    = "Backstop"
+RightAbilityTreeTitle   = "Backstop"
+RandomNicknames[0]      = "Backstop"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Chuckles
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Chuckles X2SoldierClassTemplate]
+DisplayName             = "Chuckles"
+ClassSummary            = "Chuckles"
+LeftAbilityTreeTitle    = "Chuckles"
+RightAbilityTreeTitle   = "Chuckles"
+RandomNicknames[0]      = "Chuckles"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Crazylegs
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Crazylegs X2SoldierClassTemplate]
+DisplayName             = "Crazylegs"
+ClassSummary            = "Crazylegs"
+LeftAbilityTreeTitle    = "Crazylegs"
+RightAbilityTreeTitle   = "Crazylegs"
+RandomNicknames[0]      = "Crazylegs"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Falcon
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Falcon X2SoldierClassTemplate]
+DisplayName             = "Falcon"
+ClassSummary            = "Falcon"
+LeftAbilityTreeTitle    = "Falcon"
+RightAbilityTreeTitle   = "Falcon"
+RandomNicknames[0]      = "Falcon"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Fast_Draw
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Fast_Draw X2SoldierClassTemplate]
+DisplayName             = "Fast_Draw"
+ClassSummary            = "Fast_Draw"
+LeftAbilityTreeTitle    = "Fast_Draw"
+RightAbilityTreeTitle   = "Fast_Draw"
+RandomNicknames[0]      = "Fast_Draw"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Jinx
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Jinx X2SoldierClassTemplate]
+DisplayName             = "Jinx"
+ClassSummary            = "Jinx"
+LeftAbilityTreeTitle    = "Jinx"
+RightAbilityTreeTitle   = "Jinx"
+RandomNicknames[0]      = "Jinx"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Law
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Law X2SoldierClassTemplate]
+DisplayName             = "Law"
+ClassSummary            = "Law"
+LeftAbilityTreeTitle    = "Law"
+RightAbilityTreeTitle   = "Law"
+RandomNicknames[0]      = "Law"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Outback
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Outback X2SoldierClassTemplate]
+DisplayName             = "Outback"
+ClassSummary            = "Outback"
+LeftAbilityTreeTitle    = "Outback"
+RightAbilityTreeTitle   = "Outback"
+RandomNicknames[0]      = "Outback"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Psyche_Out
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Psyche_Out X2SoldierClassTemplate]
+DisplayName             = "Psyche_Out"
+ClassSummary            = "Psyche_Out"
+LeftAbilityTreeTitle    = "Psyche_Out"
+RightAbilityTreeTitle   = "Psyche_Out"
+RandomNicknames[0]      = "Psyche_Out"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Sneak_Peek
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Sneak_Peek X2SoldierClassTemplate]
+DisplayName             = "Sneak_Peek"
+ClassSummary            = "Sneak_Peek"
+LeftAbilityTreeTitle    = "Sneak_Peek"
+RightAbilityTreeTitle   = "Sneak_Peek"
+RandomNicknames[0]      = "Sneak_Peek"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Tunnel_Rat
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Tunnel_Rat X2SoldierClassTemplate]
+DisplayName             = "Tunnel_Rat"
+ClassSummary            = "Tunnel_Rat"
+LeftAbilityTreeTitle    = "Tunnel_Rat"
+RightAbilityTreeTitle   = "Tunnel_Rat"
+RandomNicknames[0]      = "Tunnel_Rat"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Armadillo
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Armadillo X2SoldierClassTemplate]
+DisplayName             = "Armadillo"
+ClassSummary            = "Armadillo"
+LeftAbilityTreeTitle    = "Armadillo"
+RightAbilityTreeTitle   = "Armadillo"
+RandomNicknames[0]      = "Armadillo"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Blizzard
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Blizzard X2SoldierClassTemplate]
+DisplayName             = "Blizzard"
+ClassSummary            = "Blizzard"
+LeftAbilityTreeTitle    = "Blizzard"
+RightAbilityTreeTitle   = "Blizzard"
+RandomNicknames[0]      = "Blizzard"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Budo
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Budo X2SoldierClassTemplate]
+DisplayName             = "Budo"
+ClassSummary            = "Budo"
+LeftAbilityTreeTitle    = "Budo"
+RightAbilityTreeTitle   = "Budo"
+RandomNicknames[0]      = "Budo"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Charbroil
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Charbroil X2SoldierClassTemplate]
+DisplayName             = "Charbroil"
+ClassSummary            = "Charbroil"
+LeftAbilityTreeTitle    = "Charbroil"
+RightAbilityTreeTitle   = "Charbroil"
+RandomNicknames[0]      = "Charbroil"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Ghostrider
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Ghostrider X2SoldierClassTemplate]
+DisplayName             = "Ghostrider"
+ClassSummary            = "Ghostrider"
+LeftAbilityTreeTitle    = "Ghostrider"
+RightAbilityTreeTitle   = "Ghostrider"
+RandomNicknames[0]      = "Ghostrider"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Hardball
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Hardball X2SoldierClassTemplate]
+DisplayName             = "Hardball"
+ClassSummary            = "Hardball"
+LeftAbilityTreeTitle    = "Hardball"
+RightAbilityTreeTitle   = "Hardball"
+RandomNicknames[0]      = "Hardball"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Hit_Run
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Hit_Run X2SoldierClassTemplate]
+DisplayName             = "Hit_Run"
+ClassSummary            = "Hit_Run"
+LeftAbilityTreeTitle    = "Hit_Run"
+RightAbilityTreeTitle   = "Hit_Run"
+RandomNicknames[0]      = "Hit_Run"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Lightfoot
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Lightfoot X2SoldierClassTemplate]
+DisplayName             = "Lightfoot"
+ClassSummary            = "Lightfoot"
+LeftAbilityTreeTitle    = "Lightfoot"
+RightAbilityTreeTitle   = "Lightfoot"
+RandomNicknames[0]      = "Lightfoot"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Muskrat
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Muskrat X2SoldierClassTemplate]
+DisplayName             = "Muskrat"
+ClassSummary            = "Muskrat"
+LeftAbilityTreeTitle    = "Muskrat"
+RightAbilityTreeTitle   = "Muskrat"
+RandomNicknames[0]      = "Muskrat"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Repeater
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Repeater X2SoldierClassTemplate]
+DisplayName             = "Repeater"
+ClassSummary            = "Repeater"
+LeftAbilityTreeTitle    = "Repeater"
+RightAbilityTreeTitle   = "Repeater"
+RandomNicknames[0]      = "Repeater"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Shockwave
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Shockwave X2SoldierClassTemplate]
+DisplayName             = "Shockwave"
+ClassSummary            = "Shockwave"
+LeftAbilityTreeTitle    = "Shockwave"
+RightAbilityTreeTitle   = "Shockwave"
+RandomNicknames[0]      = "Shockwave"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Skidmark
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Skidmark X2SoldierClassTemplate]
+DisplayName             = "Skidmark"
+ClassSummary            = "Skidmark"
+LeftAbilityTreeTitle    = "Skidmark"
+RightAbilityTreeTitle   = "Skidmark"
+RandomNicknames[0]      = "Skidmark"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Spearhead
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Spearhead X2SoldierClassTemplate]
+DisplayName             = "Spearhead"
+ClassSummary            = "Spearhead"
+LeftAbilityTreeTitle    = "Spearhead"
+RightAbilityTreeTitle   = "Spearhead"
+RandomNicknames[0]      = "Spearhead"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Wildcard
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Wildcard X2SoldierClassTemplate]
+DisplayName             = "Wildcard"
+ClassSummary            = "Wildcard"
+LeftAbilityTreeTitle    = "Wildcard"
+RightAbilityTreeTitle   = "Wildcard"
+RandomNicknames[0]      = "Wildcard"
+
+;| -------------------------------------------------------------------------------
+;| GI Joe Custom Classes - Localization Text for Windmill
+;| -------------------------------------------------------------------------------
+[GIJoe_Custom_Windmill X2SoldierClassTemplate]
+DisplayName             = "Windmill"
+ClassSummary            = "Windmill"
+LeftAbilityTreeTitle    = "Windmill"
+RightAbilityTreeTitle   = "Windmill"
+RandomNicknames[0]      = "Windmill"
+

@@ -1,0 +1,19 @@
+﻿[mod]
+publishedFileId=2745435515
+Title=X Trooper Classes - LWOTC
+Description=A Collection of GTS only trainable classes that specialize in a damage type,
+
+Bio Trooper - Poison
+
+Acid Trooper - Acid
+
+Fire Trooper - Burning
+
+Frost Trooper - Frost
+
+Shock Trooper - Shock
+
+Blast Trooper - Explosive
+
+Psionic Trooper - Psionic
+RequiresXPACK=true

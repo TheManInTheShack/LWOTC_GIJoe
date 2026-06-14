@@ -1,0 +1,33 @@
+('primary', 'rifle') 19
+('primary', 'sniper_rifle') 6
+('primary', 'cannon') 5
+('primary', 'shotgun') 17
+('primary', 'vektor_rifle') 1
+('primary', 'smg') 20
+('primary', 'sword') 2
+('primary', 'chemthrower') 3
+('primary', 'pistol') 3
+('primary', 'sidearm') 2
+('primary', 'gauntlet') 1
+
+('secondary', 'lw_gauntlet') 2
+('secondary', 'gremlin') 5
+('secondary', 'grenade_launcher') 2
+('secondary', 'combatknife') 5
+('secondary', 'sawedoffshotgun') 3
+('secondary', 'holotargeter') 2
+('secondary', 'arcthrower') 3
+('secondary', 'sword') 6
+('secondary', 'throwingknife') 1
+('secondary', 'templarshield') 1
+('secondary', 'iri_rocket_launcher') 2
+('secondary', 'canister') 1
+('secondary', 'sidearm') 4
+('secondary', 'pistol') 4
+('secondary', 'shield') 4
+('secondary', 'empty') 2
+('secondary', 'abbaacidbloblauncher') 2
+('secondary', 'sparkbit') 1
+
+('heavy', 'heavyammo') 2
+('heavy', 'heavy') 37

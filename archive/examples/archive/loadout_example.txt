@@ -1,0 +1,111 @@
+[ EXTERNAL ] 
+[XComGame.X2ItemTemplateManager]
+
++Loadouts=(LoadoutName="SquaddieLWS_Assault", Items[0]=(Item="Shotgun_CV"), Items[1]=(Item="Arcthrower_CV"))
++Loadouts=(LoadoutName="SquaddieLWS_Shinobi", Items[0]=(Item="SMG_CV"), Items[1]=(Item="Sword_CV"))
++Loadouts=(LoadoutName="SquaddieLWS_Sharpshooter", Items[0]=(Item="SniperRifle_CV"), Items[1]=(Item="Holotargeter_CV"))
++Loadouts=(LoadoutName="SquaddieLWS_Ranger", Items[0]=(Item="AssaultRifle_CV"), Items[1]=(Item="SawedOffShotgun_CV"))
++Loadouts=(LoadoutName="SquaddieLWS_Gunner", Items[0]=(Item="Cannon_CV"), Items[1]=(Item="CombatKnife_CV"))
++Loadouts=(LoadoutName="SquaddieLWS_Grenadier", Items[0]=(Item="AssaultRifle_CV"), Items[1]=(Item="GrenadeLauncher_CV"))
++Loadouts=(LoadoutName="SquaddieLWS_Specialist", Items[0]=(Item="AssaultRifle_CV"), Items[1]=(Item="Gremlin_CV"))
++Loadouts=(LoadoutName="SquaddieLWS_Technical", Items[0]=(Item="AssaultRifle_CV"), Items[1]=(Item="LWGauntlet_CV"))
+
+-Loadouts=(LoadoutName="RequiredSoldier", Items[0]=(Item="XPad"))
++Loadouts=(LoadoutName="RequiredSoldier", Items[0]=(Item="XPad"), Items[1]=(Item="EvacFlare"))
+
++Loadouts=(LoadoutName="ResistanceMecM1_Loadout", Items[0]=(Item="AdvMEC_M1_WPN"), Items[1]=(Item="ResistanceMEC_Shoulder_WPN"))
+
++Loadouts=(LoadoutName="RebelSoldier", Items[0]=(Item="AssaultRifle_CV"), Items[1]=(Item="FragGrenade"), Items[2]=(Item="FlashbangGrenade"), Items[3]=(Item="EvacFlare"))
++Loadouts=(LoadoutName="RebelSoldier2", Items[0]=(Item="AssaultRifle_LS"), Items[1]=(Item="FragGrenade"), Items[2]=(Item="FlashbangGrenade"), Items[3]=(Item="EvacFlare"))
++Loadouts=(LoadoutName="RebelSoldier3", Items[0]=(Item="AssaultRifle_MG"), Items[1]=(Item="FragGrenade"), Items[2]=(Item="FlashbangGrenade"), Items[3]=(Item="EvacFlare"))
++Loadouts=(LoadoutName="RebelSoldier4", Items[0]=(Item="AssaultRifle_CG"), Items[1]=(Item="FragGrenade"), Items[2]=(Item="FlashbangGrenade"), Items[3]=(Item="EvacFlare"))
+
++Loadouts=(LoadoutName="RebelSoldierSMG",                Items[0]=(Item="SMG_CV"), Items[1]=(Item="FragGrenade"), Items[2]=(Item="SmokeGrenade"), Items[3]=(Item="EvacFlare"))
++Loadouts=(LoadoutName="RebelSoldier2SMG",                              Items[0]=(Item="SMG_LS"), Items[1]=(Item="FragGrenade"), Items[2]=(Item="SmokeGrenade"), Items[3]=(Item="EvacFlare"))
++Loadouts=(LoadoutName="RebelSoldier3SMG",                              Items[0]=(Item="SMG_MG"), Items[1]=(Item="FragGrenade"), Items[2]=(Item="SmokeGrenade"), Items[3]=(Item="EvacFlare"))
++Loadouts=(LoadoutName="RebelSoldier4SMG",                              Items[0]=(Item="SMG_CG"), Items[1]=(Item="FragGrenade"), Items[2]=(Item="SmokeGrenade"), Items[3]=(Item="EvacFlare"))
+
++Loadouts=(LoadoutName="RebelSoldierShotgun",         Items[0]=(Item="Shotgun_CV"), Items[1]=(Item="FragGrenade"), Items[2]=(Item="FlashbangGrenade"), Items[3]=(Item="EvacFlare"))
++Loadouts=(LoadoutName="RebelSoldier2Shotgun",       Items[0]=(Item="Shotgun_LS"), Items[1]=(Item="FragGrenade"), Items[2]=(Item="FlashbangGrenade"), Items[3]=(Item="EvacFlare"))
++Loadouts=(LoadoutName="RebelSoldier3Shotgun",       Items[0]=(Item="Shotgun_MG"), Items[1]=(Item="FragGrenade"), Items[2]=(Item="FlashbangGrenade"), Items[3]=(Item="EvacFlare"))
++Loadouts=(LoadoutName="RebelSoldier4Shotgun",       Items[0]=(Item="Shotgun_CG"), Items[1]=(Item="FragGrenade"), Items[2]=(Item="FlashbangGrenade"), Items[3]=(Item="EvacFlare"))
+
++Loadouts=(LoadoutName="MutonM2_LW_Loadout", Items[0]=(Item="MutonM2_LW_WPN"), Items[1]=(Item="MutonM2_LWGrenade"), Items[2]=(Item="MutonM2_LW_MeleeAttack"))
++Loadouts=(LoadoutName="MutonM3_LW_Loadout", Items[0]=(Item="MutonM3_LW_WPN"), Items[1]=(Item="MutonM3_LWGrenade"), Items[2]=(Item="MutonM2_LW_MeleeAttack"))
+
++Loadouts=(LoadoutName="ViperM2_LW_Loadout", Items[0]=(Item="ViperM2_LW_WPN"), Items[1]=(Item="PoisonSpitGlob"), Items[2]=(Item="Viper_Tongue_WPN"))
++Loadouts=(LoadoutName="ViperM3_LW_Loadout", Items[0]=(Item="ViperM3_LW_WPN"), Items[1]=(Item="PoisonSpitGlob"), Items[2]=(Item="Viper_Tongue_WPN"))
+
++Loadouts=(LoadoutName="NajaM1_Loadout", Items[0]=(Item="NajaM1_WPN"), Items[1]=(Item="PoisonSpitGlob"))
++Loadouts=(LoadoutName="NajaM2_Loadout", Items[0]=(Item="NajaM2_WPN"), Items[1]=(Item="PoisonSpitGlob"))
++Loadouts=(LoadoutName="NajaM3_Loadout", Items[0]=(Item="NajaM3_WPN"), Items[1]=(Item="PoisonSpitGlob"))
+
++Loadouts=(LoadoutName="SidewinderM1_Loadout", Items[0]=(Item="SidewinderM1_WPN"), Items[1]=(Item="PoisonSpitGlob"))
++Loadouts=(LoadoutName="SidewinderM2_Loadout", Items[0]=(Item="SidewinderM2_WPN"), Items[1]=(Item="PoisonSpitGlob"))
++Loadouts=(LoadoutName="SidewinderM3_Loadout", Items[0]=(Item="SidewinderM3_WPN"), Items[1]=(Item="PoisonSpitGlob"))
+
++Loadouts=(LoadoutName="SectoidM2_LW_Loadout", Items[0]=(Item="Sectoid_WPN"))
+
++Loadouts=(LoadoutName="ArchonM2_LW_Loadout", Items[0]=(Item="Archon_WPN"), Items[1]=(Item="Archon_Blazing_Pinions_WPN"), Items[2]=(Item="ArchonStaff"))
+
++Loadouts=(LoadoutName="AdvGunnerM1_Loadout", Items[0]=(Item="AdvGunnerM1_WPN"))
++Loadouts=(LoadoutName="AdvGunnerM2_Loadout", Items[0]=(Item="AdvGunnerM2_WPN"), Items[1]=(Item="AdventCaptainMk2Grenade"))
++Loadouts=(LoadoutName="AdvGunnerM3_Loadout", Items[0]=(Item="AdvGunnerM3_WPN"), Items[1]=(Item="AdventCaptainMk2Grenade"))
+
++Loadouts=(LoadoutName="AdvSentryM1_Loadout", Items[0]=(Item="AdvSentryM1_WPN"))
++Loadouts=(LoadoutName="AdvSentryM2_Loadout", Items[0]=(Item="AdvSentryM2_WPN"))
++Loadouts=(LoadoutName="AdvSentryM3_Loadout", Items[0]=(Item="AdvSentryM3_WPN"), Items[1]=(Item="AdventCaptainMk2Grenade"))
+
++Loadouts=(LoadoutName="AdvGrenadierM1_Loadout", Items[0]=(Item="AdvStunLancerM1_WPN"), Items[1]=(Item="AdvGrenadierM1_GrenadeLauncher"), Items[2]=(Item="AdvGrenadierFlashbangGrenade"))
++Loadouts=(LoadoutName="AdvGrenadierM2_Loadout", Items[0]=(Item="AdvStunLancerM2_WPN"), Items[1]=(Item="AdvGrenadierM2_GrenadeLauncher"), Items[2]=(Item="AdvGrenadierFireGrenade"))
++Loadouts=(LoadoutName="AdvGrenadierM3_Loadout", Items[0]=(Item="AdvStunLancerM3_WPN"), Items[1]=(Item="AdvGrenadierM3_GrenadeLauncher"), Items[2]=(Item="AdvGrenadierAcidGrenade"))
+
++Loadouts=(LoadoutName="AdvRocketeerM1_Loadout", Items[0]=(Item="AdvRocketeer_HeavyPoweredArmor"), Items[1]=(Item="AdvStunLancerM1_WPN"), Items[2]=(Item="AdvRocketeerM1_RocketLauncher"))
++Loadouts=(LoadoutName="AdvRocketeerM2_Loadout", Items[0]=(Item="AdvRocketeer_HeavyPoweredArmor"), Items[1]=(Item="AdvStunLancerM2_WPN"), Items[2]=(Item="AdvRocketeerM1_RocketLauncher"))
++Loadouts=(LoadoutName="AdvRocketeerM3_Loadout", Items[0]=(Item="AdvRocketeer_HeavyPoweredArmor"), Items[1]=(Item="AdvStunLancerM3_WPN"), Items[2]=(Item="AdvRocketeerM1_RocketLauncher"))
+
++Loadouts=(LoadoutName="LWDroneM1_Loadout", Items[0]=(Item="LWDroneM1_WPN"), Items[1]=(Item="LWDroneRepairM1_WPN"))
++Loadouts=(LoadoutName="LWDroneM2_Loadout", Items[0]=(Item="LWDroneM2_WPN"), Items[1]=(Item="LWDroneRepairM2_WPN"))
+;+Loadouts=(LoadoutName="HiveQueen_Loadout")
+
++Loadouts=(LoadoutName="AdvMECArcher_Loadout", Items[0]=(Item="AdvMECArcher_WPN"), Items[1]=(Item="AdvMECArcher_Shoulder_WPN"))
+
++Loadouts=(LoadoutName="AdvSergeantM1_Loadout", Items[0]=(Item="AdvSergeantM1_WPN"), Items[1]=(Item="AdventCaptainMk2Grenade"))
++Loadouts=(LoadoutName="AdvSergeantM2_Loadout", Items[0]=(Item="AdvSergeantM2_WPN"), Items[1]=(Item="AdventCaptainMk3Grenade"))
+
++Loadouts=(LoadoutName="AdvGeneralM1_LW_Loadout", Items[0]=(Item="AdvGeneralM1_LW_WPN"), Items[1]=(Item="AdventCaptainMk3Grenade"))
++Loadouts=(LoadoutName="AdvGeneralM2_LW_Loadout", Items[0]=(Item="AdvGeneralM2_LW_WPN"), Items[1]=(Item="AdventCaptainMk3Grenade"))
+
++Loadouts=(LoadoutName="AdvScout_Loadout", Items[0]=(Item="AdvScout_WPN"))
++Loadouts=(LoadoutName="AdvVanguard_Loadout", Items[0]=(Item="AdvVanguard_WPN"), Items[1]=(Item="AdventTrooperMk2Grenade"))
++Loadouts=(LoadoutName="AdvCommando_Loadout", Items[0]=(Item="AdvCommando_WPN"))
++Loadouts=(LoadoutName="AdvShockTroop_Loadout", Items[0]=(Item="AdvShockTroop_WPN"), Items[1]=(Item="AdventTrooperMk2Grenade"))
+
++Loadouts=(LoadoutName="TheLostTier4_Loadout", Items[0]=(Item="TheLostTier4_MeleeAttack"))
+
++Loadouts=(LoadoutName="TheLostDasherTier1_Loadout", Items[0]=(Item="TheLostDasherTier1_MeleeAttack"))
++Loadouts=(LoadoutName="TheLostDasherTier2_Loadout", Items[0]=(Item="TheLostDasherTier2_MeleeAttack"))
++Loadouts=(LoadoutName="TheLostDasherTier3_Loadout", Items[0]=(Item="TheLostDasherTier3_MeleeAttack"))
++Loadouts=(LoadoutName="TheLostDasherTier4_Loadout", Items[0]=(Item="TheLostDasherTier4_MeleeAttack"))
+
++Loadouts=(LoadoutName="TheLostGrapplerTier1_Loadout", Items[0]=(Item="TheLostGrapplerTier1_MeleeAttack"))
++Loadouts=(LoadoutName="TheLostGrapplerTier2_Loadout", Items[0]=(Item="TheLostGrapplerTier2_MeleeAttack"))
++Loadouts=(LoadoutName="TheLostGrapplerTier3_Loadout", Items[0]=(Item="TheLostGrapplerTier3_MeleeAttack"))
++Loadouts=(LoadoutName="TheLostGrapplerTier4_Loadout", Items[0]=(Item="TheLostGrapplerTier4_MeleeAttack"))
+
++Loadouts=(LoadoutName="TheLostBruteTier1_Loadout", Items[0]=(Item="TheLostBruteTier1_MeleeAttack"), Items[1]=(Item="BruteAcid_WPN"))
++Loadouts=(LoadoutName="TheLostBruteTier2_Loadout", Items[0]=(Item="TheLostBruteTier2_MeleeAttack"), Items[1]=(Item="BruteAcid_WPN"))
++Loadouts=(LoadoutName="TheLostBruteTier3_Loadout", Items[0]=(Item="TheLostBruteTier3_MeleeAttack"), Items[1]=(Item="BruteAcid_WPN"))
++Loadouts=(LoadoutName="TheLostBruteTier4_Loadout", Items[0]=(Item="TheLostBruteTier4_MeleeAttack"), Items[1]=(Item="BruteAcid_WPN"))
+
+-Loadouts=(LoadoutName="ChosenSniperM1_Loadout", Items[0]=(Item="ChosenSniperRifle_CV"), Items[1]=(Item="ChosenSniperPistol_CV"), Items[2]=(Item="HunterConcussionGrenade"), Items[3]=(Item="HunterBleedingRounds"))
+-Loadouts=(LoadoutName="ChosenSniperM2_Loadout", Items[0]=(Item="ChosenSniperRifle_MG"), Items[1]=(Item="ChosenSniperPistol_MG"), Items[2]=(Item="HunterConcussionGrenade"), Items[3]=(Item="HunterBleedingRounds"))
+-Loadouts=(LoadoutName="ChosenSniperM3_Loadout", Items[0]=(Item="ChosenSniperRifle_BM"), Items[1]=(Item="ChosenSniperPistol_BM"), Items[2]=(Item="HunterConcussionGrenade"), Items[3]=(Item="HunterBleedingRounds"))
+-Loadouts=(LoadoutName="ChosenSniperM4_Loadout", Items[0]=(Item="ChosenSniperRifle_T4"), Items[1]=(Item="ChosenSniperPistol_T4"), Items[2]=(Item="HunterConcussionGrenade"), Items[3]=(Item="HunterBleedingRounds"))
+
++Loadouts=(LoadoutName="ChosenSniperM1_Loadout", Items[0]=(Item="ChosenSniperRifle_CV"), Items[1]=(Item="ChosenSniperPistol_CV"), Items[2]=(Item="HunterFlashbang"))
++Loadouts=(LoadoutName="ChosenSniperM2_Loadout", Items[0]=(Item="ChosenSniperRifle_MG"), Items[1]=(Item="ChosenSniperPistol_MG"), Items[2]=(Item="HunterFlashbang"))
++Loadouts=(LoadoutName="ChosenSniperM3_Loadout", Items[0]=(Item="ChosenSniperRifle_BM"), Items[1]=(Item="ChosenSniperPistol_BM"), Items[2]=(Item="HunterFlashbang"))
++Loadouts=(LoadoutName="ChosenSniperM4_Loadout", Items[0]=(Item="ChosenSniperRifle_T4"), Items[1]=(Item="ChosenSniperPistol_T4"), Items[2]=(Item="HunterFlashbang"))
+
+

@@ -1,0 +1,129 @@
+; **************************************************************************************************
+; Text fields
+; **************************************************************************************************
+; ------------------------------------------------------------------------------
+; Breaker
+; ------------------------------------------------------------------------------
+[GIJoe__Breaker X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Breaker"
+ClassSummary         = "Communications"
+LeftAbilityTreeTitle = "Tech, Infantry"
+RandomNicknames[0]   = "Breaker"
+
+; ------------------------------------------------------------------------------
+; Clutch
+; ------------------------------------------------------------------------------
+[GIJoe__Clutch X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Clutch"
+ClassSummary         = "Driver"
+LeftAbilityTreeTitle = "Assault"
+RandomNicknames[0]   = "Clutch"
+
+; ------------------------------------------------------------------------------
+; Flash
+; ------------------------------------------------------------------------------
+[GIJoe__Flash X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Flash"
+ClassSummary         = "Laser Rifle Trooper"
+LeftAbilityTreeTitle = "Sniper, Tech"
+RandomNicknames[0]   = "Flash"
+
+; ------------------------------------------------------------------------------
+; Grand_Slam
+; ------------------------------------------------------------------------------
+[GIJoe__Grand_Slam X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Grand_Slam"
+ClassSummary         = "Utility Specialist"
+LeftAbilityTreeTitle = "Utility, Infantry"
+RandomNicknames[0]   = "Grand_Slam"
+
+; ------------------------------------------------------------------------------
+; Grunt
+; ------------------------------------------------------------------------------
+[GIJoe__Grunt X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Grunt"
+ClassSummary         = "Infantry"
+LeftAbilityTreeTitle = "Infantry"
+RandomNicknames[0]   = "Grunt"
+
+; ------------------------------------------------------------------------------
+; Hawk
+; ------------------------------------------------------------------------------
+[GIJoe__Hawk X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Hawk"
+ClassSummary         = "Team Leader"
+LeftAbilityTreeTitle = "Leader, Infantry, Intel"
+RandomNicknames[0]   = "Hawk"
+
+; ------------------------------------------------------------------------------
+; Rock_n_Roll
+; ------------------------------------------------------------------------------
+[GIJoe__Rock_n_Roll X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Rock_n_Roll"
+ClassSummary         = "Machine Gunner"
+LeftAbilityTreeTitle = "Gunner, Infantry"
+RandomNicknames[0]   = "Rock_n_Roll"
+
+; ------------------------------------------------------------------------------
+; Short_Fuze
+; ------------------------------------------------------------------------------
+[GIJoe__Short_Fuze X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Short_Fuze"
+ClassSummary         = "Mortar Soldier"
+LeftAbilityTreeTitle = "Sapper, Infantry"
+RandomNicknames[0]   = "Short_Fuze"
+
+; ------------------------------------------------------------------------------
+; Scarlett
+; ------------------------------------------------------------------------------
+[GIJoe__Scarlett X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Scarlett"
+ClassSummary         = "Counter Intelligence"
+LeftAbilityTreeTitle = "Melee, Leader, Intel"
+RandomNicknames[0]   = "Scarlett"
+
+; ------------------------------------------------------------------------------
+; Snake_Eyes
+; ------------------------------------------------------------------------------
+[GIJoe__Snake_Eyes X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Snake_Eyes"
+ClassSummary         = "Commando"
+LeftAbilityTreeTitle = "Assault, Flanker"
+RandomNicknames[0]   = "Snake_Eyes"
+
+; ------------------------------------------------------------------------------
+; Stalker
+; ------------------------------------------------------------------------------
+[GIJoe__Stalker X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Stalker"
+ClassSummary         = "Ranger"
+LeftAbilityTreeTitle = "Flanker, Leader, Medic"
+RandomNicknames[0]   = "Stalker"
+
+; ------------------------------------------------------------------------------
+; Steeler
+; ------------------------------------------------------------------------------
+[GIJoe__Steeler X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Steeler"
+ClassSummary         = "Tank Commander"
+LeftAbilityTreeTitle = "Tank, Infantry"
+RandomNicknames[0]   = "Steeler"
+
+; ------------------------------------------------------------------------------
+; Zap
+; ------------------------------------------------------------------------------
+[GIJoe__Zap X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Zap"
+ClassSummary         = "Bazooka Soldier"
+LeftAbilityTreeTitle = "Sapper, Rocketeer, Utility"
+RandomNicknames[0]   = "Zap"
+
+; ------------------------------------------------------------------------------
+; Shooter
+; ------------------------------------------------------------------------------
+[GIJoe__Shooter X2SoldierClassTemplate]
+DisplayName          = GI Joe: "Shooter"
+ClassSummary         = ""
+LeftAbilityTreeTitle = "Sniper"
+RandomNicknames[0]   = "Shooter"
+

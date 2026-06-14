@@ -1,1 +1,0 @@
-﻿If you're reading this, chances are you're not supposed to. For those curious enough, I don't have configs files ready. Good luck with customizing this class.

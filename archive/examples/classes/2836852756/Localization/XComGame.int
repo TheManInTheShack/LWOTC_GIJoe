@@ -1,0 +1,17 @@
+[PR_Marauder X2SoldierClassTemplate]
++DisplayName="Marauder"
++ClassSummary="A Marauder excels in the middle of combat, either dealing with a single target, finishing off some weaklings, or drawing the enemies fire."
++LeftAbilityTreeTitle="Crusader"
++RightAbilityTreeTitle="Champion"
+AbilityTreeTitles[0]="Raider"
+AbilityTreeTitles[1]="Champion"
+AbilityTreeTitles[2]="Slayer"
+AbilityTreeTitles[3]="XCOM"
+
++RandomNickNames[0]="Paladin"
++RandomNickNames[1]="Warrior"
++RandomNickNames[2]="Crusader"
++RandomNickNames[3]="Hero"
++RandomNickNames[4]="Slayer"
++RandomNickNames[5]="Champion"
++RandomNickNames[6]="Berserker"
