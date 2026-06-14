@@ -28,7 +28,7 @@ The previous iteration's pipeline scripts are preserved for reference:
 - `archive/extract_character_pool.py` -- parses a character pool `.bin`
   into `archive/data/character_pool_export.json`.
 - `archive/marauder.py` -- depends on an unvendored `dopes` package; not
-  currently runnable. See [[archive/HANDOFF|HANDOFF.md]] for notes.
+  currently runnable. See [[handoff|HANDOFF.md]] for notes.
 
 ## Open questions
 

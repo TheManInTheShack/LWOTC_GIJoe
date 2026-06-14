@@ -29,6 +29,6 @@ recasts the same data as a graph.
 
 ## Background
 
-[[archive/HANDOFF|HANDOFF.md]] is the end-of-session brief from the previous
+[[handoff|HANDOFF.md]] is the end-of-session brief from the previous
 iteration: what the old repo was, what was learned from analyzing the
 character pool, and the rough phase plan this rewrite follows.

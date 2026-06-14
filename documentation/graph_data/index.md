@@ -23,7 +23,7 @@ authored and browsed via [[interface/index|Interface]]; compiled into
 
 - `archive/data/character_pool_export.json` -- export of the previous
   character pool: 171 character records across 33 appearance slots, 568
-  distinct asset values. See [[archive/HANDOFF|HANDOFF.md]] for the full
+  distinct asset values. See [[handoff|HANDOFF.md]] for the full
   analysis and caveats (e.g. `IntProperty` fields like tints/gender/skin
   color were not extracted).
 - `archive/data/data.xlsx` -- `characters` and `abilities` sheets: ~60

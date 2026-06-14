@@ -1,3 +1,12 @@
+---
+title: Handoff Brief
+type: note
+tags:
+  - gi-joe-mod
+  - handoff
+created: 2026-06-13
+---
+
 # LWOTC_GIJoe — Handoff / Next Iteration Brief
 
 This is a summary of where things stand as of this session, written for
