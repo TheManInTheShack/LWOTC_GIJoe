@@ -10,14 +10,16 @@ created: 2026-06-13
 
 # Graph Data
 
-The graph data model at the core of this rewrite: characters, visual
-assets, donor mods, soldier classes, and abilities, with edges capturing
-relationships like "character uses asset", "asset provided by mod", and
-"class grants ability".
+The database layer: the graph data model at the core of this rewrite --
+characters, visual assets, donor mods, soldier classes, and abilities, with
+edges capturing relationships like "character uses asset", "asset provided
+by mod", and "class grants ability".
 
-Produced and consumed by [[data_processing/index|Data Processing]];
-authored and browsed via [[interface/index|Interface]]; compiled into
-[[mod/index|Mod]] output.
+Built, queried, and transformed by [[data_processing/index|Data Processing]],
+which also compiles it into [[mod/index|Mod]] output and exposes it to
+[[interface/index|Interface]] for browsing and editing. Also seeds and is
+seeded by notes in [[home|documentation]], via Obsidian's links and graph
+view.
 
 ## Seed data (archived)
 
@@ -34,6 +36,6 @@ authored and browsed via [[interface/index|Interface]]; compiled into
 - Define the graph schema (nodes: characters, visual assets, donor mods,
   soldier classes, abilities; edges: usage/provenance/grants relationships).
 - Decide on storage (JSON/SQLite/other) and the markdown round-trip format
-  used by [[interface/index|Interface]].
+  used by [[home|documentation]].
 
 [[home|Home]]

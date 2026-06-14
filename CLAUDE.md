@@ -6,15 +6,27 @@ documentation layer. Start at [[documentation/home|documentation/home.md]].
 
 ## Layout
 
+The repo root is organized into domains, each its own folder. See
+[[documentation/home|documentation/home.md]] for the full description of
+each; in brief:
+
 - `archive/` -- the entire previous iteration (data-factory scripts, the
   generated mod, spreadsheets, donor-mod examples), frozen as-is for
   reference. Don't edit; read for prior art only.
 - `documentation/` -- the living vault: `home.md` (entry MOC),
-  `handoff.md` (maintained status/plan brief), `templates/`, and one
-  folder per "space" (`data_processing/`, `graph_data/`, `interface/`,
-  `mod/`), each with an `index.md` MOC.
-- Root stays clean: `.git`, `.gitignore`, `.obsidian` (when present),
-  `CLAUDE.md`, plus `archive/` and `documentation/`.
+  `handoff.md` (maintained status/plan brief), `templates/`. A domain in
+  its own right -- both an input and an output -- not a container for the
+  other domains.
+- `data_processing/` -- the Python backend; drives creation of everything
+  and exposes the API `interface/` talks to.
+- `graph_data/` -- the database layer (the graph itself).
+- `interface/` -- a Godot app, run in-browser, for browsing/editing the
+  graph via `data_processing/`'s API.
+- `mod/` -- the packaged output: the part that goes on Steam.
+
+Each of `data_processing/`, `graph_data/`, `interface/`, and `mod/` has its
+own `index.md` MOC. Root stays clean otherwise: `.git`, `.gitignore`,
+`.obsidian` (when present), `CLAUDE.md`, plus the domain folders above.
 
 ## Conventions
 

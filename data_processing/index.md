@@ -10,8 +10,12 @@ created: 2026-06-13
 
 # Data Processing
 
-Pipelines and tooling that turn raw sources into [[graph_data/index|Graph
-Data]]:
+The Python backend. Drives the creation of everything: the scripts and
+services that build, query, and transform [[graph_data/index|Graph Data]],
+and that ultimately produce the [[mod/index|Mod]] output. Also exposes the
+API that [[interface/index|Interface]] talks to.
+
+Initial sources to bring into the graph:
 
 - Character/class/ability data from `data.xlsx`.
 - Ability definitions scraped from donor LWOTC class mods.

@@ -10,8 +10,9 @@ created: 2026-06-13
 
 # Mod
 
-The output side: compiling [[graph_data/index|Graph Data]] into an actual
-XCOM 2 (WotC) / LWOTC mod, and getting it into players' hands.
+The packaged output: the part that goes on Steam. [[data_processing/index|Data
+Processing]] compiles [[graph_data/index|Graph Data]] into an XCOM 2 (WotC) /
+LWOTC mod here, ready for a Workshop release.
 
 ## Prior build (archived)
 
